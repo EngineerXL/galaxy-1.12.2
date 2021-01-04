@@ -49,8 +49,8 @@ minecraft:sandstone:0, Песчаник
 minecraft:sandstone:1, Резной песчаник
 minecraft:sandstone:2, Гладкий песчаник
 minecraft:noteblock, Нотный блок
-minecraft:golden_rail, Ускоряющий путь
-minecraft:detector_rail, Детекторный путь
+minecraft:golden_rail, Энергорельсы
+minecraft:detector_rail, Рельсы с датчиком
 minecraft:sticky_piston, Липкий поршень
 minecraft:web, Паутина
 minecraft:tallgrass:1, Трава
@@ -109,7 +109,7 @@ minecraft:crafting_table, Верстак
 minecraft:farmland, Пашня
 minecraft:furnace, Печь
 minecraft:ladder, Лестница
-minecraft:rail, Путь
+minecraft:rail, Рельсы
 minecraft:stone_stairs, Булыжные ступеньки
 minecraft:lever, Рычаг
 minecraft:stone_pressure_plate, Каменная нажимная плита
@@ -208,7 +208,7 @@ minecraft:quartz_block:0, Кварцевый блок
 minecraft:quartz_block:1, Резной кварцевый блок
 minecraft:quartz_block:2, Кварцевая колонна
 minecraft:quartz_stairs, Кварцевые ступеньки
-minecraft:activator_rail, Активирующий путь
+minecraft:activator_rail, Активирующие рельсы
 minecraft:dropper, Выбрасыватель
 minecraft:stained_hardened_clay:0, Белая керамика
 minecraft:stained_hardened_clay:1, Оранжевая керамика
@@ -466,8 +466,8 @@ minecraft:reeds, Сахарный тростник
 minecraft:paper, Бумага
 minecraft:book, Книга
 minecraft:slime_ball, Сгусток слизи
-minecraft:chest_minecart, Вагонетка с сундуком
-minecraft:furnace_minecart, Вагонетка с печью
+minecraft:chest_minecart, Грузовая вагонетка
+minecraft:furnace_minecart, Самоходная вагонетка
 minecraft:egg, Яйцо
 minecraft:compass, Компас
 minecraft:fishing_rod, Удочка
@@ -571,7 +571,7 @@ minecraft:comparator, Редстоуновый компаратор
 minecraft:netherbrick, Незеритовый кирпич
 minecraft:quartz, Незер-кварц
 minecraft:tnt_minecart, Вагонетка с динамитом
-minecraft:hopper_minecart, Вагонетка с воронкой
+minecraft:hopper_minecart, Загрузочная вагонетка
 minecraft:prismarine_shard, Осколок призмарина
 minecraft:prismarine_crystals, Кристалл призмарина
 minecraft:rabbit, Сырая крольчатина
@@ -2526,20 +2526,6 @@ forestry:resource_storage:2, Оловянный блок
 forestry:resource_storage:3, Бронзовый блок
 forestry:ash_brick:0, Кирпичи из золы
 forestry:ash_stairs:0, Ступеньки из золы
-forestry:engine_peat:0, Торфяной двигатель
-forestry:engine_biogas:0, Биогазовый двигатель
-forestry:engine_clockwork:0, Заводной двигатель
-forestry:genetic_filter:0, Генетический фильтр
-forestry:bottler:0, Разливочный механизм
-forestry:carpenter:0, Плотник
-forestry:centrifuge:0, Центрифуга
-forestry:fermenter:0, Бродильный аппарат
-forestry:moistener:0, Увлажнитель
-forestry:squeezer:0, Соковыжималка
-forestry:still:0, Дистиллятор
-forestry:rainmaker:0, Генератор дождя
-forestry:fabricator:0, Электроламповый завод
-forestry:raintank:0, Бак для дождя
 forestry:habitat_locator, Определитель ареала
 forestry:imprinter, Импринтер
 forestry:cart.beehouse:0, Вагонетка с пчелиным домиком
@@ -2599,21 +2585,94 @@ forestry:alveary.heater:0, Обогреватель улья
 forestry:alveary.hygro:0, Кондиционер улья
 forestry:alveary.stabiliser:0, Стабилизатор улья
 forestry:alveary.sieve:0, Сито улья
-forestry:stamps:0, Почтовая марка (1n)
-forestry:stamps:1, Почтовая марка (2n)
-forestry:stamps:2, Почтовая марка (5n)
-forestry:stamps:3, Почтовая марка (10n)
-forestry:stamps:4, Почтовая марка (20n)
-forestry:stamps:5, Почтовая марка (50n)
-forestry:stamps:6, Почтовая марка (100n)
-forestry:letters, Письмо
-forestry:catalogue, Каталог
-forestry:mailbox:0, Почтовый ящик
-forestry:trade_station:0, Торговая станция
-forestry:stamp_collector:0, Сборщик марок
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:0, Блок фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:2, Редуктор фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:3, Люк фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:4, Вентиль фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:ffarm:5, Блок управления фермы
+forestry:genetic_filter:0, Генетический фильтр
 forestry:book_forester, Руководство лесника
+forestry:bottler:0, Разливочный механизм
+forestry:carpenter:0, Плотник
+forestry:centrifuge:0, Центрифуга
+forestry:fermenter:0, Бродильный аппарат
+forestry:moistener:0, Увлажнитель
+forestry:squeezer:0, Соковыжималка
+forestry:still:0, Дистиллятор
+forestry:rainmaker:0, Генератор дождя
+forestry:fabricator:0, Электроламповый завод
+forestry:raintank:0, Бак для дождя
 forestry:worktable:0, Рабочий стол
-forestry:crate, Ящик
+forestry:arboretum:0, Дендрарий (управляемый)
+forestry:arboretum:1, Дендрарий (руководство)
+forestry:farm_crops:0, Ферма (управляемый)
+forestry:farm_crops:1, Ферма (руководство)
+forestry:farm_mushroom:0, Грибная ферма (управляемый)
+forestry:farm_mushroom:1, Грибная ферма (руководство)
+forestry:farm_gourd:0, Ферма бахчевых (управляемый)
+forestry:farm_gourd:1, Ферма бахчевых (руководство)
+forestry:farm_nether:0, Адская ферма (управляемый)
+forestry:farm_nether:1, Адская ферма (руководство)
+forestry:farm_ender:0, Ферма Края (управляемый)
+forestry:farm_ender:1, Ферма Края (руководство)
+forestry:peat_bog:0, Торфяник (управляемый)
+forestry:peat_bog:1, Торфяник (руководство)
+forestry:database:0, База данных
+forestry:engine_peat:0, Торфяной двигатель
+forestry:engine_biogas:0, Биогазовый двигатель
+forestry:engine_clockwork:0, Заводной двигатель
 forestry:charcoal:0, Блок древесного угля
 forestry:wood_pile:0, Охапка дров
 forestry:wood_pile_decorative:0, Декоративная охапка дров
@@ -2622,12 +2681,17 @@ forestry:ash_block_1:0, Блок пепла
 forestry:ash_block_2:0, Блок пепла
 forestry:ash_block_3:0, Блок пепла
 forestry:loam:0, Суглинок
-forestry:habitat_former:0, Бывшая среда обитания
-forestry:habitat_screen, Экран среды обитания
-forestry:database:0, База данных
-forestry:honeyed_slice, Бутерброд с мёдом
-forestry:ambrosia, Амброзия
-forestry:honey_pot, Горшочек мёда
+forestry:greenhouse:0, Парниковый блок
+forestry:greenhouse:3, Распределитель парниковой энергии
+forestry:greenhouse:4, Парниковый контроль
+forestry:greenhouse:5, Парниковый экран
+forestry:climatiser:0, Тепличный терморегулятор
+forestry:climatiser:1, Подогреватель парника
+forestry:climatiser:2, Вентилятор парника
+forestry:climatiser:3, Увлажнитель парника
+forestry:climatiser:4, Осушитель парника
+forestry:greenhouse.window:0, Окно парника
+forestry:greenhouse.window_up:0, Окно крыши парника
 forestry:apiarist_bag, Рюкзак пчеловода
 forestry:lepidopterist_bag, Рюкзак лепидоптеролога
 forestry:miner_bag, Рюкзак шахтёра
@@ -2642,17 +2706,20 @@ forestry:adventurer_bag, Рюкзак авантюриста
 forestry:adventurer_bag_t2, Тканый рюкзак авантюриста
 forestry:builder_bag, Рюкзак строителя
 forestry:builder_bag_t2, Тканый рюкзак строителя
-forestry:greenhouse:0, Парниковый блок
-forestry:greenhouse:3, Распределитель парниковой энергии
-forestry:greenhouse:4, Парниковый контроль
-forestry:greenhouse:5, Парниковый экран
-forestry:climatiser:0, Тепличный терморегулятор
-forestry:climatiser:1, Подогреватель парника
-forestry:climatiser:2, Вентилятор парника
-forestry:climatiser:3, Увлажнитель парника
-forestry:climatiser:4, Осушитель парника
-forestry:greenhouse.window:0, Окно парника
-forestry:greenhouse.window_up:0, Окно крыши парника
+forestry:stamps:0, Почтовая марка (1n)
+forestry:stamps:1, Почтовая марка (2n)
+forestry:stamps:2, Почтовая марка (5n)
+forestry:stamps:3, Почтовая марка (10n)
+forestry:stamps:4, Почтовая марка (20n)
+forestry:stamps:5, Почтовая марка (50n)
+forestry:stamps:6, Почтовая марка (100n)
+forestry:letters, Письмо
+forestry:catalogue, Каталог
+forestry:mailbox:0, Почтовый ящик
+forestry:trade_station:0, Торговая станция
+forestry:stamp_collector:0, Сборщик марок
+forestry:habitat_former:0, Бывшая среда обитания
+forestry:habitat_screen, Экран среды обитания
 forestry:grafter, Садовый нож
 forestry:grafter_proven, Проверенный садовый нож
 forestry:logs.0:0, Древесина лиственницы
@@ -3108,77 +3175,9 @@ forestry:tree_chest:0, Сундук лесовода
 forestry:butterfly_chest:0, Сундук лепидоптеролога
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:0, Блок фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:2, Редуктор фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:3, Люк фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:4, Вентиль фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:ffarm:5, Блок управления фермы
-forestry:arboretum:0, Дендрарий (управляемый)
-forestry:arboretum:1, Дендрарий (руководство)
-forestry:farm_crops:0, Ферма (управляемый)
-forestry:farm_crops:1, Ферма (руководство)
-forestry:farm_mushroom:0, Грибная ферма (управляемый)
-forestry:farm_mushroom:1, Грибная ферма (руководство)
-forestry:farm_gourd:0, Ферма бахчевых (управляемый)
-forestry:farm_gourd:1, Ферма бахчевых (руководство)
-forestry:farm_nether:0, Адская ферма (управляемый)
-forestry:farm_nether:1, Адская ферма (руководство)
-forestry:farm_ender:0, Ферма Края (управляемый)
-forestry:farm_ender:1, Ферма Края (руководство)
-forestry:peat_bog:0, Торфяник (управляемый)
-forestry:peat_bog:1, Торфяник (руководство)
+forestry:honeyed_slice, Бутерброд с мёдом
+forestry:ambrosia, Амброзия
+forestry:honey_pot, Горшочек мёда
 forestry:fluid.bio.ethanol, Этанол
 forestry:fluid.biomass, Биомасса
 forestry:fluid.glass, Жидкое стекло
@@ -3191,6 +3190,7 @@ forestry:fluid.short.mead, Питный мёд
 forestry:can, item.for.can.name
 forestry:capsule, item.for.capsule.name
 forestry:refractory, item.for.refractory.name
+forestry:crate, Ящик
 forestry:engine_electrical:0, Электродвигатель
 forestry:engine_generator:0, Биогенератор
 binniecore:glass:0, Empty Бутылка
@@ -3335,107 +3335,6 @@ genetics:lab_machine:2, Инкубатор
 genetics:lab_machine:3, Генофонд
 genetics:lab_machine:4, Акклиматизатор
 genetics:adv_machine:0, Сплайсер
-botany:machine:0, Работа с плитками
-botany:plant:0, Сорняк
-botany:plant:1, Длинный сорняк
-botany:plant:2, Очень длинный сорняк
-botany:plant:3, Мертвый цветок
-botany:plant:4, Разлагающийся цветок
-botany:soil:0, Почва
-botany:soil:1, Почва
-botany:soil:2, Почва
-botany:soil:3, Почва
-botany:soil:4, Почва
-botany:soil:5, Почва
-botany:soil:6, Почва
-botany:soil:7, Почва
-botany:soil:8, Почва
-botany:loam:0, Суглинок
-botany:loam:1, Суглинок
-botany:loam:2, Суглинок
-botany:loam:3, Суглинок
-botany:loam:4, Суглинок
-botany:loam:5, Суглинок
-botany:loam:6, Суглинок
-botany:loam:7, Суглинок
-botany:loam:8, Суглинок
-botany:flowerbed:0, Клумба
-botany:flowerbed:1, Клумба
-botany:flowerbed:2, Клумба
-botany:flowerbed:3, Клумба
-botany:flowerbed:4, Клумба
-botany:flowerbed:5, Клумба
-botany:flowerbed:6, Клумба
-botany:flowerbed:7, Клумба
-botany:flowerbed:8, Клумба
-botany:soil_no_weed:0, Почва
-botany:soil_no_weed:1, Почва
-botany:soil_no_weed:2, Почва
-botany:soil_no_weed:3, Почва
-botany:soil_no_weed:4, Почва
-botany:soil_no_weed:5, Почва
-botany:soil_no_weed:6, Почва
-botany:soil_no_weed:7, Почва
-botany:soil_no_weed:8, Почва
-botany:loam_no_weed:0, Суглинок
-botany:loam_no_weed:1, Суглинок
-botany:loam_no_weed:2, Суглинок
-botany:loam_no_weed:3, Суглинок
-botany:loam_no_weed:4, Суглинок
-botany:loam_no_weed:5, Суглинок
-botany:loam_no_weed:6, Суглинок
-botany:loam_no_weed:7, Суглинок
-botany:loam_no_weed:8, Суглинок
-botany:flowerbed_no_weed:0, Клумба
-botany:flowerbed_no_weed:1, Клумба
-botany:flowerbed_no_weed:2, Клумба
-botany:flowerbed_no_weed:3, Клумба
-botany:flowerbed_no_weed:4, Клумба
-botany:flowerbed_no_weed:5, Клумба
-botany:flowerbed_no_weed:6, Клумба
-botany:flowerbed_no_weed:7, Клумба
-botany:flowerbed_no_weed:8, Клумба
-botany:soil_meter, Измеритель почвы
-botany:trowel_wood, Деревянный шпатель
-botany:trowel_stone, Каменный шпатель
-botany:trowel_iron, Железный шпатель
-botany:trowel_diamond, Алмазный шпатель
-botany:trowel_gold, Золотой шпатель
-botany:misc:0, Порошок золы
-botany:misc:1, Порошок целлюлозы
-botany:misc:2, Компост
-botany:misc:3, Порошок серы
-botany:misc:4, Порошок удобрения
-botany:misc:5, Порошок компоста
-botany:misc:6, Ступка
-botany:misc:7, Антисорняк
-botany:botanist_bag, Рюкзак ботаника
-botany:database:0, База данных ботаники
-botany:database:1, База магистерской ботаники
-botany:insulated_tube:0, Медь Глина изолированная электронная трубка
-botany:insulated_tube:128, Медь Булыжник изолированная электронная трубка
-botany:insulated_tube:256, Медь Песчаник изолированная электронная трубка
-botany:insulated_tube:384, Медь Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:512, Медь Гладкий камень изолированная электронная трубка
-botany:insulated_tube:640, Медь Песчаник изолированная электронная трубка
-botany:insulated_tube:1, Олово Глина изолированная электронная трубка
-botany:insulated_tube:129, Олово Булыжник изолированная электронная трубка
-botany:insulated_tube:257, Олово Песчаник изолированная электронная трубка
-botany:insulated_tube:385, Олово Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:513, Олово Гладкий камень изолированная электронная трубка
-botany:insulated_tube:641, Олово Песчаник изолированная электронная трубка
-botany:insulated_tube:2, Бронза Глина изолированная электронная трубка
-botany:insulated_tube:130, Бронза Булыжник изолированная электронная трубка
-botany:insulated_tube:258, Бронза Песчаник изолированная электронная трубка
-botany:insulated_tube:386, Бронза Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:514, Бронза Гладкий камень изолированная электронная трубка
-botany:insulated_tube:642, Бронза Песчаник изолированная электронная трубка
-botany:insulated_tube:3, Железо Глина изолированная электронная трубка
-botany:insulated_tube:131, Железо Булыжник изолированная электронная трубка
-botany:insulated_tube:259, Железо Песчаник изолированная электронная трубка
-botany:insulated_tube:387, Железо Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:515, Железо Гладкий камень изолированная электронная трубка
-botany:insulated_tube:643, Железо Песчаник изолированная электронная трубка
 botany:ceramic:0, Керамический блок (Аквамарин)
 botany:ceramic:1, Керамический блок (Черный)
 botany:ceramic:2, Керамический блок (Темно-синий)
@@ -3771,6 +3670,107 @@ botany:clay:77, Белый глина
 botany:clay:78, Желтый глина
 botany:clay:79, Желто-зеленый глина
 botany:misc_ceramic:0, Ступка
+botany:machine:0, Работа с плитками
+botany:plant:0, Сорняк
+botany:plant:1, Длинный сорняк
+botany:plant:2, Очень длинный сорняк
+botany:plant:3, Мертвый цветок
+botany:plant:4, Разлагающийся цветок
+botany:soil:0, Почва
+botany:soil:1, Почва
+botany:soil:2, Почва
+botany:soil:3, Почва
+botany:soil:4, Почва
+botany:soil:5, Почва
+botany:soil:6, Почва
+botany:soil:7, Почва
+botany:soil:8, Почва
+botany:loam:0, Суглинок
+botany:loam:1, Суглинок
+botany:loam:2, Суглинок
+botany:loam:3, Суглинок
+botany:loam:4, Суглинок
+botany:loam:5, Суглинок
+botany:loam:6, Суглинок
+botany:loam:7, Суглинок
+botany:loam:8, Суглинок
+botany:flowerbed:0, Клумба
+botany:flowerbed:1, Клумба
+botany:flowerbed:2, Клумба
+botany:flowerbed:3, Клумба
+botany:flowerbed:4, Клумба
+botany:flowerbed:5, Клумба
+botany:flowerbed:6, Клумба
+botany:flowerbed:7, Клумба
+botany:flowerbed:8, Клумба
+botany:soil_no_weed:0, Почва
+botany:soil_no_weed:1, Почва
+botany:soil_no_weed:2, Почва
+botany:soil_no_weed:3, Почва
+botany:soil_no_weed:4, Почва
+botany:soil_no_weed:5, Почва
+botany:soil_no_weed:6, Почва
+botany:soil_no_weed:7, Почва
+botany:soil_no_weed:8, Почва
+botany:loam_no_weed:0, Суглинок
+botany:loam_no_weed:1, Суглинок
+botany:loam_no_weed:2, Суглинок
+botany:loam_no_weed:3, Суглинок
+botany:loam_no_weed:4, Суглинок
+botany:loam_no_weed:5, Суглинок
+botany:loam_no_weed:6, Суглинок
+botany:loam_no_weed:7, Суглинок
+botany:loam_no_weed:8, Суглинок
+botany:flowerbed_no_weed:0, Клумба
+botany:flowerbed_no_weed:1, Клумба
+botany:flowerbed_no_weed:2, Клумба
+botany:flowerbed_no_weed:3, Клумба
+botany:flowerbed_no_weed:4, Клумба
+botany:flowerbed_no_weed:5, Клумба
+botany:flowerbed_no_weed:6, Клумба
+botany:flowerbed_no_weed:7, Клумба
+botany:flowerbed_no_weed:8, Клумба
+botany:soil_meter, Измеритель почвы
+botany:trowel_wood, Деревянный шпатель
+botany:trowel_stone, Каменный шпатель
+botany:trowel_iron, Железный шпатель
+botany:trowel_diamond, Алмазный шпатель
+botany:trowel_gold, Золотой шпатель
+botany:misc:0, Порошок золы
+botany:misc:1, Порошок целлюлозы
+botany:misc:2, Компост
+botany:misc:3, Порошок серы
+botany:misc:4, Порошок удобрения
+botany:misc:5, Порошок компоста
+botany:misc:6, Ступка
+botany:misc:7, Антисорняк
+botany:botanist_bag, Рюкзак ботаника
+botany:database:0, База данных ботаники
+botany:database:1, База магистерской ботаники
+botany:insulated_tube:0, Медь Глина изолированная электронная трубка
+botany:insulated_tube:128, Медь Булыжник изолированная электронная трубка
+botany:insulated_tube:256, Медь Песчаник изолированная электронная трубка
+botany:insulated_tube:384, Медь Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:512, Медь Гладкий камень изолированная электронная трубка
+botany:insulated_tube:640, Медь Песчаник изолированная электронная трубка
+botany:insulated_tube:1, Олово Глина изолированная электронная трубка
+botany:insulated_tube:129, Олово Булыжник изолированная электронная трубка
+botany:insulated_tube:257, Олово Песчаник изолированная электронная трубка
+botany:insulated_tube:385, Олово Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:513, Олово Гладкий камень изолированная электронная трубка
+botany:insulated_tube:641, Олово Песчаник изолированная электронная трубка
+botany:insulated_tube:2, Бронза Глина изолированная электронная трубка
+botany:insulated_tube:130, Бронза Булыжник изолированная электронная трубка
+botany:insulated_tube:258, Бронза Песчаник изолированная электронная трубка
+botany:insulated_tube:386, Бронза Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:514, Бронза Гладкий камень изолированная электронная трубка
+botany:insulated_tube:642, Бронза Песчаник изолированная электронная трубка
+botany:insulated_tube:3, Железо Глина изолированная электронная трубка
+botany:insulated_tube:131, Железо Булыжник изолированная электронная трубка
+botany:insulated_tube:259, Железо Песчаник изолированная электронная трубка
+botany:insulated_tube:387, Железо Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:515, Железо Гладкий камень изолированная электронная трубка
+botany:insulated_tube:643, Железо Песчаник изолированная электронная трубка
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_drop:0, Энергетическая капля
 extrabees:honey_drop:1, Кислотная капля
@@ -3996,7 +3996,6 @@ extratrees:food:59, Плод свечного дерева
 extratrees:hammer, item.hammer.name
 extratrees:durable_hammer, item.durable_hammer.name
 extratrees:hops, item.hops.name
-extratrees:databasetree, item.databaseTree.name
 extratrees:logs.0:0, Древесина Яблоня
 extratrees:logs.0:1, Древесина Инжир
 extratrees:logs.0:2, Древесина Масляный орех
@@ -4572,17 +4571,6 @@ extratrees:leaves.decorative.5:14, Листва
 extratrees:leaves.decorative.5:15, Листва
 extratrees:leaves.decorative.6:0, Листва
 extratrees:shrub_log:0, Древесина Кустарник
-extratrees:databaselepi, item.databaseLepi.name
-extratrees:machine:0, Лесопилка
-extratrees:machine:1, Деревообрабатывающий станок
-extratrees:machine:2, Станок для панелей
-extratrees:machine:4, Фруктовый пресс
-extratrees:machine:5, Пивоварня
-extratrees:machine:6, Винокурня
-extratrees:machine:7, Станок для стекла
-extratrees:carpentry, tile.null.name
-extratrees:carpentrypanel, tile.null.name
-extratrees:stainedglass, tile.null.name
 extratrees:drink:0, Пивная кружка
 extratrees:drink:0, Стеклянная пинта
 extratrees:drink:0, Стакан для спиртного
@@ -4599,6 +4587,18 @@ extratrees:drink:0, Рюмка
 extratrees:drink:0, Лафитник
 extratrees:drink:0, Стакан купе
 extratrees:drink:0, Бокал для вина
+extratrees:machine:0, Лесопилка
+extratrees:machine:1, Деревообрабатывающий станок
+extratrees:machine:2, Станок для панелей
+extratrees:machine:4, Фруктовый пресс
+extratrees:machine:5, Пивоварня
+extratrees:machine:6, Винокурня
+extratrees:machine:7, Станок для стекла
+extratrees:carpentry, tile.null.name
+extratrees:carpentrypanel, tile.null.name
+extratrees:stainedglass, tile.null.name
+extratrees:databaselepi, item.databaseLepi.name
+extratrees:databasetree, item.databaseTree.name
 extratrees:binnie.juice.apple, Яблочный сок
 extratrees:binnie.juice.apricot, Абрикосовый сок
 extratrees:binnie.juice.banana, Банановый сок
@@ -5270,553 +5270,6 @@ gravisuite:crafting:3, Гравитационный двигатель
 gravisuite:crafting:4, Магнетрон
 gravisuite:crafting:5, Ядро ваджры
 gravisuite:crafting:6, Ускоритель двигателя
-railcraft:creosote, Креозотовое масло
-railcraft:steam, Пар
-railcraft:tool_crowbar_iron, Железная монтировка
-railcraft:tool_crowbar_steel, Стальная монтировка
-railcraft:tool_axe_steel, Стальной топор
-railcraft:tool_hoe_steel, Стальная мотыга
-railcraft:tool_pickaxe_steel, Стальная кирка
-railcraft:tool_shears_steel, Стальные ножницы
-railcraft:tool_shovel_steel, Стальная лопата
-railcraft:tool_sword_steel, Стальной меч
-railcraft:armor_helmet_steel, Стальной шлем
-railcraft:armor_chestplate_steel, Стальная кираса
-railcraft:armor_leggings_steel, Стальные поножи
-railcraft:armor_boots_steel, Стальные ботинки
-railcraft:tool_magnifying_glass, Лупа
-railcraft:armor_goggles, Очки обходчика путей
-railcraft:armor_overalls, Комбинезон инженера
-railcraft:tool_notepad, Блокнот обходчика путей
-railcraft:rail:0, Стандартный рельс
-railcraft:rail:1, Продвинутый рельс
-railcraft:rail:2, Деревянный рельс
-railcraft:rail:3, Высокоскоростной рельс
-railcraft:rail:4, Укреплённый рельс
-railcraft:rail:5, Электрический рельс
-railcraft:tie:0, Деревянная шпала
-railcraft:tie:1, Каменная шпала
-railcraft:rebar, Арматура
-railcraft:cart_spawner:0, Вагонетка со спавнером
-railcraft:detector:0, Детектор - Инвентарь
-railcraft:detector:1, Детектор - Любая вагонетка
-railcraft:detector:2, Детектор - Пустая вагонетка
-railcraft:detector:3, Детектор - Моб
-railcraft:detector:4, Детектор - Игрок
-railcraft:detector:5, Детектор - Животное
-railcraft:detector:6, Детектор - Цистерна
-railcraft:detector:7, Детектор - Продвинутый
-railcraft:detector:8, Детектор - Взрослый
-railcraft:detector:9, Детектор - Поезд
-railcraft:detector:10, Детектор - Овца
-railcraft:detector:11, Детектор - Деревенский житель
-railcraft:detector:12, Детектор - Локомотив
-railcraft:detector:13, Детектор - Маршрутизация
-railcraft:manipulator:0, Загрузчик предметов
-railcraft:manipulator:1, Разгрузчик предметов
-railcraft:manipulator:2, Продвинутый загрузчик предметов
-railcraft:manipulator:3, Продвинутый разгрузчик предметов
-railcraft:manipulator:4, Заливщик жидкостей
-railcraft:manipulator:5, Сливщик жидкостей
-railcraft:manipulator:6, Зарядное устройство
-railcraft:manipulator:7, Энергосьемщик
-railcraft:manipulator:10, RF-зарядное устройство
-railcraft:manipulator:11, RF Энергосьемщик
-railcraft:manipulator:8, Размещатель вагонеток
-railcraft:manipulator:9, Размещатель поездов
-railcraft:equipment:0, Ручной прокатный стан
-railcraft:equipment:1, Прокатный стан
-railcraft:equipment:2, Станция кормления
-railcraft:equipment:3, Дымогенератор
-railcraft:trade_station:0, Торговая станция
-railcraft:force_track_emitter, Излучатель силового пути
-railcraft:track_force, Силовой путь
-railcraft:filter_blank, Чистый фильтр
-railcraft:filter_type, Предметный фильтр
-railcraft:filter_ore_dict, Ore Dictionary фильтр
-railcraft:bore:0, Проходческий щит
-railcraft:borehead_bronze, Бронзовая головка бура
-railcraft:borehead_iron, Железная головка бура
-railcraft:borehead_steel, Стальная головка бура
-railcraft:borehead_diamond, Алмазная головка бура
-railcraft:mow_track_layer:0, Укладчик путей
-railcraft:mow_track_relayer:0, Переукладчик путей
-railcraft:mow_track_remover:0, Убиратель путей
-railcraft:mow_undercutter:0, Врубовая машина
-railcraft:cart_trade_station:0, Вагонетка с торговой станцией
-railcraft:cart_work:0, Вагонетка с верстаком
-railcraft:cart_jukebox:0, Вагонетка с проигрывателем
-railcraft:cart_bed:0, Вагонетка с кроватью
-railcraft:battery_nickel_iron, Никель-железный аккумулятор
-railcraft:battery_nickel_zinc, Никель-цинковый аккумулятор
-railcraft:battery_zinc_carbon, Цинк-карбоновая аккумулятор
-railcraft:battery_zinc_silver, Цинк-серебряный аккумулятор
-railcraft:charge_feeder:0, IC2 модуль питания
-railcraft:charge_feeder:1, Администраторский модуль питания
-railcraft:charge_trap, Заряженная ловушка
-railcraft:frame, Опорный каркас для шунтирующего провода
-railcraft:steam_turbine:0, Корпус паровой турбины
-railcraft:wire, Электрический шунтирующий провод
-railcraft:charge:0, Заряжающая катушка
-railcraft:charge:1, Терминал заряда
-railcraft:charge:2, Малая катушка с зарядным проводом
-railcraft:charge:3, Средняя катушка с зарядным проводом
-railcraft:charge:4, Большая катушка с зарядным проводом
-railcraft:charge:5, Заряжающий мотор
-railcraft:charge:6, Никелевый электрод
-railcraft:charge:7, Железный электрод
-railcraft:charge:8, Цинковый электрод
-railcraft:charge:9, item.railcraft.charge.electrode.carbon.name
-railcraft:charge:10, item.railcraft.charge.electrode.silver.name
-railcraft:tool_charge_meter, Электросчётчик
-railcraft:turbine_blade, Лопатка турбины
-railcraft:turbine_disk, Диск турбины
-railcraft:turbine_rotor, Ротор турбины
-railcraft:worldspike:0, Якорь администратора
-railcraft:worldspike:1, Пассивный якорь
-railcraft:worldspike:2, Личный якорь
-railcraft:worldspike:3, Мировой якорь
-railcraft:worldspike_point, Точка мирового якоря
-railcraft:cart_worldspike_standard:0, Вагонетка с мировым якорем
-railcraft:cart_worldspike_admin:0, Вагонетка с якорем администратора
-railcraft:cart_worldspike_personal:0, Вагонетка с личным якорем
-railcraft:emblem, Эмблема
-railcraft:anvil:0, Стальная наковальня
-railcraft:anvil:1, Слегка повреждённая стальная наковальня
-railcraft:anvil:2, Сильно повреждённая стальная наковальня
-railcraft:fuel_coke, Коксовый уголь
-railcraft:coke_oven:0, Кирпич коксовой печи
-railcraft:coke_oven_red:0, tile.railcraft.coke.oven.red.name
-railcraft:blast_furnace:0, Кирпич доменной печи
-railcraft:rock_crusher:0, Дробитель
-railcraft:steam_oven:0, Паровая печь
-railcraft:tank_iron_gauge:0, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:1, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:2, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:3, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:4, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:5, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:6, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:7, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:8, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:9, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:10, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:11, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:12, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:13, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:14, Водомерное стекло железного резервуара
-railcraft:tank_iron_gauge:15, Водомерное стекло железного резервуара
-railcraft:tank_iron_valve:0, Клапан железного резервуара
-railcraft:tank_iron_valve:1, Клапан железного резервуара
-railcraft:tank_iron_valve:2, Клапан железного резервуара
-railcraft:tank_iron_valve:3, Клапан железного резервуара
-railcraft:tank_iron_valve:4, Клапан железного резервуара
-railcraft:tank_iron_valve:5, Клапан железного резервуара
-railcraft:tank_iron_valve:6, Клапан железного резервуара
-railcraft:tank_iron_valve:7, Клапан железного резервуара
-railcraft:tank_iron_valve:8, Клапан железного резервуара
-railcraft:tank_iron_valve:9, Клапан железного резервуара
-railcraft:tank_iron_valve:10, Клапан железного резервуара
-railcraft:tank_iron_valve:11, Клапан железного резервуара
-railcraft:tank_iron_valve:12, Клапан железного резервуара
-railcraft:tank_iron_valve:13, Клапан железного резервуара
-railcraft:tank_iron_valve:14, Клапан железного резервуара
-railcraft:tank_iron_valve:15, Клапан железного резервуара
-railcraft:tank_iron_wall:0, Обшивка железного резервуара
-railcraft:tank_iron_wall:1, Обшивка железного резервуара
-railcraft:tank_iron_wall:2, Обшивка железного резервуара
-railcraft:tank_iron_wall:3, Обшивка железного резервуара
-railcraft:tank_iron_wall:4, Обшивка железного резервуара
-railcraft:tank_iron_wall:5, Обшивка железного резервуара
-railcraft:tank_iron_wall:6, Обшивка железного резервуара
-railcraft:tank_iron_wall:7, Обшивка железного резервуара
-railcraft:tank_iron_wall:8, Обшивка железного резервуара
-railcraft:tank_iron_wall:9, Обшивка железного резервуара
-railcraft:tank_iron_wall:10, Обшивка железного резервуара
-railcraft:tank_iron_wall:11, Обшивка железного резервуара
-railcraft:tank_iron_wall:12, Обшивка железного резервуара
-railcraft:tank_iron_wall:13, Обшивка железного резервуара
-railcraft:tank_iron_wall:14, Обшивка железного резервуара
-railcraft:tank_iron_wall:15, Обшивка железного резервуара
-railcraft:tank_steel_gauge:0, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:1, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:2, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:3, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:4, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:5, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:6, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:7, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:8, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:9, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:10, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:11, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:12, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:13, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:14, Водомерное стекло стального резервуара
-railcraft:tank_steel_gauge:15, Водомерное стекло стального резервуара
-railcraft:tank_steel_valve:0, Клапан стального резервуара
-railcraft:tank_steel_valve:1, Клапан стального резервуара
-railcraft:tank_steel_valve:2, Клапан стального резервуара
-railcraft:tank_steel_valve:3, Клапан стального резервуара
-railcraft:tank_steel_valve:4, Клапан стального резервуара
-railcraft:tank_steel_valve:5, Клапан стального резервуара
-railcraft:tank_steel_valve:6, Клапан стального резервуара
-railcraft:tank_steel_valve:7, Клапан стального резервуара
-railcraft:tank_steel_valve:8, Клапан стального резервуара
-railcraft:tank_steel_valve:9, Клапан стального резервуара
-railcraft:tank_steel_valve:10, Клапан стального резервуара
-railcraft:tank_steel_valve:11, Клапан стального резервуара
-railcraft:tank_steel_valve:12, Клапан стального резервуара
-railcraft:tank_steel_valve:13, Клапан стального резервуара
-railcraft:tank_steel_valve:14, Клапан стального резервуара
-railcraft:tank_steel_valve:15, Клапан стального резервуара
-railcraft:tank_steel_wall:0, Обшивка стального резервуара
-railcraft:tank_steel_wall:1, Обшивка стального резервуара
-railcraft:tank_steel_wall:2, Обшивка стального резервуара
-railcraft:tank_steel_wall:3, Обшивка стального резервуара
-railcraft:tank_steel_wall:4, Обшивка стального резервуара
-railcraft:tank_steel_wall:5, Обшивка стального резервуара
-railcraft:tank_steel_wall:6, Обшивка стального резервуара
-railcraft:tank_steel_wall:7, Обшивка стального резервуара
-railcraft:tank_steel_wall:8, Обшивка стального резервуара
-railcraft:tank_steel_wall:9, Обшивка стального резервуара
-railcraft:tank_steel_wall:10, Обшивка стального резервуара
-railcraft:tank_steel_wall:11, Обшивка стального резервуара
-railcraft:tank_steel_wall:12, Обшивка стального резервуара
-railcraft:tank_steel_wall:13, Обшивка стального резервуара
-railcraft:tank_steel_wall:14, Обшивка стального резервуара
-railcraft:tank_steel_wall:15, Обшивка стального резервуара
-railcraft:tank_water:0, Обшивка водонапорной башни
-railcraft:chest_metals:0, Сундук для металлов
-railcraft:cart_chest_metals:0, Вагонетка с металлическим сундуком
-railcraft:filter_bee, Фильтр пчел
-railcraft:filter_bee_genome, Фильтр генома пчел
-railcraft:backpack_apothecary_t1, Рюкзак фармацевта
-railcraft:backpack_apothecary_t2, Тканный рюкзак фармацевта
-railcraft:backpack_iceman_t1, Рюкзак альпиниста
-railcraft:backpack_iceman_t2, Тканый рюкзак альпиниста
-railcraft:backpack_trackman_t1, Рюкзак обходчика путей
-railcraft:backpack_trackman_t2, Тканый рюкзак обходчика путей
-railcraft:backpack_signalman_t1, item.railcraft.backpack.signalman.t1.name
-railcraft:backpack_signalman_t2, item.railcraft.backpack.signalman.t2.name
-railcraft:cart_ic2_batbox:0, Вагонетка с энергохранителем
-railcraft:cart_ic2_mfe:0, Вагонетка с МФЭ
-railcraft:cart_ic2_cesu:0, Вагонетка с ЦЭСУ
-railcraft:firestone_cracked, Потрескавшийся огненный камень
-railcraft:firestone_cut, Разрезанный огненный камень
-railcraft:firestone_raw, Неочищенный огненный камень
-railcraft:firestone_refined, Очищенный огненный камень
-railcraft:cart_redstone_flux:0, RF вагонетка
-railcraft:flux_transformer:0, Преобразователь флакса
-railcraft:metal:0, Медный блок
-railcraft:metal:1, Оловянный блок
-railcraft:metal:2, Свинцовый блок
-railcraft:metal:4, Серебряный блок
-railcraft:metal:3, Стальной блок
-railcraft:metal:5, Бронзовый блок
-railcraft:metal:6, Никелевый блок
-railcraft:metal:7, Инваровый блок
-railcraft:metal:8, Цинковый блок
-railcraft:metal:9, Латунный блок
-railcraft:fluid_bottle_creosote, Бутылка креозотового масла
-railcraft:fluid_bottle_steam, Бутылка пара
-railcraft:nugget:0, =Стальной самородок
-railcraft:nugget:1, Медный самородок
-railcraft:nugget:2, Оловянный самородок
-railcraft:nugget:3, Свинцовый самородок
-railcraft:nugget:4, Серебряный самородок
-railcraft:nugget:5, Бронзовый самородок
-railcraft:nugget:6, Никелевый самородок
-railcraft:nugget:7, Инваровый самородок
-railcraft:nugget:8, Цинковый самородок
-railcraft:nugget:9, Латунный самородок
-railcraft:ingot:0, Стальной слиток
-railcraft:ingot:1, Медный слиток
-railcraft:ingot:2, Оловянный слиток
-railcraft:ingot:3, Свинцовый слиток
-railcraft:ingot:4, Серебряный слиток
-railcraft:ingot:5, Бронзовый слиток
-railcraft:ingot:6, Никелевый слиток
-railcraft:ingot:7, Инваровый слиток
-railcraft:ingot:8, Цинковый слиток
-railcraft:ingot:9, Латунный слитор
-railcraft:gear:0, Латунная шестерня
-railcraft:gear:1, Железная шестерня
-railcraft:gear:2, Стальная шестерня
-railcraft:gear:3, Оловянная втулка шестерни
-railcraft:gear:4, Бронзовая шестерня
-railcraft:gear:5, Инваровая шестерня
-railcraft:plate:0, Железная пластина
-railcraft:plate:1, Стальная пластина
-railcraft:plate:2, Оловянная пластина
-railcraft:plate:3, Медная пластина
-railcraft:plate:4, Свинцовая пластина
-railcraft:plate:5, Серебряная пластина
-railcraft:plate:6, Бронзовая пластина
-railcraft:plate:7, Золотая пластина
-railcraft:plate:8, Никелевая пластина
-railcraft:plate:9, Инваровая пластина
-railcraft:plate:10, Цинковая пластина
-railcraft:plate:11, Латунная пластина
-railcraft:dust:0, Обсидиановая пыль
-railcraft:dust:1, Сера
-railcraft:dust:2, Селитра
-railcraft:dust:3, Древесноугольная пыль
-railcraft:dust:4, Шлак из доменной печи
-railcraft:dust:5, Угольная пыль
-railcraft:dust:6, Эндер-пыль
-railcraft:dust:7, Пустотная пыль
-railcraft:tool_crowbar_seasons, Монтировка сезонов
-railcraft:cart_pumpkin:0, Вагонетка с тыквой
-railcraft:cart_gift:0, Вагонетка с подарком
-railcraft:signal:0, Сигнальный блок
-railcraft:signal:1, Удалённый сигналоприёмный блок
-railcraft:signal:2, Сигнал обозначенной области
-railcraft:signal_dual:0, Спаренный сигнальный блок
-railcraft:signal_dual:1, Спаренный удалённый сигналоприёмный блок
-railcraft:signal_dual:2, Двуглавый Обозначающий сигнальный блок
-railcraft:signal_box:2, Контроллер сигнала
-railcraft:signal_box:4, Приёмник сигнала
-railcraft:signal_box:0, Контроллер аналогового сигнала
-railcraft:signal_box:1, Конденсатор сигнала
-railcraft:signal_box:3, Блокировщик сигнала
-railcraft:signal_box:6, Cеквенсор сигнала
-railcraft:signal_box:5, Реле сигнального блока
-railcraft:tool_signal_surveyor:0, Инспектор сигналов
-railcraft:tool_signal_tuner:0, Настройщик сигнала
-railcraft:signal_lamp, Сигнальная лампа
-railcraft:tool_signal_label, Сигнальная метка
-railcraft:circuit:0, Контрольная схема
-railcraft:circuit:1, Приёмная схема
-railcraft:circuit:2, Сигнальная схема
-railcraft:circuit:3, Радио схема
-railcraft:admin_steam_producer:0, Производитель пара администратора
-railcraft:boiler_firebox_fluid:0, Жидкотопливная камера сгорания
-railcraft:boiler_firebox_solid:0, Твёрдотопливная камера сгорания
-railcraft:boiler_tank_pressure_high:0, Котёл высокого давления
-railcraft:boiler_tank_pressure_low:0, Котёл низкого давления
-railcraft:brick_abyssal:0, Кирпич бездны
-railcraft:brick_abyssal:1, Крупный камень бездны
-railcraft:brick_abyssal:2, Блок бездны
-railcraft:brick_abyssal:3, Резной камень бездны
-railcraft:brick_abyssal:4, Гравированный камень бездны
-railcraft:brick_abyssal:5, Булыжник бездны
-railcraft:brick_bleachedbone:0, Костяной кирпич
-railcraft:brick_bleachedbone:1, Костяной крупный камень
-railcraft:brick_bleachedbone:2, Костяной блок
-railcraft:brick_bleachedbone:3, Костяной резной камень
-railcraft:brick_bleachedbone:4, Костяной гравированный камень
-railcraft:brick_bleachedbone:5, Костяной булыжник
-railcraft:brick_bloodstained:0, Кровавый кирпич
-railcraft:brick_bloodstained:1, Крупный кровавый камень
-railcraft:brick_bloodstained:2, Кровавый блок
-railcraft:brick_bloodstained:3, Резной кровавый камень
-railcraft:brick_bloodstained:4, Гравированный кровавый камень
-railcraft:brick_bloodstained:5, Кровавый булыжник
-railcraft:brick_frostbound:0, Заледеневший кирпич
-railcraft:brick_frostbound:1, Крупный заледеневший камень
-railcraft:brick_frostbound:2, Заледеневший блок
-railcraft:brick_frostbound:3, Заледеневший резной камень
-railcraft:brick_frostbound:4, Заледеневший гравированный камень
-railcraft:brick_frostbound:5, Заледеневший булыжник
-railcraft:brick_infernal:0, Дьявольский кирпич
-railcraft:brick_infernal:1, Крупный дьявольский камень
-railcraft:brick_infernal:2, Дьявольский блок
-railcraft:brick_infernal:3, Резной дьявольский камень
-railcraft:brick_infernal:4, Гравированный дьявольский камень
-railcraft:brick_infernal:5, Дьявольский булыжник
-railcraft:brick_quarried:0, Карьерный кирпич
-railcraft:brick_quarried:1, Крупный карьерный камень
-railcraft:brick_quarried:2, Карьерный блок
-railcraft:brick_quarried:3, Резной карьерный камень
-railcraft:brick_quarried:4, Гравированный карьерный камень
-railcraft:brick_quarried:5, Карьерный булыжник
-railcraft:brick_sandy:0, Песчаный кирпич
-railcraft:brick_sandy:1, Крупный песчаный камень
-railcraft:brick_sandy:2, Песчаный блок
-railcraft:brick_sandy:3, Резной песчаный камень
-railcraft:brick_sandy:4, Гравированный песчаный камень
-railcraft:brick_sandy:5, Песчаный булыжник
-railcraft:brick_red_sandy:0, Красный песчаный кирпич
-railcraft:brick_red_sandy:1, Красный крупный песчаный камень
-railcraft:brick_red_sandy:2, Красный песчаный блок
-railcraft:brick_red_sandy:3, Красный резной песчаный камень
-railcraft:brick_red_sandy:4, Красный гравированный песчаный камень
-railcraft:brick_red_sandy:5, Красный песчаный булыжник
-railcraft:brick_nether:0, Незеритовые кирпичи
-railcraft:brick_nether:1, Крупный камень нижнего мира
-railcraft:brick_nether:2, Блок нижнего мира
-railcraft:brick_nether:3, Резной камень нижнего мира
-railcraft:brick_nether:4, Гравированный камень нижнего мира
-railcraft:brick_nether:5, Булыжник нижнего мира
-railcraft:brick_red_nether:0, Красный незеритовый кирпич
-railcraft:brick_red_nether:1, Красный крупный камень нижнего мира
-railcraft:brick_red_nether:2, Красный блок нижнего мира
-railcraft:brick_red_nether:3, Красный резной камень нижнего мира
-railcraft:brick_red_nether:4, Красный гравированный камень нижнего мира
-railcraft:brick_red_nether:5, Красный булыжник нижнего мира
-railcraft:brick_andesite:0, Андезитовый кирпич
-railcraft:brick_andesite:1, Крупный андезитовый камень
-railcraft:brick_andesite:6, Полированный андезит
-railcraft:brick_andesite:3, Резной андезитовый камень
-railcraft:brick_andesite:4, Гравированный андезитовый камень
-railcraft:brick_andesite:5, Андезитовый булыжник
-railcraft:brick_diorite:0, Диоритовый кирпич
-railcraft:brick_diorite:1, Крупный диоритовый камень
-railcraft:brick_diorite:4, Полированный диорит
-railcraft:brick_diorite:3, Резной диоритовый камень
-railcraft:brick_diorite:4, Гравированный диоритовый камень
-railcraft:brick_diorite:5, Диоритовый булыжник
-railcraft:brick_granite:0, Гранитный кирпич
-railcraft:brick_granite:1, Крупный гранитный камень
-railcraft:brick_granite:2, Полированный гранит
-railcraft:brick_granite:3, Резной гранитный камень
-railcraft:brick_granite:4, Гравированный гранитный камень
-railcraft:brick_granite:5, Гранитный булыжник
-railcraft:brick_pearlized:0, Жемчужный кирпич
-railcraft:brick_pearlized:1, Крупный жемчужный камень
-railcraft:brick_pearlized:2, Жемчужный блок
-railcraft:brick_pearlized:3, Резной жемчужный камень
-railcraft:brick_pearlized:4, Гравированный жемчужный камень
-railcraft:brick_pearlized:5, Жемчужный булыжник
-railcraft:tool_stone_carver, Каменный резчик
-railcraft:concrete, Мешок цемента
-railcraft:glass:0, Упрочненное стекло
-railcraft:glass:1, Оранжевое упрочненное стекло
-railcraft:glass:2, Пурпурное упрочненное стекло
-railcraft:glass:3, Светло-синее упрочненное стекло
-railcraft:glass:4, Желтое упрочненное стекло
-railcraft:glass:5, Лаймовое упрочненное стекло
-railcraft:glass:6, Розовое упрочненное стекло
-railcraft:glass:7, Серое упрочненное стекло
-railcraft:glass:8, Светло-серое упрочненное стекло
-railcraft:glass:9, Голубое упрочненное стекло
-railcraft:glass:10, Фиолетовое упрочненное стекло
-railcraft:glass:11, Синее упрочненное стекло
-railcraft:glass:12, Коричневое упрочненное стекло
-railcraft:glass:13, Зеленое упрочненное стекло
-railcraft:glass:14, Красное упрочненное стекло
-railcraft:glass:15, Черное упрочненное стекло
-railcraft:generic:5, Блок пропитанной креозотом древесины
-railcraft:generic:6, Блок коксового угля
-railcraft:generic:7, Сыпучий обсидиан
-railcraft:generic:8, Камень бездны
-railcraft:generic:9, Карьерный камень
-railcraft:reinforced_concrete:0, Белый железобетон
-railcraft:reinforced_concrete:1, Оранжевый железобетон
-railcraft:reinforced_concrete:2, Пурпурный железобетон
-railcraft:reinforced_concrete:3, Светло-синий железобетон
-railcraft:reinforced_concrete:4, Желтый железобетон
-railcraft:reinforced_concrete:5, Лаймовый железобетон
-railcraft:reinforced_concrete:6, Розовый железобетон
-railcraft:reinforced_concrete:7, Серый железобетон
-railcraft:reinforced_concrete:8, Железобетон
-railcraft:reinforced_concrete:9, Голубой железобетон
-railcraft:reinforced_concrete:10, Фиолетовый железобетон
-railcraft:reinforced_concrete:11, Синий железобетон
-railcraft:reinforced_concrete:12, Коричневый железобетон
-railcraft:reinforced_concrete:13, Зеленый железобетон
-railcraft:reinforced_concrete:14, Красный железобетон
-railcraft:reinforced_concrete:15, Черный железобетон
-railcraft:post_metal:0, Белый металлический столб
-railcraft:post_metal:1, Оранжевый металлический столб
-railcraft:post_metal:2, Сиреневый металлический столб
-railcraft:post_metal:3, Светло-синий металлический столб
-railcraft:post_metal:4, Жёлтый металлический столб
-railcraft:post_metal:5, Лаймовый металлический столб
-railcraft:post_metal:6, Розовый металлический столб
-railcraft:post_metal:7, Серый металлический столб
-railcraft:post_metal:8, Светло-серый металлический столб
-railcraft:post_metal:9, Бирюзовый металлический столб
-railcraft:post_metal:10, Фиолетовый металлический столб
-railcraft:post_metal:11, Синий металлический столб
-railcraft:post_metal:12, Коричневый металлический столб
-railcraft:post_metal:13, Зелёный металлический столб
-railcraft:post_metal:14, Красный металлический столб
-railcraft:post_metal:15, Чёрный металлический столб
-railcraft:post_metal_platform:0, Белая металлическая платформа
-railcraft:post_metal_platform:1, Оранжевая металлическая платформа
-railcraft:post_metal_platform:2, Сиреневая металлическая платформа
-railcraft:post_metal_platform:3, Светло-синяя металлическая платформа
-railcraft:post_metal_platform:4, Жёлтая металлическая платформа
-railcraft:post_metal_platform:5, Лаймовая металлическая платформа
-railcraft:post_metal_platform:6, Розовая металлическая платформа
-railcraft:post_metal_platform:7, Серая металлическая платформа
-railcraft:post_metal_platform:8, Светло-серая металлическая платформа
-railcraft:post_metal_platform:9, Бирюзовая металлическая платформа
-railcraft:post_metal_platform:10, Фиолетовая металлическая платформа
-railcraft:post_metal_platform:11, Синяя металлическая платформа
-railcraft:post_metal_platform:12, Коричневая металлическая платформа
-railcraft:post_metal_platform:13, Зелёная металлическая платформа
-railcraft:post_metal_platform:14, Красная металлическая платформа
-railcraft:post_metal_platform:15, Чёрная металлическая платформа
-railcraft:track_kit:1, Активатор набор путей
-railcraft:track_kit:2, Ускоритель набор путей
-railcraft:track_kit:3, Упорный остановщик набор путей
-railcraft:track_kit:4, Контроль набор путей
-railcraft:track_kit:5, Детектор набор путей
-railcraft:track_kit:6, Выгружатель набор путей
-railcraft:track_kit:7, Сбрасыватель набор путей
-railcraft:track_kit:8, Загрузчик набор путей
-railcraft:track_kit:9, Путь с воротами набор путей
-railcraft:track_kit:10, Запиратель набор путей
-railcraft:track_kit:11, Односторонний ограничитель набор путей
-railcraft:track_kit:15, Вестник набор путей
-railcraft:track_kit:16, Задержка блокировки набор путей
-railcraft:track_kit:17, Воспламенитель набор путей
-railcraft:track_kit:18, Запускатель набор путей
-railcraft:track_kit:19, Активатор свистка набор путей
-railcraft:track_kit:20, Вылючатель локомотивов набор путей
-railcraft:track_kit:21, Дроссель набор путей
-railcraft:track_kit:22, Маршрутизатор набор путей
-railcraft:track_kit:23, Переход набор путей
-railcraft:track_kit:24, Сцепщик набор путей
-railcraft:tool_spike_maul_iron, Жезелная шипастая кувалда
-railcraft:tool_spike_maul_steel, Стальная шипастая кувалда
-railcraft:railbed:0, Деревянное полотно
-railcraft:railbed:1, Каменное полотно
-railcraft:track_parts, Части путей
-railcraft:actuator:0, Стрелочный рычаг
-railcraft:actuator:1, Стрелочный электромотор
-railcraft:actuator:2, Маршрутный стрелочный электромотор
-railcraft:cart_tnt_wood:0, Деревянная вагонетка с динамитом
-railcraft:track_elevator, Подымающий путь
-railcraft:logbook, Книга посещений
-railcraft:tool_whistle_tuner, Настройщик свистка
-railcraft:routing_table, Таблица маршрутизации
-railcraft:routing_ticket, Железнодорожный билет
-railcraft:routing_ticket_gold, Золотой железнодорожный билет
-railcraft:track_flex_abandoned, Заброшенный путь
-railcraft:track_flex_electric, Электрифицированный путь
-railcraft:track_flex_high_speed, Высокоскоростной путь
-railcraft:track_flex_hs_electric, Высокоскоростной электрифицированный путь
-railcraft:track_flex_reinforced, Усиленный путь
-railcraft:track_flex_strap_iron, Обшитый железом деревянный путь
-railcraft:cart_cargo:0, Грузовая вагонетка
-railcraft:cart_tank:0, Вагонетка с цистерной
-railcraft:chest_void:0, Пустотный сундук
-railcraft:cart_chest_void:0, Вагонетка с пустотным сундуком
-railcraft:ore:0, Серная руда
-railcraft:ore:1, Селитровая руда
-railcraft:ore:2, Тёмная алмазная руда
-railcraft:ore:3, Тёмная изумрудная руда
-railcraft:ore:4, Тёмная лазуритовая руда
-railcraft:ore_metal:0, Медная руда
-railcraft:ore_metal:1, Оловянная руда
-railcraft:ore_metal:2, Свинцовая руда
-railcraft:ore_metal:3, Серебряная руда
-railcraft:ore_metal:4, Никелевая руда
-railcraft:ore_metal:5, Цинковая руда
-railcraft:ore_metal_poor:0, Низкосортная железная руда
-railcraft:ore_metal_poor:1, Низкосортная золотая руда
-railcraft:ore_metal_poor:2, Низкосортная медная руда
-railcraft:ore_metal_poor:3, Низкосортная оловянная руда
-railcraft:ore_metal_poor:4, Низкосортная свинцовая руда
-railcraft:ore_metal_poor:5, Низкосортная серебряная руда
-railcraft:ore_metal_poor:6, Низкосортная никелевая руда
-railcraft:ore_metal_poor:7, Низкосортная цинковая руда
-railcraft:ore_magic:0, Руда огненного камня
-railcraft:worldlogic, Генератор селитровой руды
 nuclearcraft:ore:0, Медная руда
 nuclearcraft:ore:1, Оловянная руда
 nuclearcraft:ore:2, Свинцовая руда
@@ -8874,203 +8327,6 @@ thermaldynamics:cover:0, Крышка (Redstone Block Light)
 thermaldynamics:cover:0, Крышка (Gold Block Light)
 thermaldynamics:cover:0, Крышка (Lapis Block Light)
 thermaldynamics:cover:0, Крышка (Coal Block Light)
-thermaldynamics:cover:0, Крышка (Никель-железный аккумулятор)
-thermaldynamics:cover:0, Крышка (Никель-цинковый аккумулятор)
-thermaldynamics:cover:0, Крышка (Цинк-карбоновая аккумулятор)
-thermaldynamics:cover:0, Крышка (Цинк-серебряный аккумулятор)
-thermaldynamics:cover:0, Крышка (Заряженная ловушка)
-thermaldynamics:cover:0, Крышка (Опорный каркас для шунтирующего провода)
-thermaldynamics:cover:0, Крышка (Электрический шунтирующий провод)
-thermaldynamics:cover:0, Крышка (Точка мирового якоря)
-thermaldynamics:cover:0, Крышка (Стальная наковальня)
-thermaldynamics:cover:0, Крышка (Стальная наковальня)
-thermaldynamics:cover:0, Крышка (Стальная наковальня)
-thermaldynamics:cover:0, Крышка (Медный блок)
-thermaldynamics:cover:0, Крышка (Оловянный блок)
-thermaldynamics:cover:0, Крышка (Свинцовый блок)
-thermaldynamics:cover:0, Крышка (Серебряный блок)
-thermaldynamics:cover:0, Крышка (Стальной блок)
-thermaldynamics:cover:0, Крышка (Бронзовый блок)
-thermaldynamics:cover:0, Крышка (Никелевый блок)
-thermaldynamics:cover:0, Крышка (Инваровый блок)
-thermaldynamics:cover:0, Крышка (Цинковый блок)
-thermaldynamics:cover:0, Крышка (Латунный блок)
-thermaldynamics:cover:0, Крышка (Кирпич бездны)
-thermaldynamics:cover:0, Крышка (Крупный камень бездны)
-thermaldynamics:cover:0, Крышка (Блок бездны)
-thermaldynamics:cover:0, Крышка (Резной камень бездны)
-thermaldynamics:cover:0, Крышка (Гравированный камень бездны)
-thermaldynamics:cover:0, Крышка (Булыжник бездны)
-thermaldynamics:cover:0, Крышка (Костяной кирпич)
-thermaldynamics:cover:0, Крышка (Костяной крупный камень)
-thermaldynamics:cover:0, Крышка (Костяной блок)
-thermaldynamics:cover:0, Крышка (Костяной резной камень)
-thermaldynamics:cover:0, Крышка (Костяной гравированный камень)
-thermaldynamics:cover:0, Крышка (Костяной булыжник)
-thermaldynamics:cover:0, Крышка (Кровавый кирпич)
-thermaldynamics:cover:0, Крышка (Крупный кровавый камень)
-thermaldynamics:cover:0, Крышка (Кровавый блок)
-thermaldynamics:cover:0, Крышка (Резной кровавый камень)
-thermaldynamics:cover:0, Крышка (Гравированный кровавый камень)
-thermaldynamics:cover:0, Крышка (Кровавый булыжник)
-thermaldynamics:cover:0, Крышка (Заледеневший кирпич)
-thermaldynamics:cover:0, Крышка (Крупный заледеневший камень)
-thermaldynamics:cover:0, Крышка (Заледеневший блок)
-thermaldynamics:cover:0, Крышка (Заледеневший резной камень)
-thermaldynamics:cover:0, Крышка (Заледеневший гравированный камень)
-thermaldynamics:cover:0, Крышка (Заледеневший булыжник)
-thermaldynamics:cover:0, Крышка (Дьявольский кирпич)
-thermaldynamics:cover:0, Крышка (Крупный дьявольский камень)
-thermaldynamics:cover:0, Крышка (Дьявольский блок)
-thermaldynamics:cover:0, Крышка (Резной дьявольский камень)
-thermaldynamics:cover:0, Крышка (Гравированный дьявольский камень)
-thermaldynamics:cover:0, Крышка (Дьявольский булыжник)
-thermaldynamics:cover:0, Крышка (Карьерный кирпич)
-thermaldynamics:cover:0, Крышка (Крупный карьерный камень)
-thermaldynamics:cover:0, Крышка (Карьерный блок)
-thermaldynamics:cover:0, Крышка (Резной карьерный камень)
-thermaldynamics:cover:0, Крышка (Гравированный карьерный камень)
-thermaldynamics:cover:0, Крышка (Карьерный булыжник)
-thermaldynamics:cover:0, Крышка (Песчаный кирпич)
-thermaldynamics:cover:0, Крышка (Крупный песчаный камень)
-thermaldynamics:cover:0, Крышка (Песчаный блок)
-thermaldynamics:cover:0, Крышка (Резной песчаный камень)
-thermaldynamics:cover:0, Крышка (Гравированный песчаный камень)
-thermaldynamics:cover:0, Крышка (Песчаный булыжник)
-thermaldynamics:cover:0, Крышка (Красный песчаный кирпич)
-thermaldynamics:cover:0, Крышка (Красный крупный песчаный камень)
-thermaldynamics:cover:0, Крышка (Красный песчаный блок)
-thermaldynamics:cover:0, Крышка (Красный резной песчаный камень)
-thermaldynamics:cover:0, Крышка (Красный гравированный песчаный камень)
-thermaldynamics:cover:0, Крышка (Красный песчаный булыжник)
-thermaldynamics:cover:0, Крышка (Крупный камень нижнего мира)
-thermaldynamics:cover:0, Крышка (Блок нижнего мира)
-thermaldynamics:cover:0, Крышка (Резной камень нижнего мира)
-thermaldynamics:cover:0, Крышка (Гравированный камень нижнего мира)
-thermaldynamics:cover:0, Крышка (Булыжник нижнего мира)
-thermaldynamics:cover:0, Крышка (Красный крупный камень нижнего мира)
-thermaldynamics:cover:0, Крышка (Красный блок нижнего мира)
-thermaldynamics:cover:0, Крышка (Красный резной камень нижнего мира)
-thermaldynamics:cover:0, Крышка (Красный гравированный камень нижнего мира)
-thermaldynamics:cover:0, Крышка (Красный булыжник нижнего мира)
-thermaldynamics:cover:0, Крышка (Андезитовый кирпич)
-thermaldynamics:cover:0, Крышка (Крупный андезитовый камень)
-thermaldynamics:cover:0, Крышка (Резной андезитовый камень)
-thermaldynamics:cover:0, Крышка (Гравированный андезитовый камень)
-thermaldynamics:cover:0, Крышка (Андезитовый булыжник)
-thermaldynamics:cover:0, Крышка (Диоритовый кирпич)
-thermaldynamics:cover:0, Крышка (Крупный диоритовый камень)
-thermaldynamics:cover:0, Крышка (Резной диоритовый камень)
-thermaldynamics:cover:0, Крышка (Гравированный диоритовый камень)
-thermaldynamics:cover:0, Крышка (Диоритовый булыжник)
-thermaldynamics:cover:0, Крышка (Гранитный кирпич)
-thermaldynamics:cover:0, Крышка (Крупный гранитный камень)
-thermaldynamics:cover:0, Крышка (Резной гранитный камень)
-thermaldynamics:cover:0, Крышка (Гравированный гранитный камень)
-thermaldynamics:cover:0, Крышка (Гранитный булыжник)
-thermaldynamics:cover:0, Крышка (Жемчужный кирпич)
-thermaldynamics:cover:0, Крышка (Крупный жемчужный камень)
-thermaldynamics:cover:0, Крышка (Жемчужный блок)
-thermaldynamics:cover:0, Крышка (Резной жемчужный камень)
-thermaldynamics:cover:0, Крышка (Гравированный жемчужный камень)
-thermaldynamics:cover:0, Крышка (Жемчужный булыжник)
-thermaldynamics:cover:0, Крышка (Упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Оранжевое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Пурпурное упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Светло-синее упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Желтое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Лаймовое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Розовое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Серое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Светло-серое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Голубое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Фиолетовое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Синее упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Коричневое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Зеленое упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Красное упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Черное упрочненное стекло)
-thermaldynamics:cover:0, Крышка (Блок пропитанной креозотом древесины)
-thermaldynamics:cover:0, Крышка (Блок коксового угля)
-thermaldynamics:cover:0, Крышка (Сыпучий обсидиан)
-thermaldynamics:cover:0, Крышка (Камень бездны)
-thermaldynamics:cover:0, Крышка (Карьерный камень)
-thermaldynamics:cover:0, Крышка (Белый железобетон)
-thermaldynamics:cover:0, Крышка (Оранжевый железобетон)
-thermaldynamics:cover:0, Крышка (Пурпурный железобетон)
-thermaldynamics:cover:0, Крышка (Светло-синий железобетон)
-thermaldynamics:cover:0, Крышка (Желтый железобетон)
-thermaldynamics:cover:0, Крышка (Лаймовый железобетон)
-thermaldynamics:cover:0, Крышка (Розовый железобетон)
-thermaldynamics:cover:0, Крышка (Серый железобетон)
-thermaldynamics:cover:0, Крышка (Железобетон)
-thermaldynamics:cover:0, Крышка (Голубой железобетон)
-thermaldynamics:cover:0, Крышка (Фиолетовый железобетон)
-thermaldynamics:cover:0, Крышка (Синий железобетон)
-thermaldynamics:cover:0, Крышка (Коричневый железобетон)
-thermaldynamics:cover:0, Крышка (Зеленый железобетон)
-thermaldynamics:cover:0, Крышка (Красный железобетон)
-thermaldynamics:cover:0, Крышка (Черный железобетон)
-thermaldynamics:cover:0, Крышка (Белый металлический столб)
-thermaldynamics:cover:0, Крышка (Оранжевый металлический столб)
-thermaldynamics:cover:0, Крышка (Сиреневый металлический столб)
-thermaldynamics:cover:0, Крышка (Светло-синий металлический столб)
-thermaldynamics:cover:0, Крышка (Жёлтый металлический столб)
-thermaldynamics:cover:0, Крышка (Лаймовый металлический столб)
-thermaldynamics:cover:0, Крышка (Розовый металлический столб)
-thermaldynamics:cover:0, Крышка (Серый металлический столб)
-thermaldynamics:cover:0, Крышка (Светло-серый металлический столб)
-thermaldynamics:cover:0, Крышка (Бирюзовый металлический столб)
-thermaldynamics:cover:0, Крышка (Фиолетовый металлический столб)
-thermaldynamics:cover:0, Крышка (Синий металлический столб)
-thermaldynamics:cover:0, Крышка (Коричневый металлический столб)
-thermaldynamics:cover:0, Крышка (Зелёный металлический столб)
-thermaldynamics:cover:0, Крышка (Красный металлический столб)
-thermaldynamics:cover:0, Крышка (Чёрный металлический столб)
-thermaldynamics:cover:0, Крышка (Белая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Оранжевая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Сиреневая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Светло-синяя металлическая платформа)
-thermaldynamics:cover:0, Крышка (Жёлтая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Лаймовая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Розовая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Серая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Светло-серая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Бирюзовая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Фиолетовая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Синяя металлическая платформа)
-thermaldynamics:cover:0, Крышка (Коричневая металлическая платформа)
-thermaldynamics:cover:0, Крышка (Зелёная металлическая платформа)
-thermaldynamics:cover:0, Крышка (Красная металлическая платформа)
-thermaldynamics:cover:0, Крышка (Чёрная металлическая платформа)
-thermaldynamics:cover:0, Крышка (Подымающий путь)
-thermaldynamics:cover:0, Крышка (Заброшенный путь)
-thermaldynamics:cover:0, Крышка (Электрифицированный путь)
-thermaldynamics:cover:0, Крышка (Высокоскоростной путь)
-thermaldynamics:cover:0, Крышка (Высокоскоростной электрифицированный путь)
-thermaldynamics:cover:0, Крышка (Усиленный путь)
-thermaldynamics:cover:0, Крышка (Обшитый железом деревянный путь)
-thermaldynamics:cover:0, Крышка (Серная руда)
-thermaldynamics:cover:0, Крышка (Селитровая руда)
-thermaldynamics:cover:0, Крышка (Тёмная алмазная руда)
-thermaldynamics:cover:0, Крышка (Тёмная изумрудная руда)
-thermaldynamics:cover:0, Крышка (Тёмная лазуритовая руда)
-thermaldynamics:cover:0, Крышка (Медная руда)
-thermaldynamics:cover:0, Крышка (Оловянная руда)
-thermaldynamics:cover:0, Крышка (Свинцовая руда)
-thermaldynamics:cover:0, Крышка (Серебряная руда)
-thermaldynamics:cover:0, Крышка (Никелевая руда)
-thermaldynamics:cover:0, Крышка (Цинковая руда)
-thermaldynamics:cover:0, Крышка (Низкосортная железная руда)
-thermaldynamics:cover:0, Крышка (Низкосортная золотая руда)
-thermaldynamics:cover:0, Крышка (Низкосортная медная руда)
-thermaldynamics:cover:0, Крышка (Низкосортная оловянная руда)
-thermaldynamics:cover:0, Крышка (Низкосортная свинцовая руда)
-thermaldynamics:cover:0, Крышка (Низкосортная серебряная руда)
-thermaldynamics:cover:0, Крышка (Низкосортная никелевая руда)
-thermaldynamics:cover:0, Крышка (Низкосортная цинковая руда)
-thermaldynamics:cover:0, Крышка (Руда огненного камня)
-thermaldynamics:cover:0, Крышка (Генератор селитровой руды)
 thermaldynamics:cover:0, Крышка (Медная руда)
 thermaldynamics:cover:0, Крышка (Оловянная руда)
 thermaldynamics:cover:0, Крышка (Свинцовая руда)
@@ -12922,35 +12178,35 @@ tconstruct:slime_vine_purple_end:0, Лоза фиолетовой слизи
 tconstruct:slime_vine_purple_mid:0, Лоза фиолетовой слизи
 tconstruct:slime_vine_purple:0, Лоза фиолетовой слизи
 tconstruct:pattern:0, Пустая схема
-tconstruct:pattern:0, Схема - боёк молота
-tconstruct:pattern:0, Схема - полотно лопаты
-tconstruct:pattern:0, Схема - оселок
-tconstruct:pattern:0, Схема - широкое лезвие меча
-tconstruct:pattern:0, Схема - Kama Head
-tconstruct:pattern:0, Схема - крепление
-tconstruct:pattern:0, Схема - лезвие топора
-tconstruct:pattern:0, Схема - поперечная гарда
-tconstruct:pattern:0, Схема - древко стрелы
-tconstruct:pattern:0, Схема - навершие кирки
-tconstruct:pattern:0, Схема - осколок
-tconstruct:pattern:0, Схема - большая пластина
-tconstruct:pattern:0, Схема - рукоять
 tconstruct:pattern:0, Схема - Головка стамески
+tconstruct:pattern:0, Схема - навершие кирки
+tconstruct:pattern:0, Схема - Kama Head
 tconstruct:pattern:0, Схема - полотно сковороды
-tconstruct:pattern:0, Схема - лезвие меча
-tconstruct:pattern:0, Схема - лезвие ножа
+tconstruct:pattern:0, Схема - осколок
+tconstruct:pattern:0, Схема - боёк молота
+tconstruct:pattern:0, Схема - большое лезвие топора
+tconstruct:pattern:0, Схема - оселок
+tconstruct:pattern:0, Схема - мощное крепление
+tconstruct:pattern:0, Схема - поперечная гарда
+tconstruct:pattern:0, Схема - рукоять
+tconstruct:pattern:0, Схема - широкая карда
+tconstruct:pattern:0, Схема - мощная рукоять
 tconstruct:pattern:0, Схема - наконечник
 tconstruct:pattern:0, Схема - навершие косы
-tconstruct:pattern:0, Схема - плечо лука
-tconstruct:pattern:0, Схема - оперение
-tconstruct:pattern:0, Схема - табличка
 tconstruct:pattern:0, Схема - тетива
-tconstruct:pattern:0, Схема - мощное крепление
-tconstruct:pattern:0, Схема - мощная рукоять
-tconstruct:pattern:0, Схема - широкая карда
-tconstruct:pattern:0, Схема - большое лезвие топора
-tconstruct:pattern:0, Схема - малая гарда
+tconstruct:pattern:0, Схема - широкое лезвие меча
+tconstruct:pattern:0, Схема - оперение
+tconstruct:pattern:0, Схема - лезвие топора
+tconstruct:pattern:0, Схема - лезвие меча
+tconstruct:pattern:0, Схема - плечо лука
 tconstruct:pattern:0, Схема - большое полотно лопаты
+tconstruct:pattern:0, Схема - табличка
+tconstruct:pattern:0, Схема - малая гарда
+tconstruct:pattern:0, Схема - большая пластина
+tconstruct:pattern:0, Схема - лезвие ножа
+tconstruct:pattern:0, Схема - древко стрелы
+tconstruct:pattern:0, Схема - крепление
+tconstruct:pattern:0, Схема - полотно лопаты
 tconstruct:shard:0, Наэлектризованная осколок
 tconstruct:shard:0, Энергетический осколок
 tconstruct:shard:0, Вибрирующий осколок
@@ -16071,66 +15327,66 @@ tconstruct:seared_stairs_road:0, Сушёные ступеньки (дорога
 tconstruct:seared_stairs_tile:0, Сушёные ступеньки (мини-плитка)
 tconstruct:seared_stairs_creeper:0, Сушёные ступеньки (кладка-крипер)
 tconstruct:cast:0, Пустая отливка
-tconstruct:cast:0, Отливка - боёк молота
-tconstruct:cast:0, Отливка - полотно лопаты
-tconstruct:cast:0, Отливка - оселок
-tconstruct:cast:0, Отливка - широкое лезвие меча
-tconstruct:cast:0, Отливка - Kama Head
-tconstruct:cast:0, Отливка - крепление
-tconstruct:cast:0, Отливка - лезвие топора
-tconstruct:cast:0, Отливка - поперечная гарда
-tconstruct:cast:0, Отливка - навершие кирки
-tconstruct:cast:0, Отливка - осколок
-tconstruct:cast:0, Отливка - большая пластина
-tconstruct:cast:0, Отливка - рукоять
 tconstruct:cast:0, Отливка - Головка стамески
+tconstruct:cast:0, Отливка - навершие кирки
+tconstruct:cast:0, Отливка - Kama Head
 tconstruct:cast:0, Отливка - полотно сковороды
-tconstruct:cast:0, Отливка - лезвие меча
-tconstruct:cast:0, Отливка - лезвие ножа
+tconstruct:cast:0, Отливка - осколок
+tconstruct:cast:0, Отливка - боёк молота
+tconstruct:cast:0, Отливка - большое лезвие топора
+tconstruct:cast:0, Отливка - оселок
+tconstruct:cast:0, Отливка - мощное крепление
+tconstruct:cast:0, Отливка - поперечная гарда
+tconstruct:cast:0, Отливка - рукоять
+tconstruct:cast:0, Отливка - широкая карда
+tconstruct:cast:0, Отливка - мощная рукоять
 tconstruct:cast:0, Отливка - наконечник
 tconstruct:cast:0, Отливка - навершие косы
-tconstruct:cast:0, Отливка - плечо лука
-tconstruct:cast:0, Отливка - табличка
 tconstruct:cast:0, Отливка - тетива
-tconstruct:cast:0, Отливка - мощное крепление
-tconstruct:cast:0, Отливка - мощная рукоять
-tconstruct:cast:0, Отливка - широкая карда
-tconstruct:cast:0, Отливка - большое лезвие топора
-tconstruct:cast:0, Отливка - малая гарда
+tconstruct:cast:0, Отливка - широкое лезвие меча
+tconstruct:cast:0, Отливка - лезвие топора
+tconstruct:cast:0, Отливка - лезвие меча
+tconstruct:cast:0, Отливка - плечо лука
 tconstruct:cast:0, Отливка - большое полотно лопаты
+tconstruct:cast:0, Отливка - табличка
+tconstruct:cast:0, Отливка - малая гарда
+tconstruct:cast:0, Отливка - большая пластина
+tconstruct:cast:0, Отливка - лезвие ножа
+tconstruct:cast:0, Отливка - крепление
+tconstruct:cast:0, Отливка - полотно лопаты
 tconstruct:cast_custom:0, Отливка слитка
 tconstruct:cast_custom:1, Отливка самородка
 tconstruct:cast_custom:2, Отливка камня
 tconstruct:cast_custom:3, Отливка пластины
 tconstruct:cast_custom:4, Отливка шестерни
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Глиняная отливка - боёк молота
-tconstruct:clay_cast:0, Глиняная отливка - полотно лопаты
-tconstruct:clay_cast:0, Глиняная отливка - оселок
-tconstruct:clay_cast:0, Глиняная отливка - широкое лезвие меча
-tconstruct:clay_cast:0, Глиняная отливка - Kama Head
-tconstruct:clay_cast:0, Глиняная отливка - крепление
-tconstruct:clay_cast:0, Глиняная отливка - лезвие топора
-tconstruct:clay_cast:0, Глиняная отливка - поперечная гарда
-tconstruct:clay_cast:0, Глиняная отливка - навершие кирки
-tconstruct:clay_cast:0, Глиняная отливка - осколок
-tconstruct:clay_cast:0, Глиняная отливка - большая пластина
-tconstruct:clay_cast:0, Глиняная отливка - рукоять
 tconstruct:clay_cast:0, Глиняная отливка - Головка стамески
+tconstruct:clay_cast:0, Глиняная отливка - навершие кирки
+tconstruct:clay_cast:0, Глиняная отливка - Kama Head
 tconstruct:clay_cast:0, Глиняная отливка - полотно сковороды
-tconstruct:clay_cast:0, Глиняная отливка - лезвие меча
-tconstruct:clay_cast:0, Глиняная отливка - лезвие ножа
+tconstruct:clay_cast:0, Глиняная отливка - осколок
+tconstruct:clay_cast:0, Глиняная отливка - боёк молота
+tconstruct:clay_cast:0, Глиняная отливка - большое лезвие топора
+tconstruct:clay_cast:0, Глиняная отливка - оселок
+tconstruct:clay_cast:0, Глиняная отливка - мощное крепление
+tconstruct:clay_cast:0, Глиняная отливка - поперечная гарда
+tconstruct:clay_cast:0, Глиняная отливка - рукоять
+tconstruct:clay_cast:0, Глиняная отливка - широкая карда
+tconstruct:clay_cast:0, Глиняная отливка - мощная рукоять
 tconstruct:clay_cast:0, Глиняная отливка - наконечник
 tconstruct:clay_cast:0, Глиняная отливка - навершие косы
-tconstruct:clay_cast:0, Глиняная отливка - плечо лука
-tconstruct:clay_cast:0, Глиняная отливка - табличка
 tconstruct:clay_cast:0, Глиняная отливка - тетива
-tconstruct:clay_cast:0, Глиняная отливка - мощное крепление
-tconstruct:clay_cast:0, Глиняная отливка - мощная рукоять
-tconstruct:clay_cast:0, Глиняная отливка - широкая карда
-tconstruct:clay_cast:0, Глиняная отливка - большое лезвие топора
-tconstruct:clay_cast:0, Глиняная отливка - малая гарда
+tconstruct:clay_cast:0, Глиняная отливка - широкое лезвие меча
+tconstruct:clay_cast:0, Глиняная отливка - лезвие топора
+tconstruct:clay_cast:0, Глиняная отливка - лезвие меча
+tconstruct:clay_cast:0, Глиняная отливка - плечо лука
 tconstruct:clay_cast:0, Глиняная отливка - большое полотно лопаты
+tconstruct:clay_cast:0, Глиняная отливка - табличка
+tconstruct:clay_cast:0, Глиняная отливка - малая гарда
+tconstruct:clay_cast:0, Глиняная отливка - большая пластина
+tconstruct:clay_cast:0, Глиняная отливка - лезвие ножа
+tconstruct:clay_cast:0, Глиняная отливка - крепление
+tconstruct:clay_cast:0, Глиняная отливка - полотно лопаты
 tconstruct:stone_torch:0, Каменный факел
 tconstruct:stone_ladder:0, Каменная лестница
 tconstruct:punji:0, Тростниковые колья
@@ -17199,148 +16455,6 @@ appliedenergistics2:facade:0, Кабельный фасад - Redstone Block Lig
 appliedenergistics2:facade:0, Кабельный фасад - Gold Block Light
 appliedenergistics2:facade:0, Кабельный фасад - Lapis Block Light
 appliedenergistics2:facade:0, Кабельный фасад - Coal Block Light
-appliedenergistics2:facade:0, Кабельный фасад - Никель-железный аккумулятор
-appliedenergistics2:facade:0, Кабельный фасад - Никель-цинковый аккумулятор
-appliedenergistics2:facade:0, Кабельный фасад - Цинк-карбоновая аккумулятор
-appliedenergistics2:facade:0, Кабельный фасад - Цинк-серебряный аккумулятор
-appliedenergistics2:facade:0, Кабельный фасад - Заряженная ловушка
-appliedenergistics2:facade:0, Кабельный фасад - Точка мирового якоря
-appliedenergistics2:facade:0, Кабельный фасад - Медный блок
-appliedenergistics2:facade:0, Кабельный фасад - Оловянный блок
-appliedenergistics2:facade:0, Кабельный фасад - Свинцовый блок
-appliedenergistics2:facade:0, Кабельный фасад - Серебряный блок
-appliedenergistics2:facade:0, Кабельный фасад - Стальной блок
-appliedenergistics2:facade:0, Кабельный фасад - Бронзовый блок
-appliedenergistics2:facade:0, Кабельный фасад - Никелевый блок
-appliedenergistics2:facade:0, Кабельный фасад - Инваровый блок
-appliedenergistics2:facade:0, Кабельный фасад - Цинковый блок
-appliedenergistics2:facade:0, Кабельный фасад - Латунный блок
-appliedenergistics2:facade:0, Кабельный фасад - Кирпич бездны
-appliedenergistics2:facade:0, Кабельный фасад - Крупный камень бездны
-appliedenergistics2:facade:0, Кабельный фасад - Блок бездны
-appliedenergistics2:facade:0, Кабельный фасад - Резной камень бездны
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный камень бездны
-appliedenergistics2:facade:0, Кабельный фасад - Булыжник бездны
-appliedenergistics2:facade:0, Кабельный фасад - Костяной кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Костяной крупный камень
-appliedenergistics2:facade:0, Кабельный фасад - Костяной блок
-appliedenergistics2:facade:0, Кабельный фасад - Костяной резной камень
-appliedenergistics2:facade:0, Кабельный фасад - Костяной гравированный камень
-appliedenergistics2:facade:0, Кабельный фасад - Костяной булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Кровавый кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный кровавый камень
-appliedenergistics2:facade:0, Кабельный фасад - Кровавый блок
-appliedenergistics2:facade:0, Кабельный фасад - Резной кровавый камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный кровавый камень
-appliedenergistics2:facade:0, Кабельный фасад - Кровавый булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Заледеневший кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный заледеневший камень
-appliedenergistics2:facade:0, Кабельный фасад - Заледеневший блок
-appliedenergistics2:facade:0, Кабельный фасад - Заледеневший резной камень
-appliedenergistics2:facade:0, Кабельный фасад - Заледеневший гравированный камень
-appliedenergistics2:facade:0, Кабельный фасад - Заледеневший булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Дьявольский кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный дьявольский камень
-appliedenergistics2:facade:0, Кабельный фасад - Дьявольский блок
-appliedenergistics2:facade:0, Кабельный фасад - Резной дьявольский камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный дьявольский камень
-appliedenergistics2:facade:0, Кабельный фасад - Дьявольский булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Карьерный кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный карьерный камень
-appliedenergistics2:facade:0, Кабельный фасад - Карьерный блок
-appliedenergistics2:facade:0, Кабельный фасад - Резной карьерный камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный карьерный камень
-appliedenergistics2:facade:0, Кабельный фасад - Карьерный булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Песчаный кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный песчаный камень
-appliedenergistics2:facade:0, Кабельный фасад - Песчаный блок
-appliedenergistics2:facade:0, Кабельный фасад - Резной песчаный камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный песчаный камень
-appliedenergistics2:facade:0, Кабельный фасад - Песчаный булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Красный песчаный кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Красный крупный песчаный камень
-appliedenergistics2:facade:0, Кабельный фасад - Красный песчаный блок
-appliedenergistics2:facade:0, Кабельный фасад - Красный резной песчаный камень
-appliedenergistics2:facade:0, Кабельный фасад - Красный гравированный песчаный камень
-appliedenergistics2:facade:0, Кабельный фасад - Красный песчаный булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Незеритовые кирпичи
-appliedenergistics2:facade:0, Кабельный фасад - Крупный камень нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Блок нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Резной камень нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный камень нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Булыжник нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Красный незеритовый кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Красный крупный камень нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Красный блок нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Красный резной камень нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Красный гравированный камень нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Красный булыжник нижнего мира
-appliedenergistics2:facade:0, Кабельный фасад - Андезитовый кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный андезитовый камень
-appliedenergistics2:facade:0, Кабельный фасад - Полированный андезит
-appliedenergistics2:facade:0, Кабельный фасад - Резной андезитовый камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный андезитовый камень
-appliedenergistics2:facade:0, Кабельный фасад - Андезитовый булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Диоритовый кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный диоритовый камень
-appliedenergistics2:facade:0, Кабельный фасад - Полированный диорит
-appliedenergistics2:facade:0, Кабельный фасад - Резной диоритовый камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный диоритовый камень
-appliedenergistics2:facade:0, Кабельный фасад - Диоритовый булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Гранитный кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный гранитный камень
-appliedenergistics2:facade:0, Кабельный фасад - Полированный гранит
-appliedenergistics2:facade:0, Кабельный фасад - Резной гранитный камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный гранитный камень
-appliedenergistics2:facade:0, Кабельный фасад - Гранитный булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Жемчужный кирпич
-appliedenergistics2:facade:0, Кабельный фасад - Крупный жемчужный камень
-appliedenergistics2:facade:0, Кабельный фасад - Жемчужный блок
-appliedenergistics2:facade:0, Кабельный фасад - Резной жемчужный камень
-appliedenergistics2:facade:0, Кабельный фасад - Гравированный жемчужный камень
-appliedenergistics2:facade:0, Кабельный фасад - Жемчужный булыжник
-appliedenergistics2:facade:0, Кабельный фасад - Блок пропитанной креозотом древесины
-appliedenergistics2:facade:0, Кабельный фасад - Блок коксового угля
-appliedenergistics2:facade:0, Кабельный фасад - Сыпучий обсидиан
-appliedenergistics2:facade:0, Кабельный фасад - Камень бездны
-appliedenergistics2:facade:0, Кабельный фасад - Карьерный камень
-appliedenergistics2:facade:0, Кабельный фасад - Белый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Оранжевый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Пурпурный железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Светло-синий железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Желтый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Лаймовый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Розовый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Серый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Голубой железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Фиолетовый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Синий железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Коричневый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Зеленый железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Красный железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Черный железобетон
-appliedenergistics2:facade:0, Кабельный фасад - Серная руда
-appliedenergistics2:facade:0, Кабельный фасад - Селитровая руда
-appliedenergistics2:facade:0, Кабельный фасад - Тёмная алмазная руда
-appliedenergistics2:facade:0, Кабельный фасад - Тёмная изумрудная руда
-appliedenergistics2:facade:0, Кабельный фасад - Тёмная лазуритовая руда
-appliedenergistics2:facade:0, Кабельный фасад - Медная руда
-appliedenergistics2:facade:0, Кабельный фасад - Оловянная руда
-appliedenergistics2:facade:0, Кабельный фасад - Свинцовая руда
-appliedenergistics2:facade:0, Кабельный фасад - Серебряная руда
-appliedenergistics2:facade:0, Кабельный фасад - Никелевая руда
-appliedenergistics2:facade:0, Кабельный фасад - Цинковая руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная железная руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная золотая руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная медная руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная оловянная руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная свинцовая руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная серебряная руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная никелевая руда
-appliedenergistics2:facade:0, Кабельный фасад - Низкосортная цинковая руда
-appliedenergistics2:facade:0, Кабельный фасад - Руда огненного камня
-appliedenergistics2:facade:0, Кабельный фасад - Генератор селитровой руды
 appliedenergistics2:facade:0, Кабельный фасад - Медная руда
 appliedenergistics2:facade:0, Кабельный фасад - Оловянная руда
 appliedenergistics2:facade:0, Кабельный фасад - Свинцовая руда
@@ -19482,9 +18596,6 @@ appliedenergistics2:facade:0, Кабельный фасад - Небесный �
 appliedenergistics2:facade:0, Кабельный фасад - Блок небесного камня
 appliedenergistics2:facade:0, Кабельный фасад - Кирпич небесного камня
 appliedenergistics2:facade:0, Кабельный фасад - Малый кирпич небесного камня
-appliedenergistics2:facade:0, Кабельный фасад - Блок сахара
-appliedenergistics2:facade:0, Кабельный фасад - Red Slime Block
-appliedenergistics2:facade:0, Кабельный фасад - Gravisand
 appliedenergistics2:facade:0, Кабельный фасад - Полированный песчаник
 appliedenergistics2:facade:0, Кабельный фасад - Полированный камень
 appliedenergistics2:facade:0, Кабельный фасад - Белые крашеные доски
@@ -19515,6 +18626,9 @@ appliedenergistics2:facade:0, Кабельный фасад - Пустотный
 appliedenergistics2:facade:0, Кабельный фасад - Белая стеганая шерсть
 appliedenergistics2:facade:0, Кабельный фасад - Swamp Oak Leaves
 appliedenergistics2:facade:0, Кабельный фасад - Белый пещерный кристалл
+appliedenergistics2:facade:0, Кабельный фасад - Блок сахара
+appliedenergistics2:facade:0, Кабельный фасад - Red Slime Block
+appliedenergistics2:facade:0, Кабельный фасад - Gravisand
 appliedenergistics2:facade:0, Кабельный фасад - Книжная полка из ели
 appliedenergistics2:facade:0, Кабельный фасад - Горящий Редстоуновый фонарь
 appliedenergistics2:facade:0, Кабельный фасад - Огненный светильник
@@ -19870,7 +18984,6 @@ appliedenergistics2:facade:0, Кабельный фасад - Гравий Яп�
 appliedenergistics2:facade:0, Кабельный фасад - Блок ископаемых
 appliedenergistics2:facade:0, Кабельный фасад - Ядерная бомба
 appliedenergistics2:facade:0, Кабельный фасад - Огненная бомба
-appliedenergistics2:facade:0, Кабельный фасад - Свинцовая руда
 appliedenergistics2:facade:0, Кабельный фасад - Карбонат калия
 appliedenergistics2:facade:0, Кабельный фасад - Мрамор
 appliedenergistics2:facade:0, Кабельный фасад - Мраморный блок
@@ -20131,8 +19244,6 @@ appliedenergistics2:facade:0, Кабельный фасад - Блок Green Dia
 appliedenergistics2:facade:0, Кабельный фасад - Блок Purple Diamond
 appliedenergistics2:facade:0, Кабельный фасад - Блок Red Diamond
 appliedenergistics2:facade:0, Кабельный фасад - Блок Yellow Diamond
-appliedenergistics2:facade:0, Кабельный фасад - Блок азота
-appliedenergistics2:facade:0, Кабельный фасад - Блок серы
 appliedenergistics2:crystal_seed:0, Семя истинного кварца
 appliedenergistics2:crystal_seed:600, Семя кварца Нижнего мира
 appliedenergistics2:crystal_seed:1200, Изменчивое семя
@@ -20357,41 +19468,38 @@ appliedenergistics2:part:80, МЭ шина переключения
 ae2wtlib:infinity_booster_card, Infinity Booster Card
 ae2wtlib:wut, Wireless Ultimate Terminal
 ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
-quark:witch_hat, item.witch_hat.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
-quark:glass_shards:0, Осколок стекла
-quark:glass_shards:1, Осколок белого стекла
-quark:glass_shards:2, Осколок оранжевого стекла
-quark:glass_shards:3, Осколок пурпурного стекла
-quark:glass_shards:4, Осколок голубого стекла
-quark:glass_shards:5, Осколок жёлтого стекла
-quark:glass_shards:6, Осколок лаймового стекла
-quark:glass_shards:7, Осколок розового стекла
-quark:glass_shards:8, Осколок серого стекла
-quark:glass_shards:9, Осколок светло-серого стекла
-quark:glass_shards:10, Осколок бирюзового стекла
-quark:glass_shards:11, Осколок фиолетового стекла
-quark:glass_shards:12, Осколок синего стекла
-quark:glass_shards:13, Осколок коричневого стекла
-quark:glass_shards:14, Осколок зелёного стекла
-quark:glass_shards:15, Осколок красного стекла
-quark:glass_shards:16, Осколок чёрного стекла
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Слизь в ведре
+quark:rune:0, Белая руна
+quark:rune:1, Оранжевая руна
+quark:rune:2, Пурпурная руна
+quark:rune:3, Голубая руна
+quark:rune:4, Жёлтая руна
+quark:rune:5, Лаймовая руна
+quark:rune:6, Розовая руна
+quark:rune:7, Серая руна
+quark:rune:8, Светло-серая руна
+quark:rune:9, Бирюзовая руна
+quark:rune:10, Фиолетовая руна
+quark:rune:11, Синяя руна
+quark:rune:12, Коричневая руна
+quark:rune:13, Зелёная руна
+quark:rune:14, Красная руна
+quark:rune:15, Чёрная руна
+quark:rune:16, Радужная руна
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Яйцо красного попугая
+quark:parrot_egg:1, Яйцо синего попугая
+quark:parrot_egg:2, Яйцо зелёного попугая
+quark:parrot_egg:3, Яйцо голубого попугая
+quark:parrot_egg:4, Яйцо серого попугая
+quark:enderdragon_scale, item.enderdragon_scale.name
 quark:sandstone_new:0, Полированный песчаник
 quark:sandstone_new:1, Кирпичи из песчаника
 quark:sandstone_new:2, Полированный красный песчаник
@@ -20682,6 +19790,23 @@ quark:quilted_wool:12, Коричневая стеганая шерсть
 quark:quilted_wool:13, Зелёная стеганая шерсть
 quark:quilted_wool:14, Красная стеганая шерсть
 quark:quilted_wool:15, Чёрная стеганая шерсть
+quark:glass_shards:0, Осколок стекла
+quark:glass_shards:1, Осколок белого стекла
+quark:glass_shards:2, Осколок оранжевого стекла
+quark:glass_shards:3, Осколок пурпурного стекла
+quark:glass_shards:4, Осколок голубого стекла
+quark:glass_shards:5, Осколок жёлтого стекла
+quark:glass_shards:6, Осколок лаймового стекла
+quark:glass_shards:7, Осколок розового стекла
+quark:glass_shards:8, Осколок серого стекла
+quark:glass_shards:9, Осколок светло-серого стекла
+quark:glass_shards:10, Осколок бирюзового стекла
+quark:glass_shards:11, Осколок фиолетового стекла
+quark:glass_shards:12, Осколок синего стекла
+quark:glass_shards:13, Осколок коричневого стекла
+quark:glass_shards:14, Осколок зелёного стекла
+quark:glass_shards:15, Осколок красного стекла
+quark:glass_shards:16, Осколок чёрного стекла
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -20732,6 +19857,24 @@ quark:cooked_crab_leg, item.cooked_crab_leg.name
 quark:crab_shell, item.crab_shell.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:witch_hat, item.witch_hat.name
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -20831,38 +19974,6 @@ quark:acacia_button, tile.acacia_button.name
 quark:dark_oak_button, tile.dark_oak_button.name
 quark:grate, tile.grate.name
 quark:glass_item_frame, item.glass_item_frame.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Слизь в ведре
-quark:rune:0, Белая руна
-quark:rune:1, Оранжевая руна
-quark:rune:2, Пурпурная руна
-quark:rune:3, Голубая руна
-quark:rune:4, Жёлтая руна
-quark:rune:5, Лаймовая руна
-quark:rune:6, Розовая руна
-quark:rune:7, Серая руна
-quark:rune:8, Светло-серая руна
-quark:rune:9, Бирюзовая руна
-quark:rune:10, Фиолетовая руна
-quark:rune:11, Синяя руна
-quark:rune:12, Коричневая руна
-quark:rune:13, Зелёная руна
-quark:rune:14, Красная руна
-quark:rune:15, Чёрная руна
-quark:rune:16, Радужная руна
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Яйцо красного попугая
-quark:parrot_egg:1, Яйцо синего попугая
-quark:parrot_egg:2, Яйцо зелёного попугая
-quark:parrot_egg:3, Яйцо голубого попугая
-quark:parrot_egg:4, Яйцо серого попугая
-quark:enderdragon_scale, item.enderdragon_scale.name
 natura:clouds:0, Облако
 natura:clouds:1, Тёмное облако
 natura:clouds:2, Пепельное облако
@@ -21932,7 +21043,6 @@ extraplanets:iapetus_gravel, Гравий Япета
 extraplanets:fossil, Блок ископаемых
 extraplanets:nuclear_bomb, Ядерная бомба
 extraplanets:fire_bomb, Огненная бомба
-extraplanets:ore_lead, Свинцовая руда
 extraplanets:potash, Карбонат калия
 extraplanets:advanced_launch_pad:0, Взлётная площадка 2-го уровня
 extraplanets:advanced_launch_pad:1, Взлётная площадка 3-го уровня
@@ -23282,6 +22392,27 @@ rftoolscontrol:node, Node
 rftoolscontrol:craftingstation, Crafting Station
 rftoolscontrol:workbench, Workbench
 rftoolscontrol:tank, Multi Tank
+storagedrawers:upgrade_template, Шаблон Улучшения
+storagedrawers:upgrade_storage:0, Улучшение Хранилища (I)
+storagedrawers:upgrade_storage:1, Улучшение Хранилища (II)
+storagedrawers:upgrade_storage:2, Улучшение Хранилища (III)
+storagedrawers:upgrade_storage:3, Улучшение Хранилища (IV)
+storagedrawers:upgrade_storage:4, Улучшение Хранилища (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Улучшение «Индикатор» (I)
+storagedrawers:upgrade_status:1, Улучшение «Индикатор» (II)
+storagedrawers:upgrade_void, Пустотное Улучшение
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Творческое Улучшение Хранилища
+storagedrawers:upgrade_creative:1, Творческое Торговое Улучшение
+storagedrawers:upgrade_redstone:0, Редстоун Улучшение
+storagedrawers:upgrade_redstone:1, Редстоун Макс. Улучшение
+storagedrawers:upgrade_redstone:2, Редстоун Мин. Улучшение
+storagedrawers:drawer_key, Ключ Ящика
+storagedrawers:shroud_key, Ключ Сокрытия
+storagedrawers:personal_key, Персональный Ключ
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Лента Для Упаковки
 storagedrawers:basicdrawers:0, Основной Ящик
 storagedrawers:basicdrawers:0, Основной Ящик
 storagedrawers:basicdrawers:0, Основной Ящик
@@ -23332,27 +22463,6 @@ storagedrawers:customdrawers:2, Обрамлённый Ящик 2x2
 storagedrawers:customdrawers:3, Обрамлённый Половинный Ящик 1x2
 storagedrawers:customdrawers:4, Обрамлённый Половинный Ящик 2x2
 storagedrawers:customtrim, Оформлен Отделкой
-storagedrawers:upgrade_template, Шаблон Улучшения
-storagedrawers:upgrade_storage:0, Улучшение Хранилища (I)
-storagedrawers:upgrade_storage:1, Улучшение Хранилища (II)
-storagedrawers:upgrade_storage:2, Улучшение Хранилища (III)
-storagedrawers:upgrade_storage:3, Улучшение Хранилища (IV)
-storagedrawers:upgrade_storage:4, Улучшение Хранилища (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Улучшение «Индикатор» (I)
-storagedrawers:upgrade_status:1, Улучшение «Индикатор» (II)
-storagedrawers:upgrade_void, Пустотное Улучшение
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Творческое Улучшение Хранилища
-storagedrawers:upgrade_creative:1, Творческое Торговое Улучшение
-storagedrawers:upgrade_redstone:0, Редстоун Улучшение
-storagedrawers:upgrade_redstone:1, Редстоун Макс. Улучшение
-storagedrawers:upgrade_redstone:2, Редстоун Мин. Улучшение
-storagedrawers:drawer_key, Ключ Ящика
-storagedrawers:shroud_key, Ключ Сокрытия
-storagedrawers:personal_key, Персональный Ключ
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Лента Для Упаковки
 tcomplement:materials:0, Каменное ведро
 tcomplement:materials:1, Обожжённый кирпич
 tcomplement:materials:6, iModifier
@@ -24622,131 +23732,6 @@ chiselsandbits:block_bit:0, Обработанный кусочек - Redstone B
 chiselsandbits:block_bit:0, Обработанный кусочек - Gold Block Light
 chiselsandbits:block_bit:0, Обработанный кусочек - Lapis Block Light
 chiselsandbits:block_bit:0, Обработанный кусочек - Coal Block Light
-chiselsandbits:block_bit:0, Обработанный кусочек - Медный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Оловянный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Свинцовый блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Серебряный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Стальной блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Бронзовый блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Никелевый блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Инваровый блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Цинковый блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Латунный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Кирпич бездны
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный камень бездны
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок бездны
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной камень бездны
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный камень бездны
-chiselsandbits:block_bit:0, Обработанный кусочек - Булыжник бездны
-chiselsandbits:block_bit:0, Обработанный кусочек - Костяной кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Костяной крупный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Костяной блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Костяной резной камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Костяной гравированный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Костяной булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Кровавый кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный кровавый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Кровавый блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной кровавый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный кровавый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Кровавый булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Заледеневший кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный заледеневший камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Заледеневший блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Заледеневший резной камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Заледеневший гравированный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Заледеневший булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Дьявольский кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный дьявольский камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Дьявольский блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной дьявольский камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный дьявольский камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Дьявольский булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Карьерный кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный карьерный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Карьерный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной карьерный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный карьерный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Карьерный булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Песчаный кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный песчаный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Песчаный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной песчаный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный песчаный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Песчаный булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный песчаный кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный крупный песчаный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный песчаный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный резной песчаный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный гравированный песчаный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный песчаный булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Незеритовые кирпичи
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный камень нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной камень нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный камень нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Булыжник нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный незеритовый кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный крупный камень нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный блок нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный резной камень нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный гравированный камень нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный булыжник нижнего мира
-chiselsandbits:block_bit:0, Обработанный кусочек - Андезитовый кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный андезитовый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Полированный андезит
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной андезитовый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный андезитовый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Андезитовый булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Диоритовый кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный диоритовый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Полированный диорит
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной диоритовый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный диоритовый камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Диоритовый булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Гранитный кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный гранитный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Полированный гранит
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной гранитный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный гранитный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гранитный булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Жемчужный кирпич
-chiselsandbits:block_bit:0, Обработанный кусочек - Крупный жемчужный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Жемчужный блок
-chiselsandbits:block_bit:0, Обработанный кусочек - Резной жемчужный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Гравированный жемчужный камень
-chiselsandbits:block_bit:0, Обработанный кусочек - Жемчужный булыжник
-chiselsandbits:block_bit:0, Обработанный кусочек - Белый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Оранжевый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Пурпурный железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Светло-синий железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Желтый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Лаймовый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Розовый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Серый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Голубой железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Фиолетовый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Синий железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Коричневый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Зеленый железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Красный железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Черный железобетон
-chiselsandbits:block_bit:0, Обработанный кусочек - Медная руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Оловянная руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Свинцовая руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Серебряная руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Никелевая руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Цинковая руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная железная руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная золотая руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная медная руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная оловянная руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная свинцовая руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная серебряная руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная никелевая руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Низкосортная цинковая руда
-chiselsandbits:block_bit:0, Обработанный кусочек - Руда огненного камня
 chiselsandbits:block_bit:0, Обработанный кусочек - Медная руда
 chiselsandbits:block_bit:0, Обработанный кусочек - Оловянная руда
 chiselsandbits:block_bit:0, Обработанный кусочек - Свинцовая руда
@@ -27064,8 +26049,6 @@ chiselsandbits:block_bit:0, Обработанный кусочек - Блок �
 chiselsandbits:block_bit:0, Обработанный кусочек - Кирпич небесного камня
 chiselsandbits:block_bit:0, Обработанный кусочек - Малый кирпич небесного камня
 chiselsandbits:block_bit:0, Обработанный кусочек - Маленький динамит
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок сахара
-chiselsandbits:block_bit:0, Обработанный кусочек - Gravisand
 chiselsandbits:block_bit:0, Обработанный кусочек - Полированный песчаник
 chiselsandbits:block_bit:0, Обработанный кусочек - Кирпичи из песчаника
 chiselsandbits:block_bit:0, Обработанный кусочек - Полированный красный песчаник
@@ -27184,6 +26167,8 @@ chiselsandbits:block_bit:0, Обработанный кусочек - Корич
 chiselsandbits:block_bit:0, Обработанный кусочек - Зелёная стеганая шерсть
 chiselsandbits:block_bit:0, Обработанный кусочек - Красная стеганая шерсть
 chiselsandbits:block_bit:0, Обработанный кусочек - Чёрная стеганая шерсть
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок сахара
+chiselsandbits:block_bit:0, Обработанный кусочек - Gravisand
 chiselsandbits:block_bit:0, Обработанный кусочек - Книжная полка из ели
 chiselsandbits:block_bit:0, Обработанный кусочек - Книжная полка из ели
 chiselsandbits:block_bit:0, Обработанный кусочек - Книжная полка из ели
@@ -27520,7 +26505,6 @@ chiselsandbits:block_bit:0, Обработанный кусочек - Оловя
 chiselsandbits:block_bit:0, Обработанный кусочек - Медная руда Япета
 chiselsandbits:block_bit:0, Обработанный кусочек - Лёд Япета
 chiselsandbits:block_bit:0, Обработанный кусочек - Гравий Япета
-chiselsandbits:block_bit:0, Обработанный кусочек - Свинцовая руда
 chiselsandbits:block_bit:0, Обработанный кусочек - Карбонат калия
 chiselsandbits:block_bit:0, Обработанный кусочек - Мрамор
 chiselsandbits:block_bit:0, Обработанный кусочек - Мраморный блок
@@ -27778,8 +26762,8 @@ chiselsandbits:block_bit:0, Обработанный кусочек - Жидки
 chiselsandbits:block_bit:0, Обработанный кусочек - Жидкий углеводород
 chiselsandbits:block_bit:0, Обработанный кусочек - Жидкий шоколад
 chiselsandbits:block_bit:0, Обработанный кусочек - Жидкая карамель
-chiselsandbits:block_bit:0, Обработанный кусочек - Пар
-chiselsandbits:block_bit:0, Обработанный кусочек - Креозотовое масло
+chiselsandbits:block_bit:0, Обработанный кусочек
+chiselsandbits:block_bit:0, Обработанный кусочек
 chiselsandbits:block_bit:0, Обработанный кусочек - Сырая нефть
 chiselsandbits:block_bit:0, Обработанный кусочек - Дестабилизированный красный камень
 chiselsandbits:block_bit:0, Обработанный кусочек - Заряженный светящийся камень
@@ -28561,11 +27545,6 @@ forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
 forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
 forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
 forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
-forestry:crated.ic2.misc_resource.4, item.crated.ic2.misc_resource.4.name
-forestry:crated.ic2.crafting.23, item.crated.ic2.crafting.23.name
-forestry:crated.ic2.misc_resource.3, item.crated.ic2.misc_resource.3.name
-forestry:crated.ingotsilver, item.crated.ingotSilver.name
-forestry:crated.itemrubber, item.crated.itemRubber.name
 forestry:crated.natura.edibles.0, item.crated.natura.edibles.0.name
 forestry:crated.natura.edibles.1, item.crated.natura.edibles.1.name
 forestry:crated.natura.edibles.11, item.crated.natura.edibles.11.name
@@ -28623,6 +27602,11 @@ forestry:crated.natura.edibles.10, item.crated.natura.edibles.10.name
 forestry:crated.natura.saguaro_fruit_item.0, item.crated.natura.saguaro_fruit_item.0.name
 forestry:crated.natura.materials.0, item.crated.natura.materials.0.name
 forestry:crated.natura.materials.3, item.crated.natura.materials.3.name
+forestry:crated.ic2.misc_resource.4, item.crated.ic2.misc_resource.4.name
+forestry:crated.ic2.crafting.23, item.crated.ic2.crafting.23.name
+forestry:crated.ic2.misc_resource.3, item.crated.ic2.misc_resource.3.name
+forestry:crated.ingotsilver, item.crated.ingotSilver.name
+forestry:crated.itemrubber, item.crated.itemRubber.name
 jaopca:block_blockbluediamond, Блок %s
 jaopca:block_blockcertusquartz, Блок %s
 jaopca:block_blockchargedcertusquartz, Блок %s
@@ -28631,8 +27615,6 @@ jaopca:block_blockgreendiamond, Блок %s
 jaopca:block_blockpurplediamond, Блок %s
 jaopca:block_blockreddiamond, Блок %s
 jaopca:block_blockyellowdiamond, Блок %s
-jaopca:block_blockniter, Блок %s
-jaopca:block_blocksulfur, Блок %s
 jaopca:item_dustardite, Пыль %s 
 jaopca:item_dustcarbon, Пыль %s 
 jaopca:item_dustcobalt, Пыль %s 
@@ -28667,6 +27649,7 @@ jaopca:item_nuggetmeteoriciron, Самородок %s
 jaopca:item_nuggetpalladium, Самородок %s 
 jaopca:item_nuggetthorium, Самородок %s 
 jaopca:item_nuggettungsten, Самородок %s 
+jaopca:item_nuggetzinc, Самородок %s 
 jaopca:item_nuggetapatite, Самородок %s 
 jaopca:item_nuggetbluediamond, Самородок %s 
 jaopca:item_nuggetbluegem, Самородок %s 
@@ -28744,6 +27727,7 @@ jaopca:item_platemeteoriciron, Пластина %s
 jaopca:item_platepalladium, Пластина %s
 jaopca:item_platethorium, Пластина %s
 jaopca:item_platetungsten, Пластина %s
+jaopca:item_platezinc, Пластина %s
 jaopca:item_plateapatite, Пластина %s
 jaopca:item_platebluediamond, Пластина %s
 jaopca:item_platebluegem, Пластина %s
@@ -28841,7 +27825,6 @@ jaopca:item_dusttinyreddiamond, Кучка пыли %s
 jaopca:item_dusttinyredgem, Кучка пыли %s
 jaopca:item_dusttinywhitegem, Кучка пыли %s
 jaopca:item_dusttinyyellowdiamond, Кучка пыли %s
-jaopca:item_dusttinyniter, Кучка пыли %s
 jaopca:item_dusttinyredstone, Кучка пыли %s
 jaopca:item_dustsmallaluminium, Горсть пыли %s
 jaopca:item_dustsmallardite, Горсть пыли %s
@@ -28888,9 +27871,7 @@ jaopca:item_dustsmallreddiamond, Горсть пыли %s
 jaopca:item_dustsmallredgem, Горсть пыли %s
 jaopca:item_dustsmallwhitegem, Горсть пыли %s
 jaopca:item_dustsmallyellowdiamond, Горсть пыли %s
-jaopca:item_dustsmallniter, Горсть пыли %s
 jaopca:item_dustsmallredstone, Горсть пыли %s
-jaopca:item_dustsmallsulfur, Горсть пыли %s
 jaopca:item_platedensealuminium, Плотная пластина из %s
 jaopca:item_platedenseardite, Плотная пластина из %s
 jaopca:item_platedenseboron, Плотная пластина из %s

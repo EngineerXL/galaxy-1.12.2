@@ -1,8 +1,9 @@
 {
+	// Don't edit this file! If you rename or delete this file, CoFH will generate it
 	"dependencies": "thermalfoundation",
 	"populate": {
 		"oil_sand_clathrate": {
-			"enabled": "true",
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -36,7 +37,7 @@
 			"dimension": "all"
 		},
 		"oil_shale_clathrate": {
-			"enabled": "true",
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -89,7 +90,7 @@
 			"dimension": "all"
 		},
 		"oil_sand": {
-			"enabled": "true",
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"type": "geode",
@@ -139,7 +140,7 @@
 			}
 		},
 		"oil_shale": {
-			"enabled": "true",
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"type": "geode",

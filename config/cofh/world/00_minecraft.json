@@ -1,8 +1,9 @@
 {
+	// Don't edit this file! If you rename or delete this file, CoFH will generate it
 	"priority": 1000000000000,
 	"populate": {
 		"dirt": {
-
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "dirt",
@@ -24,6 +25,7 @@
 		},
 
 		"gravel": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "gravel",
@@ -45,6 +47,7 @@
 		},
 
 		"diorite": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -71,6 +74,7 @@
 		},
 
 		"granite": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -97,6 +101,7 @@
 		},
 
 		"andesite": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -123,6 +128,7 @@
 		},
 
 		"coal": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "coal_ore",
@@ -144,6 +150,7 @@
 		},
 
 		"iron": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "iron_ore",
@@ -165,6 +172,7 @@
 		},
 
 		"gold": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "gold_ore",
@@ -186,6 +194,7 @@
 		},
 
 		"redstone": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "redstone_ore",
@@ -207,6 +216,7 @@
 		},
 
 		"diamond": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
@@ -228,6 +238,7 @@
 		},
 
 		"lapis": {
+			"enabled": false,
 			"distribution": "gaussian",
 			"generator": {
 				"block": "lapis_ore",
@@ -249,7 +260,7 @@
 		},
 
 		"mesa_gold": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -288,6 +299,7 @@
 		},
 
 		"emerald": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -328,6 +340,7 @@
 		},
 
 		"silverfish": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -368,6 +381,7 @@
 		},
 
 		"quartz": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "quartz_ore",
