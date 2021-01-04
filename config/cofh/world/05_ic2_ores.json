@@ -1,0 +1,29 @@
+{
+	"dependencies": "ic2",
+	"populate": {
+		"uranium": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "ic2:resource",
+					"metadata": 4
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 7
+			},
+			"cluster-count": 6,
+			"min-height": 2,
+			"max-height": 24,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
