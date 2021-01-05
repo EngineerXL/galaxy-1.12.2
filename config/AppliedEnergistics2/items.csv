@@ -1882,250 +1882,13 @@ forestry:resource_storage:2, Оловянный блок
 forestry:resource_storage:3, Бронзовый блок
 forestry:ash_brick:0, Кирпичи из золы
 forestry:ash_stairs:0, Ступеньки из золы
-forestry:greenhouse:0, Парниковый блок
-forestry:greenhouse:3, Распределитель парниковой энергии
-forestry:greenhouse:4, Парниковый контроль
-forestry:greenhouse:5, Парниковый экран
-forestry:climatiser:0, Тепличный терморегулятор
-forestry:climatiser:1, Подогреватель парника
-forestry:climatiser:2, Вентилятор парника
-forestry:climatiser:3, Увлажнитель парника
-forestry:climatiser:4, Осушитель парника
-forestry:greenhouse.window:0, Окно парника
-forestry:greenhouse.window_up:0, Окно крыши парника
-forestry:apiarist_bag, Рюкзак пчеловода
-forestry:lepidopterist_bag, Рюкзак лепидоптеролога
-forestry:miner_bag, Рюкзак шахтёра
-forestry:miner_bag_t2, Тканый рюкзак шахтёра
-forestry:digger_bag, Рюкзак землекопа
-forestry:digger_bag_t2, Тканый рюкзак землекопа
-forestry:forester_bag, Рюкзак лесника
-forestry:forester_bag_t2, Тканый рюкзак лесника
-forestry:hunter_bag, Рюкзак охотника
-forestry:hunter_bag_t2, Тканый рюкзак охотника
-forestry:adventurer_bag, Рюкзак авантюриста
-forestry:adventurer_bag_t2, Тканый рюкзак авантюриста
-forestry:builder_bag, Рюкзак строителя
-forestry:builder_bag_t2, Тканый рюкзак строителя
-forestry:bee_queen_ge:0, Лесная Матка
-forestry:bee_queen_ge:0, Луговая Матка
-forestry:bee_queen_ge:0, Обычная Матка
-forestry:bee_queen_ge:0, Развитая Матка
-forestry:bee_queen_ge:0, Знатная Матка
-forestry:bee_queen_ge:0, Величавая Матка
-forestry:bee_queen_ge:0, Имперская Матка
-forestry:bee_queen_ge:0, Прилежная Матка
-forestry:bee_queen_ge:0, Неутомимая Матка
-forestry:bee_queen_ge:0, Трудолюбивая Матка
-forestry:bee_queen_ge:0, Стойкая Матка
-forestry:bee_queen_ge:0, Доблестная Матка
-forestry:bee_queen_ge:0, Героическая Матка
-forestry:bee_queen_ge:0, Зловещая Матка
-forestry:bee_queen_ge:0, Жестокая Матка
-forestry:bee_queen_ge:0, Одержимая Матка
-forestry:bee_queen_ge:0, Скромная Матка
-forestry:bee_queen_ge:0, Бережливая Матка
-forestry:bee_queen_ge:0, Суровая Матка
-forestry:bee_queen_ge:0, Тропическая Матка
-forestry:bee_queen_ge:0, Редкая Матка
-forestry:bee_queen_ge:0, Райская Матка
-forestry:bee_queen_ge:0, Драконья Матка
-forestry:bee_queen_ge:0, Призрачная Матка
-forestry:bee_queen_ge:0, Воображаемая Матка
-forestry:bee_queen_ge:0, Зимняя Матка
-forestry:bee_queen_ge:0, Ледяная Матка
-forestry:bee_queen_ge:0, Ледниковая Матка
-forestry:bee_queen_ge:0, Карательная Матка
-forestry:bee_queen_ge:0, Мстительная Матка
-forestry:bee_queen_ge:0, Мстящая Матка
-forestry:bee_queen_ge:0, Сельская Матка
-forestry:bee_queen_ge:0, Прошлая Матка
-forestry:bee_queen_ge:0, Земельная Матка
-forestry:bee_queen_ge:0, Болотная Матка
-forestry:bee_queen_ge:0, Топкая Матка
-forestry:bee_queen_ge:0, Болотистая Матка
-forestry:bee_queen_ge:0, Монашья Матка
-forestry:bee_queen_ge:0, Укромная Матка
-forestry:bee_queen_ge:0, Уединённая Матка
-forestry:bee_drone_ge:0, Лесная Трутень
-forestry:bee_drone_ge:0, Луговая Трутень
-forestry:bee_drone_ge:0, Обычная Трутень
-forestry:bee_drone_ge:0, Развитая Трутень
-forestry:bee_drone_ge:0, Знатная Трутень
-forestry:bee_drone_ge:0, Величавая Трутень
-forestry:bee_drone_ge:0, Имперская Трутень
-forestry:bee_drone_ge:0, Прилежная Трутень
-forestry:bee_drone_ge:0, Неутомимая Трутень
-forestry:bee_drone_ge:0, Трудолюбивая Трутень
-forestry:bee_drone_ge:0, Стойкая Трутень
-forestry:bee_drone_ge:0, Доблестная Трутень
-forestry:bee_drone_ge:0, Героическая Трутень
-forestry:bee_drone_ge:0, Зловещая Трутень
-forestry:bee_drone_ge:0, Жестокая Трутень
-forestry:bee_drone_ge:0, Одержимая Трутень
-forestry:bee_drone_ge:0, Скромная Трутень
-forestry:bee_drone_ge:0, Бережливая Трутень
-forestry:bee_drone_ge:0, Суровая Трутень
-forestry:bee_drone_ge:0, Тропическая Трутень
-forestry:bee_drone_ge:0, Редкая Трутень
-forestry:bee_drone_ge:0, Райская Трутень
-forestry:bee_drone_ge:0, Драконья Трутень
-forestry:bee_drone_ge:0, Призрачная Трутень
-forestry:bee_drone_ge:0, Воображаемая Трутень
-forestry:bee_drone_ge:0, Зимняя Трутень
-forestry:bee_drone_ge:0, Ледяная Трутень
-forestry:bee_drone_ge:0, Ледниковая Трутень
-forestry:bee_drone_ge:0, Карательная Трутень
-forestry:bee_drone_ge:0, Мстительная Трутень
-forestry:bee_drone_ge:0, Мстящая Трутень
-forestry:bee_drone_ge:0, Сельская Трутень
-forestry:bee_drone_ge:0, Прошлая Трутень
-forestry:bee_drone_ge:0, Земельная Трутень
-forestry:bee_drone_ge:0, Болотная Трутень
-forestry:bee_drone_ge:0, Топкая Трутень
-forestry:bee_drone_ge:0, Болотистая Трутень
-forestry:bee_drone_ge:0, Монашья Трутень
-forestry:bee_drone_ge:0, Укромная Трутень
-forestry:bee_drone_ge:0, Уединённая Трутень
-forestry:bee_princess_ge:0, Лесная Принцесса
-forestry:bee_princess_ge:0, Луговая Принцесса
-forestry:bee_princess_ge:0, Обычная Принцесса
-forestry:bee_princess_ge:0, Развитая Принцесса
-forestry:bee_princess_ge:0, Знатная Принцесса
-forestry:bee_princess_ge:0, Величавая Принцесса
-forestry:bee_princess_ge:0, Имперская Принцесса
-forestry:bee_princess_ge:0, Прилежная Принцесса
-forestry:bee_princess_ge:0, Неутомимая Принцесса
-forestry:bee_princess_ge:0, Трудолюбивая Принцесса
-forestry:bee_princess_ge:0, Стойкая Принцесса
-forestry:bee_princess_ge:0, Доблестная Принцесса
-forestry:bee_princess_ge:0, Героическая Принцесса
-forestry:bee_princess_ge:0, Зловещая Принцесса
-forestry:bee_princess_ge:0, Жестокая Принцесса
-forestry:bee_princess_ge:0, Одержимая Принцесса
-forestry:bee_princess_ge:0, Скромная Принцесса
-forestry:bee_princess_ge:0, Бережливая Принцесса
-forestry:bee_princess_ge:0, Суровая Принцесса
-forestry:bee_princess_ge:0, Тропическая Принцесса
-forestry:bee_princess_ge:0, Редкая Принцесса
-forestry:bee_princess_ge:0, Райская Принцесса
-forestry:bee_princess_ge:0, Драконья Принцесса
-forestry:bee_princess_ge:0, Призрачная Принцесса
-forestry:bee_princess_ge:0, Воображаемая Принцесса
-forestry:bee_princess_ge:0, Зимняя Принцесса
-forestry:bee_princess_ge:0, Ледяная Принцесса
-forestry:bee_princess_ge:0, Ледниковая Принцесса
-forestry:bee_princess_ge:0, Карательная Принцесса
-forestry:bee_princess_ge:0, Мстительная Принцесса
-forestry:bee_princess_ge:0, Мстящая Принцесса
-forestry:bee_princess_ge:0, Сельская Принцесса
-forestry:bee_princess_ge:0, Прошлая Принцесса
-forestry:bee_princess_ge:0, Земельная Принцесса
-forestry:bee_princess_ge:0, Болотная Принцесса
-forestry:bee_princess_ge:0, Топкая Принцесса
-forestry:bee_princess_ge:0, Болотистая Принцесса
-forestry:bee_princess_ge:0, Монашья Принцесса
-forestry:bee_princess_ge:0, Укромная Принцесса
-forestry:bee_princess_ge:0, Уединённая Принцесса
-forestry:bee_larvae_ge:0, Лесная Личинка
-forestry:bee_larvae_ge:0, Луговая Личинка
-forestry:bee_larvae_ge:0, Обычная Личинка
-forestry:bee_larvae_ge:0, Развитая Личинка
-forestry:bee_larvae_ge:0, Знатная Личинка
-forestry:bee_larvae_ge:0, Величавая Личинка
-forestry:bee_larvae_ge:0, Имперская Личинка
-forestry:bee_larvae_ge:0, Прилежная Личинка
-forestry:bee_larvae_ge:0, Неутомимая Личинка
-forestry:bee_larvae_ge:0, Трудолюбивая Личинка
-forestry:bee_larvae_ge:0, Стойкая Личинка
-forestry:bee_larvae_ge:0, Доблестная Личинка
-forestry:bee_larvae_ge:0, Героическая Личинка
-forestry:bee_larvae_ge:0, Зловещая Личинка
-forestry:bee_larvae_ge:0, Жестокая Личинка
-forestry:bee_larvae_ge:0, Одержимая Личинка
-forestry:bee_larvae_ge:0, Скромная Личинка
-forestry:bee_larvae_ge:0, Бережливая Личинка
-forestry:bee_larvae_ge:0, Суровая Личинка
-forestry:bee_larvae_ge:0, Тропическая Личинка
-forestry:bee_larvae_ge:0, Редкая Личинка
-forestry:bee_larvae_ge:0, Райская Личинка
-forestry:bee_larvae_ge:0, Драконья Личинка
-forestry:bee_larvae_ge:0, Призрачная Личинка
-forestry:bee_larvae_ge:0, Воображаемая Личинка
-forestry:bee_larvae_ge:0, Зимняя Личинка
-forestry:bee_larvae_ge:0, Ледяная Личинка
-forestry:bee_larvae_ge:0, Ледниковая Личинка
-forestry:bee_larvae_ge:0, Карательная Личинка
-forestry:bee_larvae_ge:0, Мстительная Личинка
-forestry:bee_larvae_ge:0, Мстящая Личинка
-forestry:bee_larvae_ge:0, Сельская Личинка
-forestry:bee_larvae_ge:0, Прошлая Личинка
-forestry:bee_larvae_ge:0, Земельная Личинка
-forestry:bee_larvae_ge:0, Болотная Личинка
-forestry:bee_larvae_ge:0, Топкая Личинка
-forestry:bee_larvae_ge:0, Болотистая Личинка
-forestry:bee_larvae_ge:0, Монашья Личинка
-forestry:bee_larvae_ge:0, Укромная Личинка
-forestry:bee_larvae_ge:0, Уединённая Личинка
-forestry:habitat_locator, Определитель ареала
-forestry:imprinter, Импринтер
-forestry:cart.beehouse:0, Вагонетка с пчелиным домиком
-forestry:cart.beehouse:1, Вагонетка с пасекой
-forestry:frame_untreated, Необработанная рамка
-forestry:frame_impregnated, Пропитанная рамка
-forestry:frame_proven, Проверенная рамка
-forestry:honey_drop:0, Капля мёда
-forestry:pollen:0, Скопление пыльцы
-forestry:pollen:1, Скопление кристаллической пыльцы
-forestry:propolis:0, Прополис
-forestry:propolis:1, Липкий прополис
-forestry:propolis:3, Шелковистый прополис
-forestry:honeydew, Медвяная роса
-forestry:royal_jelly, Маточное молочко
-forestry:wax_cast, Восковая форма
-forestry:bee_combs:0, Медовые соты
-forestry:bee_combs:2, Кипящие соты
-forestry:bee_combs:3, Вязкие соты
-forestry:bee_combs:4, Морозные соты
-forestry:bee_combs:5, Капающие соты
-forestry:bee_combs:6, Шелковистые соты
-forestry:bee_combs:7, Пересохшие соты
-forestry:bee_combs:15, Замшелые соты
-forestry:bee_combs:16, Спелые соты
-forestry:apiarist_helmet, Защитная маска пчеловода
-forestry:apiarist_chest, Куртка пчеловода
-forestry:apiarist_legs, Штаны пчеловода
-forestry:apiarist_boots, Ботинки пчеловода
-forestry:scoop, Сачок
-forestry:smoker, Дымарь
-forestry:apiary:0, Пасека
-forestry:bee_house:0, Пчелиный домик
-forestry:bee_chest:0, Сундук пчеловода
-forestry:beehives:0, Лесной улей
-forestry:beehives:1, Луговой улей
-forestry:beehives:2, Пустынный улей
-forestry:beehives:3, Тропический улей
-forestry:beehives:4, Драконий улей
-forestry:beehives:5, Снежный улей
-forestry:beehives:6, Болотный улей
-forestry:candle:0, Тёмная свеча
-forestry:stump:0, Потухшая свеча
-forestry:bee_combs_0:0, Блок медовых сот
-forestry:bee_combs_0:2, Блок кипящих сот
-forestry:bee_combs_0:3, Блок вязких сот
-forestry:bee_combs_0:4, Блок морозных сот
-forestry:bee_combs_0:5, Блок капающих сот
-forestry:bee_combs_0:6, Блок шелковистых сот
-forestry:bee_combs_0:7, Блок пересохших сот
-forestry:bee_combs_0:15, Блок замшелых сот
-forestry:bee_combs_1:0, Блок спелых сот
-forestry:alveary.plain:0, Пчелиный улей
-forestry:alveary.swarmer:0, Роевня
-forestry:alveary.fan:0, Вентилятор улья
-forestry:alveary.heater:0, Обогреватель улья
-forestry:alveary.hygro:0, Кондиционер улья
-forestry:alveary.stabiliser:0, Стабилизатор улья
-forestry:alveary.sieve:0, Сито улья
+forestry:book_forester, Руководство лесника
+forestry:genetic_filter:0, Генетический фильтр
+forestry:habitat_former:0, Бывшая среда обитания
+forestry:habitat_screen, Экран среды обитания
+forestry:honeyed_slice, Бутерброд с мёдом
+forestry:ambrosia, Амброзия
+forestry:honey_pot, Горшочек мёда
 forestry:mushroom:0, tile.for.mushroom.name
 forestry:mushroom:1, tile.for.mushroom.name
 forestry:ffarm:0, Блок фермы
@@ -2183,29 +1946,26 @@ forestry:ffarm:5, Блок управления фермы
 forestry:ffarm:5, Блок управления фермы
 forestry:ffarm:5, Блок управления фермы
 forestry:ffarm:5, Блок управления фермы
-forestry:arboretum:0, Дендрарий (управляемый)
-forestry:arboretum:1, Дендрарий (руководство)
-forestry:farm_crops:0, Ферма (управляемый)
-forestry:farm_crops:1, Ферма (руководство)
-forestry:farm_mushroom:0, Грибная ферма (управляемый)
-forestry:farm_mushroom:1, Грибная ферма (руководство)
-forestry:farm_gourd:0, Ферма бахчевых (управляемый)
-forestry:farm_gourd:1, Ферма бахчевых (руководство)
-forestry:farm_nether:0, Адская ферма (управляемый)
-forestry:farm_nether:1, Адская ферма (руководство)
-forestry:farm_ender:0, Ферма Края (управляемый)
-forestry:farm_ender:1, Ферма Края (руководство)
-forestry:peat_bog:0, Торфяник (управляемый)
-forestry:peat_bog:1, Торфяник (руководство)
+forestry:greenhouse:0, Парниковый блок
+forestry:greenhouse:3, Распределитель парниковой энергии
+forestry:greenhouse:4, Парниковый контроль
+forestry:greenhouse:5, Парниковый экран
+forestry:climatiser:0, Тепличный терморегулятор
+forestry:climatiser:1, Подогреватель парника
+forestry:climatiser:2, Вентилятор парника
+forestry:climatiser:3, Увлажнитель парника
+forestry:climatiser:4, Осушитель парника
+forestry:greenhouse.window:0, Окно парника
+forestry:greenhouse.window_up:0, Окно крыши парника
+forestry:charcoal:0, Блок древесного угля
+forestry:wood_pile:0, Охапка дров
+forestry:wood_pile_decorative:0, Декоративная охапка дров
+forestry:ash_block_0:0, Блок пепла
+forestry:ash_block_1:0, Блок пепла
+forestry:ash_block_2:0, Блок пепла
+forestry:ash_block_3:0, Блок пепла
+forestry:loam:0, Суглинок
 forestry:worktable:0, Рабочий стол
-forestry:crate, Ящик
-forestry:genetic_filter:0, Генетический фильтр
-forestry:habitat_former:0, Бывшая среда обитания
-forestry:habitat_screen, Экран среды обитания
-forestry:engine_peat:0, Торфяной двигатель
-forestry:engine_biogas:0, Биогазовый двигатель
-forestry:engine_clockwork:0, Заводной двигатель
-forestry:database:0, База данных
 forestry:fluid.bio.ethanol, Этанол
 forestry:fluid.biomass, Биомасса
 forestry:fluid.glass, Жидкое стекло
@@ -2228,17 +1988,35 @@ forestry:still:0, Дистиллятор
 forestry:rainmaker:0, Генератор дождя
 forestry:fabricator:0, Электроламповый завод
 forestry:raintank:0, Бак для дождя
-forestry:charcoal:0, Блок древесного угля
-forestry:wood_pile:0, Охапка дров
-forestry:wood_pile_decorative:0, Декоративная охапка дров
-forestry:ash_block_0:0, Блок пепла
-forestry:ash_block_1:0, Блок пепла
-forestry:ash_block_2:0, Блок пепла
-forestry:ash_block_3:0, Блок пепла
-forestry:loam:0, Суглинок
-forestry:honeyed_slice, Бутерброд с мёдом
-forestry:ambrosia, Амброзия
-forestry:honey_pot, Горшочек мёда
+forestry:apiarist_bag, Рюкзак пчеловода
+forestry:lepidopterist_bag, Рюкзак лепидоптеролога
+forestry:miner_bag, Рюкзак шахтёра
+forestry:miner_bag_t2, Тканый рюкзак шахтёра
+forestry:digger_bag, Рюкзак землекопа
+forestry:digger_bag_t2, Тканый рюкзак землекопа
+forestry:forester_bag, Рюкзак лесника
+forestry:forester_bag_t2, Тканый рюкзак лесника
+forestry:hunter_bag, Рюкзак охотника
+forestry:hunter_bag_t2, Тканый рюкзак охотника
+forestry:adventurer_bag, Рюкзак авантюриста
+forestry:adventurer_bag_t2, Тканый рюкзак авантюриста
+forestry:builder_bag, Рюкзак строителя
+forestry:builder_bag_t2, Тканый рюкзак строителя
+forestry:database:0, База данных
+forestry:arboretum:0, Дендрарий (управляемый)
+forestry:arboretum:1, Дендрарий (руководство)
+forestry:farm_crops:0, Ферма (управляемый)
+forestry:farm_crops:1, Ферма (руководство)
+forestry:farm_mushroom:0, Грибная ферма (управляемый)
+forestry:farm_mushroom:1, Грибная ферма (руководство)
+forestry:farm_gourd:0, Ферма бахчевых (управляемый)
+forestry:farm_gourd:1, Ферма бахчевых (руководство)
+forestry:farm_nether:0, Адская ферма (управляемый)
+forestry:farm_nether:1, Адская ферма (руководство)
+forestry:farm_ender:0, Ферма Края (управляемый)
+forestry:farm_ender:1, Ферма Края (руководство)
+forestry:peat_bog:0, Торфяник (управляемый)
+forestry:peat_bog:1, Торфяник (руководство)
 forestry:sapling:0, Саженец яблочного дуба
 forestry:sapling:0, Саженец тёмного дуба
 forestry:sapling:0, Саженец белой берёзы
@@ -2926,7 +2704,228 @@ forestry:cocoon_ge:0, Перламутровка Диана Кокон
 forestry:butterfly_chest:0, Сундук лепидоптеролога
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
-forestry:book_forester, Руководство лесника
+forestry:engine_peat:0, Торфяной двигатель
+forestry:engine_biogas:0, Биогазовый двигатель
+forestry:engine_clockwork:0, Заводной двигатель
+forestry:bee_queen_ge:0, Лесная Матка
+forestry:bee_queen_ge:0, Луговая Матка
+forestry:bee_queen_ge:0, Обычная Матка
+forestry:bee_queen_ge:0, Развитая Матка
+forestry:bee_queen_ge:0, Знатная Матка
+forestry:bee_queen_ge:0, Величавая Матка
+forestry:bee_queen_ge:0, Имперская Матка
+forestry:bee_queen_ge:0, Прилежная Матка
+forestry:bee_queen_ge:0, Неутомимая Матка
+forestry:bee_queen_ge:0, Трудолюбивая Матка
+forestry:bee_queen_ge:0, Стойкая Матка
+forestry:bee_queen_ge:0, Доблестная Матка
+forestry:bee_queen_ge:0, Героическая Матка
+forestry:bee_queen_ge:0, Зловещая Матка
+forestry:bee_queen_ge:0, Жестокая Матка
+forestry:bee_queen_ge:0, Одержимая Матка
+forestry:bee_queen_ge:0, Скромная Матка
+forestry:bee_queen_ge:0, Бережливая Матка
+forestry:bee_queen_ge:0, Суровая Матка
+forestry:bee_queen_ge:0, Тропическая Матка
+forestry:bee_queen_ge:0, Редкая Матка
+forestry:bee_queen_ge:0, Райская Матка
+forestry:bee_queen_ge:0, Драконья Матка
+forestry:bee_queen_ge:0, Призрачная Матка
+forestry:bee_queen_ge:0, Воображаемая Матка
+forestry:bee_queen_ge:0, Зимняя Матка
+forestry:bee_queen_ge:0, Ледяная Матка
+forestry:bee_queen_ge:0, Ледниковая Матка
+forestry:bee_queen_ge:0, Карательная Матка
+forestry:bee_queen_ge:0, Мстительная Матка
+forestry:bee_queen_ge:0, Мстящая Матка
+forestry:bee_queen_ge:0, Сельская Матка
+forestry:bee_queen_ge:0, Прошлая Матка
+forestry:bee_queen_ge:0, Земельная Матка
+forestry:bee_queen_ge:0, Болотная Матка
+forestry:bee_queen_ge:0, Топкая Матка
+forestry:bee_queen_ge:0, Болотистая Матка
+forestry:bee_queen_ge:0, Монашья Матка
+forestry:bee_queen_ge:0, Укромная Матка
+forestry:bee_queen_ge:0, Уединённая Матка
+forestry:bee_drone_ge:0, Лесная Трутень
+forestry:bee_drone_ge:0, Луговая Трутень
+forestry:bee_drone_ge:0, Обычная Трутень
+forestry:bee_drone_ge:0, Развитая Трутень
+forestry:bee_drone_ge:0, Знатная Трутень
+forestry:bee_drone_ge:0, Величавая Трутень
+forestry:bee_drone_ge:0, Имперская Трутень
+forestry:bee_drone_ge:0, Прилежная Трутень
+forestry:bee_drone_ge:0, Неутомимая Трутень
+forestry:bee_drone_ge:0, Трудолюбивая Трутень
+forestry:bee_drone_ge:0, Стойкая Трутень
+forestry:bee_drone_ge:0, Доблестная Трутень
+forestry:bee_drone_ge:0, Героическая Трутень
+forestry:bee_drone_ge:0, Зловещая Трутень
+forestry:bee_drone_ge:0, Жестокая Трутень
+forestry:bee_drone_ge:0, Одержимая Трутень
+forestry:bee_drone_ge:0, Скромная Трутень
+forestry:bee_drone_ge:0, Бережливая Трутень
+forestry:bee_drone_ge:0, Суровая Трутень
+forestry:bee_drone_ge:0, Тропическая Трутень
+forestry:bee_drone_ge:0, Редкая Трутень
+forestry:bee_drone_ge:0, Райская Трутень
+forestry:bee_drone_ge:0, Драконья Трутень
+forestry:bee_drone_ge:0, Призрачная Трутень
+forestry:bee_drone_ge:0, Воображаемая Трутень
+forestry:bee_drone_ge:0, Зимняя Трутень
+forestry:bee_drone_ge:0, Ледяная Трутень
+forestry:bee_drone_ge:0, Ледниковая Трутень
+forestry:bee_drone_ge:0, Карательная Трутень
+forestry:bee_drone_ge:0, Мстительная Трутень
+forestry:bee_drone_ge:0, Мстящая Трутень
+forestry:bee_drone_ge:0, Сельская Трутень
+forestry:bee_drone_ge:0, Прошлая Трутень
+forestry:bee_drone_ge:0, Земельная Трутень
+forestry:bee_drone_ge:0, Болотная Трутень
+forestry:bee_drone_ge:0, Топкая Трутень
+forestry:bee_drone_ge:0, Болотистая Трутень
+forestry:bee_drone_ge:0, Монашья Трутень
+forestry:bee_drone_ge:0, Укромная Трутень
+forestry:bee_drone_ge:0, Уединённая Трутень
+forestry:bee_princess_ge:0, Лесная Принцесса
+forestry:bee_princess_ge:0, Луговая Принцесса
+forestry:bee_princess_ge:0, Обычная Принцесса
+forestry:bee_princess_ge:0, Развитая Принцесса
+forestry:bee_princess_ge:0, Знатная Принцесса
+forestry:bee_princess_ge:0, Величавая Принцесса
+forestry:bee_princess_ge:0, Имперская Принцесса
+forestry:bee_princess_ge:0, Прилежная Принцесса
+forestry:bee_princess_ge:0, Неутомимая Принцесса
+forestry:bee_princess_ge:0, Трудолюбивая Принцесса
+forestry:bee_princess_ge:0, Стойкая Принцесса
+forestry:bee_princess_ge:0, Доблестная Принцесса
+forestry:bee_princess_ge:0, Героическая Принцесса
+forestry:bee_princess_ge:0, Зловещая Принцесса
+forestry:bee_princess_ge:0, Жестокая Принцесса
+forestry:bee_princess_ge:0, Одержимая Принцесса
+forestry:bee_princess_ge:0, Скромная Принцесса
+forestry:bee_princess_ge:0, Бережливая Принцесса
+forestry:bee_princess_ge:0, Суровая Принцесса
+forestry:bee_princess_ge:0, Тропическая Принцесса
+forestry:bee_princess_ge:0, Редкая Принцесса
+forestry:bee_princess_ge:0, Райская Принцесса
+forestry:bee_princess_ge:0, Драконья Принцесса
+forestry:bee_princess_ge:0, Призрачная Принцесса
+forestry:bee_princess_ge:0, Воображаемая Принцесса
+forestry:bee_princess_ge:0, Зимняя Принцесса
+forestry:bee_princess_ge:0, Ледяная Принцесса
+forestry:bee_princess_ge:0, Ледниковая Принцесса
+forestry:bee_princess_ge:0, Карательная Принцесса
+forestry:bee_princess_ge:0, Мстительная Принцесса
+forestry:bee_princess_ge:0, Мстящая Принцесса
+forestry:bee_princess_ge:0, Сельская Принцесса
+forestry:bee_princess_ge:0, Прошлая Принцесса
+forestry:bee_princess_ge:0, Земельная Принцесса
+forestry:bee_princess_ge:0, Болотная Принцесса
+forestry:bee_princess_ge:0, Топкая Принцесса
+forestry:bee_princess_ge:0, Болотистая Принцесса
+forestry:bee_princess_ge:0, Монашья Принцесса
+forestry:bee_princess_ge:0, Укромная Принцесса
+forestry:bee_princess_ge:0, Уединённая Принцесса
+forestry:bee_larvae_ge:0, Лесная Личинка
+forestry:bee_larvae_ge:0, Луговая Личинка
+forestry:bee_larvae_ge:0, Обычная Личинка
+forestry:bee_larvae_ge:0, Развитая Личинка
+forestry:bee_larvae_ge:0, Знатная Личинка
+forestry:bee_larvae_ge:0, Величавая Личинка
+forestry:bee_larvae_ge:0, Имперская Личинка
+forestry:bee_larvae_ge:0, Прилежная Личинка
+forestry:bee_larvae_ge:0, Неутомимая Личинка
+forestry:bee_larvae_ge:0, Трудолюбивая Личинка
+forestry:bee_larvae_ge:0, Стойкая Личинка
+forestry:bee_larvae_ge:0, Доблестная Личинка
+forestry:bee_larvae_ge:0, Героическая Личинка
+forestry:bee_larvae_ge:0, Зловещая Личинка
+forestry:bee_larvae_ge:0, Жестокая Личинка
+forestry:bee_larvae_ge:0, Одержимая Личинка
+forestry:bee_larvae_ge:0, Скромная Личинка
+forestry:bee_larvae_ge:0, Бережливая Личинка
+forestry:bee_larvae_ge:0, Суровая Личинка
+forestry:bee_larvae_ge:0, Тропическая Личинка
+forestry:bee_larvae_ge:0, Редкая Личинка
+forestry:bee_larvae_ge:0, Райская Личинка
+forestry:bee_larvae_ge:0, Драконья Личинка
+forestry:bee_larvae_ge:0, Призрачная Личинка
+forestry:bee_larvae_ge:0, Воображаемая Личинка
+forestry:bee_larvae_ge:0, Зимняя Личинка
+forestry:bee_larvae_ge:0, Ледяная Личинка
+forestry:bee_larvae_ge:0, Ледниковая Личинка
+forestry:bee_larvae_ge:0, Карательная Личинка
+forestry:bee_larvae_ge:0, Мстительная Личинка
+forestry:bee_larvae_ge:0, Мстящая Личинка
+forestry:bee_larvae_ge:0, Сельская Личинка
+forestry:bee_larvae_ge:0, Прошлая Личинка
+forestry:bee_larvae_ge:0, Земельная Личинка
+forestry:bee_larvae_ge:0, Болотная Личинка
+forestry:bee_larvae_ge:0, Топкая Личинка
+forestry:bee_larvae_ge:0, Болотистая Личинка
+forestry:bee_larvae_ge:0, Монашья Личинка
+forestry:bee_larvae_ge:0, Укромная Личинка
+forestry:bee_larvae_ge:0, Уединённая Личинка
+forestry:habitat_locator, Определитель ареала
+forestry:imprinter, Импринтер
+forestry:cart.beehouse:0, Вагонетка с пчелиным домиком
+forestry:cart.beehouse:1, Вагонетка с пасекой
+forestry:frame_untreated, Необработанная рамка
+forestry:frame_impregnated, Пропитанная рамка
+forestry:frame_proven, Проверенная рамка
+forestry:honey_drop:0, Капля мёда
+forestry:pollen:0, Скопление пыльцы
+forestry:pollen:1, Скопление кристаллической пыльцы
+forestry:propolis:0, Прополис
+forestry:propolis:1, Липкий прополис
+forestry:propolis:3, Шелковистый прополис
+forestry:honeydew, Медвяная роса
+forestry:royal_jelly, Маточное молочко
+forestry:wax_cast, Восковая форма
+forestry:bee_combs:0, Медовые соты
+forestry:bee_combs:2, Кипящие соты
+forestry:bee_combs:3, Вязкие соты
+forestry:bee_combs:4, Морозные соты
+forestry:bee_combs:5, Капающие соты
+forestry:bee_combs:6, Шелковистые соты
+forestry:bee_combs:7, Пересохшие соты
+forestry:bee_combs:15, Замшелые соты
+forestry:bee_combs:16, Спелые соты
+forestry:apiarist_helmet, Защитная маска пчеловода
+forestry:apiarist_chest, Куртка пчеловода
+forestry:apiarist_legs, Штаны пчеловода
+forestry:apiarist_boots, Ботинки пчеловода
+forestry:scoop, Сачок
+forestry:smoker, Дымарь
+forestry:apiary:0, Пасека
+forestry:bee_house:0, Пчелиный домик
+forestry:bee_chest:0, Сундук пчеловода
+forestry:beehives:0, Лесной улей
+forestry:beehives:1, Луговой улей
+forestry:beehives:2, Пустынный улей
+forestry:beehives:3, Тропический улей
+forestry:beehives:4, Драконий улей
+forestry:beehives:5, Снежный улей
+forestry:beehives:6, Болотный улей
+forestry:candle:0, Тёмная свеча
+forestry:stump:0, Потухшая свеча
+forestry:bee_combs_0:0, Блок медовых сот
+forestry:bee_combs_0:2, Блок кипящих сот
+forestry:bee_combs_0:3, Блок вязких сот
+forestry:bee_combs_0:4, Блок морозных сот
+forestry:bee_combs_0:5, Блок капающих сот
+forestry:bee_combs_0:6, Блок шелковистых сот
+forestry:bee_combs_0:7, Блок пересохших сот
+forestry:bee_combs_0:15, Блок замшелых сот
+forestry:bee_combs_1:0, Блок спелых сот
+forestry:alveary.plain:0, Пчелиный улей
+forestry:alveary.swarmer:0, Роевня
+forestry:alveary.fan:0, Вентилятор улья
+forestry:alveary.heater:0, Обогреватель улья
+forestry:alveary.hygro:0, Кондиционер улья
+forestry:alveary.stabiliser:0, Стабилизатор улья
+forestry:alveary.sieve:0, Сито улья
 forestry:stamps:0, Почтовая марка (1n)
 forestry:stamps:1, Почтовая марка (2n)
 forestry:stamps:2, Почтовая марка (5n)
@@ -2939,6 +2938,7 @@ forestry:catalogue, Каталог
 forestry:mailbox:0, Почтовый ящик
 forestry:trade_station:0, Торговая станция
 forestry:stamp_collector:0, Сборщик марок
+forestry:crate, Ящик
 forestry:engine_electrical:0, Электродвигатель
 forestry:engine_generator:0, Биогенератор
 thermalfoundation:ore:0, Медная руда
@@ -3723,6 +3723,107 @@ genetics:lab_machine:2, Инкубатор
 genetics:lab_machine:3, Генофонд
 genetics:lab_machine:4, Акклиматизатор
 genetics:adv_machine:0, Сплайсер
+botany:machine:0, Работа с плитками
+botany:plant:0, Сорняк
+botany:plant:1, Длинный сорняк
+botany:plant:2, Очень длинный сорняк
+botany:plant:3, Мертвый цветок
+botany:plant:4, Разлагающийся цветок
+botany:soil:0, Почва
+botany:soil:1, Почва
+botany:soil:2, Почва
+botany:soil:3, Почва
+botany:soil:4, Почва
+botany:soil:5, Почва
+botany:soil:6, Почва
+botany:soil:7, Почва
+botany:soil:8, Почва
+botany:loam:0, Суглинок
+botany:loam:1, Суглинок
+botany:loam:2, Суглинок
+botany:loam:3, Суглинок
+botany:loam:4, Суглинок
+botany:loam:5, Суглинок
+botany:loam:6, Суглинок
+botany:loam:7, Суглинок
+botany:loam:8, Суглинок
+botany:flowerbed:0, Клумба
+botany:flowerbed:1, Клумба
+botany:flowerbed:2, Клумба
+botany:flowerbed:3, Клумба
+botany:flowerbed:4, Клумба
+botany:flowerbed:5, Клумба
+botany:flowerbed:6, Клумба
+botany:flowerbed:7, Клумба
+botany:flowerbed:8, Клумба
+botany:soil_no_weed:0, Почва
+botany:soil_no_weed:1, Почва
+botany:soil_no_weed:2, Почва
+botany:soil_no_weed:3, Почва
+botany:soil_no_weed:4, Почва
+botany:soil_no_weed:5, Почва
+botany:soil_no_weed:6, Почва
+botany:soil_no_weed:7, Почва
+botany:soil_no_weed:8, Почва
+botany:loam_no_weed:0, Суглинок
+botany:loam_no_weed:1, Суглинок
+botany:loam_no_weed:2, Суглинок
+botany:loam_no_weed:3, Суглинок
+botany:loam_no_weed:4, Суглинок
+botany:loam_no_weed:5, Суглинок
+botany:loam_no_weed:6, Суглинок
+botany:loam_no_weed:7, Суглинок
+botany:loam_no_weed:8, Суглинок
+botany:flowerbed_no_weed:0, Клумба
+botany:flowerbed_no_weed:1, Клумба
+botany:flowerbed_no_weed:2, Клумба
+botany:flowerbed_no_weed:3, Клумба
+botany:flowerbed_no_weed:4, Клумба
+botany:flowerbed_no_weed:5, Клумба
+botany:flowerbed_no_weed:6, Клумба
+botany:flowerbed_no_weed:7, Клумба
+botany:flowerbed_no_weed:8, Клумба
+botany:soil_meter, Измеритель почвы
+botany:trowel_wood, Деревянный шпатель
+botany:trowel_stone, Каменный шпатель
+botany:trowel_iron, Железный шпатель
+botany:trowel_diamond, Алмазный шпатель
+botany:trowel_gold, Золотой шпатель
+botany:misc:0, Порошок золы
+botany:misc:1, Порошок целлюлозы
+botany:misc:2, Компост
+botany:misc:3, Порошок серы
+botany:misc:4, Порошок удобрения
+botany:misc:5, Порошок компоста
+botany:misc:6, Ступка
+botany:misc:7, Антисорняк
+botany:botanist_bag, Рюкзак ботаника
+botany:insulated_tube:0, Медь Глина изолированная электронная трубка
+botany:insulated_tube:128, Медь Булыжник изолированная электронная трубка
+botany:insulated_tube:256, Медь Песчаник изолированная электронная трубка
+botany:insulated_tube:384, Медь Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:512, Медь Гладкий камень изолированная электронная трубка
+botany:insulated_tube:640, Медь Песчаник изолированная электронная трубка
+botany:insulated_tube:1, Олово Глина изолированная электронная трубка
+botany:insulated_tube:129, Олово Булыжник изолированная электронная трубка
+botany:insulated_tube:257, Олово Песчаник изолированная электронная трубка
+botany:insulated_tube:385, Олово Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:513, Олово Гладкий камень изолированная электронная трубка
+botany:insulated_tube:641, Олово Песчаник изолированная электронная трубка
+botany:insulated_tube:2, Бронза Глина изолированная электронная трубка
+botany:insulated_tube:130, Бронза Булыжник изолированная электронная трубка
+botany:insulated_tube:258, Бронза Песчаник изолированная электронная трубка
+botany:insulated_tube:386, Бронза Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:514, Бронза Гладкий камень изолированная электронная трубка
+botany:insulated_tube:642, Бронза Песчаник изолированная электронная трубка
+botany:insulated_tube:3, Железо Глина изолированная электронная трубка
+botany:insulated_tube:131, Железо Булыжник изолированная электронная трубка
+botany:insulated_tube:259, Железо Песчаник изолированная электронная трубка
+botany:insulated_tube:387, Железо Затвердевшая глина изолированная электронная трубка
+botany:insulated_tube:515, Железо Гладкий камень изолированная электронная трубка
+botany:insulated_tube:643, Железо Песчаник изолированная электронная трубка
+botany:database:0, База данных ботаники
+botany:database:1, База магистерской ботаники
 botany:ceramic:0, Керамический блок (Аквамарин)
 botany:ceramic:1, Керамический блок (Черный)
 botany:ceramic:2, Керамический блок (Темно-синий)
@@ -4058,107 +4159,6 @@ botany:clay:77, Белый глина
 botany:clay:78, Желтый глина
 botany:clay:79, Желто-зеленый глина
 botany:misc_ceramic:0, Ступка
-botany:plant:0, Сорняк
-botany:plant:1, Длинный сорняк
-botany:plant:2, Очень длинный сорняк
-botany:plant:3, Мертвый цветок
-botany:plant:4, Разлагающийся цветок
-botany:soil:0, Почва
-botany:soil:1, Почва
-botany:soil:2, Почва
-botany:soil:3, Почва
-botany:soil:4, Почва
-botany:soil:5, Почва
-botany:soil:6, Почва
-botany:soil:7, Почва
-botany:soil:8, Почва
-botany:loam:0, Суглинок
-botany:loam:1, Суглинок
-botany:loam:2, Суглинок
-botany:loam:3, Суглинок
-botany:loam:4, Суглинок
-botany:loam:5, Суглинок
-botany:loam:6, Суглинок
-botany:loam:7, Суглинок
-botany:loam:8, Суглинок
-botany:flowerbed:0, Клумба
-botany:flowerbed:1, Клумба
-botany:flowerbed:2, Клумба
-botany:flowerbed:3, Клумба
-botany:flowerbed:4, Клумба
-botany:flowerbed:5, Клумба
-botany:flowerbed:6, Клумба
-botany:flowerbed:7, Клумба
-botany:flowerbed:8, Клумба
-botany:soil_no_weed:0, Почва
-botany:soil_no_weed:1, Почва
-botany:soil_no_weed:2, Почва
-botany:soil_no_weed:3, Почва
-botany:soil_no_weed:4, Почва
-botany:soil_no_weed:5, Почва
-botany:soil_no_weed:6, Почва
-botany:soil_no_weed:7, Почва
-botany:soil_no_weed:8, Почва
-botany:loam_no_weed:0, Суглинок
-botany:loam_no_weed:1, Суглинок
-botany:loam_no_weed:2, Суглинок
-botany:loam_no_weed:3, Суглинок
-botany:loam_no_weed:4, Суглинок
-botany:loam_no_weed:5, Суглинок
-botany:loam_no_weed:6, Суглинок
-botany:loam_no_weed:7, Суглинок
-botany:loam_no_weed:8, Суглинок
-botany:flowerbed_no_weed:0, Клумба
-botany:flowerbed_no_weed:1, Клумба
-botany:flowerbed_no_weed:2, Клумба
-botany:flowerbed_no_weed:3, Клумба
-botany:flowerbed_no_weed:4, Клумба
-botany:flowerbed_no_weed:5, Клумба
-botany:flowerbed_no_weed:6, Клумба
-botany:flowerbed_no_weed:7, Клумба
-botany:flowerbed_no_weed:8, Клумба
-botany:soil_meter, Измеритель почвы
-botany:trowel_wood, Деревянный шпатель
-botany:trowel_stone, Каменный шпатель
-botany:trowel_iron, Железный шпатель
-botany:trowel_diamond, Алмазный шпатель
-botany:trowel_gold, Золотой шпатель
-botany:misc:0, Порошок золы
-botany:misc:1, Порошок целлюлозы
-botany:misc:2, Компост
-botany:misc:3, Порошок серы
-botany:misc:4, Порошок удобрения
-botany:misc:5, Порошок компоста
-botany:misc:6, Ступка
-botany:misc:7, Антисорняк
-botany:botanist_bag, Рюкзак ботаника
-botany:database:0, База данных ботаники
-botany:database:1, База магистерской ботаники
-botany:insulated_tube:0, Медь Глина изолированная электронная трубка
-botany:insulated_tube:128, Медь Булыжник изолированная электронная трубка
-botany:insulated_tube:256, Медь Песчаник изолированная электронная трубка
-botany:insulated_tube:384, Медь Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:512, Медь Гладкий камень изолированная электронная трубка
-botany:insulated_tube:640, Медь Песчаник изолированная электронная трубка
-botany:insulated_tube:1, Олово Глина изолированная электронная трубка
-botany:insulated_tube:129, Олово Булыжник изолированная электронная трубка
-botany:insulated_tube:257, Олово Песчаник изолированная электронная трубка
-botany:insulated_tube:385, Олово Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:513, Олово Гладкий камень изолированная электронная трубка
-botany:insulated_tube:641, Олово Песчаник изолированная электронная трубка
-botany:insulated_tube:2, Бронза Глина изолированная электронная трубка
-botany:insulated_tube:130, Бронза Булыжник изолированная электронная трубка
-botany:insulated_tube:258, Бронза Песчаник изолированная электронная трубка
-botany:insulated_tube:386, Бронза Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:514, Бронза Гладкий камень изолированная электронная трубка
-botany:insulated_tube:642, Бронза Песчаник изолированная электронная трубка
-botany:insulated_tube:3, Железо Глина изолированная электронная трубка
-botany:insulated_tube:131, Железо Булыжник изолированная электронная трубка
-botany:insulated_tube:259, Железо Песчаник изолированная электронная трубка
-botany:insulated_tube:387, Железо Затвердевшая глина изолированная электронная трубка
-botany:insulated_tube:515, Железо Гладкий камень изолированная электронная трубка
-botany:insulated_tube:643, Железо Песчаник изолированная электронная трубка
-botany:machine:0, Работа с плитками
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_drop:0, Энергетическая капля
 extrabees:honey_drop:1, Кислотная капля
@@ -4384,6 +4384,32 @@ extratrees:food:59, Плод свечного дерева
 extratrees:hammer, item.hammer.name
 extratrees:durable_hammer, item.durable_hammer.name
 extratrees:hops, item.hops.name
+extratrees:drink:0, Пивная кружка
+extratrees:drink:0, Стеклянная пинта
+extratrees:drink:0, Стакан для спиртного
+extratrees:drink:0, Стакан "Flute"
+extratrees:drink:0, Стакан для коктейлей
+extratrees:drink:0, Бокал "кордиал"
+extratrees:drink:0, Длинный стакан
+extratrees:drink:0, Хайбол
+extratrees:drink:0, Штормовой стакан
+extratrees:drink:0, Стакан Маргарита
+extratrees:drink:0, Старомодный стакан
+extratrees:drink:0, Бокал для вина
+extratrees:drink:0, Рюмка
+extratrees:drink:0, Лафитник
+extratrees:drink:0, Стакан купе
+extratrees:drink:0, Бокал для вина
+extratrees:machine:0, Лесопилка
+extratrees:machine:1, Деревообрабатывающий станок
+extratrees:machine:2, Станок для панелей
+extratrees:machine:4, Фруктовый пресс
+extratrees:machine:5, Пивоварня
+extratrees:machine:6, Винокурня
+extratrees:machine:7, Станок для стекла
+extratrees:carpentry, tile.null.name
+extratrees:carpentrypanel, tile.null.name
+extratrees:stainedglass, tile.null.name
 extratrees:databaselepi, item.databaseLepi.name
 extratrees:databasetree, item.databaseTree.name
 extratrees:logs.0:0, Древесина Яблоня
@@ -4961,32 +4987,6 @@ extratrees:leaves.decorative.5:14, Листва
 extratrees:leaves.decorative.5:15, Листва
 extratrees:leaves.decorative.6:0, Листва
 extratrees:shrub_log:0, Древесина Кустарник
-extratrees:machine:0, Лесопилка
-extratrees:machine:1, Деревообрабатывающий станок
-extratrees:machine:2, Станок для панелей
-extratrees:machine:4, Фруктовый пресс
-extratrees:machine:5, Пивоварня
-extratrees:machine:6, Винокурня
-extratrees:machine:7, Станок для стекла
-extratrees:carpentry, tile.null.name
-extratrees:carpentrypanel, tile.null.name
-extratrees:stainedglass, tile.null.name
-extratrees:drink:0, Пивная кружка
-extratrees:drink:0, Стеклянная пинта
-extratrees:drink:0, Стакан для спиртного
-extratrees:drink:0, Стакан "Flute"
-extratrees:drink:0, Стакан для коктейлей
-extratrees:drink:0, Бокал "кордиал"
-extratrees:drink:0, Длинный стакан
-extratrees:drink:0, Хайбол
-extratrees:drink:0, Штормовой стакан
-extratrees:drink:0, Стакан Маргарита
-extratrees:drink:0, Старомодный стакан
-extratrees:drink:0, Бокал для вина
-extratrees:drink:0, Рюмка
-extratrees:drink:0, Лафитник
-extratrees:drink:0, Стакан купе
-extratrees:drink:0, Бокал для вина
 extratrees:binnie.juice.apple, Яблочный сок
 extratrees:binnie.juice.apricot, Абрикосовый сок
 extratrees:binnie.juice.banana, Банановый сок
@@ -7195,16 +7195,6 @@ thermaldynamics:cover:0, Крышка (Оловянный блок)
 thermaldynamics:cover:0, Крышка (Бронзовый блок)
 thermaldynamics:cover:0, Крышка (Кирпичи из золы)
 thermaldynamics:cover:0, Крышка (Ступеньки из золы)
-thermaldynamics:cover:0, Крышка (Потухшая свеча)
-thermaldynamics:cover:0, Крышка (Блок медовых сот)
-thermaldynamics:cover:0, Крышка (Блок кипящих сот)
-thermaldynamics:cover:0, Крышка (Блок вязких сот)
-thermaldynamics:cover:0, Крышка (Блок морозных сот)
-thermaldynamics:cover:0, Крышка (Блок капающих сот)
-thermaldynamics:cover:0, Крышка (Блок шелковистых сот)
-thermaldynamics:cover:0, Крышка (Блок пересохших сот)
-thermaldynamics:cover:0, Крышка (Блок замшелых сот)
-thermaldynamics:cover:0, Крышка (Блок спелых сот)
 thermaldynamics:cover:0, Крышка (Блок древесного угля)
 thermaldynamics:cover:0, Крышка (Охапка дров)
 thermaldynamics:cover:0, Крышка (Декоративная охапка дров)
@@ -7657,6 +7647,16 @@ thermaldynamics:cover:0, Крышка (Листва Сипири)
 thermaldynamics:cover:0, Крышка (Листва дынного дерева)
 thermaldynamics:cover:0, Крышка (Листва финиковой пальмы)
 thermaldynamics:cover:0, Крышка (Листва белого тополя)
+thermaldynamics:cover:0, Крышка (Потухшая свеча)
+thermaldynamics:cover:0, Крышка (Блок медовых сот)
+thermaldynamics:cover:0, Крышка (Блок кипящих сот)
+thermaldynamics:cover:0, Крышка (Блок вязких сот)
+thermaldynamics:cover:0, Крышка (Блок морозных сот)
+thermaldynamics:cover:0, Крышка (Блок капающих сот)
+thermaldynamics:cover:0, Крышка (Блок шелковистых сот)
+thermaldynamics:cover:0, Крышка (Блок пересохших сот)
+thermaldynamics:cover:0, Крышка (Блок замшелых сот)
+thermaldynamics:cover:0, Крышка (Блок спелых сот)
 thermaldynamics:cover:0, Крышка (Медная руда)
 thermaldynamics:cover:0, Крышка (Оловянная руда)
 thermaldynamics:cover:0, Крышка (Серебряная руда)
@@ -12781,7 +12781,6 @@ enderio:block_impulse_hopper, Импульсная воронка
 enderio:block_simple_crafter, Простой создатель
 enderio:block_crafter, Создатель
 enderio:block_creative_spawner, Creative Spawner
-toolprogression:magic_mushroom, Magic™ Mushroom
 tconstruct:book, Материалы и Вы
 tconstruct:soil:0, Цемент
 tconstruct:soil:1, Конгломерат зелёной слизи
@@ -12916,38 +12915,38 @@ tconstruct:slime_vine_purple_end:0, Лоза фиолетовой слизи
 tconstruct:slime_vine_purple_mid:0, Лоза фиолетовой слизи
 tconstruct:slime_vine_purple:0, Лоза фиолетовой слизи
 tconstruct:pattern:0, Пустая схема
-tconstruct:pattern:0, Схема - Laser Medium
-tconstruct:pattern:0, Схема - осколок
-tconstruct:pattern:0, Схема - боёк молота
-tconstruct:pattern:0, Схема - табличка
-tconstruct:pattern:0, Схема - лезвие топора
-tconstruct:pattern:0, Схема - мощное крепление
-tconstruct:pattern:0, Схема - Battery Cell
-tconstruct:pattern:0, Схема - полотно сковороды
-tconstruct:pattern:0, Схема - тетива
-tconstruct:pattern:0, Схема - большое полотно лопаты
-tconstruct:pattern:0, Схема - навершие косы
-tconstruct:pattern:0, Схема - большая пластина
-tconstruct:pattern:0, Схема - широкое лезвие меча
-tconstruct:pattern:0, Схема - плечо лука
-tconstruct:pattern:0, Схема - крепление
-tconstruct:pattern:0, Схема - мощная рукоять
-tconstruct:pattern:0, Схема - широкая карда
-tconstruct:pattern:0, Схема - Головка стамески
-tconstruct:pattern:0, Схема - малая гарда
-tconstruct:pattern:0, Схема - лезвие ножа
-tconstruct:pattern:0, Схема - большое лезвие топора
-tconstruct:pattern:0, Схема - древко стрелы
 tconstruct:pattern:0, Схема - поперечная гарда
-tconstruct:pattern:0, Схема - оселок
-tconstruct:pattern:0, Схема - полотно лопаты
+tconstruct:pattern:0, Схема - плечо лука
+tconstruct:pattern:0, Схема - Pipe Piece
+tconstruct:pattern:0, Схема - большое лезвие топора
+tconstruct:pattern:0, Схема - тетива
+tconstruct:pattern:0, Схема - Laser Medium
+tconstruct:pattern:0, Схема - крепление
+tconstruct:pattern:0, Схема - боёк молота
+tconstruct:pattern:0, Схема - наконечник
+tconstruct:pattern:0, Схема - широкое лезвие меча
+tconstruct:pattern:0, Схема - навершие косы
 tconstruct:pattern:0, Схема - оперение
-tconstruct:pattern:0, Схема - навершие кирки
+tconstruct:pattern:0, Схема - большая пластина
+tconstruct:pattern:0, Схема - лезвие топора
+tconstruct:pattern:0, Схема - полотно лопаты
+tconstruct:pattern:0, Схема - мощная рукоять
+tconstruct:pattern:0, Схема - табличка
+tconstruct:pattern:0, Схема - Головка стамески
+tconstruct:pattern:0, Схема - рукоять
+tconstruct:pattern:0, Схема - полотно сковороды
+tconstruct:pattern:0, Схема - оселок
 tconstruct:pattern:0, Схема - Kama Head
 tconstruct:pattern:0, Схема - лезвие меча
-tconstruct:pattern:0, Схема - наконечник
-tconstruct:pattern:0, Схема - Pipe Piece
-tconstruct:pattern:0, Схема - рукоять
+tconstruct:pattern:0, Схема - навершие кирки
+tconstruct:pattern:0, Схема - лезвие ножа
+tconstruct:pattern:0, Схема - Battery Cell
+tconstruct:pattern:0, Схема - древко стрелы
+tconstruct:pattern:0, Схема - большое полотно лопаты
+tconstruct:pattern:0, Схема - малая гарда
+tconstruct:pattern:0, Схема - осколок
+tconstruct:pattern:0, Схема - мощное крепление
+tconstruct:pattern:0, Схема - широкая карда
 tconstruct:shard:0, Наэлектризованная осколок
 tconstruct:shard:0, Энергетический осколок
 tconstruct:shard:0, Вибрирующий осколок
@@ -15623,74 +15622,74 @@ tconstruct:seared_stairs_road:0, Сушёные ступеньки (дорога
 tconstruct:seared_stairs_tile:0, Сушёные ступеньки (мини-плитка)
 tconstruct:seared_stairs_creeper:0, Сушёные ступеньки (кладка-крипер)
 tconstruct:cast:0, Пустая отливка
-tconstruct:cast:0, Отливка - осколок
-tconstruct:cast:0, Отливка - боёк молота
-tconstruct:cast:0, Отливка - табличка
-tconstruct:cast:0, Отливка - лезвие топора
-tconstruct:cast:0, Отливка - мощное крепление
-tconstruct:cast:0, Отливка - Battery Cell
-tconstruct:cast:0, Отливка - полотно сковороды
-tconstruct:cast:0, Отливка - тетива
-tconstruct:cast:0, Отливка - большое полотно лопаты
-tconstruct:cast:0, Отливка - навершие косы
-tconstruct:cast:0, Отливка - большая пластина
-tconstruct:cast:0, Отливка - широкое лезвие меча
-tconstruct:cast:0, Отливка - плечо лука
-tconstruct:cast:0, Отливка - крепление
-tconstruct:cast:0, Отливка - мощная рукоять
-tconstruct:cast:0, Отливка - широкая карда
-tconstruct:cast:0, Отливка - Головка стамески
-tconstruct:cast:0, Отливка - малая гарда
-tconstruct:cast:0, Отливка - лезвие ножа
-tconstruct:cast:0, Отливка - большое лезвие топора
-tconstruct:cast:0, Отливка - древко стрелы
 tconstruct:cast:0, Отливка - поперечная гарда
-tconstruct:cast:0, Отливка - оселок
-tconstruct:cast:0, Отливка - полотно лопаты
+tconstruct:cast:0, Отливка - плечо лука
+tconstruct:cast:0, Отливка - Pipe Piece
+tconstruct:cast:0, Отливка - большое лезвие топора
+tconstruct:cast:0, Отливка - тетива
+tconstruct:cast:0, Отливка - крепление
+tconstruct:cast:0, Отливка - боёк молота
+tconstruct:cast:0, Отливка - наконечник
+tconstruct:cast:0, Отливка - широкое лезвие меча
+tconstruct:cast:0, Отливка - навершие косы
 tconstruct:cast:0, Отливка - оперение
-tconstruct:cast:0, Отливка - навершие кирки
+tconstruct:cast:0, Отливка - большая пластина
+tconstruct:cast:0, Отливка - лезвие топора
+tconstruct:cast:0, Отливка - полотно лопаты
+tconstruct:cast:0, Отливка - мощная рукоять
+tconstruct:cast:0, Отливка - табличка
+tconstruct:cast:0, Отливка - Головка стамески
+tconstruct:cast:0, Отливка - рукоять
+tconstruct:cast:0, Отливка - полотно сковороды
+tconstruct:cast:0, Отливка - оселок
 tconstruct:cast:0, Отливка - Kama Head
 tconstruct:cast:0, Отливка - лезвие меча
-tconstruct:cast:0, Отливка - наконечник
-tconstruct:cast:0, Отливка - Pipe Piece
-tconstruct:cast:0, Отливка - рукоять
+tconstruct:cast:0, Отливка - навершие кирки
+tconstruct:cast:0, Отливка - лезвие ножа
+tconstruct:cast:0, Отливка - Battery Cell
+tconstruct:cast:0, Отливка - древко стрелы
+tconstruct:cast:0, Отливка - большое полотно лопаты
+tconstruct:cast:0, Отливка - малая гарда
+tconstruct:cast:0, Отливка - осколок
+tconstruct:cast:0, Отливка - мощное крепление
+tconstruct:cast:0, Отливка - широкая карда
 tconstruct:cast_custom:0, Отливка слитка
 tconstruct:cast_custom:1, Отливка самородка
 tconstruct:cast_custom:2, Отливка камня
 tconstruct:cast_custom:3, Отливка пластины
 tconstruct:cast_custom:4, Отливка шестерни
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Глиняная отливка - осколок
-tconstruct:clay_cast:0, Глиняная отливка - боёк молота
-tconstruct:clay_cast:0, Глиняная отливка - табличка
-tconstruct:clay_cast:0, Глиняная отливка - лезвие топора
-tconstruct:clay_cast:0, Глиняная отливка - мощное крепление
-tconstruct:clay_cast:0, Глиняная отливка - Battery Cell
-tconstruct:clay_cast:0, Глиняная отливка - полотно сковороды
-tconstruct:clay_cast:0, Глиняная отливка - тетива
-tconstruct:clay_cast:0, Глиняная отливка - большое полотно лопаты
-tconstruct:clay_cast:0, Глиняная отливка - навершие косы
-tconstruct:clay_cast:0, Глиняная отливка - большая пластина
-tconstruct:clay_cast:0, Глиняная отливка - широкое лезвие меча
-tconstruct:clay_cast:0, Глиняная отливка - плечо лука
-tconstruct:clay_cast:0, Глиняная отливка - крепление
-tconstruct:clay_cast:0, Глиняная отливка - мощная рукоять
-tconstruct:clay_cast:0, Глиняная отливка - широкая карда
-tconstruct:clay_cast:0, Глиняная отливка - Головка стамески
-tconstruct:clay_cast:0, Глиняная отливка - малая гарда
-tconstruct:clay_cast:0, Глиняная отливка - лезвие ножа
-tconstruct:clay_cast:0, Глиняная отливка - большое лезвие топора
-tconstruct:clay_cast:0, Глиняная отливка - древко стрелы
 tconstruct:clay_cast:0, Глиняная отливка - поперечная гарда
-tconstruct:clay_cast:0, Глиняная отливка - оселок
-tconstruct:clay_cast:0, Глиняная отливка - полотно лопаты
+tconstruct:clay_cast:0, Глиняная отливка - плечо лука
+tconstruct:clay_cast:0, Глиняная отливка - Pipe Piece
+tconstruct:clay_cast:0, Глиняная отливка - большое лезвие топора
+tconstruct:clay_cast:0, Глиняная отливка - тетива
+tconstruct:clay_cast:0, Глиняная отливка - крепление
+tconstruct:clay_cast:0, Глиняная отливка - боёк молота
+tconstruct:clay_cast:0, Глиняная отливка - наконечник
+tconstruct:clay_cast:0, Глиняная отливка - широкое лезвие меча
+tconstruct:clay_cast:0, Глиняная отливка - навершие косы
 tconstruct:clay_cast:0, Глиняная отливка - оперение
-tconstruct:clay_cast:0, Глиняная отливка - навершие кирки
+tconstruct:clay_cast:0, Глиняная отливка - большая пластина
+tconstruct:clay_cast:0, Глиняная отливка - лезвие топора
+tconstruct:clay_cast:0, Глиняная отливка - полотно лопаты
+tconstruct:clay_cast:0, Глиняная отливка - мощная рукоять
+tconstruct:clay_cast:0, Глиняная отливка - табличка
+tconstruct:clay_cast:0, Глиняная отливка - Головка стамески
+tconstruct:clay_cast:0, Глиняная отливка - рукоять
+tconstruct:clay_cast:0, Глиняная отливка - полотно сковороды
+tconstruct:clay_cast:0, Глиняная отливка - оселок
 tconstruct:clay_cast:0, Глиняная отливка - Kama Head
 tconstruct:clay_cast:0, Глиняная отливка - лезвие меча
-tconstruct:clay_cast:0, Глиняная отливка - наконечник
-tconstruct:clay_cast:0, Глиняная отливка - Pipe Piece
-tconstruct:clay_cast:0, Глиняная отливка - рукоять
+tconstruct:clay_cast:0, Глиняная отливка - навершие кирки
+tconstruct:clay_cast:0, Глиняная отливка - лезвие ножа
+tconstruct:clay_cast:0, Глиняная отливка - Battery Cell
+tconstruct:clay_cast:0, Глиняная отливка - древко стрелы
+tconstruct:clay_cast:0, Глиняная отливка - большое полотно лопаты
+tconstruct:clay_cast:0, Глиняная отливка - малая гарда
+tconstruct:clay_cast:0, Глиняная отливка - осколок
+tconstruct:clay_cast:0, Глиняная отливка - мощное крепление
+tconstruct:clay_cast:0, Глиняная отливка - широкая карда
 tconstruct:stone_torch:0, Каменный факел
 tconstruct:stone_ladder:0, Каменная лестница
 tconstruct:punji:0, Тростниковые колья
@@ -16476,15 +16475,6 @@ appliedenergistics2:facade:0, Кабельный фасад - Подогрева
 appliedenergistics2:facade:0, Кабельный фасад - Вентилятор парника
 appliedenergistics2:facade:0, Кабельный фасад - Увлажнитель парника
 appliedenergistics2:facade:0, Кабельный фасад - Осушитель парника
-appliedenergistics2:facade:0, Кабельный фасад - Блок медовых сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок кипящих сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок вязких сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок морозных сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок капающих сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок шелковистых сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок пересохших сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок замшелых сот
-appliedenergistics2:facade:0, Кабельный фасад - Блок спелых сот
 appliedenergistics2:facade:0, Кабельный фасад - Блок древесного угля
 appliedenergistics2:facade:0, Кабельный фасад - Охапка дров
 appliedenergistics2:facade:0, Кабельный фасад - Декоративная охапка дров
@@ -16656,6 +16646,15 @@ appliedenergistics2:facade:0, Кабельный фасад - Листва Си�
 appliedenergistics2:facade:0, Кабельный фасад - Листва дынного дерева
 appliedenergistics2:facade:0, Кабельный фасад - Листва финиковой пальмы
 appliedenergistics2:facade:0, Кабельный фасад - Листва белого тополя
+appliedenergistics2:facade:0, Кабельный фасад - Блок медовых сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок кипящих сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок вязких сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок морозных сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок капающих сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок шелковистых сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок пересохших сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок замшелых сот
+appliedenergistics2:facade:0, Кабельный фасад - Блок спелых сот
 appliedenergistics2:facade:0, Кабельный фасад - Медная руда
 appliedenergistics2:facade:0, Кабельный фасад - Оловянная руда
 appliedenergistics2:facade:0, Кабельный фасад - Серебряная руда
@@ -19362,11 +19361,11 @@ appliedenergistics2:facade:0, Кабельный фасад - Песчаник �
 appliedenergistics2:facade:0, Кабельный фасад - Торфяной блок
 appliedenergistics2:facade:0, Кабельный фасад - Пустотный адский камень
 appliedenergistics2:facade:0, Кабельный фасад - Белая стеганая шерсть
+appliedenergistics2:facade:0, Кабельный фасад - Swamp Oak Leaves
+appliedenergistics2:facade:0, Кабельный фасад - Белый пещерный кристалл
 appliedenergistics2:facade:0, Кабельный фасад - Блок сахара
 appliedenergistics2:facade:0, Кабельный фасад - Red Slime Block
 appliedenergistics2:facade:0, Кабельный фасад - Gravisand
-appliedenergistics2:facade:0, Кабельный фасад - Swamp Oak Leaves
-appliedenergistics2:facade:0, Кабельный фасад - Белый пещерный кристалл
 appliedenergistics2:facade:0, Кабельный фасад - Книжная полка из ели
 appliedenergistics2:facade:0, Кабельный фасад - Горящий Редстоуновый фонарь
 appliedenergistics2:facade:0, Кабельный фасад - Огненный светильник
@@ -20106,23 +20105,6 @@ appliedenergistics2:part:80, МЭ шина переключения
 ae2wtlib:infinity_booster_card, Infinity Booster Card
 ae2wtlib:wut, Wireless Ultimate Terminal
 ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
-quark:glass_shards:0, Осколок стекла
-quark:glass_shards:1, Осколок белого стекла
-quark:glass_shards:2, Осколок оранжевого стекла
-quark:glass_shards:3, Осколок пурпурного стекла
-quark:glass_shards:4, Осколок голубого стекла
-quark:glass_shards:5, Осколок жёлтого стекла
-quark:glass_shards:6, Осколок лаймового стекла
-quark:glass_shards:7, Осколок розового стекла
-quark:glass_shards:8, Осколок серого стекла
-quark:glass_shards:9, Осколок светло-серого стекла
-quark:glass_shards:10, Осколок бирюзового стекла
-quark:glass_shards:11, Осколок фиолетового стекла
-quark:glass_shards:12, Осколок синего стекла
-quark:glass_shards:13, Осколок коричневого стекла
-quark:glass_shards:14, Осколок зелёного стекла
-quark:glass_shards:15, Осколок красного стекла
-quark:glass_shards:16, Осколок чёрного стекла
 quark:sandstone_new:0, Полированный песчаник
 quark:sandstone_new:1, Кирпичи из песчаника
 quark:sandstone_new:2, Полированный красный песчаник
@@ -20413,24 +20395,6 @@ quark:quilted_wool:12, Коричневая стеганая шерсть
 quark:quilted_wool:13, Зелёная стеганая шерсть
 quark:quilted_wool:14, Красная стеганая шерсть
 quark:quilted_wool:15, Чёрная стеганая шерсть
-quark:witch_hat, item.witch_hat.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -20481,6 +20445,72 @@ quark:cooked_crab_leg, item.cooked_crab_leg.name
 quark:crab_shell, item.crab_shell.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Слизь в ведре
+quark:rune:0, Белая руна
+quark:rune:1, Оранжевая руна
+quark:rune:2, Пурпурная руна
+quark:rune:3, Голубая руна
+quark:rune:4, Жёлтая руна
+quark:rune:5, Лаймовая руна
+quark:rune:6, Розовая руна
+quark:rune:7, Серая руна
+quark:rune:8, Светло-серая руна
+quark:rune:9, Бирюзовая руна
+quark:rune:10, Фиолетовая руна
+quark:rune:11, Синяя руна
+quark:rune:12, Коричневая руна
+quark:rune:13, Зелёная руна
+quark:rune:14, Красная руна
+quark:rune:15, Чёрная руна
+quark:rune:16, Радужная руна
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Яйцо красного попугая
+quark:parrot_egg:1, Яйцо синего попугая
+quark:parrot_egg:2, Яйцо зелёного попугая
+quark:parrot_egg:3, Яйцо голубого попугая
+quark:parrot_egg:4, Яйцо серого попугая
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:glass_shards:0, Осколок стекла
+quark:glass_shards:1, Осколок белого стекла
+quark:glass_shards:2, Осколок оранжевого стекла
+quark:glass_shards:3, Осколок пурпурного стекла
+quark:glass_shards:4, Осколок голубого стекла
+quark:glass_shards:5, Осколок жёлтого стекла
+quark:glass_shards:6, Осколок лаймового стекла
+quark:glass_shards:7, Осколок розового стекла
+quark:glass_shards:8, Осколок серого стекла
+quark:glass_shards:9, Осколок светло-серого стекла
+quark:glass_shards:10, Осколок бирюзового стекла
+quark:glass_shards:11, Осколок фиолетового стекла
+quark:glass_shards:12, Осколок синего стекла
+quark:glass_shards:13, Осколок коричневого стекла
+quark:glass_shards:14, Осколок зелёного стекла
+quark:glass_shards:15, Осколок красного стекла
+quark:glass_shards:16, Осколок чёрного стекла
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -20580,38 +20610,7 @@ quark:acacia_button, tile.acacia_button.name
 quark:dark_oak_button, tile.dark_oak_button.name
 quark:grate, tile.grate.name
 quark:glass_item_frame, item.glass_item_frame.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Слизь в ведре
-quark:rune:0, Белая руна
-quark:rune:1, Оранжевая руна
-quark:rune:2, Пурпурная руна
-quark:rune:3, Голубая руна
-quark:rune:4, Жёлтая руна
-quark:rune:5, Лаймовая руна
-quark:rune:6, Розовая руна
-quark:rune:7, Серая руна
-quark:rune:8, Светло-серая руна
-quark:rune:9, Бирюзовая руна
-quark:rune:10, Фиолетовая руна
-quark:rune:11, Синяя руна
-quark:rune:12, Коричневая руна
-quark:rune:13, Зелёная руна
-quark:rune:14, Красная руна
-quark:rune:15, Чёрная руна
-quark:rune:16, Радужная руна
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Яйцо красного попугая
-quark:parrot_egg:1, Яйцо синего попугая
-quark:parrot_egg:2, Яйцо зелёного попугая
-quark:parrot_egg:3, Яйцо голубого попугая
-quark:parrot_egg:4, Яйцо серого попугая
-quark:enderdragon_scale, item.enderdragon_scale.name
+quark:witch_hat, item.witch_hat.name
 coralreef:coral:0, Оранжевый коралл
 coralreef:coral:1, Пурпурный коралл
 coralreef:coral:2, Розовый коралл
@@ -22461,27 +22460,6 @@ rftoolscontrol:node, Node
 rftoolscontrol:craftingstation, Crafting Station
 rftoolscontrol:workbench, Workbench
 rftoolscontrol:tank, Multi Tank
-storagedrawers:upgrade_template, Шаблон Улучшения
-storagedrawers:upgrade_storage:0, Улучшение Хранилища (I)
-storagedrawers:upgrade_storage:1, Улучшение Хранилища (II)
-storagedrawers:upgrade_storage:2, Улучшение Хранилища (III)
-storagedrawers:upgrade_storage:3, Улучшение Хранилища (IV)
-storagedrawers:upgrade_storage:4, Улучшение Хранилища (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Улучшение «Индикатор» (I)
-storagedrawers:upgrade_status:1, Улучшение «Индикатор» (II)
-storagedrawers:upgrade_void, Пустотное Улучшение
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Творческое Улучшение Хранилища
-storagedrawers:upgrade_creative:1, Творческое Торговое Улучшение
-storagedrawers:upgrade_redstone:0, Редстоун Улучшение
-storagedrawers:upgrade_redstone:1, Редстоун Макс. Улучшение
-storagedrawers:upgrade_redstone:2, Редстоун Мин. Улучшение
-storagedrawers:drawer_key, Ключ Ящика
-storagedrawers:shroud_key, Ключ Сокрытия
-storagedrawers:personal_key, Персональный Ключ
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Лента Для Упаковки
 storagedrawers:basicdrawers:0, Основной Ящик
 storagedrawers:basicdrawers:0, Основной Ящик
 storagedrawers:basicdrawers:0, Основной Ящик
@@ -22532,6 +22510,27 @@ storagedrawers:customdrawers:2, Обрамлённый Ящик 2x2
 storagedrawers:customdrawers:3, Обрамлённый Половинный Ящик 1x2
 storagedrawers:customdrawers:4, Обрамлённый Половинный Ящик 2x2
 storagedrawers:customtrim, Оформлен Отделкой
+storagedrawers:upgrade_template, Шаблон Улучшения
+storagedrawers:upgrade_storage:0, Улучшение Хранилища (I)
+storagedrawers:upgrade_storage:1, Улучшение Хранилища (II)
+storagedrawers:upgrade_storage:2, Улучшение Хранилища (III)
+storagedrawers:upgrade_storage:3, Улучшение Хранилища (IV)
+storagedrawers:upgrade_storage:4, Улучшение Хранилища (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Улучшение «Индикатор» (I)
+storagedrawers:upgrade_status:1, Улучшение «Индикатор» (II)
+storagedrawers:upgrade_void, Пустотное Улучшение
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Творческое Улучшение Хранилища
+storagedrawers:upgrade_creative:1, Творческое Торговое Улучшение
+storagedrawers:upgrade_redstone:0, Редстоун Улучшение
+storagedrawers:upgrade_redstone:1, Редстоун Макс. Улучшение
+storagedrawers:upgrade_redstone:2, Редстоун Мин. Улучшение
+storagedrawers:drawer_key, Ключ Ящика
+storagedrawers:shroud_key, Ключ Сокрытия
+storagedrawers:personal_key, Персональный Ключ
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Лента Для Упаковки
 tcomplement:materials:0, Каменное ведро
 tcomplement:materials:1, Обожжённый кирпич
 tcomplement:materials:6, iModifier
@@ -23477,15 +23476,6 @@ chiselsandbits:block_bit:0, Обработанный кусочек - Медны
 chiselsandbits:block_bit:0, Обработанный кусочек - Оловянный блок
 chiselsandbits:block_bit:0, Обработанный кусочек - Бронзовый блок
 chiselsandbits:block_bit:0, Обработанный кусочек - Кирпичи из золы
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок медовых сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок кипящих сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок вязких сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок морозных сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок капающих сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок шелковистых сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок пересохших сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок замшелых сот
-chiselsandbits:block_bit:0, Обработанный кусочек - Блок спелых сот
 chiselsandbits:block_bit:0, Обработанный кусочек - Блок древесного угля
 chiselsandbits:block_bit:0, Обработанный кусочек - Суглинок
 chiselsandbits:block_bit:0, Обработанный кусочек - Доски из лиственницы
@@ -23552,6 +23542,15 @@ chiselsandbits:block_bit:0, Обработанный кусочек - Берёз
 chiselsandbits:block_bit:0, Обработанный кусочек - Доски из тропического дерева (огнестойкость)
 chiselsandbits:block_bit:0, Обработанный кусочек - Акациевые доски (огнестойкость)
 chiselsandbits:block_bit:0, Обработанный кусочек - Доски из тёмного дуба (огнестойкость)
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок медовых сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок кипящих сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок вязких сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок морозных сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок капающих сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок шелковистых сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок пересохших сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок замшелых сот
+chiselsandbits:block_bit:0, Обработанный кусочек - Блок спелых сот
 chiselsandbits:block_bit:0, Обработанный кусочек - Медная руда
 chiselsandbits:block_bit:0, Обработанный кусочек - Оловянная руда
 chiselsandbits:block_bit:0, Обработанный кусочек - Серебряная руда
@@ -27556,6 +27555,13 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -27576,13 +27582,6 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.natura.edibles.0, item.crated.natura.edibles.0.name
 forestry:crated.natura.edibles.1, item.crated.natura.edibles.1.name
 forestry:crated.natura.edibles.11, item.crated.natura.edibles.11.name
