@@ -1870,33 +1870,225 @@ forestry:resource_storage:2, Block of Tin
 forestry:resource_storage:3, Block of Bronze
 forestry:ash_brick:0, Ash Bricks
 forestry:ash_stairs:0, Ash Brick Stairs
-forestry:genetic_filter:0, Genetic Filter
-forestry:fluid.bio.ethanol, Ethanol
-forestry:fluid.biomass, Biomass
-forestry:fluid.glass, Liquid Glass
-forestry:fluid.for.honey, Honey
-forestry:fluid.ice, Crushed Ice
-forestry:fluid.juice, Fruit Juice
-forestry:fluid.milk, Milk
-forestry:fluid.seed.oil, Seed Oil
-forestry:fluid.short.mead, Short Mead
-forestry:can, item.for.can.name
-forestry:capsule, item.for.capsule.name
-forestry:refractory, item.for.refractory.name
-forestry:database:0, Database
-forestry:charcoal:0, Block of Charcoal
-forestry:wood_pile:0, Wood Pile
-forestry:wood_pile_decorative:0, Decorative Wood Pile
-forestry:ash_block_0:0, Ash Block
-forestry:ash_block_1:0, Ash Block
-forestry:ash_block_2:0, Ash Block
-forestry:ash_block_3:0, Ash Block
-forestry:loam:0, Loam
-forestry:honeyed_slice, Honeyed Slice
-forestry:ambrosia, Ambrosia
-forestry:honey_pot, Honey Pot
-forestry:habitat_former:0, Habitat Former
-forestry:habitat_screen, Habitat Screen
+forestry:bee_queen_ge:0, Forest Queen
+forestry:bee_queen_ge:0, Meadows Queen
+forestry:bee_queen_ge:0, Common Queen
+forestry:bee_queen_ge:0, Cultivated Queen
+forestry:bee_queen_ge:0, Noble Queen
+forestry:bee_queen_ge:0, Majestic Queen
+forestry:bee_queen_ge:0, Imperial Queen
+forestry:bee_queen_ge:0, Diligent Queen
+forestry:bee_queen_ge:0, Unweary Queen
+forestry:bee_queen_ge:0, Industrious Queen
+forestry:bee_queen_ge:0, Steadfast Queen
+forestry:bee_queen_ge:0, Valiant Queen
+forestry:bee_queen_ge:0, Heroic Queen
+forestry:bee_queen_ge:0, Sinister Queen
+forestry:bee_queen_ge:0, Fiendish Queen
+forestry:bee_queen_ge:0, Demonic Queen
+forestry:bee_queen_ge:0, Modest Queen
+forestry:bee_queen_ge:0, Frugal Queen
+forestry:bee_queen_ge:0, Austere Queen
+forestry:bee_queen_ge:0, Tropical Queen
+forestry:bee_queen_ge:0, Exotic Queen
+forestry:bee_queen_ge:0, Edenic Queen
+forestry:bee_queen_ge:0, Ender Queen
+forestry:bee_queen_ge:0, Spectral Queen
+forestry:bee_queen_ge:0, Phantasmal Queen
+forestry:bee_queen_ge:0, Wintry Queen
+forestry:bee_queen_ge:0, Icy Queen
+forestry:bee_queen_ge:0, Glacial Queen
+forestry:bee_queen_ge:0, Vindictive Queen
+forestry:bee_queen_ge:0, Vengeful Queen
+forestry:bee_queen_ge:0, Avenging Queen
+forestry:bee_queen_ge:0, Rural Queen
+forestry:bee_queen_ge:0, Farmerly Queen
+forestry:bee_queen_ge:0, Agrarian Queen
+forestry:bee_queen_ge:0, Marshy Queen
+forestry:bee_queen_ge:0, Miry Queen
+forestry:bee_queen_ge:0, Boggy Queen
+forestry:bee_queen_ge:0, Monastic Queen
+forestry:bee_queen_ge:0, Secluded Queen
+forestry:bee_queen_ge:0, Hermitic Queen
+forestry:bee_drone_ge:0, Forest Drone
+forestry:bee_drone_ge:0, Meadows Drone
+forestry:bee_drone_ge:0, Common Drone
+forestry:bee_drone_ge:0, Cultivated Drone
+forestry:bee_drone_ge:0, Noble Drone
+forestry:bee_drone_ge:0, Majestic Drone
+forestry:bee_drone_ge:0, Imperial Drone
+forestry:bee_drone_ge:0, Diligent Drone
+forestry:bee_drone_ge:0, Unweary Drone
+forestry:bee_drone_ge:0, Industrious Drone
+forestry:bee_drone_ge:0, Steadfast Drone
+forestry:bee_drone_ge:0, Valiant Drone
+forestry:bee_drone_ge:0, Heroic Drone
+forestry:bee_drone_ge:0, Sinister Drone
+forestry:bee_drone_ge:0, Fiendish Drone
+forestry:bee_drone_ge:0, Demonic Drone
+forestry:bee_drone_ge:0, Modest Drone
+forestry:bee_drone_ge:0, Frugal Drone
+forestry:bee_drone_ge:0, Austere Drone
+forestry:bee_drone_ge:0, Tropical Drone
+forestry:bee_drone_ge:0, Exotic Drone
+forestry:bee_drone_ge:0, Edenic Drone
+forestry:bee_drone_ge:0, Ender Drone
+forestry:bee_drone_ge:0, Spectral Drone
+forestry:bee_drone_ge:0, Phantasmal Drone
+forestry:bee_drone_ge:0, Wintry Drone
+forestry:bee_drone_ge:0, Icy Drone
+forestry:bee_drone_ge:0, Glacial Drone
+forestry:bee_drone_ge:0, Vindictive Drone
+forestry:bee_drone_ge:0, Vengeful Drone
+forestry:bee_drone_ge:0, Avenging Drone
+forestry:bee_drone_ge:0, Rural Drone
+forestry:bee_drone_ge:0, Farmerly Drone
+forestry:bee_drone_ge:0, Agrarian Drone
+forestry:bee_drone_ge:0, Marshy Drone
+forestry:bee_drone_ge:0, Miry Drone
+forestry:bee_drone_ge:0, Boggy Drone
+forestry:bee_drone_ge:0, Monastic Drone
+forestry:bee_drone_ge:0, Secluded Drone
+forestry:bee_drone_ge:0, Hermitic Drone
+forestry:bee_princess_ge:0, Forest Princess
+forestry:bee_princess_ge:0, Meadows Princess
+forestry:bee_princess_ge:0, Common Princess
+forestry:bee_princess_ge:0, Cultivated Princess
+forestry:bee_princess_ge:0, Noble Princess
+forestry:bee_princess_ge:0, Majestic Princess
+forestry:bee_princess_ge:0, Imperial Princess
+forestry:bee_princess_ge:0, Diligent Princess
+forestry:bee_princess_ge:0, Unweary Princess
+forestry:bee_princess_ge:0, Industrious Princess
+forestry:bee_princess_ge:0, Steadfast Princess
+forestry:bee_princess_ge:0, Valiant Princess
+forestry:bee_princess_ge:0, Heroic Princess
+forestry:bee_princess_ge:0, Sinister Princess
+forestry:bee_princess_ge:0, Fiendish Princess
+forestry:bee_princess_ge:0, Demonic Princess
+forestry:bee_princess_ge:0, Modest Princess
+forestry:bee_princess_ge:0, Frugal Princess
+forestry:bee_princess_ge:0, Austere Princess
+forestry:bee_princess_ge:0, Tropical Princess
+forestry:bee_princess_ge:0, Exotic Princess
+forestry:bee_princess_ge:0, Edenic Princess
+forestry:bee_princess_ge:0, Ender Princess
+forestry:bee_princess_ge:0, Spectral Princess
+forestry:bee_princess_ge:0, Phantasmal Princess
+forestry:bee_princess_ge:0, Wintry Princess
+forestry:bee_princess_ge:0, Icy Princess
+forestry:bee_princess_ge:0, Glacial Princess
+forestry:bee_princess_ge:0, Vindictive Princess
+forestry:bee_princess_ge:0, Vengeful Princess
+forestry:bee_princess_ge:0, Avenging Princess
+forestry:bee_princess_ge:0, Rural Princess
+forestry:bee_princess_ge:0, Farmerly Princess
+forestry:bee_princess_ge:0, Agrarian Princess
+forestry:bee_princess_ge:0, Marshy Princess
+forestry:bee_princess_ge:0, Miry Princess
+forestry:bee_princess_ge:0, Boggy Princess
+forestry:bee_princess_ge:0, Monastic Princess
+forestry:bee_princess_ge:0, Secluded Princess
+forestry:bee_princess_ge:0, Hermitic Princess
+forestry:bee_larvae_ge:0, Forest Larvae
+forestry:bee_larvae_ge:0, Meadows Larvae
+forestry:bee_larvae_ge:0, Common Larvae
+forestry:bee_larvae_ge:0, Cultivated Larvae
+forestry:bee_larvae_ge:0, Noble Larvae
+forestry:bee_larvae_ge:0, Majestic Larvae
+forestry:bee_larvae_ge:0, Imperial Larvae
+forestry:bee_larvae_ge:0, Diligent Larvae
+forestry:bee_larvae_ge:0, Unweary Larvae
+forestry:bee_larvae_ge:0, Industrious Larvae
+forestry:bee_larvae_ge:0, Steadfast Larvae
+forestry:bee_larvae_ge:0, Valiant Larvae
+forestry:bee_larvae_ge:0, Heroic Larvae
+forestry:bee_larvae_ge:0, Sinister Larvae
+forestry:bee_larvae_ge:0, Fiendish Larvae
+forestry:bee_larvae_ge:0, Demonic Larvae
+forestry:bee_larvae_ge:0, Modest Larvae
+forestry:bee_larvae_ge:0, Frugal Larvae
+forestry:bee_larvae_ge:0, Austere Larvae
+forestry:bee_larvae_ge:0, Tropical Larvae
+forestry:bee_larvae_ge:0, Exotic Larvae
+forestry:bee_larvae_ge:0, Edenic Larvae
+forestry:bee_larvae_ge:0, Ender Larvae
+forestry:bee_larvae_ge:0, Spectral Larvae
+forestry:bee_larvae_ge:0, Phantasmal Larvae
+forestry:bee_larvae_ge:0, Wintry Larvae
+forestry:bee_larvae_ge:0, Icy Larvae
+forestry:bee_larvae_ge:0, Glacial Larvae
+forestry:bee_larvae_ge:0, Vindictive Larvae
+forestry:bee_larvae_ge:0, Vengeful Larvae
+forestry:bee_larvae_ge:0, Avenging Larvae
+forestry:bee_larvae_ge:0, Rural Larvae
+forestry:bee_larvae_ge:0, Farmerly Larvae
+forestry:bee_larvae_ge:0, Agrarian Larvae
+forestry:bee_larvae_ge:0, Marshy Larvae
+forestry:bee_larvae_ge:0, Miry Larvae
+forestry:bee_larvae_ge:0, Boggy Larvae
+forestry:bee_larvae_ge:0, Monastic Larvae
+forestry:bee_larvae_ge:0, Secluded Larvae
+forestry:bee_larvae_ge:0, Hermitic Larvae
+forestry:habitat_locator, Habitat Locator
+forestry:imprinter, Imprinter
+forestry:cart.beehouse:0, Minecart with Bee House
+forestry:cart.beehouse:1, Minecart with Apiary
+forestry:frame_untreated, Untreated Frame
+forestry:frame_impregnated, Impregnated Frame
+forestry:frame_proven, Proven Frame
+forestry:honey_drop:0, Honey Drop
+forestry:pollen:0, Pollen Cluster
+forestry:pollen:1, Crystalline Pollen Cluster
+forestry:propolis:0, Propolis
+forestry:propolis:1, Sticky Propolis
+forestry:propolis:3, Silky Propolis
+forestry:honeydew, Honeydew
+forestry:royal_jelly, Royal Jelly
+forestry:wax_cast, Wax Cast
+forestry:bee_combs:0, Honey Comb
+forestry:bee_combs:2, Simmering Comb
+forestry:bee_combs:3, Stringy Comb
+forestry:bee_combs:4, Frozen Comb
+forestry:bee_combs:5, Dripping Comb
+forestry:bee_combs:6, Silky Comb
+forestry:bee_combs:7, Parched Comb
+forestry:bee_combs:15, Mossy Comb
+forestry:bee_combs:16, Mellow Comb
+forestry:apiarist_helmet, Apiarist's Hat
+forestry:apiarist_chest, Apiarist's Shirt
+forestry:apiarist_legs, Apiarist's Pants
+forestry:apiarist_boots, Apiarist's Shoes
+forestry:scoop, Scoop
+forestry:smoker, Bee Smoker
+forestry:apiary:0, Apiary
+forestry:bee_house:0, Bee House
+forestry:bee_chest:0, Apiarist's Chest
+forestry:beehives:0, Forest Hive
+forestry:beehives:1, Meadows Hive
+forestry:beehives:2, Modest Hive
+forestry:beehives:3, Tropical Hive
+forestry:beehives:4, Ender Hive
+forestry:beehives:5, Wintry Hive
+forestry:beehives:6, Marshy Hive
+forestry:candle:0, Unlit Candle
+forestry:stump:0, Candle Stump
+forestry:bee_combs_0:0, Honey Comb Block
+forestry:bee_combs_0:2, Simmering Comb Block
+forestry:bee_combs_0:3, Stringy Comb Block
+forestry:bee_combs_0:4, Frozen Comb Block
+forestry:bee_combs_0:5, Dripping Comb Block
+forestry:bee_combs_0:6, Silky Comb Block
+forestry:bee_combs_0:7, Parched Comb Block
+forestry:bee_combs_0:15, Mossy Comb Block
+forestry:bee_combs_1:0, Mellow Comb Block
+forestry:alveary.plain:0, Alveary
+forestry:alveary.swarmer:0, Alveary Swarmer
+forestry:alveary.fan:0, Alveary Fan
+forestry:alveary.heater:0, Alveary Heater
+forestry:alveary.hygro:0, Alveary Hygroregulator
+forestry:alveary.stabiliser:0, Alveary Stabiliser
+forestry:alveary.sieve:0, Alveary Sieve
 forestry:apiarist_bag, Apiarist's Backpack
 forestry:lepidopterist_bag, Lepidopterist's Backpack
 forestry:miner_bag, Mining Backpack
@@ -1911,6 +2103,101 @@ forestry:adventurer_bag, Adventuring Backpack
 forestry:adventurer_bag_t2, Woven Adventuring Backpack
 forestry:builder_bag, Building Backpack
 forestry:builder_bag_t2, Woven Building Backpack
+forestry:fluid.bio.ethanol, Ethanol
+forestry:fluid.biomass, Biomass
+forestry:fluid.glass, Liquid Glass
+forestry:fluid.for.honey, Honey
+forestry:fluid.ice, Crushed Ice
+forestry:fluid.juice, Fruit Juice
+forestry:fluid.milk, Milk
+forestry:fluid.seed.oil, Seed Oil
+forestry:fluid.short.mead, Short Mead
+forestry:can, item.for.can.name
+forestry:capsule, item.for.capsule.name
+forestry:refractory, item.for.refractory.name
+forestry:mushroom:0, tile.for.mushroom.name
+forestry:mushroom:1, tile.for.mushroom.name
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:0, Farm Block
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:2, Farm Gearbox
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:3, Farm Hatch
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:4, Farm Valve
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:ffarm:5, Farm Control
+forestry:bottler:0, Bottler
+forestry:carpenter:0, Carpenter
+forestry:centrifuge:0, Centrifuge
+forestry:fermenter:0, Fermenter
+forestry:moistener:0, Moistener
+forestry:squeezer:0, Squeezer
+forestry:still:0, Still
+forestry:rainmaker:0, Rainmaker
+forestry:fabricator:0, Thermionic Fabricator
+forestry:raintank:0, Rain Tank
+forestry:crate, Crate
+forestry:habitat_former:0, Habitat Former
+forestry:habitat_screen, Habitat Screen
+forestry:database:0, Database
+forestry:honeyed_slice, Honeyed Slice
+forestry:ambrosia, Ambrosia
+forestry:honey_pot, Honey Pot
+forestry:worktable:0, Worktable
+forestry:charcoal:0, Block of Charcoal
+forestry:wood_pile:0, Wood Pile
+forestry:wood_pile_decorative:0, Decorative Wood Pile
+forestry:ash_block_0:0, Ash Block
+forestry:ash_block_1:0, Ash Block
+forestry:ash_block_2:0, Ash Block
+forestry:ash_block_3:0, Ash Block
+forestry:loam:0, Loam
 forestry:greenhouse:0, Greenhouse Block
 forestry:greenhouse:3, Greenhouse Energy Distributor
 forestry:greenhouse:4, Greenhouse Control
@@ -1922,17 +2209,36 @@ forestry:climatiser:3, Greenhouse Humidifier
 forestry:climatiser:4, Greenhouse Dehumidifier
 forestry:greenhouse.window:0, Greenhouse Window
 forestry:greenhouse.window_up:0, Greenhouse Roof Window
-forestry:bottler:0, Bottler
-forestry:carpenter:0, Carpenter
-forestry:centrifuge:0, Centrifuge
-forestry:fermenter:0, Fermenter
-forestry:moistener:0, Moistener
-forestry:squeezer:0, Squeezer
-forestry:still:0, Still
-forestry:rainmaker:0, Rainmaker
-forestry:fabricator:0, Thermionic Fabricator
-forestry:raintank:0, Rain Tank
-forestry:book_forester, Forester's Manual
+forestry:stamps:0, Stamp (1n)
+forestry:stamps:1, Stamp (2n)
+forestry:stamps:2, Stamp (5n)
+forestry:stamps:3, Stamp (10n)
+forestry:stamps:4, Stamp (20n)
+forestry:stamps:5, Stamp (50n)
+forestry:stamps:6, Stamp (100n)
+forestry:letters, Letter
+forestry:catalogue, Catalogue
+forestry:mailbox:0, Mailbox
+forestry:trade_station:0, Trade Station
+forestry:stamp_collector:0, Stamp Collector
+forestry:arboretum:0, Arboretum (Managed)
+forestry:arboretum:1, Arboretum (Manual)
+forestry:farm_crops:0, Farm (Managed)
+forestry:farm_crops:1, Farm (Manual)
+forestry:farm_mushroom:0, Mushroom Farm (Managed)
+forestry:farm_mushroom:1, Mushroom Farm (Manual)
+forestry:farm_gourd:0, Gourd Farm (Managed)
+forestry:farm_gourd:1, Gourd Farm (Manual)
+forestry:farm_nether:0, Infernal Farm (Managed)
+forestry:farm_nether:1, Infernal Farm (Manual)
+forestry:farm_ender:0, Ender Farm (Managed)
+forestry:farm_ender:1, Ender Farm (Manual)
+forestry:peat_bog:0, Peat Bog (Managed)
+forestry:peat_bog:1, Peat Bog (Manual)
+forestry:engine_peat:0, Peat-fired Engine
+forestry:engine_biogas:0, Biogas Engine
+forestry:engine_clockwork:0, Clockwork Engine
+forestry:genetic_filter:0, Genetic Filter
 forestry:sapling:0, Apple Oak Sapling
 forestry:sapling:0, Dark Oak Sapling
 forestry:sapling:0, Silver Birch Sapling
@@ -2620,313 +2926,7 @@ forestry:cocoon_ge:0, Diana Fritillary Cocoon
 forestry:butterfly_chest:0, Lepidopterist's Chest
 forestry:cocoon:0, tile.for.cocoon.name
 forestry:cocoon.solid:0, tile.for.cocoon.solid.name
-forestry:stamps:0, Stamp (1n)
-forestry:stamps:1, Stamp (2n)
-forestry:stamps:2, Stamp (5n)
-forestry:stamps:3, Stamp (10n)
-forestry:stamps:4, Stamp (20n)
-forestry:stamps:5, Stamp (50n)
-forestry:stamps:6, Stamp (100n)
-forestry:letters, Letter
-forestry:catalogue, Catalogue
-forestry:mailbox:0, Mailbox
-forestry:trade_station:0, Trade Station
-forestry:stamp_collector:0, Stamp Collector
-forestry:mushroom:0, tile.for.mushroom.name
-forestry:mushroom:1, tile.for.mushroom.name
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:0, Farm Block
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:2, Farm Gearbox
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:3, Farm Hatch
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:4, Farm Valve
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:ffarm:5, Farm Control
-forestry:arboretum:0, Arboretum (Managed)
-forestry:arboretum:1, Arboretum (Manual)
-forestry:farm_crops:0, Farm (Managed)
-forestry:farm_crops:1, Farm (Manual)
-forestry:farm_mushroom:0, Mushroom Farm (Managed)
-forestry:farm_mushroom:1, Mushroom Farm (Manual)
-forestry:farm_gourd:0, Gourd Farm (Managed)
-forestry:farm_gourd:1, Gourd Farm (Manual)
-forestry:farm_nether:0, Infernal Farm (Managed)
-forestry:farm_nether:1, Infernal Farm (Manual)
-forestry:farm_ender:0, Ender Farm (Managed)
-forestry:farm_ender:1, Ender Farm (Manual)
-forestry:peat_bog:0, Peat Bog (Managed)
-forestry:peat_bog:1, Peat Bog (Manual)
-forestry:worktable:0, Worktable
-forestry:crate, Crate
-forestry:bee_queen_ge:0, Forest Queen
-forestry:bee_queen_ge:0, Meadows Queen
-forestry:bee_queen_ge:0, Common Queen
-forestry:bee_queen_ge:0, Cultivated Queen
-forestry:bee_queen_ge:0, Noble Queen
-forestry:bee_queen_ge:0, Majestic Queen
-forestry:bee_queen_ge:0, Imperial Queen
-forestry:bee_queen_ge:0, Diligent Queen
-forestry:bee_queen_ge:0, Unweary Queen
-forestry:bee_queen_ge:0, Industrious Queen
-forestry:bee_queen_ge:0, Steadfast Queen
-forestry:bee_queen_ge:0, Valiant Queen
-forestry:bee_queen_ge:0, Heroic Queen
-forestry:bee_queen_ge:0, Sinister Queen
-forestry:bee_queen_ge:0, Fiendish Queen
-forestry:bee_queen_ge:0, Demonic Queen
-forestry:bee_queen_ge:0, Modest Queen
-forestry:bee_queen_ge:0, Frugal Queen
-forestry:bee_queen_ge:0, Austere Queen
-forestry:bee_queen_ge:0, Tropical Queen
-forestry:bee_queen_ge:0, Exotic Queen
-forestry:bee_queen_ge:0, Edenic Queen
-forestry:bee_queen_ge:0, Ender Queen
-forestry:bee_queen_ge:0, Spectral Queen
-forestry:bee_queen_ge:0, Phantasmal Queen
-forestry:bee_queen_ge:0, Wintry Queen
-forestry:bee_queen_ge:0, Icy Queen
-forestry:bee_queen_ge:0, Glacial Queen
-forestry:bee_queen_ge:0, Vindictive Queen
-forestry:bee_queen_ge:0, Vengeful Queen
-forestry:bee_queen_ge:0, Avenging Queen
-forestry:bee_queen_ge:0, Rural Queen
-forestry:bee_queen_ge:0, Farmerly Queen
-forestry:bee_queen_ge:0, Agrarian Queen
-forestry:bee_queen_ge:0, Marshy Queen
-forestry:bee_queen_ge:0, Miry Queen
-forestry:bee_queen_ge:0, Boggy Queen
-forestry:bee_queen_ge:0, Monastic Queen
-forestry:bee_queen_ge:0, Secluded Queen
-forestry:bee_queen_ge:0, Hermitic Queen
-forestry:bee_drone_ge:0, Forest Drone
-forestry:bee_drone_ge:0, Meadows Drone
-forestry:bee_drone_ge:0, Common Drone
-forestry:bee_drone_ge:0, Cultivated Drone
-forestry:bee_drone_ge:0, Noble Drone
-forestry:bee_drone_ge:0, Majestic Drone
-forestry:bee_drone_ge:0, Imperial Drone
-forestry:bee_drone_ge:0, Diligent Drone
-forestry:bee_drone_ge:0, Unweary Drone
-forestry:bee_drone_ge:0, Industrious Drone
-forestry:bee_drone_ge:0, Steadfast Drone
-forestry:bee_drone_ge:0, Valiant Drone
-forestry:bee_drone_ge:0, Heroic Drone
-forestry:bee_drone_ge:0, Sinister Drone
-forestry:bee_drone_ge:0, Fiendish Drone
-forestry:bee_drone_ge:0, Demonic Drone
-forestry:bee_drone_ge:0, Modest Drone
-forestry:bee_drone_ge:0, Frugal Drone
-forestry:bee_drone_ge:0, Austere Drone
-forestry:bee_drone_ge:0, Tropical Drone
-forestry:bee_drone_ge:0, Exotic Drone
-forestry:bee_drone_ge:0, Edenic Drone
-forestry:bee_drone_ge:0, Ender Drone
-forestry:bee_drone_ge:0, Spectral Drone
-forestry:bee_drone_ge:0, Phantasmal Drone
-forestry:bee_drone_ge:0, Wintry Drone
-forestry:bee_drone_ge:0, Icy Drone
-forestry:bee_drone_ge:0, Glacial Drone
-forestry:bee_drone_ge:0, Vindictive Drone
-forestry:bee_drone_ge:0, Vengeful Drone
-forestry:bee_drone_ge:0, Avenging Drone
-forestry:bee_drone_ge:0, Rural Drone
-forestry:bee_drone_ge:0, Farmerly Drone
-forestry:bee_drone_ge:0, Agrarian Drone
-forestry:bee_drone_ge:0, Marshy Drone
-forestry:bee_drone_ge:0, Miry Drone
-forestry:bee_drone_ge:0, Boggy Drone
-forestry:bee_drone_ge:0, Monastic Drone
-forestry:bee_drone_ge:0, Secluded Drone
-forestry:bee_drone_ge:0, Hermitic Drone
-forestry:bee_princess_ge:0, Forest Princess
-forestry:bee_princess_ge:0, Meadows Princess
-forestry:bee_princess_ge:0, Common Princess
-forestry:bee_princess_ge:0, Cultivated Princess
-forestry:bee_princess_ge:0, Noble Princess
-forestry:bee_princess_ge:0, Majestic Princess
-forestry:bee_princess_ge:0, Imperial Princess
-forestry:bee_princess_ge:0, Diligent Princess
-forestry:bee_princess_ge:0, Unweary Princess
-forestry:bee_princess_ge:0, Industrious Princess
-forestry:bee_princess_ge:0, Steadfast Princess
-forestry:bee_princess_ge:0, Valiant Princess
-forestry:bee_princess_ge:0, Heroic Princess
-forestry:bee_princess_ge:0, Sinister Princess
-forestry:bee_princess_ge:0, Fiendish Princess
-forestry:bee_princess_ge:0, Demonic Princess
-forestry:bee_princess_ge:0, Modest Princess
-forestry:bee_princess_ge:0, Frugal Princess
-forestry:bee_princess_ge:0, Austere Princess
-forestry:bee_princess_ge:0, Tropical Princess
-forestry:bee_princess_ge:0, Exotic Princess
-forestry:bee_princess_ge:0, Edenic Princess
-forestry:bee_princess_ge:0, Ender Princess
-forestry:bee_princess_ge:0, Spectral Princess
-forestry:bee_princess_ge:0, Phantasmal Princess
-forestry:bee_princess_ge:0, Wintry Princess
-forestry:bee_princess_ge:0, Icy Princess
-forestry:bee_princess_ge:0, Glacial Princess
-forestry:bee_princess_ge:0, Vindictive Princess
-forestry:bee_princess_ge:0, Vengeful Princess
-forestry:bee_princess_ge:0, Avenging Princess
-forestry:bee_princess_ge:0, Rural Princess
-forestry:bee_princess_ge:0, Farmerly Princess
-forestry:bee_princess_ge:0, Agrarian Princess
-forestry:bee_princess_ge:0, Marshy Princess
-forestry:bee_princess_ge:0, Miry Princess
-forestry:bee_princess_ge:0, Boggy Princess
-forestry:bee_princess_ge:0, Monastic Princess
-forestry:bee_princess_ge:0, Secluded Princess
-forestry:bee_princess_ge:0, Hermitic Princess
-forestry:bee_larvae_ge:0, Forest Larvae
-forestry:bee_larvae_ge:0, Meadows Larvae
-forestry:bee_larvae_ge:0, Common Larvae
-forestry:bee_larvae_ge:0, Cultivated Larvae
-forestry:bee_larvae_ge:0, Noble Larvae
-forestry:bee_larvae_ge:0, Majestic Larvae
-forestry:bee_larvae_ge:0, Imperial Larvae
-forestry:bee_larvae_ge:0, Diligent Larvae
-forestry:bee_larvae_ge:0, Unweary Larvae
-forestry:bee_larvae_ge:0, Industrious Larvae
-forestry:bee_larvae_ge:0, Steadfast Larvae
-forestry:bee_larvae_ge:0, Valiant Larvae
-forestry:bee_larvae_ge:0, Heroic Larvae
-forestry:bee_larvae_ge:0, Sinister Larvae
-forestry:bee_larvae_ge:0, Fiendish Larvae
-forestry:bee_larvae_ge:0, Demonic Larvae
-forestry:bee_larvae_ge:0, Modest Larvae
-forestry:bee_larvae_ge:0, Frugal Larvae
-forestry:bee_larvae_ge:0, Austere Larvae
-forestry:bee_larvae_ge:0, Tropical Larvae
-forestry:bee_larvae_ge:0, Exotic Larvae
-forestry:bee_larvae_ge:0, Edenic Larvae
-forestry:bee_larvae_ge:0, Ender Larvae
-forestry:bee_larvae_ge:0, Spectral Larvae
-forestry:bee_larvae_ge:0, Phantasmal Larvae
-forestry:bee_larvae_ge:0, Wintry Larvae
-forestry:bee_larvae_ge:0, Icy Larvae
-forestry:bee_larvae_ge:0, Glacial Larvae
-forestry:bee_larvae_ge:0, Vindictive Larvae
-forestry:bee_larvae_ge:0, Vengeful Larvae
-forestry:bee_larvae_ge:0, Avenging Larvae
-forestry:bee_larvae_ge:0, Rural Larvae
-forestry:bee_larvae_ge:0, Farmerly Larvae
-forestry:bee_larvae_ge:0, Agrarian Larvae
-forestry:bee_larvae_ge:0, Marshy Larvae
-forestry:bee_larvae_ge:0, Miry Larvae
-forestry:bee_larvae_ge:0, Boggy Larvae
-forestry:bee_larvae_ge:0, Monastic Larvae
-forestry:bee_larvae_ge:0, Secluded Larvae
-forestry:bee_larvae_ge:0, Hermitic Larvae
-forestry:habitat_locator, Habitat Locator
-forestry:imprinter, Imprinter
-forestry:cart.beehouse:0, Minecart with Bee House
-forestry:cart.beehouse:1, Minecart with Apiary
-forestry:frame_untreated, Untreated Frame
-forestry:frame_impregnated, Impregnated Frame
-forestry:frame_proven, Proven Frame
-forestry:honey_drop:0, Honey Drop
-forestry:pollen:0, Pollen Cluster
-forestry:pollen:1, Crystalline Pollen Cluster
-forestry:propolis:0, Propolis
-forestry:propolis:1, Sticky Propolis
-forestry:propolis:3, Silky Propolis
-forestry:honeydew, Honeydew
-forestry:royal_jelly, Royal Jelly
-forestry:wax_cast, Wax Cast
-forestry:bee_combs:0, Honey Comb
-forestry:bee_combs:2, Simmering Comb
-forestry:bee_combs:3, Stringy Comb
-forestry:bee_combs:4, Frozen Comb
-forestry:bee_combs:5, Dripping Comb
-forestry:bee_combs:6, Silky Comb
-forestry:bee_combs:7, Parched Comb
-forestry:bee_combs:15, Mossy Comb
-forestry:bee_combs:16, Mellow Comb
-forestry:apiarist_helmet, Apiarist's Hat
-forestry:apiarist_chest, Apiarist's Shirt
-forestry:apiarist_legs, Apiarist's Pants
-forestry:apiarist_boots, Apiarist's Shoes
-forestry:scoop, Scoop
-forestry:smoker, Bee Smoker
-forestry:apiary:0, Apiary
-forestry:bee_house:0, Bee House
-forestry:bee_chest:0, Apiarist's Chest
-forestry:beehives:0, Forest Hive
-forestry:beehives:1, Meadows Hive
-forestry:beehives:2, Modest Hive
-forestry:beehives:3, Tropical Hive
-forestry:beehives:4, Ender Hive
-forestry:beehives:5, Wintry Hive
-forestry:beehives:6, Marshy Hive
-forestry:candle:0, Unlit Candle
-forestry:stump:0, Candle Stump
-forestry:bee_combs_0:0, Honey Comb Block
-forestry:bee_combs_0:2, Simmering Comb Block
-forestry:bee_combs_0:3, Stringy Comb Block
-forestry:bee_combs_0:4, Frozen Comb Block
-forestry:bee_combs_0:5, Dripping Comb Block
-forestry:bee_combs_0:6, Silky Comb Block
-forestry:bee_combs_0:7, Parched Comb Block
-forestry:bee_combs_0:15, Mossy Comb Block
-forestry:bee_combs_1:0, Mellow Comb Block
-forestry:alveary.plain:0, Alveary
-forestry:alveary.swarmer:0, Alveary Swarmer
-forestry:alveary.fan:0, Alveary Fan
-forestry:alveary.heater:0, Alveary Heater
-forestry:alveary.hygro:0, Alveary Hygroregulator
-forestry:alveary.stabiliser:0, Alveary Stabiliser
-forestry:alveary.sieve:0, Alveary Sieve
-forestry:engine_peat:0, Peat-fired Engine
-forestry:engine_biogas:0, Biogas Engine
-forestry:engine_clockwork:0, Clockwork Engine
+forestry:book_forester, Forester's Manual
 forestry:engine_electrical:0, Electrical Engine
 forestry:engine_generator:0, Bio Generator
 thermalfoundation:ore:0, Copper Ore
@@ -3711,6 +3711,79 @@ genetics:lab_machine:2, Incubator
 genetics:lab_machine:3, Genepool
 genetics:lab_machine:4, Acclimatiser
 genetics:adv_machine:0, Splicer
+botany:plant:0, Weed
+botany:plant:1, Weed Long
+botany:plant:2, Weed Very Long
+botany:plant:3, Dead Flower
+botany:plant:4, Decaying Flower
+botany:soil:0, Soil
+botany:soil:1, Soil
+botany:soil:2, Soil
+botany:soil:3, Soil
+botany:soil:4, Soil
+botany:soil:5, Soil
+botany:soil:6, Soil
+botany:soil:7, Soil
+botany:soil:8, Soil
+botany:loam:0, Loam
+botany:loam:1, Loam
+botany:loam:2, Loam
+botany:loam:3, Loam
+botany:loam:4, Loam
+botany:loam:5, Loam
+botany:loam:6, Loam
+botany:loam:7, Loam
+botany:loam:8, Loam
+botany:flowerbed:0, Flowerbed
+botany:flowerbed:1, Flowerbed
+botany:flowerbed:2, Flowerbed
+botany:flowerbed:3, Flowerbed
+botany:flowerbed:4, Flowerbed
+botany:flowerbed:5, Flowerbed
+botany:flowerbed:6, Flowerbed
+botany:flowerbed:7, Flowerbed
+botany:flowerbed:8, Flowerbed
+botany:soil_no_weed:0, Soil
+botany:soil_no_weed:1, Soil
+botany:soil_no_weed:2, Soil
+botany:soil_no_weed:3, Soil
+botany:soil_no_weed:4, Soil
+botany:soil_no_weed:5, Soil
+botany:soil_no_weed:6, Soil
+botany:soil_no_weed:7, Soil
+botany:soil_no_weed:8, Soil
+botany:loam_no_weed:0, Loam
+botany:loam_no_weed:1, Loam
+botany:loam_no_weed:2, Loam
+botany:loam_no_weed:3, Loam
+botany:loam_no_weed:4, Loam
+botany:loam_no_weed:5, Loam
+botany:loam_no_weed:6, Loam
+botany:loam_no_weed:7, Loam
+botany:loam_no_weed:8, Loam
+botany:flowerbed_no_weed:0, Flowerbed
+botany:flowerbed_no_weed:1, Flowerbed
+botany:flowerbed_no_weed:2, Flowerbed
+botany:flowerbed_no_weed:3, Flowerbed
+botany:flowerbed_no_weed:4, Flowerbed
+botany:flowerbed_no_weed:5, Flowerbed
+botany:flowerbed_no_weed:6, Flowerbed
+botany:flowerbed_no_weed:7, Flowerbed
+botany:flowerbed_no_weed:8, Flowerbed
+botany:soil_meter, Soil Meter
+botany:trowel_wood, Wooden Trowel
+botany:trowel_stone, Stone Trowel
+botany:trowel_iron, Iron Trowel
+botany:trowel_diamond, Diamond Trowel
+botany:trowel_gold, Gold Trowel
+botany:misc:0, Ash Powder
+botany:misc:1, Wood Pulp Powder
+botany:misc:2, Mulch Powder
+botany:misc:3, Sulphur Powder
+botany:misc:4, Fertilizer Powder
+botany:misc:5, Compost Powder
+botany:misc:6, Mortar
+botany:misc:7, Weedkiller
 botany:ceramic:0, Aquamarine Ceramic Block
 botany:ceramic:1, Black Ceramic Block
 botany:ceramic:2, Deep Blue Ceramic Block
@@ -4046,82 +4119,8 @@ botany:clay:77, White Clay
 botany:clay:78, Yellow Clay
 botany:clay:79, Yellow-Green Clay
 botany:misc_ceramic:0, Mortar
-botany:plant:0, Weed
-botany:plant:1, Weed Long
-botany:plant:2, Weed Very Long
-botany:plant:3, Dead Flower
-botany:plant:4, Decaying Flower
-botany:soil:0, Soil
-botany:soil:1, Soil
-botany:soil:2, Soil
-botany:soil:3, Soil
-botany:soil:4, Soil
-botany:soil:5, Soil
-botany:soil:6, Soil
-botany:soil:7, Soil
-botany:soil:8, Soil
-botany:loam:0, Loam
-botany:loam:1, Loam
-botany:loam:2, Loam
-botany:loam:3, Loam
-botany:loam:4, Loam
-botany:loam:5, Loam
-botany:loam:6, Loam
-botany:loam:7, Loam
-botany:loam:8, Loam
-botany:flowerbed:0, Flowerbed
-botany:flowerbed:1, Flowerbed
-botany:flowerbed:2, Flowerbed
-botany:flowerbed:3, Flowerbed
-botany:flowerbed:4, Flowerbed
-botany:flowerbed:5, Flowerbed
-botany:flowerbed:6, Flowerbed
-botany:flowerbed:7, Flowerbed
-botany:flowerbed:8, Flowerbed
-botany:soil_no_weed:0, Soil
-botany:soil_no_weed:1, Soil
-botany:soil_no_weed:2, Soil
-botany:soil_no_weed:3, Soil
-botany:soil_no_weed:4, Soil
-botany:soil_no_weed:5, Soil
-botany:soil_no_weed:6, Soil
-botany:soil_no_weed:7, Soil
-botany:soil_no_weed:8, Soil
-botany:loam_no_weed:0, Loam
-botany:loam_no_weed:1, Loam
-botany:loam_no_weed:2, Loam
-botany:loam_no_weed:3, Loam
-botany:loam_no_weed:4, Loam
-botany:loam_no_weed:5, Loam
-botany:loam_no_weed:6, Loam
-botany:loam_no_weed:7, Loam
-botany:loam_no_weed:8, Loam
-botany:flowerbed_no_weed:0, Flowerbed
-botany:flowerbed_no_weed:1, Flowerbed
-botany:flowerbed_no_weed:2, Flowerbed
-botany:flowerbed_no_weed:3, Flowerbed
-botany:flowerbed_no_weed:4, Flowerbed
-botany:flowerbed_no_weed:5, Flowerbed
-botany:flowerbed_no_weed:6, Flowerbed
-botany:flowerbed_no_weed:7, Flowerbed
-botany:flowerbed_no_weed:8, Flowerbed
-botany:soil_meter, Soil Meter
-botany:trowel_wood, Wooden Trowel
-botany:trowel_stone, Stone Trowel
-botany:trowel_iron, Iron Trowel
-botany:trowel_diamond, Diamond Trowel
-botany:trowel_gold, Gold Trowel
-botany:misc:0, Ash Powder
-botany:misc:1, Wood Pulp Powder
-botany:misc:2, Mulch Powder
-botany:misc:3, Sulphur Powder
-botany:misc:4, Fertilizer Powder
-botany:misc:5, Compost Powder
-botany:misc:6, Mortar
-botany:misc:7, Weedkiller
+botany:machine:0, Tileworker
 botany:botanist_bag, Botanist's Backpack
-botany:database:0, Botanist Database
-botany:database:1, Master Botanist Database
 botany:insulated_tube:0, Copper Clay Insulated Electron Tube
 botany:insulated_tube:128, Copper Cobblestone Insulated Electron Tube
 botany:insulated_tube:256, Copper Sandstone Insulated Electron Tube
@@ -4146,7 +4145,8 @@ botany:insulated_tube:259, Iron Sandstone Insulated Electron Tube
 botany:insulated_tube:387, Iron Hardened Clay Insulated Electron Tube
 botany:insulated_tube:515, Iron Smooth Stone Insulated Electron Tube
 botany:insulated_tube:643, Iron Sandstone Insulated Electron Tube
-botany:machine:0, Tileworker
+botany:database:0, Botanist Database
+botany:database:1, Master Botanist Database
 extrabees:honey_crystal, item.honey_crystal.name
 extrabees:honey_drop:0, Energy Drop
 extrabees:honey_drop:1, Acidic Drop
@@ -4281,11 +4281,6 @@ extrabees:misc:25, Brown Dye
 extrabees:misc:26, Clay Dust
 extrabees:dictionary:0, Apiarist Database
 extrabees:dictionary:1, Master Apiarist Database
-extrabees:hive_frame.cocoa, item.hive_frame.name
-extrabees:hive_frame.cage, item.hive_frame.name
-extrabees:hive_frame.soul, item.hive_frame.name
-extrabees:hive_frame.clay, item.hive_frame.name
-extrabees:hive_frame.debug, item.hive_frame.name
 extrabees:alveary:0, Mutator
 extrabees:alveary:1, Frame Housing
 extrabees:alveary:2, Rain Shield
@@ -4293,6 +4288,11 @@ extrabees:alveary:3, Alveary Lighting
 extrabees:alveary:4, Electrical Stimulator
 extrabees:alveary:5, Hatchery
 extrabees:alveary:6, Alveary Transmission
+extrabees:hive_frame.cocoa, item.hive_frame.name
+extrabees:hive_frame.cage, item.hive_frame.name
+extrabees:hive_frame.soul, item.hive_frame.name
+extrabees:hive_frame.clay, item.hive_frame.name
+extrabees:hive_frame.debug, item.hive_frame.name
 extratrees:misc:0, Sawdust
 extratrees:misc:1, Bark
 extratrees:misc:2, Proven Gear
@@ -4372,6 +4372,14 @@ extratrees:food:59, Candlenut
 extratrees:hammer, Hammer
 extratrees:durable_hammer, item.durable_hammer.name
 extratrees:hops, item.hops.name
+extratrees:databasetree, item.databaseTree.name
+extratrees:machine:0, Lumbermill
+extratrees:machine:1, Woodworker
+extratrees:machine:2, Panelworker
+extratrees:machine:4, Fruit Press
+extratrees:machine:5, Brewery
+extratrees:machine:6, Distillery
+extratrees:machine:7, Glassworker
 extratrees:logs.0:0, Apple Wood
 extratrees:logs.0:1, Fig Wood
 extratrees:logs.0:2, Butternut Wood
@@ -4947,18 +4955,10 @@ extratrees:leaves.decorative.5:14, Leaves
 extratrees:leaves.decorative.5:15, Leaves
 extratrees:leaves.decorative.6:0, Leaves
 extratrees:shrub_log:0, Shrub Wood
-extratrees:databasetree, item.databaseTree.name
-extratrees:databaselepi, item.databaseLepi.name
-extratrees:machine:0, Lumbermill
-extratrees:machine:1, Woodworker
-extratrees:machine:2, Panelworker
-extratrees:machine:4, Fruit Press
-extratrees:machine:5, Brewery
-extratrees:machine:6, Distillery
-extratrees:machine:7, Glassworker
 extratrees:carpentry, tile.null.name
 extratrees:carpentrypanel, tile.null.name
 extratrees:stainedglass, tile.null.name
+extratrees:databaselepi, item.databaseLepi.name
 extratrees:drink:0, Beer Mug
 extratrees:drink:0, Pint Glass
 extratrees:drink:0, Snifter Glass
@@ -6374,6 +6374,16 @@ thermaldynamics:cover:0, Block of Tin Cover
 thermaldynamics:cover:0, Block of Bronze Cover
 thermaldynamics:cover:0, Ash Bricks Cover
 thermaldynamics:cover:0, Ash Brick Stairs Cover
+thermaldynamics:cover:0, Candle Stump Cover
+thermaldynamics:cover:0, Honey Comb Block Cover
+thermaldynamics:cover:0, Simmering Comb Block Cover
+thermaldynamics:cover:0, Stringy Comb Block Cover
+thermaldynamics:cover:0, Frozen Comb Block Cover
+thermaldynamics:cover:0, Dripping Comb Block Cover
+thermaldynamics:cover:0, Silky Comb Block Cover
+thermaldynamics:cover:0, Parched Comb Block Cover
+thermaldynamics:cover:0, Mossy Comb Block Cover
+thermaldynamics:cover:0, Mellow Comb Block Cover
 thermaldynamics:cover:0, Block of Charcoal Cover
 thermaldynamics:cover:0, Wood Pile Cover
 thermaldynamics:cover:0, Decorative Wood Pile Cover
@@ -6826,16 +6836,6 @@ thermaldynamics:cover:0, Sipiri Leaves Cover
 thermaldynamics:cover:0, Papaya Leaves Cover
 thermaldynamics:cover:0, Date Palm Leaves Cover
 thermaldynamics:cover:0, White Poplar Leaves Cover
-thermaldynamics:cover:0, Candle Stump Cover
-thermaldynamics:cover:0, Honey Comb Block Cover
-thermaldynamics:cover:0, Simmering Comb Block Cover
-thermaldynamics:cover:0, Stringy Comb Block Cover
-thermaldynamics:cover:0, Frozen Comb Block Cover
-thermaldynamics:cover:0, Dripping Comb Block Cover
-thermaldynamics:cover:0, Silky Comb Block Cover
-thermaldynamics:cover:0, Parched Comb Block Cover
-thermaldynamics:cover:0, Mossy Comb Block Cover
-thermaldynamics:cover:0, Mellow Comb Block Cover
 thermaldynamics:cover:0, Copper Ore Cover
 thermaldynamics:cover:0, Tin Ore Cover
 thermaldynamics:cover:0, Silver Ore Cover
@@ -11798,38 +11798,38 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
 tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Pipe Piece Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Battery Cell Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Fletching Pattern
 tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Chisel Head Pattern
 tconstruct:pattern:0, Laser Medium Pattern
+tconstruct:pattern:0, Sign Plate Pattern
 tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
 tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Pipe Piece Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Battery Cell Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Chisel Head Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
 tconstruct:shard:0, Electrical Shard
 tconstruct:shard:0, Energetic Shard
 tconstruct:shard:0, Vibrant Shard
@@ -14374,74 +14374,74 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Excavator Head Cast
 tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Arrow Shaft Cast
-tconstruct:cast:0, Pipe Piece Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Bowstring Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Battery Cell Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Fletching Cast
 tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Chisel Head Cast
+tconstruct:cast:0, Sign Plate Cast
 tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Bowstring Cast
+tconstruct:cast:0, Pipe Piece Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Fletching Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Battery Cell Cast
+tconstruct:cast:0, Arrow Shaft Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Chisel Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
 tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Arrow Shaft Clay Cast
-tconstruct:clay_cast:0, Pipe Piece Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Bowstring Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Battery Cell Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Fletching Clay Cast
 tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Chisel Head Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
 tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Bowstring Clay Cast
+tconstruct:clay_cast:0, Pipe Piece Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Fletching Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Battery Cell Clay Cast
+tconstruct:clay_cast:0, Arrow Shaft Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Chisel Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -14874,6 +14874,15 @@ appliedenergistics2:facade:0, Cable Facade - Block of Copper
 appliedenergistics2:facade:0, Cable Facade - Block of Tin
 appliedenergistics2:facade:0, Cable Facade - Block of Bronze
 appliedenergistics2:facade:0, Cable Facade - Ash Bricks
+appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
+appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
+appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
+appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
+appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
+appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
+appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Block of Charcoal
 appliedenergistics2:facade:0, Cable Facade - Wood Pile
 appliedenergistics2:facade:0, Cable Facade - Decorative Wood Pile
@@ -15054,15 +15063,6 @@ appliedenergistics2:facade:0, Cable Facade - Sipiri Leaves
 appliedenergistics2:facade:0, Cable Facade - Papaya Leaves
 appliedenergistics2:facade:0, Cable Facade - Date Palm Leaves
 appliedenergistics2:facade:0, Cable Facade - White Poplar Leaves
-appliedenergistics2:facade:0, Cable Facade - Honey Comb Block
-appliedenergistics2:facade:0, Cable Facade - Simmering Comb Block
-appliedenergistics2:facade:0, Cable Facade - Stringy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Frozen Comb Block
-appliedenergistics2:facade:0, Cable Facade - Dripping Comb Block
-appliedenergistics2:facade:0, Cable Facade - Silky Comb Block
-appliedenergistics2:facade:0, Cable Facade - Parched Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mossy Comb Block
-appliedenergistics2:facade:0, Cable Facade - Mellow Comb Block
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Silver Ore
@@ -17571,12 +17571,8 @@ appliedenergistics2:facade:0, Cable Facade - Sky Stone
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Block
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Brick
 appliedenergistics2:facade:0, Cable Facade - Sky Stone Small Brick
-appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
-appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
-appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
-appliedenergistics2:facade:0, Cable Facade - Sugar Block
-appliedenergistics2:facade:0, Cable Facade - Red Slime Block
-appliedenergistics2:facade:0, Cable Facade - Gravisand
+appliedenergistics2:facade:0, Cable Facade - Swamp Oak Leaves
+appliedenergistics2:facade:0, Cable Facade - White Cave Crystal
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
 appliedenergistics2:facade:0, Cable Facade - White Stained Planks
@@ -17605,8 +17601,12 @@ appliedenergistics2:facade:0, Cable Facade - Soul Sandstone
 appliedenergistics2:facade:0, Cable Facade - Turf Block
 appliedenergistics2:facade:0, Cable Facade - Netherwrought Stone
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
-appliedenergistics2:facade:0, Cable Facade - Swamp Oak Leaves
-appliedenergistics2:facade:0, Cable Facade - White Cave Crystal
+appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
+appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
+appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
+appliedenergistics2:facade:0, Cable Facade - Sugar Block
+appliedenergistics2:facade:0, Cable Facade - Red Slime Block
+appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Tin Decoration Block
 appliedenergistics2:facade:0, Cable Facade - Tin Wall Block
 appliedenergistics2:facade:0, Cable Facade - Copper Ore
@@ -18432,112 +18432,105 @@ appliedenergistics2:part:80, ME Toggle Bus
 ae2wtlib:infinity_booster_card, Infinity Booster Card
 ae2wtlib:wut, Wireless Ultimate Terminal
 ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, tile.paper_wall.name
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, Paper Lamp
-quark:paper_lantern:1, Decorated Paper Lamp
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, Spruce Bookshelf
-quark:custom_bookshelf:1, Birch Bookshelf
-quark:custom_bookshelf:2, Jungle Bookshelf
-quark:custom_bookshelf:3, Acacia Bookshelf
-quark:custom_bookshelf:4, Dark Oak Bookshelf
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:candle:0, White Candle
-quark:candle:1, Orange Candle
-quark:candle:2, Magenta Candle
-quark:candle:3, Light Blue Candle
-quark:candle:4, Yellow Candle
-quark:candle:5, Lime Candle
-quark:candle:6, Pink Candle
-quark:candle:7, Gray Candle
-quark:candle:8, Light Gray Candle
-quark:candle:9, Cyan Candle
-quark:candle:10, Purple Candle
-quark:candle:11, Blue Candle
-quark:candle:12, Brown Candle
-quark:candle:13, Green Candle
-quark:candle:14, Red Candle
-quark:candle:15, Black Candle
-quark:tallow, item.tallow.name
-quark:rope, tile.rope.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:leaf_carpet:6, Swamp Oak Leaf Carpet
-quark:leaf_carpet:7, Blossoming Leaf Carpet
-quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
-quark:birch_pressure_plate, tile.birch_pressure_plate.name
-quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
-quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
-quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
-quark:spruce_button, tile.spruce_button.name
-quark:birch_button, tile.birch_button.name
-quark:jungle_button, tile.jungle_button.name
-quark:acacia_button, tile.acacia_button.name
-quark:dark_oak_button, tile.dark_oak_button.name
-quark:grate, tile.grate.name
-quark:glass_item_frame, item.glass_item_frame.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:rune:16, Rainbow Rune
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:roots, tile.roots.name
+quark:root, item.root.name
+quark:roots_blue_flower, tile.roots_blue_flower.name
+quark:roots_black_flower, tile.roots_black_flower.name
+quark:roots_white_flower, tile.roots_white_flower.name
+quark:root_flower:0, Blue Sprout
+quark:root_flower:1, Black Sprout
+quark:root_flower:2, White Sprout
+quark:root_dye:0, Blue Dye
+quark:root_dye:1, Black Dye
+quark:root_dye:2, White Dye
+quark:diamond_heart, item.diamond_heart.name
+quark:archaeologist_hat, item.archaeologist_hat.name
+quark:variant_leaves:0, Swamp Oak Leaves
+quark:variant_leaves:1, Blossoming Leaves
+quark:variant_sapling:0, Swamp Oak Sapling
+quark:variant_sapling:1, Blossoming Sapling
+quark:crystal:0, White Cave Crystal
+quark:crystal:1, Red Cave Crystal
+quark:crystal:2, Orange Cave Crystal
+quark:crystal:3, Yellow Cave Crystal
+quark:crystal:4, Green Cave Crystal
+quark:crystal:5, Blue Cave Crystal
+quark:crystal:6, Indigo Cave Crystal
+quark:crystal:7, Violet Cave Crystal
+quark:crystal:8, Black Cave Crystal
+quark:crystal_pane:0, White Cave Crystal Sheet
+quark:crystal_pane:1, Red Cave Crystal Sheet
+quark:crystal_pane:2, Orange Cave Crystal Sheet
+quark:crystal_pane:3, Yellow Cave Crystal Sheet
+quark:crystal_pane:4, Green Cave Crystal Sheet
+quark:crystal_pane:5, Blue Cave Crystal Sheet
+quark:crystal_pane:6, Indigo Cave Crystal Sheet
+quark:crystal_pane:7, Violet Cave Crystal Sheet
+quark:crystal_pane:8, Black Cave Crystal Sheet
+quark:stone_speleothem, tile.stone_speleothem.name
+quark:granite_speleothem, tile.granite_speleothem.name
+quark:diorite_speleothem, tile.diorite_speleothem.name
+quark:andesite_speleothem, tile.andesite_speleothem.name
+quark:netherrack_speleothem, tile.netherrack_speleothem.name
+quark:monster_box, tile.monster_box.name
+quark:frog_leg, item.frog_leg.name
+quark:cooked_frog_leg, item.cooked_frog_leg.name
+quark:golden_frog_leg, item.golden_frog_leg.name
+quark:pirate_hat, item.pirate_hat.name
+quark:crab_leg, item.crab_leg.name
+quark:cooked_crab_leg, item.cooked_crab_leg.name
+quark:crab_shell, item.crab_shell.name
+quark:soul_bead, item.soul_bead.name
+quark:smoker, tile.smoker.name
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -18828,106 +18821,435 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:roots, tile.roots.name
-quark:root, item.root.name
-quark:roots_blue_flower, tile.roots_blue_flower.name
-quark:roots_black_flower, tile.roots_black_flower.name
-quark:roots_white_flower, tile.roots_white_flower.name
-quark:root_flower:0, Blue Sprout
-quark:root_flower:1, Black Sprout
-quark:root_flower:2, White Sprout
-quark:root_dye:0, Blue Dye
-quark:root_dye:1, Black Dye
-quark:root_dye:2, White Dye
-quark:diamond_heart, item.diamond_heart.name
-quark:archaeologist_hat, item.archaeologist_hat.name
-quark:variant_leaves:0, Swamp Oak Leaves
-quark:variant_leaves:1, Blossoming Leaves
-quark:variant_sapling:0, Swamp Oak Sapling
-quark:variant_sapling:1, Blossoming Sapling
-quark:crystal:0, White Cave Crystal
-quark:crystal:1, Red Cave Crystal
-quark:crystal:2, Orange Cave Crystal
-quark:crystal:3, Yellow Cave Crystal
-quark:crystal:4, Green Cave Crystal
-quark:crystal:5, Blue Cave Crystal
-quark:crystal:6, Indigo Cave Crystal
-quark:crystal:7, Violet Cave Crystal
-quark:crystal:8, Black Cave Crystal
-quark:crystal_pane:0, White Cave Crystal Sheet
-quark:crystal_pane:1, Red Cave Crystal Sheet
-quark:crystal_pane:2, Orange Cave Crystal Sheet
-quark:crystal_pane:3, Yellow Cave Crystal Sheet
-quark:crystal_pane:4, Green Cave Crystal Sheet
-quark:crystal_pane:5, Blue Cave Crystal Sheet
-quark:crystal_pane:6, Indigo Cave Crystal Sheet
-quark:crystal_pane:7, Violet Cave Crystal Sheet
-quark:crystal_pane:8, Black Cave Crystal Sheet
-quark:stone_speleothem, tile.stone_speleothem.name
-quark:granite_speleothem, tile.granite_speleothem.name
-quark:diorite_speleothem, tile.diorite_speleothem.name
-quark:andesite_speleothem, tile.andesite_speleothem.name
-quark:netherrack_speleothem, tile.netherrack_speleothem.name
-quark:monster_box, tile.monster_box.name
-quark:frog_leg, item.frog_leg.name
-quark:cooked_frog_leg, item.cooked_frog_leg.name
-quark:golden_frog_leg, item.golden_frog_leg.name
-quark:pirate_hat, item.pirate_hat.name
-quark:crab_leg, item.crab_leg.name
-quark:cooked_crab_leg, item.cooked_crab_leg.name
-quark:crab_shell, item.crab_shell.name
-quark:soul_bead, item.soul_bead.name
-quark:smoker, tile.smoker.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:rune:16, Rainbow Rune
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, tile.paper_wall.name
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, Paper Lamp
+quark:paper_lantern:1, Decorated Paper Lamp
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, Spruce Bookshelf
+quark:custom_bookshelf:1, Birch Bookshelf
+quark:custom_bookshelf:2, Jungle Bookshelf
+quark:custom_bookshelf:3, Acacia Bookshelf
+quark:custom_bookshelf:4, Dark Oak Bookshelf
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:candle:0, White Candle
+quark:candle:1, Orange Candle
+quark:candle:2, Magenta Candle
+quark:candle:3, Light Blue Candle
+quark:candle:4, Yellow Candle
+quark:candle:5, Lime Candle
+quark:candle:6, Pink Candle
+quark:candle:7, Gray Candle
+quark:candle:8, Light Gray Candle
+quark:candle:9, Cyan Candle
+quark:candle:10, Purple Candle
+quark:candle:11, Blue Candle
+quark:candle:12, Brown Candle
+quark:candle:13, Green Candle
+quark:candle:14, Red Candle
+quark:candle:15, Black Candle
+quark:tallow, item.tallow.name
+quark:rope, tile.rope.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:leaf_carpet:6, Swamp Oak Leaf Carpet
+quark:leaf_carpet:7, Blossoming Leaf Carpet
+quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
+quark:birch_pressure_plate, tile.birch_pressure_plate.name
+quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
+quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
+quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
+quark:spruce_button, tile.spruce_button.name
+quark:birch_button, tile.birch_button.name
+quark:jungle_button, tile.jungle_button.name
+quark:acacia_button, tile.acacia_button.name
+quark:dark_oak_button, tile.dark_oak_button.name
+quark:grate, tile.grate.name
+quark:glass_item_frame, item.glass_item_frame.name
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:obsidian_pressure_plate, tile.obsidian_pressure_plate.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
 quark:witch_hat, item.witch_hat.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
+bibliocraft:bookcase:0, Oak Bookcase
+bibliocraft:bookcase:1, Spruce Bookcase
+bibliocraft:bookcase:2, Birch Bookcase
+bibliocraft:bookcase:3, Jungle Bookcase
+bibliocraft:bookcase:4, Acacia Bookcase
+bibliocraft:bookcase:5, Dark Oak Bookcase
+bibliocraft:bookcase:6, Framed Bookcase
+bibliocraft:bookcasecreative:0, Oak Creative Bookcase
+bibliocraft:bookcasecreative:1, Spruce Creative Bookcase
+bibliocraft:bookcasecreative:2, Birch Creative Bookcase
+bibliocraft:bookcasecreative:3, Jungle Creative Bookcase
+bibliocraft:bookcasecreative:4, Acacia Creative Bookcase
+bibliocraft:bookcasecreative:5, Dark Oak Creative Bookcase
+bibliocraft:bookcasecreative:6, Framed Creative Bookcase
+bibliocraft:shelf:0, Oak Shelf
+bibliocraft:shelf:1, Spruce Shelf
+bibliocraft:shelf:2, Birch Shelf
+bibliocraft:shelf:3, Jungle Shelf
+bibliocraft:shelf:4, Acacia Shelf
+bibliocraft:shelf:5, Dark Oak Shelf
+bibliocraft:shelf:6, Framed Shelf
+bibliocraft:markerpole, tile.BiblioCraft:MarkerPole.name
+bibliocraft:clipboard, tile.BiblioCraft:Clipboard.name
+bibliocraft:lanterngold:0, Fancy Lantern
+bibliocraft:lanterngold:1, Fancy Lantern
+bibliocraft:lanterngold:2, Fancy Lantern
+bibliocraft:lanterngold:3, Fancy Lantern
+bibliocraft:lanterngold:4, Fancy Lantern
+bibliocraft:lanterngold:5, Fancy Lantern
+bibliocraft:lanterngold:6, Fancy Lantern
+bibliocraft:lanterngold:7, Fancy Lantern
+bibliocraft:lanterngold:8, Fancy Lantern
+bibliocraft:lanterngold:9, Fancy Lantern
+bibliocraft:lanterngold:10, Fancy Lantern
+bibliocraft:lanterngold:11, Fancy Lantern
+bibliocraft:lanterngold:12, Fancy Lantern
+bibliocraft:lanterngold:13, Fancy Lantern
+bibliocraft:lanterngold:14, Fancy Lantern
+bibliocraft:lanterngold:15, Fancy Lantern
+bibliocraft:lanterniron:0, Fancy Lantern
+bibliocraft:lanterniron:1, Fancy Lantern
+bibliocraft:lanterniron:2, Fancy Lantern
+bibliocraft:lanterniron:3, Fancy Lantern
+bibliocraft:lanterniron:4, Fancy Lantern
+bibliocraft:lanterniron:5, Fancy Lantern
+bibliocraft:lanterniron:6, Fancy Lantern
+bibliocraft:lanterniron:7, Fancy Lantern
+bibliocraft:lanterniron:8, Fancy Lantern
+bibliocraft:lanterniron:9, Fancy Lantern
+bibliocraft:lanterniron:10, Fancy Lantern
+bibliocraft:lanterniron:11, Fancy Lantern
+bibliocraft:lanterniron:12, Fancy Lantern
+bibliocraft:lanterniron:13, Fancy Lantern
+bibliocraft:lanterniron:14, Fancy Lantern
+bibliocraft:lanterniron:15, Fancy Lantern
+bibliocraft:lampgold:0, Fancy Lamp
+bibliocraft:lampgold:1, Fancy Lamp
+bibliocraft:lampgold:2, Fancy Lamp
+bibliocraft:lampgold:3, Fancy Lamp
+bibliocraft:lampgold:4, Fancy Lamp
+bibliocraft:lampgold:5, Fancy Lamp
+bibliocraft:lampgold:6, Fancy Lamp
+bibliocraft:lampgold:7, Fancy Lamp
+bibliocraft:lampgold:8, Fancy Lamp
+bibliocraft:lampgold:9, Fancy Lamp
+bibliocraft:lampgold:10, Fancy Lamp
+bibliocraft:lampgold:11, Fancy Lamp
+bibliocraft:lampgold:12, Fancy Lamp
+bibliocraft:lampgold:13, Fancy Lamp
+bibliocraft:lampgold:14, Fancy Lamp
+bibliocraft:lampgold:15, Fancy Lamp
+bibliocraft:lampiron:0, Fancy Lamp
+bibliocraft:lampiron:1, Fancy Lamp
+bibliocraft:lampiron:2, Fancy Lamp
+bibliocraft:lampiron:3, Fancy Lamp
+bibliocraft:lampiron:4, Fancy Lamp
+bibliocraft:lampiron:5, Fancy Lamp
+bibliocraft:lampiron:6, Fancy Lamp
+bibliocraft:lampiron:7, Fancy Lamp
+bibliocraft:lampiron:8, Fancy Lamp
+bibliocraft:lampiron:9, Fancy Lamp
+bibliocraft:lampiron:10, Fancy Lamp
+bibliocraft:lampiron:11, Fancy Lamp
+bibliocraft:lampiron:12, Fancy Lamp
+bibliocraft:lampiron:13, Fancy Lamp
+bibliocraft:lampiron:14, Fancy Lamp
+bibliocraft:lampiron:15, Fancy Lamp
+bibliocraft:furniturepaneler:0, Oak Furniture Paneler
+bibliocraft:furniturepaneler:1, Spruce Furniture Paneler
+bibliocraft:furniturepaneler:2, Birch Furniture Paneler
+bibliocraft:furniturepaneler:3, Jungle Furniture Paneler
+bibliocraft:furniturepaneler:4, Acacia Furniture Paneler
+bibliocraft:furniturepaneler:5, Dark Oak Furniture Paneler
+bibliocraft:furniturepaneler:6, Framed Furniture Paneler
+bibliocraft:framedchest:0, Oak Framed Chest
+bibliocraft:framedchest:1, Spruce Framed Chest
+bibliocraft:framedchest:2, Birch Framed Chest
+bibliocraft:framedchest:3, Jungle Framed Chest
+bibliocraft:framedchest:4, Acacia Framed Chest
+bibliocraft:framedchest:5, Dark Oak Framed Chest
+bibliocraft:framedchest:6, Framed Framed Chest
+bibliocraft:fancysign:0, Oak Fancy Sign
+bibliocraft:fancysign:1, Spruce Fancy Sign
+bibliocraft:fancysign:2, Birch Fancy Sign
+bibliocraft:fancysign:3, Jungle Fancy Sign
+bibliocraft:fancysign:4, Acacia Fancy Sign
+bibliocraft:fancysign:5, Dark Oak Fancy Sign
+bibliocraft:fancysign:6, Framed Fancy Sign
+bibliocraft:fancyworkbench:0, Oak Fancy Workbench
+bibliocraft:fancyworkbench:1, Spruce Fancy Workbench
+bibliocraft:fancyworkbench:2, Birch Fancy Workbench
+bibliocraft:fancyworkbench:3, Jungle Fancy Workbench
+bibliocraft:fancyworkbench:4, Acacia Fancy Workbench
+bibliocraft:fancyworkbench:5, Dark Oak Workbench
+bibliocraft:fancyworkbench:6, Framed Fancy Workbench
+bibliocraft:potionshelf:0, Oak Potion Shelf
+bibliocraft:potionshelf:1, Spruce Potion Shelf
+bibliocraft:potionshelf:2, Birch Potion Shelf
+bibliocraft:potionshelf:3, Jungle Potion Shelf
+bibliocraft:potionshelf:4, Acacia Potion Shelf
+bibliocraft:potionshelf:5, Dark Oak Potion Shelf
+bibliocraft:potionshelf:6, Framed Potion Shelf
+bibliocraft:toolrack:0, Oak Tool Rack
+bibliocraft:toolrack:1, Spruce Tool Rack
+bibliocraft:toolrack:2, Birch Tool Rack
+bibliocraft:toolrack:3, Jungle Tool Rack
+bibliocraft:toolrack:4, Acacia Tool Rack
+bibliocraft:toolrack:5, Dark Oak Tool Rack
+bibliocraft:toolrack:6, Framed Tool Rack
+bibliocraft:label:0, Oak Wood Label
+bibliocraft:label:1, Spruce Wood Label
+bibliocraft:label:2, Birch Wood Label
+bibliocraft:label:3, Jungle Wood Label
+bibliocraft:label:4, Acacia Label
+bibliocraft:label:5, Dark Oak Label
+bibliocraft:label:6, Framed Label
+bibliocraft:desk:0, Oak Desk
+bibliocraft:desk:1, Spruce Desk
+bibliocraft:desk:2, Birch Desk
+bibliocraft:desk:3, Jungle Desk
+bibliocraft:desk:4, Acacia Desk
+bibliocraft:desk:5, Dark Oak Desk
+bibliocraft:desk:6, Framed Desk
+bibliocraft:table:0, Oak Table
+bibliocraft:table:1, Spruce Table
+bibliocraft:table:2, Birch Table
+bibliocraft:table:3, Jungle Table
+bibliocraft:table:4, Acacia Table
+bibliocraft:table:5, Dark Oak Table
+bibliocraft:table:6, Framed Table
+bibliocraft:seat:0, Oak Seat
+bibliocraft:seat:1, Spruce Seat
+bibliocraft:seat:2, Birch Seat
+bibliocraft:seat:3, Jungle Seat
+bibliocraft:seat:4, Acacia Seat
+bibliocraft:seat:5, Dark Oak Seat
+bibliocraft:seat:6, Framed Seat
+bibliocraft:clock:0, Oak Clock
+bibliocraft:clock:1, Spruce Clock
+bibliocraft:clock:2, Birch Clock
+bibliocraft:clock:3, Jungle Clock
+bibliocraft:clock:4, Acacia Clock
+bibliocraft:clock:5, Dark Oak Clock
+bibliocraft:clock:6, Framed Clock
+bibliocraft:case:0, Oak Case
+bibliocraft:case:1, Spruce Case
+bibliocraft:case:2, Birch Case
+bibliocraft:case:3, Jungle Case
+bibliocraft:case:4, Acacia Case
+bibliocraft:case:5, Dark Oak Case
+bibliocraft:case:6, Framed Case
+bibliocraft:mapframe:0, Oak Map Frame
+bibliocraft:mapframe:1, Spruce Map Frame
+bibliocraft:mapframe:2, Birch Map Frame
+bibliocraft:mapframe:3, Jungle Map Frame
+bibliocraft:mapframe:4, Acacia Map Frame
+bibliocraft:mapframe:5, Dark Oak Map Frame
+bibliocraft:mapframe:6, Framed Map Frame
+bibliocraft:paintingframeflat:0, Oak Painting Frame
+bibliocraft:paintingframeflat:1, Spruce Painting Frame
+bibliocraft:paintingframeflat:2, Birch Painting Frame
+bibliocraft:paintingframeflat:3, Jungle Painting Frame
+bibliocraft:paintingframeflat:4, Acacia Painting Frame
+bibliocraft:paintingframeflat:5, Dark Oak Painting Frame
+bibliocraft:paintingframeflat:6, Framed Painting Frame
+bibliocraft:paintingframesimple:0, Oak Painting Frame
+bibliocraft:paintingframesimple:1, Spruce Painting Frame
+bibliocraft:paintingframesimple:2, Birch Painting Frame
+bibliocraft:paintingframesimple:3, Jungle Painting Frame
+bibliocraft:paintingframesimple:4, Acacia Painting Frame
+bibliocraft:paintingframesimple:5, Dark Oak Painting Frame
+bibliocraft:paintingframesimple:6, Framed Painting Frame
+bibliocraft:paintingframemiddle:0, Oak Painting Frame
+bibliocraft:paintingframemiddle:1, Spruce Painting Frame
+bibliocraft:paintingframemiddle:2, Birch Painting Frame
+bibliocraft:paintingframemiddle:3, Jungle Painting Frame
+bibliocraft:paintingframemiddle:4, Acacia Painting Frame
+bibliocraft:paintingframemiddle:5, Dark Oak Painting Frame
+bibliocraft:paintingframemiddle:6, Framed Painting Frame
+bibliocraft:paintingframefancy:0, Oak Painting Frame
+bibliocraft:paintingframefancy:1, Spruce Painting Frame
+bibliocraft:paintingframefancy:2, Birch Painting Frame
+bibliocraft:paintingframefancy:3, Jungle Painting Frame
+bibliocraft:paintingframefancy:4, Acacia Painting Frame
+bibliocraft:paintingframefancy:5, Dark Oak Painting Frame
+bibliocraft:paintingframefancy:6, Framed Painting Frame
+bibliocraft:paintingframeborderless:0, Oak Painting Frame
+bibliocraft:paintingframeborderless:1, Spruce Painting Frame
+bibliocraft:paintingframeborderless:2, Birch Painting Frame
+bibliocraft:paintingframeborderless:3, Jungle Painting Frame
+bibliocraft:paintingframeborderless:4, Acacia Painting Frame
+bibliocraft:paintingframeborderless:5, Dark Oak Painting Frame
+bibliocraft:paintingframeborderless:6, Framed Painting Frame
+bibliocraft:paintingpress, Painting Press
+bibliocraft:typewriter:0, White Typewriter
+bibliocraft:typewriter:1, Light Gray Typewriter
+bibliocraft:typewriter:2, Gray Typewriter
+bibliocraft:typewriter:3, Black Typewriter
+bibliocraft:typewriter:4, Red Typewriter
+bibliocraft:typewriter:5, Orange Typewriter
+bibliocraft:typewriter:6, Yellow Typewriter
+bibliocraft:typewriter:7, Lime Typewriter
+bibliocraft:typewriter:8, Green Typewriter
+bibliocraft:typewriter:9, Cyan Typewriter
+bibliocraft:typewriter:10, Light Blue Typewriter
+bibliocraft:typewriter:11, Blue Typewriter
+bibliocraft:typewriter:12, Purple Typewriter
+bibliocraft:typewriter:13, Magenta Typewriter
+bibliocraft:typewriter:14, Pink Typewriter
+bibliocraft:typewriter:15, Brown Typewriter
+bibliocraft:swordpedestal:0, Sword Pedestal
+bibliocraft:swordpedestal:1, Sword Pedestal
+bibliocraft:swordpedestal:2, Sword Pedestal
+bibliocraft:swordpedestal:3, Sword Pedestal
+bibliocraft:swordpedestal:4, Sword Pedestal
+bibliocraft:swordpedestal:5, Sword Pedestal
+bibliocraft:swordpedestal:6, Sword Pedestal
+bibliocraft:swordpedestal:7, Sword Pedestal
+bibliocraft:swordpedestal:8, Sword Pedestal
+bibliocraft:swordpedestal:9, Sword Pedestal
+bibliocraft:swordpedestal:10, Sword Pedestal
+bibliocraft:swordpedestal:11, Sword Pedestal
+bibliocraft:swordpedestal:12, Sword Pedestal
+bibliocraft:swordpedestal:13, Sword Pedestal
+bibliocraft:swordpedestal:14, Sword Pedestal
+bibliocraft:swordpedestal:15, Sword Pedestal
+bibliocraft:armorstand:0, Oak Armor Stand
+bibliocraft:armorstand:1, Spruce Armor Stand
+bibliocraft:armorstand:2, Birch Armor Stand
+bibliocraft:armorstand:3, Jungle Armor Stand
+bibliocraft:armorstand:4, Acacia Armor Stand
+bibliocraft:armorstand:5, Dark Oak Armor Stand
+bibliocraft:armorstand:6, Framed Armor Stand
+bibliocraft:bell, Desk Bell
+bibliocraft:typesettingtable, Typesetting Table
+bibliocraft:printingpress, Printing Press
+bibliocraft:cookiejar, Cookie Jar
+bibliocraft:dinnerplate, Dinner Plate
+bibliocraft:discrack, Disc Rack
+bibliocraft:compass, Compass
+bibliocraft:maptool, Drafting Compass
+bibliocraft:seatback1:0, Oak Seat Back
+bibliocraft:seatback1:1, Spruce Seat Back
+bibliocraft:seatback1:2, Birch Seat Back
+bibliocraft:seatback1:3, Jungle Seat Back
+bibliocraft:seatback1:4, Acacia Seat Back
+bibliocraft:seatback1:5, Dark Oak Seat Back
+bibliocraft:seatback1:6, Framed Seat Back
+bibliocraft:seatback2:0, Oak Seat Back
+bibliocraft:seatback2:1, Spruce Seat Back
+bibliocraft:seatback2:2, Birch Seat Back
+bibliocraft:seatback2:3, Jungle Seat Back
+bibliocraft:seatback2:4, Acacia Seat Back
+bibliocraft:seatback2:5, Dark Oak Seat Back
+bibliocraft:seatback2:6, Framed Seat Back
+bibliocraft:seatback3:0, Oak Seat Back
+bibliocraft:seatback3:1, Spruce Seat Back
+bibliocraft:seatback3:2, Birch Seat Back
+bibliocraft:seatback3:3, Jungle Seat Back
+bibliocraft:seatback3:4, Acacia Seat Back
+bibliocraft:seatback3:5, Dark Oak Seat Back
+bibliocraft:seatback3:6, Framed Seat Back
+bibliocraft:seatback4:0, Oak Seat Back
+bibliocraft:seatback4:1, Spruce Seat Back
+bibliocraft:seatback4:2, Birch Seat Back
+bibliocraft:seatback4:3, Jungle Seat Back
+bibliocraft:seatback4:4, Acacia Seat Back
+bibliocraft:seatback4:5, Dark Oak Seat Back
+bibliocraft:seatback4:6, Framed Seat Back
+bibliocraft:seatback5:0, Oak Seat Back
+bibliocraft:seatback5:1, Spruce Seat Back
+bibliocraft:seatback5:2, Birch Seat Back
+bibliocraft:seatback5:3, Jungle Seat Back
+bibliocraft:seatback5:4, Acacia Seat Back
+bibliocraft:seatback5:5, Dark Oak Seat Back
+bibliocraft:seatback5:6, Framed Seat Back
+bibliocraft:stockroomcatalog, Stockroom Catalog
+bibliocraft:plumbline, Plumb line
+bibliocraft:framingsaw, Framing Saw
+bibliocraft:framingboard, Framing Board
+bibliocraft:framingsheet, Framing Sheet
+bibliocraft:testeritem, ItemStack Name Tester
+bibliocraft:atlasbook:0, Atlas
+bibliocraft:atlasplate, Atlas Plate
+bibliocraft:deathcompass, Eternal Compass
+bibliocraft:paintingcanvas, Painting Canvas
+bibliocraft:bigbook, Big Writing Book
+bibliocraft:recipebook, Empty Recipe Book
+bibliocraft:slottedbook, Slotted Book
+bibliocraft:handdrill, Hand Drill
+bibliocraft:tapemeasure, Tape Measure
+bibliocraft:tape, Tape Measure Reel
+bibliocraft:bibliochase, Print Press Chase
+bibliocraft:printplate, Print Press Plate
+bibliocraft:enchantedplate, Enchanted Plate
+bibliocraft:biblioredbook, Redstone: Volume I
+bibliocraft:biblioglasses:0, Reading Glasses
+bibliocraft:biblioglasses:1, Tinted Glasses
+bibliocraft:biblioglasses:2, Monocle
+bibliocraft:bibliodrill, Screw Gun
+bibliocraft:bibliocreativelock, Lock and Key
+bibliocraft:biblioclipboard, Clipboard
 galacticraftcore:crude_oil_still, Crude Oil
 galacticraftcore:bucket_oil, Oil Bucket
 galacticraftcore:fuel, Fuel
@@ -20790,24 +21112,6 @@ ironbackpacks:upgrade:0, Damage Bar Upgrade
 ironbackpacks:upgrade:0, Latch Upgrade
 ironbackpacks:upgrade:0, Extra Upgrade Point
 ironbackpacks:upgrade:0, Everlasting Upgrade
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -20928,6 +21232,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 modularmachinery:itemblueprint, Machine Blueprint
 modularmachinery:itemmodularium, Modularium
 modularmachinery:itemconstructtool, Construct Selection Tool
@@ -22220,72 +22542,17 @@ chiselsandbits:block_bit:0, Chiseled Bit - Block of Copper
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Tin
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Bronze
 chiselsandbits:block_bit:0, Chiseled Bit - Ash Bricks
+chiselsandbits:block_bit:0, Chiseled Bit - Honey Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Simmering Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Stringy Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Frozen Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Dripping Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Silky Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Parched Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Mossy Comb Block
+chiselsandbits:block_bit:0, Chiseled Bit - Mellow Comb Block
 chiselsandbits:block_bit:0, Chiseled Bit - Block of Charcoal
 chiselsandbits:block_bit:0, Chiseled Bit - Loam
-chiselsandbits:block_bit:0, Chiseled Bit - Larch Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Teak Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Desert Acacia Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Lime Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Chestnut Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Wenge Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Baobab Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Sequoia Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Kapok Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Ebony Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Mahogany Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Balsa Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Willow Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Walnut Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Greenheart Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cherry Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Mahoe Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Poplar Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Palm Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Papaya Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Pine Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Plum Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Maple Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Citrus Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Giant Sequoia Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Ipe Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Padauk Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cocobolo Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Zebrawood Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Larch Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Teak Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Desert Acacia Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Lime Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Chestnut Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Wenge Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Baobab Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Sequoia Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Kapok Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Ebony Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Mahogany Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Balsa Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Willow Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Walnut Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Greenheart Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cherry Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Mahoe Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Poplar Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Palm Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Papaya Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Pine Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Plum Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Maple Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Citrus Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Giant Sequoia Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Ipe Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Padauk Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cocobolo Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Zebrawood Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Oak Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Birch Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Jungle Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Acacia Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Dark Oak Wood (Fireproof) Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Larch Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Teak Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Desert Acacia Wood Planks
@@ -22350,15 +22617,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Birch Wood Planks (Fireproof)
 chiselsandbits:block_bit:0, Chiseled Bit - Jungle Wood Planks (Fireproof)
 chiselsandbits:block_bit:0, Chiseled Bit - Acacia Wood Planks (Fireproof)
 chiselsandbits:block_bit:0, Chiseled Bit - Dark Oak Wood Planks (Fireproof)
-chiselsandbits:block_bit:0, Chiseled Bit - Honey Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Simmering Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Stringy Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Frozen Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Dripping Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Silky Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Parched Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Mossy Comb Block
-chiselsandbits:block_bit:0, Chiseled Bit - Mellow Comb Block
 chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Tin Ore
 chiselsandbits:block_bit:0, Chiseled Bit - Silver Ore
@@ -22410,86 +22668,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Magenta Rockwool
 chiselsandbits:block_bit:0, Chiseled Bit - Orange Rockwool
 chiselsandbits:block_bit:0, Chiseled Bit - White Rockwool
 chiselsandbits:block_bit:0, Chiseled Bit - Stone Slab
-chiselsandbits:block_bit:0, Chiseled Bit - Apple Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Fig Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Butternut Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Whitebeam Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Rowan Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hemlock Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Ash Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Alder Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Beech Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hawthorn Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Banana Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Yew Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cypress Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Fir Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hazel Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hickory Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Elm Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Elder Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Holly Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hornbeam Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cedar Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Olive Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Sweetgum Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Locust Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Pear Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Maclura Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Brazilwood Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Logwood Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Rosewood Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Purpleheart Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Iroko Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Gingko Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Eucalyptus Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Box Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Syzgium Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Pink Ivory Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Eucalyptus Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Eucalyptus Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cherry Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cinnamon Wood Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Apple Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Fig Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Butternut Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Whitebeam Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Rowan Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hemlock Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Ash Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Alder Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Beech Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hawthorn Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Banana Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Yew Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cypress Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Fir Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hazel Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hickory Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Elm Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Elder Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Holly Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Hornbeam Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cedar Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Olive Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Sweetgum Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Locust Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Pear Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Maclura Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Brazilwood Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Logwood Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Rosewood Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Purpleheart Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Iroko Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Gingko Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Eucalyptus Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Box Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Syzgium Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Pink Ivory Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Eucalyptus Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Eucalyptus Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cherry Wood (Fireproof) Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Cinnamon Wood (Fireproof) Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Apple Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Fig Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Butternut Wood Planks
@@ -24859,27 +25037,27 @@ chiselsandbits:block_bit:0, Chiseled Bit - Infinity Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Compressed Infinity Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Double Compressed Infinity Dust Block
 chiselsandbits:block_bit:0, Chiseled Bit - Reinforced Obsidian
-chiselsandbits:block_bit:0, Chiseled Bit - Alloy Smelter (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Item Buffer (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Power Buffer (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Omni Buffer (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Creative Buffer (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Crafter (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Painting Machine (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Power Monitor (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - SAG Mill (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Slice'N'Splice (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Stirling Generator (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Fluid Tank (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Pressurized Fluid Tank (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Travel Anchor (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Vacuum Chest (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Wireless Charger (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - XP Vacuum (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Simple Alloy Smelter (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Simple Stirling Generator (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Wired Charger (decoration block) East
-chiselsandbits:block_bit:0, Chiseled Bit - Simple Sagmill (decoration block) East
+chiselsandbits:block_bit:0, Chiseled Bit - Alloy Smelter (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Item Buffer (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Power Buffer (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Omni Buffer (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Creative Buffer (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Crafter (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Painting Machine (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Power Monitor (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - SAG Mill (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Slice'N'Splice (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Stirling Generator (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Fluid Tank (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Pressurized Fluid Tank (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Travel Anchor (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Vacuum Chest (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Wireless Charger (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - XP Vacuum (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Simple Alloy Smelter (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Simple Stirling Generator (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Wired Charger (decoration block) South
+chiselsandbits:block_bit:0, Chiseled Bit - Simple Sagmill (decoration block) South
 chiselsandbits:block_bit:0, Chiseled Bit - Industrial Insulation
 chiselsandbits:block_bit:0, Chiseled Bit - Crude Steel Block
 chiselsandbits:block_bit:0, Chiseled Bit - Crystalline Alloy Block
@@ -24942,15 +25120,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Block
 chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Sky Stone Small Brick
 chiselsandbits:block_bit:0, Chiseled Bit - Tiny TNT
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
-chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
-chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
-chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
-chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Sandstone
 chiselsandbits:block_bit:0, Chiseled Bit - Sandstone Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Polished Red Sandstone
@@ -25069,6 +25238,15 @@ chiselsandbits:block_bit:0, Chiseled Bit - Brown Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Green Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Red Quilted Wool
 chiselsandbits:block_bit:0, Chiseled Bit - Black Quilted Wool
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Spruce Bookshelf
+chiselsandbits:block_bit:0, Chiseled Bit - Lit Redstone Lamp
+chiselsandbits:block_bit:0, Chiseled Bit - Blaze Lantern
+chiselsandbits:block_bit:0, Chiseled Bit - Sugar Block
+chiselsandbits:block_bit:0, Chiseled Bit - Gravisand
 chiselsandbits:block_bit:0, Chiseled Bit - Tin Decoration Block
 chiselsandbits:block_bit:0, Chiseled Bit - Tin Wall Block
 chiselsandbits:block_bit:0, Chiseled Bit - Copper Ore
@@ -25390,12 +25568,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Gold Grit
 chiselsandbits:block_bit:0, Chiseled Bit - Coal Grit
 chiselsandbits:block_bit:0, Chiseled Bit - Iron Grit
 chiselsandbits:block_bit:0, Chiseled Bit - Emerald Grit
-chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Blue Maple Log Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Red Maple Log Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Purple Maple Log Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Yellow Maple Log Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Green Maple Log Up/Down
-chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Brown Maple Log Up/Down
 chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Blue Wooden Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Red Wooden Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Kepler 22b Purple Wooden Planks
@@ -25576,19 +25748,6 @@ chiselsandbits:block_bit:0, Chiseled Bit - Lonsdaleite Paver
 chiselsandbits:block_bit:0, Chiseled Bit - Lonsdaleite Bricks
 chiselsandbits:block_bit:0, Chiseled Bit - Lonsdaleite Tiles
 chiselsandbits:block_bit:0, Chiseled Bit - Interconnect
-chiselsandbits:block_bit:0, Chiseled Bit - Willow Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Mangrove Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Palm Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Redwood Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Fir Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Pine Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Aspen Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Maple Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Baobab Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Cottonwood Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Juniper Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Cherry Blossom Wood mod.chiselsandbits.pretty.axis-none
-chiselsandbits:block_bit:0, Chiseled Bit - Jacaranda Wood mod.chiselsandbits.pretty.axis-none
 chiselsandbits:block_bit:0, Chiseled Bit - Willow Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Mangrove Wood Planks
 chiselsandbits:block_bit:0, Chiseled Bit - Palm Wood Planks
@@ -26676,13 +26835,6 @@ forestry:crated.minecraft.sapling.2, item.crated.minecraft.sapling.2.name
 forestry:crated.minecraft.sapling.3, item.crated.minecraft.sapling.3.name
 forestry:crated.minecraft.sapling.4, item.crated.minecraft.sapling.4.name
 forestry:crated.minecraft.sapling.5, item.crated.minecraft.sapling.5.name
-forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
-forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
-forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
-forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
-forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
-forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
-forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.forestry.beeswax.0, item.crated.forestry.beeswax.0.name
 forestry:crated.forestry.pollen.0, item.crated.forestry.pollen.0.name
 forestry:crated.forestry.pollen.1, item.crated.forestry.pollen.1.name
@@ -26703,6 +26855,13 @@ forestry:crated.forestry.bee_combs.14, item.crated.forestry.bee_combs.14.name
 forestry:crated.forestry.bee_combs.15, item.crated.forestry.bee_combs.15.name
 forestry:crated.forestry.bee_combs.16, item.crated.forestry.bee_combs.16.name
 forestry:crated.forestry.refractory_wax.0, item.crated.forestry.refractory_wax.0.name
+forestry:crated.forestry.fruits.0, item.crated.forestry.fruits.0.name
+forestry:crated.forestry.fruits.1, item.crated.forestry.fruits.1.name
+forestry:crated.forestry.fruits.2, item.crated.forestry.fruits.2.name
+forestry:crated.forestry.fruits.3, item.crated.forestry.fruits.3.name
+forestry:crated.forestry.fruits.4, item.crated.forestry.fruits.4.name
+forestry:crated.forestry.fruits.6, item.crated.forestry.fruits.6.name
+forestry:crated.forestry.fruits.5, item.crated.forestry.fruits.5.name
 forestry:crated.ic2.misc_resource.4, item.crated.ic2.misc_resource.4.name
 forestry:crated.ic2.crafting.23, item.crated.ic2.crafting.23.name
 forestry:crated.ic2.misc_resource.3, item.crated.ic2.misc_resource.3.name
