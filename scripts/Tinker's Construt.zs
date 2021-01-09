@@ -34,6 +34,22 @@ Melting.removeRecipe(<liquid:ender>);
 Melting.removeRecipe(<liquid:glowstone>);
 Melting.removeRecipe(<liquid:redstone>);
 
+// Scorched Casting Basin
+recipes.remove(<tcomplement:scorched_casting:1>);
+recipes.addShaped(<tcomplement:scorched_casting:1>, [
+	[<tconstruct:materials:2>, null, <tconstruct:materials:2>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tcomplement:materials:1>,<tcomplement:scorched_block:3>, <tcomplement:materials:1>]
+]);
+
+// Scorched Casting Table
+recipes.remove(<tcomplement:scorched_casting>);
+recipes.addShaped(<tcomplement:scorched_casting>, [
+	[<tcomplement:materials:1>,<tcomplement:scorched_block:3>, <tcomplement:materials:1>],
+	[<tcomplement:materials:1>, null, <tcomplement:materials:1>],
+	[<tconstruct:materials:2>, null, <tconstruct:materials:2>]
+]);
+
 // Seared Drain
 recipes.remove(<tconstruct:smeltery_io>);
 recipes.addShaped(<tconstruct:smeltery_io>, [

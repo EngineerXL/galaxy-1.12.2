@@ -23,6 +23,10 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-28,
+					-29,
+					-30,
+					-31,
 					-1,
 					1
 				]
@@ -51,6 +55,10 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
+					-28,
+					-29,
+					-30,
+					-31,
 					-1,
 					1
 				]

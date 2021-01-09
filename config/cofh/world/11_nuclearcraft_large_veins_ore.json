@@ -2,7 +2,7 @@
 	"dependencies": "nuclearcraft",
 	"populate": {
 		"vein_nuclearcraft": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": [
@@ -45,8 +45,8 @@
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
-					-1,
-					1
+					-31,
+					-13
 				]
 			}
 		}

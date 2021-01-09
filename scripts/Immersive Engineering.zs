@@ -18,6 +18,19 @@ recipes.addShaped(<immersiveengineering:stone_decoration> * 3, [
 	[<minecraft:clay_ball>, <tconstruct:materials>, <minecraft:clay_ball>]
 ]);
 
+// Concrete \\
+recipes.remove(<immersivepetroleum:stone_decoration>);
+recipes.addShaped(<immersivepetroleum:stone_decoration> * 12, [
+	[<ore:itemSlag>, <thermalfoundation:material:892>, <ore:itemSlag>],
+	[<ore:gravel>, <minecraft:water_bucket>, <ore:gravel>],
+	[<ore:itemSlag>, <thermalfoundation:material:892>, <ore:itemSlag>]
+]);
+recipes.addShaped(<immersivepetroleum:stone_decoration> * 8, [
+	[<ore:sand>, <thermalfoundation:material:892>, <ore:sand>],
+	[<ore:gravel>, <minecraft:water_bucket>, <ore:gravel>],
+	[<ore:sand>, <thermalfoundation:material:892>, <ore:sand>]
+]);
+
 // Copper Coil Block
 recipes.remove(<immersiveengineering:metal_decoration0>);
 recipes.addShaped(<immersiveengineering:metal_decoration0>, [
@@ -45,7 +58,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:1>, [
 // Engineer's Hammer
 recipes.remove(<immersiveengineering:tool>);
 recipes.addShaped(<immersiveengineering:tool>, [
-	[<tconstruct:large_plate>.withTag({Material: "iron"}), <ore:string>, <tconstruct:large_plate>.withTag({Material: "iron"})],
+	[<minecraft:iron_ingot>, <tconstruct:binding>.withTag({Material: "iron"}), <minecraft:iron_ingot>],
 	[null, <ore:stickWood>, null],
 	[null, <ore:stickWood>, null]
 ]);
@@ -62,30 +75,27 @@ recipes.remove(<immersiveengineering:metal_device1:1>);
 recipes.addShaped(<immersiveengineering:metal_device1:1>, [
 	[<ore:plateIron>, <extrautils2:decorativesolid:3>, <ore:plateIron>],
 	[<ore:ingotCopper>, <immersiveengineering:metal_decoration0>, <ore:ingotCopper>],
-	[<ore:plateIron>, <ore:blockRedstone>, <ore:plateIron>]
+	[<ore:plateIron>, <extrautils2:decorativesolid:3>, <ore:plateIron>]
 ]);
 
 // Garden Cloche
 recipes.remove(<immersiveengineering:metal_device1:13>);
 recipes.addShaped(<immersiveengineering:metal_device1:13>, [
-	[<extrautils2:decorativeglass:5>, <immersiveengineering:toolupgrade:10>, <extrautils2:decorativeglass:5>],
-	[<extrautils2:decorativeglass:5>, null, <extrautils2:decorativeglass:5>],
-	[<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]
+	[<ore:blockGlassWhite>, <immersiveengineering:material:26>, <ore:blockGlassWhite>],
+	[<ore:blockGlassWhite>, null, <ore:blockGlassWhite>],
+	[<immersiveengineering:wooden_device0>, <immersiveengineering:material:9>, <immersiveengineering:wooden_device0:1>]
 ]);
-
-// Generator Block
-recipes.remove(<immersiveengineering:metal_decoration0:6>);
-recipes.addShaped(<immersiveengineering:metal_decoration0:6>, [
-	[<ore:plateSteel>, <tconstruct:tough_tool_rod>.withTag({Material: "electrum"}), <ore:plateSteel>],
-	[<extrautils2:ingredients:9>, <extrautils2:decorativeglass:5>, <extrautils2:ingredients:9>],
-	[<ore:plateSteel>, <tconstruct:tough_tool_rod>.withTag({Material: "electrum"}), <ore:plateSteel>]
+recipes.addShaped(<immersiveengineering:metal_device1:13>, [
+	[<ore:blockGlassWhite>, <immersiveengineering:material:26>, <ore:blockGlassWhite>],
+	[<ore:blockGlassWhite>, null, <ore:blockGlassWhite>],
+	[<immersiveengineering:wooden_device0:1>, <immersiveengineering:material:9>, <immersiveengineering:wooden_device0>]
 ]);
 
 // Heavy Engineering Block
 recipes.remove(<immersiveengineering:metal_decoration0:5>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5>, [
 	[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>],
-	[<ore:plateConstantan>, <extrautils2:decorativesolid:7>, <ore:plateConstantan>],
+	[<ore:plateConstantan>, <ore:obsidian>, <ore:plateConstantan>],
 	[<ore:plateSteel>, <immersiveengineering:material:9>, <ore:plateSteel>]
 ]);
 
@@ -100,9 +110,9 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:2>, [
 // HV Capacitor
 recipes.remove(<immersiveengineering:metal_device0:2>);
 recipes.addShaped(<immersiveengineering:metal_device0:2>, [
-	[<ore:plateDarkSteel>, <ore:blockRedstone>, <ore:plateDarkSteel>],
+	[<ore:ingotDarkSteel>, <ore:blockRedstone>, <ore:ingotDarkSteel>],
 	[<ore:plateAlumite>, <immersiveengineering:metal_device0:1>, <ore:plateAlumite>],
-	[<ore:plateDarkSteel>, <ore:blockRedstone>, <ore:plateDarkSteel>]
+	[<ore:ingotDarkSteel>, <ore:blockRedstone>, <ore:ingotDarkSteel>]
 ]);
 
 // HV Wire Coil
@@ -128,9 +138,9 @@ recipes.addShaped(<immersiveengineering:stone_decoration:10>, [
 // Kinetic Dynamo
 recipes.remove(<immersiveengineering:metal_device1:2>);
 recipes.addShaped(<immersiveengineering:metal_device1:2>, [
-	[<ore:plateIron>, <ore:plateDarkSteel>, <ore:plateIron>],
+	[<ore:plateIron>, <ore:ingotDarkSteel>, <ore:plateIron>],
 	[<extrautils2:ingredients:4>, <immersiveengineering:metal_decoration0>, <extrautils2:ingredients:4>],
-	[<ore:plateIron>, <ore:plateDarkSteel>, <ore:plateIron>]
+	[<ore:plateIron>, <ore:ingotDarkSteel>, <ore:plateIron>]
 ]);
 
 // Light Engineering Block
@@ -144,7 +154,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:4>, [
 // LV Capacitor
 recipes.remove(<immersiveengineering:metal_device0>);
 recipes.addShaped(<immersiveengineering:metal_device0>, [
-	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
 	[<tconstruct:tool_rod>.withTag({Material: "copper"}), <tconstruct:large_plate>.withTag({Material: "lead"}), <tconstruct:tool_rod>.withTag({Material: "copper"})],
 	[<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]
 ]);
@@ -160,9 +170,9 @@ recipes.addShaped(<immersiveengineering:wirecoil> * 2, [
 // MV Capacitor
 recipes.remove(<immersiveengineering:metal_device0:1>);
 recipes.addShaped(<immersiveengineering:metal_device0:1>, [
-	[<ore:plateSteel>, <ore:blockRedstone>, <ore:plateSteel>],
+	[<ore:ingotSteel>, <ore:blockRedstone>, <ore:ingotSteel>],
 	[<ore:plateElectrum>, <immersiveengineering:metal_device0>, <ore:plateElectrum>],
-	[<ore:plateSteel>, <ore:blockRedstone>, <ore:plateSteel>]
+	[<ore:ingotSteel>, <ore:blockRedstone>, <ore:ingotSteel>]
 ]);
 
 // MV Wire Coil
@@ -184,9 +194,9 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:7>, [
 // Redstone Engineering Block
 recipes.remove(<immersiveengineering:metal_decoration0:3>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:3>, [
-	[<ore:plateIron>, <extrautils2:decorativeglass:5>, <ore:plateIron>],
-	[<ore:plateCopper>, <ore:blockRedstone>, <ore:plateCopper>],
-	[<ore:plateIron>, <extrautils2:decorativeglass:5>, <ore:plateIron>]
+	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>],
+	[<ore:plateConstantan>, <extrautils2:ingredients:1>, <ore:plateConstantan>],
+	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]
 ]);
 
 // Thermoelectric Generator

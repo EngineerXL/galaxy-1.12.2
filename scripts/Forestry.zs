@@ -64,16 +64,19 @@ recipes.addShaped(<forestry:sturdy_machine>, [
 recipes.remove(<forestry:squeezer>);
 recipes.addShaped(<forestry:squeezer>, [
 	[<tconstruct:tough_binding>.withTag({Material: "lead"}), <ore:blockGlass>, <tconstruct:tough_binding>.withTag({Material: "lead"})],
-	[<ore:ingotTin>, <forestry:sturdy_machine>, <ore:ingotTin>],
+	[<ore:ingotLead>, <forestry:sturdy_machine>, <ore:ingotLead>],
 	[<tconstruct:tough_binding>.withTag({Material: "lead"}), <ore:chestWood>, <tconstruct:tough_binding>.withTag({Material: "lead"})]
 ]);
 
 // Thermionic Fabricator
 recipes.remove(<forestry:fabricator>);
 recipes.addShaped(<forestry:fabricator>, [
-	[<tconstruct:tough_tool_rod>.withTag({Material: "electrum"}), <ore:blockGlass>, <tconstruct:tough_tool_rod>.withTag({Material: "electrum"})],
+	[<ore:plateElectrum>, <ore:blockGlass>, <ore:plateElectrum>],
 	[<forestry:chipsets:3>.withTag({T: 3 as short}) , <forestry:sturdy_machine>, <forestry:chipsets:3>.withTag({T: 3 as short})],
 	[<tconstruct:tough_binding>.withTag({Material: "electrum"}) , <ore:chestWood>, <tconstruct:tough_binding>.withTag({Material: "electrum"})]
 ]);
+
+// Wrench
+recipes.remove(<forestry:wrench>);
 
 print("Forestry.zs is loaded");
