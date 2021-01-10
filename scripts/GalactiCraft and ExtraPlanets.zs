@@ -131,8 +131,6 @@ recipes.addShaped(<galacticraftcore:air_vent>, [
 
 // Refineries
 recipes.remove(<galacticraftcore:refinery>);
-recipes.remove(<extraplanets:advanced_refinery>);
-recipes.remove(<extraplanets:ultimate_refinery>);
 
 // Tier 1 Booster
 recipes.remove(<galacticraftcore:engine:1>);

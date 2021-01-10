@@ -1,0 +1,36 @@
+{
+    "machine": "pressurized_reaction_chamber",
+    "registryName": "pressurized_reaction_chamber_plastic",
+    "recipeTime": 100,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "industrialforegoing:dryrubber",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "biomass",
+            "amount": 200
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "industrialforegoing:plastic",
+            "amount": 1
+        }
+    ]
+}

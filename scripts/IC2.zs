@@ -1,6 +1,35 @@
 // IC2.zs
 
+import mods.extendedcrafting.TableCrafting;
+
 print("IC2.zs starts to load");
+
+// Advanced Circuit
+recipes.remove(<ic2:crafting:2>);
+TableCrafting.addShaped(0, <ic2:crafting:2>, [
+	[null, null, null, null, null], 
+	[<ore:plateRedstoneAlloy>, <forestry:thermionic_tubes:11>, <genetics:misc:2>, <forestry:thermionic_tubes:11>, <ore:plateRedstoneAlloy>], 
+	[<ore:plateRedstoneAlloy>, <genetics:misc:2>, <ore:circuitBasic>, <genetics:misc:2>, <ore:plateRedstoneAlloy>], 
+	[<ore:plateRedstoneAlloy>, <forestry:thermionic_tubes:11>, <genetics:misc:2>, <forestry:thermionic_tubes:11>, <ore:plateRedstoneAlloy>], 
+	[null, null, null, null, null]
+]);
+
+// Advanced Machine Casing
+recipes.remove(<ic2:resource:13>);
+TableCrafting.addShaped(0, <ic2:resource:13>, [
+	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateCarbon>, <forestry:chipsets:1>, <ore:plateSteel>], 
+	[<ore:plateMeteoricIron>, <ore:plateAdvancedAlloy>, <ore:machineBlock>, <ore:plateAdvancedAlloy>, <ore:plateMeteoricIron>], 
+	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateCarbon>, <forestry:chipsets:1>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>]
+]);
+TableCrafting.addShaped(0, <ic2:resource:13>, [
+	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateAdvancedAlloy>, <forestry:chipsets:1>, <ore:plateSteel>], 
+	[<ore:plateMeteoricIron>, <ore:plateCarbon>, <ore:machineBlock>, <ore:plateCarbon>, <ore:plateMeteoricIron>], 
+	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateAdvancedAlloy>, <forestry:chipsets:1>, <ore:plateSteel>], 
+	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>]
+]);
 
 // Basic Machine Casing
 recipes.remove(<ic2:resource:12>);
@@ -25,6 +54,9 @@ recipes.addShaped(<ic2:cutter>, [
 	[null, <tconstruct:tough_binding>.withTag({Material: "iron"}), null],
 	[<tconstruct:tough_tool_rod>.withTag({Material: "iron"}), null, <tconstruct:tough_tool_rod>.withTag({Material: "iron"})]
 ]);
+
+// Chunk Loader
+recipes.remove(<ic2:te:82>);
 
 // Electronic Circuit
 recipes.remove(<ic2:crafting:1>);
@@ -52,8 +84,15 @@ recipes.addShaped(<ic2:forge_hammer>, [
 	[<tconstruct:large_plate>.withTag({Material: "iron"}), null, null]
 ]);
 
+// Lapotron Crystal
+recipes.remove(<ore:lapotronCrystal>);
+recipes.addShaped(<ic2:lapotron_crystal>, [
+	[<moreplates:empowered_palis_plate>, <ic2:crafting:2>, <moreplates:empowered_palis_plate>],
+	[<moreplates:empowered_palis_plate>, <ore:energyCrystal>, <moreplates:empowered_palis_plate>],
+	[<moreplates:empowered_palis_plate>, <ic2:crafting:2>, <moreplates:empowered_palis_plate>]
+]);
+
 // Rubber
-furnace.remove(<ic2:crafting>);
 mods.forestry.Centrifuge.addRecipe([<ic2:crafting>], <ic2:misc_resource:4>, 100);
 
 // Treetap

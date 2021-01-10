@@ -90,7 +90,7 @@ var durabilityTools as IItemStack[] = [
 	<netherex:frosted_amedian_hoe>,
 
 	// Bow
-	<minecraft:bow>,
+	//<minecraft:bow>,
 	//<natura:ghostwood_bow>,
 	//<natura:bloodwood_bow>,
 	//<natura:darkwood_bow>,
