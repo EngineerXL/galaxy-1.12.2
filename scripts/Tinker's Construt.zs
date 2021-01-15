@@ -24,7 +24,7 @@ recipes.addShaped(<tconstruct:casting>, [
 recipes.remove(<tcomplement:melter>);
 recipes.addShaped(<tcomplement:melter>, [
 	[<tconstruct:materials:2>, <tconstruct:materials>, <tconstruct:materials:2>],
-	[<tconstruct:materials>, <minecraft:redstone>, <tconstruct:materials>],
+	[<tconstruct:materials>, <minecraft:coal>, <tconstruct:materials>],
 	[<tconstruct:materials:2>, <tconstruct:materials>, <tconstruct:materials:2>]
 ]);
 
@@ -62,7 +62,7 @@ recipes.addShaped(<tconstruct:smeltery_io>, [
 recipes.remove(<tconstruct:smeltery_controller>);
 recipes.addShaped(<tconstruct:smeltery_controller>, [
 	[<tconstruct:seared:3>, <tconstruct:dried_clay:1>, <tconstruct:seared:3>],
-	[<tconstruct:dried_clay:1>, <ore:blockRedstone>, <tconstruct:dried_clay:1>],
+	[<tconstruct:dried_clay:1>, <ore:blockCoal>, <tconstruct:dried_clay:1>],
 	[<tconstruct:seared:3>, <tconstruct:dried_clay:1>, <tconstruct:seared:3>]
 ]);
 

@@ -141,9 +141,7 @@ recipes.addShaped(<galacticraftcore:engine:1>, [
 ]);
 
 // Tier 1 Heavy-Duty Plate
-
-// Needs lookup
-GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:heavy_plating>);
+GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:heavy_plating> * 2);
 GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:heavy_plating>, <galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>, <galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>);
 
 // Tier 1 Rocket Engine

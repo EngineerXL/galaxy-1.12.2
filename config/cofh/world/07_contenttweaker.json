@@ -1,0 +1,28 @@
+{
+	"populate": {
+		"blackquartz_mercury": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:blackQuartzMercury",
+				"material":
+					{
+						"name": "extraplanets:mercury",
+						"metadata": 2
+					},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 18,
+			"max-height": 55,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-13
+				]
+			}
+		}
+	}
+}
