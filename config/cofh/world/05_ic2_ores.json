@@ -2,7 +2,7 @@
 	"dependencies": "ic2",
 	"populate": {
 		"uranium": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {

@@ -39,6 +39,7 @@ recipes.addShaped(<galacticraftcore:machine2:4>, [
 
 // Compressor
 recipes.remove(<galacticraftcore:machine:12>);
+<galacticraftcore:machine:12>.addTooltip(format.red("Use Electric Compressor!"));
 
 // Compressed Materials
 var compressed as IItemStack[] = [
@@ -113,6 +114,14 @@ recipes.addShaped(<galacticraftplanets:item_basic_asteroids:1>, [
 	[<galacticraftplanets:item_basic_asteroids:5>, null, <galacticraftplanets:item_basic_asteroids:5>]
 ]);
 
+// Isothermal Cloth
+recipes.remove(<galacticraftplanets:basic_item_venus:3>);
+recipes.addShaped(<galacticraftplanets:basic_item_venus:3>, [
+	[<quark:quilted_wool:7>, <forestry:crafting_material:3>, <quark:quilted_wool:7>],
+	[<forestry:crafting_material:3>, <appliedenergistics2:material:2>, <forestry:crafting_material:3>],
+	[<quark:quilted_wool:7>, <forestry:crafting_material:3>, <quark:quilted_wool:7>]
+]);
+
 // NASA Workbench
 recipes.remove(<galacticraftcore:rocket_workbench>);
 recipes.addShaped(<galacticraftcore:rocket_workbench>, [
@@ -135,9 +144,9 @@ recipes.remove(<galacticraftcore:refinery>);
 // Tier 1 Booster
 recipes.remove(<galacticraftcore:engine:1>);
 recipes.addShaped(<galacticraftcore:engine:1>, [
-	[<galacticraftcore:item_basic_moon:1>, <galacticraftcore:oil_canister_partial:1001>, <galacticraftcore:item_basic_moon:1>],
+	[<galacticraftcore:item_basic_moon:1>, <galacticraftcore:fuel_canister_partial:1>, <galacticraftcore:item_basic_moon:1>],
 	[<galacticraftcore:item_basic_moon:1>, <galacticraftcore:air_vent>, <galacticraftcore:item_basic_moon:1>],
-	[<galacticraftcore:heavy_plating>, <simplyjetpacks:metaitemmods:1>, <galacticraftcore:heavy_plating>]
+	[<galacticraftcore:heavy_plating>, <simplyjetpacks:metaitemmods:42>, <galacticraftcore:heavy_plating>]
 ]);
 
 // Tier 1 Heavy-Duty Plate
@@ -160,12 +169,76 @@ GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic
 GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:5>);
 GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_asteroids:5>, <galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5>, <moreplates:empowered_enori_plate>, <ic2:plate:15>);
 
+// Tier 3 Thermal Cloth
+recipes.remove(<extraplanets:thermal_cloth>);
+recipes.addShaped(<extraplanets:thermal_cloth>, [
+	[<quark:quilted_wool:11>, <forestry:royal_jelly>, <quark:quilted_wool:11>],
+	[<forestry:royal_jelly>, <jaopca:item_dustdesh>, <forestry:royal_jelly>],
+	[<quark:quilted_wool:11>, <forestry:royal_jelly>, <quark:quilted_wool:11>]
+]);
+
+// Tier 4 Booster
+recipes.remove(<extraplanets:tier4_items:1>);
+recipes.addShaped(<extraplanets:tier4_items:1>, [
+	[<extraplanets:tier4_items:4>, <galacticraftcore:fuel_canister_partial:1>, <extraplanets:tier4_items:4>],
+	[<extraplanets:tier4_items:4>, <galacticraftcore:air_vent>, <extraplanets:tier4_items:4>],
+	[<extraplanets:tier4_items:3>, <simplyjetpacks:metaitemmods:21>, <extraplanets:tier4_items:3>]
+]);
+
+// Tier 4 Heavy-Duty Plate
+GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier4_items:3>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier4_items:3>, <galacticraftplanets:item_basic_asteroids:5>, <galacticraftplanets:item_basic_asteroids:6>, <extraplanets:tier4_items:4>, <extraplanets:compressed_mercury>, <extraplanets:compressed_mercury>);
+
+// Tier 4 Rocket Engine
+recipes.remove(<extraplanets:tier4_items>);
+recipes.addShaped(<extraplanets:tier4_items>, [
+	[<galacticraftcore:canister:1>, <galacticraftcore:air_vent>, <galacticraftcore:canister:1>],
+	[<extraplanets:tier4_items:3>, <simplyjetpacks:metaitemmods:22>, <extraplanets:tier4_items:3>],
+	[<extraplanets:tier4_items:3>, null, <extraplanets:tier4_items:3>]
+]);
+
+// Tier 4 Thermal Cloth
+recipes.remove(<extraplanets:thermal_cloth:1>);
+recipes.addShaped(<extraplanets:thermal_cloth:1>, [
+	[<thermalfoundation:rockwool:5>, <extrabees:honey_drop:1>, <thermalfoundation:rockwool:5>],
+	[<extrabees:honey_drop:1>, <ore:dustMercury>, <extrabees:honey_drop:1>],
+	[<thermalfoundation:rockwool:5>, <extrabees:honey_drop:1>, <thermalfoundation:rockwool:5>]
+]);
+
+// Tier 5 Booster
+recipes.remove(<extraplanets:tier5_items:1>);
+recipes.addShaped(<extraplanets:tier5_items:1>, [
+	[<extraplanets:tier5_items:4>, <galacticraftcore:fuel_canister_partial:1>, <extraplanets:tier5_items:4>],
+	[<extraplanets:tier5_items:4>, <galacticraftcore:air_vent>, <extraplanets:tier5_items:4>],
+	[<extraplanets:tier5_items:3>, <simplyjetpacks:metaitemmods:44>, <extraplanets:tier5_items:3>]
+]);
+
+// Tier 5 Heavy-Duty Plate
+GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier5_items:3>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier5_items:3>, <extraplanets:tier4_items:3>, <extraplanets:tier5_items:4>, <nuclearcraft:part:1>, <thermalfoundation:material:357>, <thermalfoundation:material:358>);
+
+// Tier 5 Rocket Engine
+recipes.remove(<extraplanets:tier5_items>);
+recipes.addShaped(<extraplanets:tier5_items>, [
+	[<galacticraftcore:canister:1>, <galacticraftcore:air_vent>, <galacticraftcore:canister:1>],
+	[<extraplanets:tier5_items:3>, <ic2:nuclear:10>, <extraplanets:tier5_items:3>],
+	[<extraplanets:tier5_items:3>, <simplyjetpacks:metaitemmods:23>, <extraplanets:tier5_items:3>]
+]);
+
+// Tier 5 Thermal Cloth
+recipes.remove(<extraplanets:thermal_cloth:2>);
+recipes.addShaped(<extraplanets:thermal_cloth:2>, [
+	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>],
+	[<forestry:crafting_material:1>, <jaopca:item_dustredgem>, <forestry:crafting_material:1>],
+	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>]
+]);
+
 // Thermal Cloth
 recipes.remove(<galacticraftplanets:item_basic_asteroids:7>);
 recipes.addShaped(<galacticraftplanets:item_basic_asteroids:7>, [
-	[<ore:blockWool>, <forestry:crafting_material:2>, <ore:blockWool>],
-	[<forestry:crafting_material:2>, <minecraft:redstone>, <forestry:crafting_material:2>],
-	[<ore:blockWool>, <forestry:crafting_material:2>, <ore:blockWool>]
+	[<minecraft:wool:14>, <forestry:pollen:1>, <minecraft:wool:14>],
+	[<forestry:pollen:1>, <minecraft:redstone>, <forestry:pollen:1>],
+	[<minecraft:wool:14>, <forestry:pollen:1>, <minecraft:wool:14>]
 ]);
 
 // Tin Canister

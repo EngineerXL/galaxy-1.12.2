@@ -1,19 +1,152 @@
 {
 	"populate": {
-		"blackquartz_mercury": {
+		"certus_quartz_moon": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
-				"block": "contenttweaker:blackQuartzMercury",
+				"block": "contenttweaker:certus_quartz_moon",
 				"material":
-					{
-						"name": "extraplanets:mercury",
-						"metadata": 2
-					},
+				{
+					"name": "galacticraftcore:basic_block_moon",
+					"metadata": 4
+				},
+				"cluster-size": 7
+			},
+			"cluster-count": 8,
+			"min-height": 5,
+			"max-height": 55,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-28
+				]
+			}
+		},
+
+		"certus_quartz_mars": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:certus_quartz_mars",
+				"material":
+				{
+					"name": "galacticraftplanets:mars",
+					"metadata": 9
+				},
+				"cluster-size": 7
+			},
+			"cluster-count": 8,
+			"min-height": 5,
+			"max-height": 55,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+			}
+		},
+
+		"black_quartz_mars": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:black_quartz_mars",
+				"material":
+				{
+					"name": "galacticraftplanets:mars",
+					"metadata": 9
+				},
 				"cluster-size": 3
 			},
 			"cluster-count": 6,
-			"min-height": 18,
+			"min-height": 5,
+			"max-height": 28,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-29
+				]
+			}
+		},
+
+		"thorium_venus": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block":
+				{
+					"name": "contenttweaker:thorium_venus",
+					"metadata": 3
+				},
+				"material":
+				{
+					"name": "galacticraftplanets:venus",
+					"metadata": 1
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 55,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+			}
+		},
+
+		"uranium_venus": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:uranium_venus",
+				"material":
+				{
+					"name": "galacticraftplanets:venus",
+					"metadata": 1
+				},
+				"cluster-size": 5
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 32,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-31
+				]
+			}
+		},
+
+		"thorium_mercury": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block":
+				{
+					"name": "contenttweaker:thorium_mercury",
+					"metadata": 3
+				},
+				"material":
+				{
+					"name": "extraplanets:mercury",
+					"metadata": 2
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 5,
 			"max-height": 55,
 			"retrogen": "false",
 			"biome": "all",
@@ -21,6 +154,181 @@
 				"restriction": "whitelist",
 				"value": [
 					-13
+				]
+			}
+		},
+
+		"uranium_mercury": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:uranium_mercury",
+				"material":
+				{
+					"name": "extraplanets:mercury",
+					"metadata": 2
+				},
+				"cluster-size": 5
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 32,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-13
+				]
+			}
+		},
+
+		"boron_ceres": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:boron_ceres",
+				"material":
+				{
+					"name": "extraplanets:ceres",
+					"metadata": 2
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-20
+				]
+			}
+		},
+
+		"lithium_ceres": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:lithium_ceres",
+				"material":
+				{
+					"name": "extraplanets:ceres",
+					"metadata": 2
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-20
+				]
+			}
+		},
+
+		"boron_jupiter": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:boron_jupiter",
+				"material":
+				{
+					"name": "extraplanets:jupiter",
+					"metadata": 2
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-15
+				]
+			}
+		},
+
+		"lithium_jupiter": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:lithium_jupiter",
+				"material":
+				{
+					"name": "extraplanets:jupiter",
+					"metadata": 2
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-15
+				]
+			}
+		},
+
+		"iridium_uranus": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:iridium_uranus",
+				"material":
+				{
+					"name": "extraplanets:uranus",
+					"metadata": 2
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 6,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-17
+				]
+			}
+		},
+
+		"mithril_neptune": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:mithril_neptune",
+				"material":
+				{
+					"name": "extraplanets:neptune:2",
+					"metadata": 2
+				},
+				"cluster-size": 3
+			},
+			"cluster-count": 3,
+			"min-height": 5,
+			"max-height": 55,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-18
 				]
 			}
 		}

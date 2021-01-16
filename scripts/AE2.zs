@@ -60,6 +60,14 @@ Inscriber.removeRecipe(<appliedenergistics2:material:23>);
 Inscriber.addRecipe(<appliedenergistics2:material:23>, <appliedenergistics2:material:16>, false, <appliedenergistics2:material:20>, <moreplates:redstone_alloy_plate>);
 Inscriber.addRecipe(<appliedenergistics2:material:23>, <appliedenergistics2:material:16>, false, <appliedenergistics2:material:20>, <moreplates:empowered_restonia_plate>);
 
+// Charger
+recipes.remove(<appliedenergistics2:charger>);
+recipes.addShaped(<appliedenergistics2:charger>, [
+	[<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:quartz_block>, <appliedenergistics2:smooth_sky_stone_block>],
+	[<appliedenergistics2:quartz_block>, <extrautils2:ingredients>, <appliedenergistics2:quartz_block>],
+	[<appliedenergistics2:smooth_sky_stone_block>, <actuallyadditions:block_display_stand>, <appliedenergistics2:smooth_sky_stone_block>]
+]);
+
 // Crystal Growth Chamber
 recipes.remove(<ae2stuff:grower>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <ae2stuff:grower>, [
@@ -102,13 +110,13 @@ recipes.addShaped(<appliedenergistics2:inscriber>, [
 // ME Controller
 recipes.remove(<appliedenergistics2:controller>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:controller>, [
-	[<ore:compressedDesh>, <ore:compressedDesh>, <ore:compressedDesh>, null, <ore:compressedDesh>, <ore:compressedDesh>, <ore:compressedDesh>], 
+	[<appliedenergistics2:smooth_sky_stone_block>, <ore:compressedDesh>, <appliedenergistics2:smooth_sky_stone_block>, null, <appliedenergistics2:smooth_sky_stone_block>, <ore:compressedDesh>, <appliedenergistics2:smooth_sky_stone_block>], 
 	[<ore:compressedDesh>, <ore:compressedMeteoricIron>, <ore:compressedMeteoricIron>, <ore:crystalPureFluix>, <ore:compressedMeteoricIron>, <ore:compressedMeteoricIron>, <ore:compressedDesh>], 
-	[<ore:compressedDesh>, <ore:compressedMeteoricIron>, <ore:crystalPureFluix>, <appliedenergistics2:material:24>, <ore:crystalPureFluix>, <ore:compressedMeteoricIron>, <ore:compressedDesh>], 
+	[<appliedenergistics2:smooth_sky_stone_block>, <ore:compressedMeteoricIron>, <ore:crystalPureFluix>, <appliedenergistics2:material:24>, <ore:crystalPureFluix>, <ore:compressedMeteoricIron>, <appliedenergistics2:smooth_sky_stone_block>], 
 	[null, <ore:crystalPureFluix>, <appliedenergistics2:material:24>, <chisel:futura:2>, <appliedenergistics2:material:24>, <ore:crystalPureFluix>, null], 
-	[<ore:compressedDesh>, <ore:compressedMeteoricIron>, <ore:crystalPureFluix>, <appliedenergistics2:material:24>, <ore:crystalPureFluix>, <ore:compressedMeteoricIron>, <ore:compressedDesh>], 
+	[<appliedenergistics2:smooth_sky_stone_block>, <ore:compressedMeteoricIron>, <ore:crystalPureFluix>, <appliedenergistics2:material:24>, <ore:crystalPureFluix>, <ore:compressedMeteoricIron>, <appliedenergistics2:smooth_sky_stone_block>], 
 	[<ore:compressedDesh>, <ore:compressedMeteoricIron>, <ore:compressedMeteoricIron>, <ore:crystalPureFluix>, <ore:compressedMeteoricIron>, <ore:compressedMeteoricIron>, <ore:compressedDesh>], 
-	[<ore:compressedDesh>, <ore:compressedDesh>, <ore:compressedDesh>, null, <ore:compressedDesh>, <ore:compressedDesh>, <ore:compressedDesh>]
+	[<appliedenergistics2:smooth_sky_stone_block>, <ore:compressedDesh>, <appliedenergistics2:smooth_sky_stone_block>, null, <appliedenergistics2:smooth_sky_stone_block>, <ore:compressedDesh>, <appliedenergistics2:smooth_sky_stone_block>]
 ]);
 
 // ME Drive

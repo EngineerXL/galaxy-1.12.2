@@ -8,6 +8,8 @@ var items as string[] = [
 
 	"ic2:bronze_pickaxe",
 	"ic2:bronze_sword",
+	"ic2:misc_resource:1",
+	"ic2:misc_resource:2",
 
 	"forestry:broken_bronze_pickaxe",
 	"forestry:broken_bronze_shovel",
@@ -19,7 +21,7 @@ var items as string[] = [
 	"minecraft:diamond_sword",
 	"minecraft:iron_pickaxe",
 	"minecraft:iron_shovel",
-	"minecraft:iron_sword",
+	"minecraft:iron_sword"
 ];
 
 for item in items {

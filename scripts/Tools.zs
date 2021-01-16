@@ -15,11 +15,6 @@ var durabilityTools as IItemStack[] = [
 	<forestry:bronze_shovel>,
 	<immersiveengineering:shovel_steel>,
 	<ic2:bronze_shovel>,
-	//<natura:ghostwood_shovel>,
-	//<natura:bloodwood_shovel>,
-	//<natura:darkwood_shovel>,
-	//<natura:fusewood_shovel>,
-	//<natura:netherquartz_shovel>,
 	<netherex:withered_amedian_shovel>,
 	<netherex:blazed_amedian_shovel>,
 	<netherex:frosted_amedian_shovel>,
@@ -32,11 +27,6 @@ var durabilityTools as IItemStack[] = [
 	<forestry:bronze_pickaxe>,
 	<immersiveengineering:pickaxe_steel>,
 	<ic2:bronze_pickaxe>,
-	//<natura:ghostwood_pickaxe>,
-	//<natura:bloodwood_pickaxe>,
-	//<natura:darkwood_pickaxe>,
-	//<natura:fusewood_pickaxe>,
-	//<natura:netherquartz_pickaxe>,
 	<netherex:withered_amedian_pickaxe>,
 	<netherex:blazed_amedian_pickaxe>,
 	<netherex:frosted_amedian_pickaxe>,
@@ -48,11 +38,6 @@ var durabilityTools as IItemStack[] = [
 	<minecraft:golden_axe>,
 	<immersiveengineering:axe_steel>,
 	<ic2:bronze_axe>,
-	//<natura:ghostwood_axe>,
-	//<natura:bloodwood_axe>,
-	//<natura:darkwood_axe>,
-	//<natura:fusewood_axe>,
-	//<natura:netherquartz_axe>,
 	<netherex:withered_amedian_axe>,
 	<netherex:blazed_amedian_axe>,
 	<netherex:frosted_amedian_axe>,
@@ -64,11 +49,6 @@ var durabilityTools as IItemStack[] = [
 	<minecraft:golden_sword>,
 	<immersiveengineering:sword_steel>,
 	<ic2:bronze_sword>,
-	//<natura:ghostwood_sword>,
-	//<natura:bloodwood_sword>,
-	//<natura:darkwood_sword>,
-	//<natura:fusewood_sword>,
-	//<natura:netherquartz_sword>,
 	<netherex:withered_amedian_sword>,
 	<netherex:blazed_amedian_sword>,
 	<netherex:frosted_amedian_sword>,
@@ -80,26 +60,14 @@ var durabilityTools as IItemStack[] = [
 	<minecraft:golden_hoe>,
 	<immersiveengineering:hoe_steel>,
 	<ic2:bronze_hoe>,
-	//<natura:ghostwood_kama>,
-	//<natura:bloodwood_kama>,
-	//<natura:darkwood_kama>,
-	//<natura:fusewood_kama>,
-	//<natura:netherquartz_kama>,
 	<netherex:withered_amedian_hoe>,
 	<netherex:blazed_amedian_hoe>,
-	<netherex:frosted_amedian_hoe>,
-
-	// Bow
-	//<minecraft:bow>,
-	//<natura:ghostwood_bow>,
-	//<natura:bloodwood_bow>,
-	//<natura:darkwood_bow>,
-	//<natura:fusewood_bow>
+	<netherex:frosted_amedian_hoe>
 ];
 
 for i in durabilityTools {
 	i.maxDamage = 1;
-	i.addTooltip(format.red("Предмет имеет одну прочность и нужен только для крафта,\n используйте инструменты из мода Tinker's Construct!"));
+	i.addTooltip(format.red("This tool has 1 durability, use Tinker's Construct"));
 }
 
 // Wooden tools
@@ -254,8 +222,8 @@ var ingredients as IIngredient[] = [
 	<ore:ingotLead>,
 	<ore:ingotAluminum>,
 	<ore:ingotNickel>,
-	<ore:ingotIridium>,
 	<ore:ingotPlatinum>,
+	<ore:ingotIridium>,
 	<ore:ingotSteel>,
 	<ore:ingotElectrum>,
 	<ore:ingotInvar>,

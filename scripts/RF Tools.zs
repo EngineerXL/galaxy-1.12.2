@@ -3,11 +3,16 @@
 print("RF Tools.zs starts to load");
 
 // Builder
-
-// Needs lookup
 recipes.remove(<rftools:builder>);
-// <rftools:builder>
-
+mods.extendedcrafting.TableCrafting.addShaped(0, <rftools:builder>, [
+	[<ore:plateElectricalSteel>, <ore:plateEnoriEmpowered>, <ore:plateElectricalSteel>, <ore:plateEnoriEmpowered>, <ore:plateElectricalSteel>, <ore:plateEnoriEmpowered>, <ore:plateElectricalSteel>], 
+	[<ore:plateEnoriEmpowered>, <ore:circuitAdvanced>, <forestry:crafting_material:6>, <galacticraftplanets:orion_drive>, <forestry:crafting_material:6>, <ore:circuitAdvanced>, <ore:plateEnoriEmpowered>], 
+	[<ore:plateElectricalSteel>, <forestry:crafting_material:5>, <minecraft:shulker_shell>, <minecraft:end_crystal>, <minecraft:shulker_shell>, <forestry:crafting_material:5>, <ore:plateElectricalSteel>], 
+	[<ore:plateEnoriEmpowered>, <galacticraftplanets:orion_drive>, <galacticraftcore:cheese_curd>, <rftools:machine_frame>, <galacticraftcore:cheese_curd>, <galacticraftplanets:orion_drive>, <ore:plateEnoriEmpowered>], 
+	[<ore:plateElectricalSteel>, <galacticraftplanets:cavern_vines>, <ore:blockPackedIce>, <minecraft:nether_wart_block>, <ore:endstone>, <galacticraftplanets:cavern_vines>, <ore:plateElectricalSteel>], 
+	[<ore:plateEnoriEmpowered>, <galacticraftplanets:basic_item_venus:4>, <ore:blockPrismarineDark>, <galacticraftplanets:orion_drive>, <minecraft:purpur_block>, <galacticraftplanets:basic_item_venus:4>, <ore:plateEnoriEmpowered>], 
+	[<ore:plateElectricalSteel>, <ore:plateEnoriEmpowered>, <ore:plateElectricalSteel>, <ore:plateEnoriEmpowered>, <ore:plateElectricalSteel>, <ore:plateEnoriEmpowered>, <ore:plateElectricalSteel>]
+]);
 
 // Coal Generator
 recipes.remove(<rftools:coalgenerator>);

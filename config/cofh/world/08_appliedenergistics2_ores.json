@@ -2,7 +2,7 @@
 	"dependencies": "appliedenergistics2",
 	"populate": {
 		"certus": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": "appliedenergistics2:quartz_ore",
@@ -32,7 +32,7 @@
 		},
 		
 		"charged_certus_caves": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "cave",
 			"generator": {
 				"block":"appliedenergistics2:charged_quartz_ore",	

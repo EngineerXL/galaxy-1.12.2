@@ -71,19 +71,6 @@ recipes.addShaped(<ic2:crafting:1>, [
 	[<ore:itemInsulatedCopperCable>, <forestry:thermionic_tubes>, <ore:itemInsulatedCopperCable>]
 ]);
 
-// Forge Hammer
-recipes.remove(<ic2:forge_hammer>);
-recipes.addShaped(<ic2:forge_hammer>, [
-	[null, null, <tconstruct:large_plate>.withTag({Material: "iron"})],
-	[<ore:stickTreatedWood>, <ore:stickTreatedWood>, <tconstruct:tough_binding>.withTag({Material: "iron"})],
-	[null, null, <tconstruct:large_plate>.withTag({Material: "iron"})]
-]);
-recipes.addShaped(<ic2:forge_hammer>, [
-	[<tconstruct:large_plate>.withTag({Material: "iron"}), null, null],
-	[<tconstruct:tough_binding>.withTag({Material: "iron"}), <ore:stickTreatedWood>, <ore:stickTreatedWood>],
-	[<tconstruct:large_plate>.withTag({Material: "iron"}), null, null]
-]);
-
 // Lapotron Crystal
 recipes.remove(<ore:lapotronCrystal>);
 recipes.addShaped(<ic2:lapotron_crystal>, [
@@ -105,7 +92,8 @@ recipes.addShaped(<ic2:treetap>, [
 
 // Wrench
 recipes.remove(<ic2:wrench>);
-recipes.addShaped(<ic2:wrench>, [
+recipes.remove(<ic2:wrench_new>);
+recipes.addShaped(<ic2:wrench_new>, [
 	[<ore:ingotBronze>, null, <ore:ingotBronze>],
 	[<ore:ingotBronze>, <tconstruct:tough_binding>.withTag({Material: "bronze"}), <ore:ingotBronze>],
 	[null, <tconstruct:tough_tool_rod>.withTag({Material: "bronze"}), null]
