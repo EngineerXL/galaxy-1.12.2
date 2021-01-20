@@ -1,8 +1,8 @@
-// OreDict.zs
+# OreDict.zs
 
 print("OreDict.zs starts to load");
 
-// Planet Ores
+# Planet Ores
 <ore:oreCertusQuartz>.add(<contenttweaker:certus_quartz_moon>);
 
 <ore:oreCertusQuartz>.add(<contenttweaker:certus_quartz_mars>);

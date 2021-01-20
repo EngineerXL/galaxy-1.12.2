@@ -1,37 +1,44 @@
-// IC2.zs
-
-import mods.extendedcrafting.TableCrafting;
+# IC2.zs
 
 print("IC2.zs starts to load");
 
-// Advanced Circuit
+# Advanced Circuit
 recipes.remove(<ic2:crafting:2>);
-TableCrafting.addShaped(0, <ic2:crafting:2>, [
-	[null, null, null, null, null], 
-	[<ore:plateRedstoneAlloy>, <forestry:thermionic_tubes:11>, <genetics:misc:2>, <forestry:thermionic_tubes:11>, <ore:plateRedstoneAlloy>], 
-	[<ore:plateRedstoneAlloy>, <genetics:misc:2>, <ore:circuitBasic>, <genetics:misc:2>, <ore:plateRedstoneAlloy>], 
-	[<ore:plateRedstoneAlloy>, <forestry:thermionic_tubes:11>, <genetics:misc:2>, <forestry:thermionic_tubes:11>, <ore:plateRedstoneAlloy>], 
-	[null, null, null, null, null]
+recipes.addShaped(<ic2:crafting:2>, [
+	[<moreplates:redstone_alloy_plate>, <forestry:thermionic_tubes:11>, <moreplates:redstone_alloy_plate>],
+	[<genetics:misc:2>, <ic2:crafting:1>, <genetics:misc:2>],
+	[<moreplates:redstone_alloy_plate>, <forestry:thermionic_tubes:11>, <moreplates:redstone_alloy_plate>]
+]);
+recipes.addShaped(<ic2:crafting:2>, [
+	[<moreplates:redstone_alloy_plate>, <genetics:misc:2>, <moreplates:redstone_alloy_plate>],
+	[<forestry:thermionic_tubes:11>, <ic2:crafting:1>, <forestry:thermionic_tubes:11>],
+	[<moreplates:redstone_alloy_plate>, <genetics:misc:2>, <moreplates:redstone_alloy_plate>]
 ]);
 
-// Advanced Machine Casing
+# Advanced Machine Casing
 recipes.remove(<ic2:resource:13>);
-TableCrafting.addShaped(0, <ic2:resource:13>, [
-	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>], 
-	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateCarbon>, <forestry:chipsets:1>, <ore:plateSteel>], 
-	[<ore:plateMeteoricIron>, <ore:plateAdvancedAlloy>, <ore:machineBlock>, <ore:plateAdvancedAlloy>, <ore:plateMeteoricIron>], 
-	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateCarbon>, <forestry:chipsets:1>, <ore:plateSteel>], 
-	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>]
+recipes.addShaped(<ic2:resource:13>, [
+	[<galacticraftcore:item_basic_moon:1>, <ic2:crafting:15>, <galacticraftcore:basic_item:9>],
+	[<ic2:crafting:3>, <ic2:resource:12>, <ic2:crafting:3>],
+	[<galacticraftcore:basic_item:9>, <ic2:crafting:15>, <galacticraftcore:item_basic_moon:1>]
 ]);
-TableCrafting.addShaped(0, <ic2:resource:13>, [
-	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>], 
-	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateAdvancedAlloy>, <forestry:chipsets:1>, <ore:plateSteel>], 
-	[<ore:plateMeteoricIron>, <ore:plateCarbon>, <ore:machineBlock>, <ore:plateCarbon>, <ore:plateMeteoricIron>], 
-	[<ore:plateSteel>, <forestry:chipsets:1>, <ore:plateAdvancedAlloy>, <forestry:chipsets:1>, <ore:plateSteel>], 
-	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateMeteoricIron>, <ore:plateSteel>, <ore:plateSteel>]
+recipes.addShaped(<ic2:resource:13>, [
+	[<galacticraftcore:basic_item:9>, <ic2:crafting:15>, <galacticraftcore:item_basic_moon:1>],
+	[<ic2:crafting:3>, <ic2:resource:12>, <ic2:crafting:3>],
+	[<galacticraftcore:item_basic_moon:1>, <ic2:crafting:15>, <galacticraftcore:basic_item:9>]
+]);
+recipes.addShaped(<ic2:resource:13>, [
+	[<galacticraftcore:item_basic_moon:1>, <ic2:crafting:3>, <galacticraftcore:basic_item:9>],
+	[<ic2:crafting:15>, <ic2:resource:12>, <ic2:crafting:15>],
+	[<galacticraftcore:basic_item:9>, <ic2:crafting:3>, <galacticraftcore:item_basic_moon:1>]
+]);
+recipes.addShaped(<ic2:resource:13>, [
+	[<galacticraftcore:basic_item:9>, <ic2:crafting:3>, <galacticraftcore:item_basic_moon:1>],
+	[<ic2:crafting:15>, <ic2:resource:12>, <ic2:crafting:15>],
+	[<galacticraftcore:item_basic_moon:1>, <ic2:crafting:3>, <galacticraftcore:basic_item:9>]
 ]);
 
-// Basic Machine Casing
+# Basic Machine Casing
 recipes.remove(<ic2:resource:12>);
 recipes.addShaped(<ic2:resource:12>, [
 	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
@@ -39,7 +46,7 @@ recipes.addShaped(<ic2:resource:12>, [
 	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 ]);
 
-// BatBox
+# BatBox
 recipes.remove(<ic2:te:72>);
 recipes.addShaped(<ic2:te:72>, [
 	[<ore:plankTreatedWood>, <ore:itemInsulatedTinCable>, <ore:plankTreatedWood>],
@@ -47,7 +54,7 @@ recipes.addShaped(<ic2:te:72>, [
 	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]
 ]);
 
-// Basic Machine Casing
+# Basic Machine Casing
 recipes.remove(<ic2:cutter>);
 recipes.addShaped(<ic2:cutter>, [
 	[<ore:plateIron>, null, <ore:plateIron>],
@@ -55,10 +62,10 @@ recipes.addShaped(<ic2:cutter>, [
 	[<tconstruct:tough_tool_rod>.withTag({Material: "iron"}), null, <tconstruct:tough_tool_rod>.withTag({Material: "iron"})]
 ]);
 
-// Chunk Loader
+# Chunk Loader
 recipes.remove(<ic2:te:82>);
 
-// Electronic Circuit
+# Electronic Circuit
 recipes.remove(<ic2:crafting:1>);
 recipes.addShaped(<ic2:crafting:1>, [
 	[<ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>, <ore:itemInsulatedCopperCable>],
@@ -71,7 +78,7 @@ recipes.addShaped(<ic2:crafting:1>, [
 	[<ore:itemInsulatedCopperCable>, <forestry:thermionic_tubes>, <ore:itemInsulatedCopperCable>]
 ]);
 
-// Lapotron Crystal
+# Lapotron Crystal
 recipes.remove(<ore:lapotronCrystal>);
 recipes.addShaped(<ic2:lapotron_crystal>, [
 	[<moreplates:empowered_palis_plate>, <ic2:crafting:2>, <moreplates:empowered_palis_plate>],
@@ -79,10 +86,10 @@ recipes.addShaped(<ic2:lapotron_crystal>, [
 	[<moreplates:empowered_palis_plate>, <ic2:crafting:2>, <moreplates:empowered_palis_plate>]
 ]);
 
-// Rubber
+# Rubber
 mods.forestry.Centrifuge.addRecipe([<ic2:crafting>], <ic2:misc_resource:4>, 100);
 
-// Treetap
+# Treetap
 recipes.remove(<ic2:treetap>);
 recipes.addShaped(<ic2:treetap>, [
 	[null, <ore:plankTreatedWood>, null],
@@ -90,7 +97,7 @@ recipes.addShaped(<ic2:treetap>, [
 	[<ore:plankTreatedWood>, null, null]
 ]);
 
-// Wrench
+# Wrench
 recipes.remove(<ic2:wrench>);
 recipes.remove(<ic2:wrench_new>);
 recipes.addShaped(<ic2:wrench_new>, [

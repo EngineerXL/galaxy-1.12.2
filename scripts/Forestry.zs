@@ -1,8 +1,8 @@
-// Forestry.zs
+# Forestry.zs
 
 print("Forestry.zs starts to load");
 
-// Bio Generator
+# Bio Generator
 recipes.remove(<forestry:engine_generator>);
 recipes.addShaped(<forestry:engine_generator>, [
 	[<tconstruct:tough_binding>.withTag({Material: "electrum"}), <ore:blockGlass>, <tconstruct:tough_binding>.withTag({Material: "electrum"})],
@@ -10,7 +10,7 @@ recipes.addShaped(<forestry:engine_generator>, [
 	[<tconstruct:tough_binding>.withTag({Material: "electrum"}), <minecraft:furnace>, <tconstruct:tough_binding>.withTag({Material: "electrum"})]
 ]);
 
-// Carpenter
+# Carpenter
 recipes.remove(<forestry:carpenter>);
 recipes.addShaped(<forestry:carpenter>, [
 	[<tconstruct:tough_binding>.withTag({Material: "bronze"}), <ore:blockGlass>, <tconstruct:tough_binding>.withTag({Material: "bronze"})],
@@ -18,7 +18,7 @@ recipes.addShaped(<forestry:carpenter>, [
 	[<tconstruct:tough_binding>.withTag({Material: "bronze"}), <ore:chestWood>, <tconstruct:tough_binding>.withTag({Material: "bronze"})]
 ]);
 
-// Centrifuge
+# Centrifuge
 recipes.remove(<forestry:centrifuge>);
 recipes.addShaped(<forestry:centrifuge>, [
 	[<tconstruct:tough_binding>.withTag({Material: "copper"}), <ore:blockGlass>, <tconstruct:tough_binding>.withTag({Material: "copper"})],
@@ -26,17 +26,15 @@ recipes.addShaped(<forestry:centrifuge>, [
 	[<tconstruct:tough_binding>.withTag({Material: "copper"}), <ore:chestWood>, <tconstruct:tough_binding>.withTag({Material: "copper"})]
 ]);
 
-// Flexible Casing
+# Flexible Casing
 recipes.remove(<forestry:flexible_casing>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <forestry:flexible_casing> * 4, [
-	[null, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, null], 
-	[<ore:slimeball>, <actuallyadditions:item_crystal:4>, <forestry:impregnated_casing>, <actuallyadditions:item_crystal:4>, <ore:slimeball>], 
-	[<ore:slimeball>, <forestry:impregnated_casing>, <tconstruct:large_plate>.withTag({Material: "bronze"}), <forestry:impregnated_casing>, <ore:slimeball>], 
-	[<ore:slimeball>, <actuallyadditions:item_crystal:4>, <forestry:impregnated_casing>, <actuallyadditions:item_crystal:4>, <ore:slimeball>], 
-	[null, <ore:slimeball>, <ore:slimeball>, <ore:slimeball>, null]
-]);
+mods.forestry.ThermionicFabricator.addCast(<forestry:flexible_casing>, [
+	[<galacticraftcore:basic_item:10>, <ore:slimecrystal>, <galacticraftcore:basic_item:10>],
+	[<actuallyadditions:item_crystal:4>, null, <actuallyadditions:item_crystal:4>],
+	[<galacticraftcore:basic_item:10>, <ore:slimecrystal>, <galacticraftcore:basic_item:10>]
+], <liquid: glass> * 500);
 
-// Rain Tank
+# Rain Tank
 recipes.remove(<forestry:raintank>);
 recipes.addShaped(<forestry:raintank>, [
 	[<tconstruct:binding>.withTag({Material: "iron"}), <ore:blockGlass>, <tconstruct:binding>.withTag({Material: "iron"})],
@@ -44,7 +42,7 @@ recipes.addShaped(<forestry:raintank>, [
 	[<tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:casting:1>, <tconstruct:binding>.withTag({Material: "iron"})]
 ]);
 
-// Still
+# Still
 recipes.remove(<forestry:still>);
 recipes.addShaped(<forestry:still>, [
 	[<tconstruct:tough_binding>.withTag({Material: "alumite"}), <forestry:raintank>, <tconstruct:tough_binding>.withTag({Material: "alumite"})],
@@ -52,7 +50,7 @@ recipes.addShaped(<forestry:still>, [
 	[<tconstruct:tough_binding>.withTag({Material: "alumite"}), <forestry:chipsets:2>.withTag({T: 2 as short}), <tconstruct:tough_binding>.withTag({Material: "alumite"})]
 ]);
 
-// Sturdy Casing
+# Sturdy Casing
 recipes.remove(<forestry:sturdy_machine>);
 recipes.addShaped(<forestry:sturdy_machine>, [
 	[<ore:ingotBronze>, <tconstruct:binding>.withTag({Material: "bronze"}), <ore:ingotBronze>],
@@ -60,7 +58,7 @@ recipes.addShaped(<forestry:sturdy_machine>, [
 	[<ore:ingotBronze>, <tconstruct:binding>.withTag({Material: "bronze"}), <ore:ingotBronze>]
 ]);
 
-// Squeezer
+# Squeezer
 recipes.remove(<forestry:squeezer>);
 recipes.addShaped(<forestry:squeezer>, [
 	[<tconstruct:tough_binding>.withTag({Material: "lead"}), <ore:blockGlass>, <tconstruct:tough_binding>.withTag({Material: "lead"})],
@@ -68,7 +66,7 @@ recipes.addShaped(<forestry:squeezer>, [
 	[<tconstruct:tough_binding>.withTag({Material: "lead"}), <ore:chestWood>, <tconstruct:tough_binding>.withTag({Material: "lead"})]
 ]);
 
-// Thermionic Fabricator
+# Thermionic Fabricator
 recipes.remove(<forestry:fabricator>);
 recipes.addShaped(<forestry:fabricator>, [
 	[<ore:plateElectrum>, <ore:blockGlass>, <ore:plateElectrum>],
@@ -76,7 +74,7 @@ recipes.addShaped(<forestry:fabricator>, [
 	[<tconstruct:tough_binding>.withTag({Material: "electrum"}) , <ore:chestWood>, <tconstruct:tough_binding>.withTag({Material: "electrum"})]
 ]);
 
-// Wrench
+# Wrench
 recipes.remove(<forestry:wrench>);
 
 print("Forestry.zs is loaded");

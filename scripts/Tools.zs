@@ -1,13 +1,13 @@
-// Tools.zs
+# Tools.zs
 
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 
 print("Tools.zs starts to load");
 
-// Make 1 durability
+# Make 1 durability
 var durabilityTools as IItemStack[] = [
-	// Shovel
+	# Shovel
 	<minecraft:iron_shovel>,
 	<minecraft:stone_shovel>,
 	<minecraft:diamond_shovel>,
@@ -19,7 +19,7 @@ var durabilityTools as IItemStack[] = [
 	<netherex:blazed_amedian_shovel>,
 	<netherex:frosted_amedian_shovel>,
 
-	// Pickaxe
+	# Pickaxe
 	<minecraft:iron_pickaxe>,
 	<minecraft:stone_pickaxe>,
 	<minecraft:diamond_pickaxe>,
@@ -31,7 +31,7 @@ var durabilityTools as IItemStack[] = [
 	<netherex:blazed_amedian_pickaxe>,
 	<netherex:frosted_amedian_pickaxe>,
 
-	// Axe
+	# Axe
 	<minecraft:iron_axe>,
 	<minecraft:stone_axe>,
 	<minecraft:diamond_axe>,
@@ -42,7 +42,7 @@ var durabilityTools as IItemStack[] = [
 	<netherex:blazed_amedian_axe>,
 	<netherex:frosted_amedian_axe>,
 
-	// Sword
+	# Sword
 	<minecraft:iron_sword>,
 	<minecraft:stone_sword>,
 	<minecraft:diamond_sword>,
@@ -53,7 +53,7 @@ var durabilityTools as IItemStack[] = [
 	<netherex:blazed_amedian_sword>,
 	<netherex:frosted_amedian_sword>,
 
-	// Hoe
+	# Hoe
 	<minecraft:iron_hoe>,
 	<minecraft:stone_hoe>,
 	<minecraft:diamond_hoe>,
@@ -70,7 +70,7 @@ for i in durabilityTools {
 	i.addTooltip(format.red("This tool has 1 durability, use Tinker's Construct"));
 }
 
-// Wooden tools
+# Wooden tools
 var woodenTools as IItemStack[] = [
 	<minecraft:wooden_shovel>,
 	<minecraft:wooden_pickaxe>,
@@ -84,7 +84,7 @@ for i in woodenTools {
 	i.maxDamage = 12;
 }
 
-// Remove Plates Recipes
+# Remove Plates Recipes
 var removePlates as IIngredient[] = [
 	<ore:plateQuartzBlack>,
 	<ore:plateDiamatine>,
@@ -184,7 +184,7 @@ for plate in removePlates {
 	recipes.remove(plate);
 }
 
-// Add Basic Plates
+# Add Basic Plates
 var plates as IItemStack[] = [
 	<thermalfoundation:material:32>,
 	<thermalfoundation:material:33>,

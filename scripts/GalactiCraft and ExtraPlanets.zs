@@ -1,11 +1,11 @@
-// GalactiCraft and ExtraPlanets.zs
+# GalactiCraft and ExtraPlanets.zs
 
 import crafttweaker.item.IItemStack;
 import mods.GalacticraftTweaker;
 
 print("GalactiCraft and ExtraPlanets.zs starts to load");
 
-// Advanced Compressor
+# Advanced Compressor
 recipes.remove(<galacticraftcore:machine4>);
 recipes.addShaped(<galacticraftcore:machine4>, [
 	[<galacticraftcore:item_basic_moon:1>, <enderio:block_dark_steel_anvil>, <galacticraftcore:item_basic_moon:1>],
@@ -13,7 +13,7 @@ recipes.addShaped(<galacticraftcore:machine4>, [
 	[<galacticraftcore:item_basic_moon:1>, <galacticraftcore:basic_item:14>, <galacticraftcore:item_basic_moon:1>]
 ]);
 
-// Aluminum Wires
+# Aluminum Wires
 recipes.remove(<galacticraftcore:aluminum_wire>);
 recipes.addShaped(<galacticraftcore:aluminum_wire> * 3, [
 	[<ic2:crafting>, <ic2:crafting>, <ic2:crafting>],
@@ -21,7 +21,7 @@ recipes.addShaped(<galacticraftcore:aluminum_wire> * 3, [
 	[<ic2:crafting>, <ic2:crafting>, <ic2:crafting>]
 ]);
 
-// Beam Core
+# Beam Core
 recipes.remove(<galacticraftplanets:item_basic_asteroids:8>);
 recipes.addShaped(<galacticraftplanets:item_basic_asteroids:8>, [
 	[<appliedenergistics2:material:22>, <galacticraftcore:basic_item:9>, <appliedenergistics2:material:22>],
@@ -29,7 +29,7 @@ recipes.addShaped(<galacticraftplanets:item_basic_asteroids:8>, [
 	[<appliedenergistics2:material:22>, <galacticraftcore:basic_item:9>, <appliedenergistics2:material:22>]
 ]);
 
-// Circuit Fabricator
+# Circuit Fabricator
 recipes.remove(<galacticraftcore:machine2:4>);
 recipes.addShaped(<galacticraftcore:machine2:4>, [
 	[<ore:plateDenseAluminum>, <minecraft:lever>, <ore:plateDenseAluminum>],
@@ -37,11 +37,11 @@ recipes.addShaped(<galacticraftcore:machine2:4>, [
 	[<galacticraftcore:aluminum_wire>, <immersiveengineering:metal_decoration0:3>, <galacticraftcore:aluminum_wire>]
 ]);
 
-// Compressor
+# Compressor
 recipes.remove(<galacticraftcore:machine:12>);
 <galacticraftcore:machine:12>.addTooltip(format.red("Use Electric Compressor!"));
 
-// Compressed Materials
+# Compressed Materials
 var compressed as IItemStack[] = [
 	<galacticraftcore:basic_item:6>,
 	<galacticraftcore:basic_item:7>,
@@ -74,7 +74,7 @@ while (i < compressed.length) {
 }
 
 
-// Copper Canister
+# Copper Canister
 recipes.remove(<galacticraftcore:canister:1>);
 recipes.addShaped(<galacticraftcore:canister:1>, [
 	[<ore:plateCopper>, null, <ore:plateCopper>],
@@ -82,7 +82,7 @@ recipes.addShaped(<galacticraftcore:canister:1>, [
 	[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]
 ]);
 
-// Deconstructor
+# Deconstructor
 recipes.remove(<galacticraftcore:machine2:12>);
 recipes.addShaped(<galacticraftcore:machine2:12>, [
 	[<galacticraftcore:basic_item:9>, <minecraft:shears>, <galacticraftcore:basic_item:9>],
@@ -90,7 +90,7 @@ recipes.addShaped(<galacticraftcore:machine2:12>, [
 	[<immersiveengineering:metal_device1:1>, <galacticraftcore:basic_item:13>, <immersiveengineering:metal_device1:1>]
 ]);
 
-// Electric Compressor
+# Electric Compressor
 recipes.remove(<galacticraftcore:machine2>);
 recipes.addShaped(<galacticraftcore:machine2>, [
 	[<ore:plateDenseSteel>, <minecraft:anvil>, <ore:plateDenseSteel>],
@@ -98,7 +98,7 @@ recipes.addShaped(<galacticraftcore:machine2>, [
 	[<galacticraftcore:aluminum_wire:1>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire:1>]
 ]);
 
-// Heavy Aluminum Wires
+# Heavy Aluminum Wires
 recipes.remove(<galacticraftcore:aluminum_wire:1>);
 recipes.addShaped(<galacticraftcore:aluminum_wire:1>, [
 	[null, <ore:blockWool>, null],
@@ -106,7 +106,7 @@ recipes.addShaped(<galacticraftcore:aluminum_wire:1>, [
 	[null, <ore:blockWool>, null]
 ]);
 
-// Heavy Rocket Engine
+# Heavy Rocket Engine
 recipes.remove(<galacticraftplanets:item_basic_asteroids:1>);
 recipes.addShaped(<galacticraftplanets:item_basic_asteroids:1>, [
 	[<galacticraftcore:canister:1>, <galacticraftcore:air_vent>, <galacticraftcore:canister:1>],
@@ -114,7 +114,7 @@ recipes.addShaped(<galacticraftplanets:item_basic_asteroids:1>, [
 	[<galacticraftplanets:item_basic_asteroids:5>, null, <galacticraftplanets:item_basic_asteroids:5>]
 ]);
 
-// Isothermal Cloth
+# Isothermal Cloth
 recipes.remove(<galacticraftplanets:basic_item_venus:3>);
 recipes.addShaped(<galacticraftplanets:basic_item_venus:3>, [
 	[<quark:quilted_wool:7>, <forestry:crafting_material:3>, <quark:quilted_wool:7>],
@@ -122,15 +122,15 @@ recipes.addShaped(<galacticraftplanets:basic_item_venus:3>, [
 	[<quark:quilted_wool:7>, <forestry:crafting_material:3>, <quark:quilted_wool:7>]
 ]);
 
-// NASA Workbench
+# NASA Workbench
 recipes.remove(<galacticraftcore:rocket_workbench>);
 recipes.addShaped(<galacticraftcore:rocket_workbench>, [
 	[<galacticraftcore:heavy_plating>, <galacticraftcore:basic_item:14>, <galacticraftcore:heavy_plating>],
-	[<genetics:misc:8>, <extendedcrafting:table_basic>, <genetics:misc:8>],
+	[<genetics:misc:8>, <forestry:worktable>, <genetics:misc:8>],
 	[<galacticraftcore:heavy_plating>, <ic2:te:55>, <galacticraftcore:heavy_plating>]
 ]);
 
-// Oxygen Vent
+# Oxygen Vent
 recipes.remove(<galacticraftcore:air_vent>);
 recipes.addShaped(<galacticraftcore:air_vent>, [
 	[<galacticraftcore:basic_item:7>, <ic2:casing:5>, <galacticraftcore:basic_item:7>],
@@ -138,10 +138,10 @@ recipes.addShaped(<galacticraftcore:air_vent>, [
 	[<galacticraftcore:basic_item:7>, <ic2:casing:5>, <galacticraftcore:basic_item:7>]
 ]);
 
-// Refineries
+# Refineries
 recipes.remove(<galacticraftcore:refinery>);
 
-// Tier 1 Booster
+# Tier 1 Booster
 recipes.remove(<galacticraftcore:engine:1>);
 recipes.addShaped(<galacticraftcore:engine:1>, [
 	[<galacticraftcore:item_basic_moon:1>, <galacticraftcore:fuel_canister_partial:1>, <galacticraftcore:item_basic_moon:1>],
@@ -149,11 +149,11 @@ recipes.addShaped(<galacticraftcore:engine:1>, [
 	[<galacticraftcore:heavy_plating>, <simplyjetpacks:metaitemmods:42>, <galacticraftcore:heavy_plating>]
 ]);
 
-// Tier 1 Heavy-Duty Plate
+# Tier 1 Heavy-Duty Plate
 GalacticraftTweaker.removeCompressorRecipe(<galacticraftcore:heavy_plating> * 2);
 GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftcore:heavy_plating>, <galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>, <galacticraftcore:basic_item:9>, <galacticraftcore:basic_item:8>, <galacticraftcore:basic_item:10>);
 
-// Tier 1 Rocket Engine
+# Tier 1 Rocket Engine
 recipes.remove(<galacticraftcore:engine>);
 recipes.addShaped(<galacticraftcore:engine>, [
 	[<galacticraftcore:canister:1>, <galacticraftcore:air_vent>, <galacticraftcore:canister:1>],
@@ -161,15 +161,15 @@ recipes.addShaped(<galacticraftcore:engine>, [
 	[<galacticraftcore:heavy_plating>, null, <galacticraftcore:heavy_plating>]
 ]);
 
-// Tier 2 Heavy-Duty Plate
+# Tier 2 Heavy-Duty Plate
 GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_mars:3>);
 GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_mars:3>, <galacticraftcore:heavy_plating>, <galacticraftcore:item_basic_moon:1>, <moreplates:alumite_plate>, <ic2:crafting:3>);
 
-// Tier 3 Heavy-Duty Plate
+# Tier 3 Heavy-Duty Plate
 GalacticraftTweaker.removeCompressorRecipe(<galacticraftplanets:item_basic_asteroids:5>);
 GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic_asteroids:5>, <galacticraftplanets:item_basic_mars:3>, <galacticraftplanets:item_basic_mars:5>, <moreplates:empowered_enori_plate>, <ic2:plate:15>);
 
-// Tier 3 Thermal Cloth
+# Tier 3 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth>);
 recipes.addShaped(<extraplanets:thermal_cloth>, [
 	[<quark:quilted_wool:11>, <forestry:royal_jelly>, <quark:quilted_wool:11>],
@@ -177,7 +177,7 @@ recipes.addShaped(<extraplanets:thermal_cloth>, [
 	[<quark:quilted_wool:11>, <forestry:royal_jelly>, <quark:quilted_wool:11>]
 ]);
 
-// Tier 4 Booster
+# Tier 4 Booster
 recipes.remove(<extraplanets:tier4_items:1>);
 recipes.addShaped(<extraplanets:tier4_items:1>, [
 	[<extraplanets:tier4_items:4>, <galacticraftcore:fuel_canister_partial:1>, <extraplanets:tier4_items:4>],
@@ -185,11 +185,11 @@ recipes.addShaped(<extraplanets:tier4_items:1>, [
 	[<extraplanets:tier4_items:3>, <simplyjetpacks:metaitemmods:21>, <extraplanets:tier4_items:3>]
 ]);
 
-// Tier 4 Heavy-Duty Plate
+# Tier 4 Heavy-Duty Plate
 GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier4_items:3>);
 GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier4_items:3>, <galacticraftplanets:item_basic_asteroids:5>, <galacticraftplanets:item_basic_asteroids:6>, <extraplanets:tier4_items:4>, <extraplanets:compressed_mercury>, <extraplanets:compressed_mercury>);
 
-// Tier 4 Rocket Engine
+# Tier 4 Rocket Engine
 recipes.remove(<extraplanets:tier4_items>);
 recipes.addShaped(<extraplanets:tier4_items>, [
 	[<galacticraftcore:canister:1>, <galacticraftcore:air_vent>, <galacticraftcore:canister:1>],
@@ -197,7 +197,7 @@ recipes.addShaped(<extraplanets:tier4_items>, [
 	[<extraplanets:tier4_items:3>, null, <extraplanets:tier4_items:3>]
 ]);
 
-// Tier 4 Thermal Cloth
+# Tier 4 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth:1>);
 recipes.addShaped(<extraplanets:thermal_cloth:1>, [
 	[<thermalfoundation:rockwool:5>, <extrabees:honey_drop:1>, <thermalfoundation:rockwool:5>],
@@ -205,7 +205,7 @@ recipes.addShaped(<extraplanets:thermal_cloth:1>, [
 	[<thermalfoundation:rockwool:5>, <extrabees:honey_drop:1>, <thermalfoundation:rockwool:5>]
 ]);
 
-// Tier 5 Booster
+# Tier 5 Booster
 recipes.remove(<extraplanets:tier5_items:1>);
 recipes.addShaped(<extraplanets:tier5_items:1>, [
 	[<extraplanets:tier5_items:4>, <galacticraftcore:fuel_canister_partial:1>, <extraplanets:tier5_items:4>],
@@ -213,11 +213,11 @@ recipes.addShaped(<extraplanets:tier5_items:1>, [
 	[<extraplanets:tier5_items:3>, <simplyjetpacks:metaitemmods:44>, <extraplanets:tier5_items:3>]
 ]);
 
-// Tier 5 Heavy-Duty Plate
+# Tier 5 Heavy-Duty Plate
 GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier5_items:3>);
-GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier5_items:3>, <extraplanets:tier4_items:3>, <extraplanets:tier5_items:4>, <nuclearcraft:part:1>, <thermalfoundation:material:357>, <thermalfoundation:material:358>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier5_items:3>, <extraplanets:tier4_items:3>, <extraplanets:tier5_items:4>, <extraplanets:tier5_items:4>, <nuclearcraft:part:1>, <thermalfoundation:material:357>, <thermalfoundation:material:358>);
 
-// Tier 5 Rocket Engine
+# Tier 5 Rocket Engine
 recipes.remove(<extraplanets:tier5_items>);
 recipes.addShaped(<extraplanets:tier5_items>, [
 	[<galacticraftcore:canister:1>, <galacticraftcore:air_vent>, <galacticraftcore:canister:1>],
@@ -225,7 +225,7 @@ recipes.addShaped(<extraplanets:tier5_items>, [
 	[<extraplanets:tier5_items:3>, <simplyjetpacks:metaitemmods:23>, <extraplanets:tier5_items:3>]
 ]);
 
-// Tier 5 Thermal Cloth
+# Tier 5 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth:2>);
 recipes.addShaped(<extraplanets:thermal_cloth:2>, [
 	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>],
@@ -233,7 +233,15 @@ recipes.addShaped(<extraplanets:thermal_cloth:2>, [
 	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>]
 ]);
 
-// Thermal Cloth
+# Tier 6 Heavy-Duty Plate
+GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier6_items:3>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier6_items:3>, <extraplanets:tier5_items:3>, <extraplanets:tier6_items:4>, <extraplanets:tier6_items:4>, <advanced_solar_panels:crafting>, <nuclearcraft:part:3>, <thermalfoundation:material:359>);
+
+# Tier 7 Heavy-Duty Plate
+GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier7_items:3>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier7_items:3>, <extraplanets:tier6_items:3>, <extraplanets:tier7_items:6>, <extraplanets:tier7_items:6>, <moreplates:end_steel_plate>, <moreplates:end_steel_plate>, <ic2:crafting:4>);
+
+# Thermal Cloth
 recipes.remove(<galacticraftplanets:item_basic_asteroids:7>);
 recipes.addShaped(<galacticraftplanets:item_basic_asteroids:7>, [
 	[<minecraft:wool:14>, <forestry:pollen:1>, <minecraft:wool:14>],
@@ -241,7 +249,7 @@ recipes.addShaped(<galacticraftplanets:item_basic_asteroids:7>, [
 	[<minecraft:wool:14>, <forestry:pollen:1>, <minecraft:wool:14>]
 ]);
 
-// Tin Canister
+# Tin Canister
 recipes.remove(<galacticraftcore:canister>);
 recipes.addShaped(<galacticraftcore:canister>, [
 	[<ore:plateTin>, null, <ore:plateTin>],

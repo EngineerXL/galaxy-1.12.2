@@ -1,4 +1,4 @@
-// ContentTweaker.zs
+# ContentTweaker.zs
 
 #priority 100
 
@@ -28,7 +28,6 @@ var customBlocks as string[] = [
 
 for blockName in customBlocks {
 	print("Creating custom block: " + blockName);
-	// VanillaFactory.createItem(blockName).register();
 	var blockFactory = VanillaFactory.createBlock(blockName, <blockmaterial:iron>);
 	blockFactory.setBlockHardness(4.0);
 	blockFactory.setToolClass("pickaxe");

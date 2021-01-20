@@ -1,22 +1,18 @@
-// Genetics.zs
+# Genetics.zs
 
 print("Genetics.zs starts to load");
 
-// Reinforced Casing
+# Reinforced Casing
 recipes.remove(<genetics:misc>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <genetics:misc>, [
-	[<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateDiamatineEmpowered>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>], 
-	[<ore:plateElectricalSteel>, <ore:plateEnergeticAlloy>, <ore:circuitAdvanced>, <ore:plateEnergeticAlloy>, <ore:plateElectricalSteel>], 
-	[<ore:plateDiamatineEmpowered>, <immersiveengineering:material:27>, <forestry:impregnated_casing>, <immersiveengineering:material:27>, <ore:plateDiamatineEmpowered>], 
-	[<ore:plateElectricalSteel>, <ore:plateEnergeticAlloy>, <ore:circuitAdvanced>, <ore:plateEnergeticAlloy>, <ore:plateElectricalSteel>], 
-	[<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateDiamatineEmpowered>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>]
+recipes.addShaped(<genetics:misc>, [
+	[<moreplates:electrical_steel_plate>, <actuallyadditions:item_crystal_empowered:2>, <moreplates:electrical_steel_plate>],
+	[<ic2:crafting:2>, <forestry:flexible_casing>, <ic2:crafting:2>],
+	[<moreplates:electrical_steel_plate>, <actuallyadditions:item_crystal_empowered:2>, <moreplates:electrical_steel_plate>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <genetics:misc>, [
-	[<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateDiamatineEmpowered>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>], 
-	[<ore:plateElectricalSteel>, <ore:plateEnergeticAlloy>, <immersiveengineering:material:27>, <ore:plateEnergeticAlloy>, <ore:plateElectricalSteel>], 
-	[<ore:plateDiamatineEmpowered>, <ore:circuitAdvanced>, <forestry:impregnated_casing>, <ore:circuitAdvanced>, <ore:plateDiamatineEmpowered>], 
-	[<ore:plateElectricalSteel>, <ore:plateEnergeticAlloy>, <immersiveengineering:material:27>, <ore:plateEnergeticAlloy>, <ore:plateElectricalSteel>], 
-	[<ore:plateElectricalSteel>, <ore:plateElectricalSteel>, <ore:plateDiamatineEmpowered>, <ore:plateElectricalSteel>, <ore:plateElectricalSteel>]
+recipes.addShaped(<genetics:misc>, [
+	[<moreplates:electrical_steel_plate>, <ic2:crafting:2>, <moreplates:electrical_steel_plate>],
+	[<actuallyadditions:item_crystal_empowered:2>, <forestry:flexible_casing>, <actuallyadditions:item_crystal_empowered:2>],
+	[<moreplates:electrical_steel_plate>, <ic2:crafting:2>, <moreplates:electrical_steel_plate>]
 ]);
 
 print("Genetics.zs is loaded");

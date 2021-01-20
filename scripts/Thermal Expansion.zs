@@ -1,8 +1,8 @@
-// Thermal Expansion.zs
+# Thermal Expansion.zs
 
 print("Thermal Expansion.zs starts to load");
 
-// Crescent Hammer
+# Crescent Hammer
 recipes.remove(<thermalfoundation:wrench>);
 recipes.addShaped(<thermalfoundation:wrench>, [
 	[<ore:ingotTin>, null, <ore:ingotTin>],
@@ -10,17 +10,15 @@ recipes.addShaped(<thermalfoundation:wrench>, [
 	[null, <tconstruct:tough_tool_rod>.withTag({Material: "iron"}), null]
 ]);
 
-// Device Frame
+# Device Frame
 recipes.remove(<thermalexpansion:frame:64>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame:64>, [
-	[<ore:compressedDesh>, <ore:compressedBronze>, <ore:ingoTin>, <ore:compressedBronze>, <ore:compressedDesh>], 
-	[<ore:compressedBronze>, <moreplates:empowered_enori_plate>, <ore:blockGlassLightBlue>, <moreplates:empowered_enori_plate>, <ore:compressedBronze>], 
-	[<ore:ingoTin>, <ore:blockGlassLightBlue>, <ore:gearCopper>, <ore:blockGlassLightBlue>, <ore:ingoTin>], 
-	[<ore:compressedBronze>, <moreplates:empowered_enori_plate>, <ore:blockGlassLightBlue>, <moreplates:empowered_enori_plate>, <ore:compressedBronze>], 
-	[<ore:compressedDesh>, <ore:compressedBronze>, <ore:ingoTin>, <ore:compressedBronze>, <ore:compressedDesh>]
+recipes.addShaped(<thermalexpansion:frame:64>, [
+	[<ore:ingotTin>, <extrautils2:decorativeglass>, <ore:ingotTin>],
+	[<extrautils2:decorativeglass>, <ore:gearCopper>, <extrautils2:decorativeglass>],
+	[<ore:ingotTin>, <extrautils2:decorativeglass>, <ore:ingotTin>]
 ]);
 
-// Drill Head
+# Drill Head
 recipes.remove(<thermalfoundation:material:656>);
 recipes.addShaped(<thermalfoundation:material:656>, [
 	[<ore:dustDiamond>, <ore:plateSteel>, <ore:dustDiamond>],
@@ -28,7 +26,7 @@ recipes.addShaped(<thermalfoundation:material:656>, [
 	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
 
-// Enderium Upgrade Kit
+# Enderium Upgrade Kit
 recipes.remove(<thermalfoundation:upgrade:3>);
 recipes.addShaped(<thermalfoundation:upgrade:3>, [
 	[<ore:nuggetPalladium>, <ore:ingotEnderium>, <ore:nuggetPalladium>],
@@ -36,7 +34,7 @@ recipes.addShaped(<thermalfoundation:upgrade:3>, [
 	[<thermalfoundation:material:1024>, <ore:ingotEnderium>, <thermalfoundation:material:1024>]
 ]);
 
-// Energy Cell Frame
+# Energy Cell Frame
 recipes.remove(<thermalexpansion:frame:128>);
 recipes.addShaped(<thermalexpansion:frame:128>, [
 	[<ore:plateLead>, <extrautils2:decorativeglass:5>, <ore:plateLead>],
@@ -44,7 +42,7 @@ recipes.addShaped(<thermalexpansion:frame:128>, [
 	[<ore:plateLead>, <extrautils2:decorativeglass:5>, <ore:plateLead>]
 ]);
 
-// Hardened Upgrade Kit
+# Hardened Upgrade Kit
 recipes.remove(<thermalfoundation:upgrade>);
 recipes.addShaped(<thermalfoundation:upgrade>, [
 	[<ore:nuggetMeteoricIron>, <ore:ingotInvar>, <ore:nuggetMeteoricIron>],
@@ -52,17 +50,15 @@ recipes.addShaped(<thermalfoundation:upgrade>, [
 	[<actuallyadditions:item_crystal_empowered>, <ore:ingotInvar>, <actuallyadditions:item_crystal_empowered>]
 ]);
 
-// Machine Frame
+# Machine Frame
 recipes.remove(<thermalexpansion:frame>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <thermalexpansion:frame>, [
-	[<extraplanets:tier4_items:4>, <ore:compressedTitanium>, <ore:ingotIron>, <ore:compressedTitanium>, <extraplanets:tier4_items:4>], 
-	[<ore:compressedTitanium>, <moreplates:empowered_enori_plate>, <ore:blockGlassLightGray>, <moreplates:empowered_enori_plate>, <ore:compressedTitanium>], 
-	[<ore:ingotIron>, <ore:blockGlassLightGray>, <ore:gearTin>, <ore:blockGlassLightGray>, <ore:ingotIron>], 
-	[<ore:compressedTitanium>, <moreplates:empowered_enori_plate>, <ore:blockGlassLightGray>, <moreplates:empowered_enori_plate>, <ore:compressedTitanium>], 
-	[<extraplanets:tier4_items:4>, <ore:compressedTitanium>, <ore:ingotIron>, <ore:compressedTitanium>, <extraplanets:tier4_items:4>]
+recipes.addShaped(<thermalexpansion:frame:64>, [
+	[<moreplates:empowered_enori_plate>, <extrautils2:decorativeglass>, <moreplates:empowered_enori_plate>],
+	[<extrautils2:decorativeglass>, <jaopca:item_geardesh>, <extrautils2:decorativeglass>],
+	[<moreplates:empowered_enori_plate>, <extrautils2:decorativeglass>, <moreplates:empowered_enori_plate>]
 ]);
 
-// Redstone Conductance Coil
+# Redstone Conductance Coil
 recipes.remove(<thermalfoundation:material:515>);
 recipes.addShaped(<thermalfoundation:material:515>, [
 	[<minecraft:redstone>, <minecraft:redstone>, null],
@@ -70,7 +66,7 @@ recipes.addShaped(<thermalfoundation:material:515>, [
 	[null, <minecraft:redstone>, <minecraft:redstone>]
 ]);
 
-// Redstone Reception Coil
+# Redstone Reception Coil
 recipes.remove(<thermalfoundation:material:513>);
 recipes.addShaped(<thermalfoundation:material:513>, [
 	[null, <minecraft:redstone>, <minecraft:redstone>],
@@ -78,7 +74,7 @@ recipes.addShaped(<thermalfoundation:material:513>, [
 	[<minecraft:redstone>, <minecraft:redstone>, null]
 ]);
 
-// Redstone Servo
+# Redstone Servo
 recipes.remove(<thermalfoundation:material:512>);
 recipes.addShaped(<thermalfoundation:material:512>, [
 	[<minecraft:redstone>, null, <minecraft:redstone>],
@@ -86,7 +82,7 @@ recipes.addShaped(<thermalfoundation:material:512>, [
 	[<minecraft:redstone>, null, <minecraft:redstone>]
 ]);
 
-// Redstone Transmission Coil
+# Redstone Transmission Coil
 recipes.remove(<thermalfoundation:material:514>);
 recipes.addShaped(<thermalfoundation:material:514>, [
 	[null, <minecraft:redstone>, <minecraft:redstone>],
@@ -94,7 +90,7 @@ recipes.addShaped(<thermalfoundation:material:514>, [
 	[<minecraft:redstone>, <minecraft:redstone>, null]
 ]);
 
-// Reinforced Upgrade Kit
+# Reinforced Upgrade Kit
 recipes.remove(<thermalfoundation:upgrade:1>);
 recipes.addShaped(<thermalfoundation:upgrade:1>, [
 	[<ore:nuggetDesh>, <ore:ingotElectrum>, <ore:nuggetDesh>],
@@ -102,7 +98,7 @@ recipes.addShaped(<thermalfoundation:upgrade:1>, [
 	[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>]
 ]);
 
-// Saw Blade
+# Saw Blade
 recipes.remove(<thermalfoundation:material:657>);
 recipes.addShaped(<thermalfoundation:material:657>, [
 	[<ore:plateSteel>, <ore:plateSteel>, <ore:dustDiamond>],
@@ -110,7 +106,7 @@ recipes.addShaped(<thermalfoundation:material:657>, [
 	[<ore:dustDiamond>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
 
-// Signalum Upgrade Kit
+# Signalum Upgrade Kit
 recipes.remove(<thermalfoundation:upgrade:2>);
 recipes.addShaped(<thermalfoundation:upgrade:2>, [
 	[<ore:nuggetMercury>, <ore:ingotSignalum>, <ore:nuggetMercury>],
@@ -118,7 +114,7 @@ recipes.addShaped(<thermalfoundation:upgrade:2>, [
 	[<thermalfoundation:material:1025>, <ore:ingotSignalum>, <thermalfoundation:material:1025>]
 ]);
 
-// Tool Casing
+# Tool Casing
 recipes.remove(<thermalfoundation:material:640>);
 recipes.addShaped(<thermalfoundation:material:640>, [
 	[<actuallyadditions:block_crystal:5>, <actuallyadditions:item_misc:8>, <actuallyadditions:block_crystal:5>],

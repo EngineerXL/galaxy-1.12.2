@@ -1,4 +1,4 @@
-// Loot.zs
+# Loot.zs
 
 print("Loot.zs starts to load");
 

@@ -1,8 +1,8 @@
-// NuclearCraft.zs
+# NuclearCraft.zs
 
 print("NuclearCraft.zs starts to load");
 
-// Advanced Plating
+# Advanced Plating
 recipes.remove(<nuclearcraft:part:1>);
 recipes.addShaped(<nuclearcraft:part:1>, [
 	[<moreplates:redstone_alloy_plate>, <nuclearcraft:alloy:1>, <moreplates:redstone_alloy_plate>],
@@ -10,7 +10,7 @@ recipes.addShaped(<nuclearcraft:part:1>, [
 	[<moreplates:redstone_alloy_plate>, <nuclearcraft:alloy:1>, <moreplates:redstone_alloy_plate>]
 ]);
 
-// Alloy Furnace
+# Alloy Furnace
 recipes.remove(<nuclearcraft:alloy_furnace_idle>);
 recipes.addShaped(<nuclearcraft:alloy_furnace_idle>, [
 	[<nuclearcraft:part>, <minecraft:redstone>, <nuclearcraft:part>],
@@ -18,7 +18,7 @@ recipes.addShaped(<nuclearcraft:alloy_furnace_idle>, [
 	[<nuclearcraft:part>, <nuclearcraft:part:4>, <nuclearcraft:part>]
 ]);
 
-// Basic Plating
+# Basic Plating
 recipes.remove(<nuclearcraft:part>);
 recipes.addShaped(<nuclearcraft:part>, [
 	[<ore:dustObsidian>, <ic2:casing:4>, <ore:dustObsidian>],
@@ -26,7 +26,7 @@ recipes.addShaped(<nuclearcraft:part>, [
 	[<ore:dustObsidian>, <ic2:casing:4>, <ore:dustObsidian>]
 ]);
 
-// Copper Solenoid
+# Copper Solenoid
 recipes.remove(<nuclearcraft:part:4>);
 recipes.addShaped(<nuclearcraft:part:4>, [
 	[<ore:nuggetCopper>, <ore:ingotCopper>, <ore:nuggetCopper>],
@@ -34,7 +34,7 @@ recipes.addShaped(<nuclearcraft:part:4>, [
 	[<ore:nuggetCopper>, <ore:ingotCopper>, <ore:nuggetCopper>]
 ]);
 
-// Electric Motor
+# Electric Motor
 recipes.remove(<nuclearcraft:part:8>);
 recipes.addShaped(<nuclearcraft:part:8>, [
 	[<enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>, <immersiveengineering:material:21>],
@@ -42,7 +42,7 @@ recipes.addShaped(<nuclearcraft:part:8>, [
 	[<enderio:item_alloy_ingot>, <enderio:item_alloy_ingot>, <immersiveengineering:material:21>]
 ]);
 
-// Energy Upgrade
+# Energy Upgrade
 recipes.remove(<nuclearcraft:upgrade:1>);
 recipes.addShaped(<nuclearcraft:upgrade:1>, [
 	[<nuclearcraft:compound:2>, <ic2:re_battery:*>, <nuclearcraft:compound:2>],
@@ -50,17 +50,15 @@ recipes.addShaped(<nuclearcraft:upgrade:1>, [
 	[<nuclearcraft:compound:2>, <actuallyadditions:block_misc:2>, <nuclearcraft:compound:2>]
 ]);
 
-// Fusion Connector
+# Fusion Connector
 recipes.remove(<nuclearcraft:fusion_connector>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <nuclearcraft:fusion_connector>, [
-	[<ore:plateNickel>, <ore:plateBasic>, <ore:plateBasic>, <ore:plateBasic>, <ore:plateNickel>], 
-	[<ore:plateBasic>, <ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>, <ore:plateBasic>], 
-	[<ore:plateBasic>, <ore:ingotTough>, <immersiveengineering:metal_decoration0>, <ore:ingotTough>, <ore:plateBasic>], 
-	[<ore:plateBasic>, <ore:ingotTough>, <ore:ingotTough>, <ore:ingotTough>, <ore:plateBasic>], 
-	[<ore:plateNickel>, <ore:plateBasic>, <ore:plateBasic>, <ore:plateBasic>, <ore:plateNickel>]
+recipes.addShaped(<nuclearcraft:fusion_connector>, [
+	[<nuclearcraft:alloy:10>, <nuclearcraft:part>, <nuclearcraft:alloy:10>],
+	[<nuclearcraft:part>, <immersiveengineering:metal_decoration0>, <nuclearcraft:part>],
+	[<nuclearcraft:alloy:10>, <nuclearcraft:part>, <nuclearcraft:alloy:10>]
 ]);
 
-// Linear Actuator
+# Linear Actuator
 recipes.remove(<nuclearcraft:part:9>);
 recipes.addShaped(<nuclearcraft:part:9>, [
 	[null, <ore:ingotSteel>, <ore:plateSteel>],
@@ -68,17 +66,15 @@ recipes.addShaped(<nuclearcraft:part:9>, [
 	[<galacticraftplanets:item_basic_mars:2>, <nuclearcraft:alloy:6>, null]
 ]);
 
-// Machine Chassis
+# Machine Chassis
 recipes.remove(<nuclearcraft:part:10>);
-mods.extendedcrafting.TableCrafting.addShaped(0, <nuclearcraft:part:10> * 2, [
-	[<ic2:casing:5>, <ore:plateSteel>, <ore:plateSilicon>, <ore:plateSteel>, <ic2:casing:5>], 
-	[<ore:plateSteel>, <ore:plateSilicon>, <ore:ingotTough>, <ore:plateSilicon>, <ore:plateSteel>], 
-	[<ore:compressedMeteoricIron>, <ore:ingotTough>, <ore:plateDenseLead>, <ore:ingotTough>, <ore:compressedMeteoricIron>], 
-	[<ore:plateSteel>, <ore:plateSilicon>, <ore:ingotTough>, <ore:plateSilicon>, <ore:plateSteel>], 
-	[<ic2:casing:5>, <ore:plateSteel>, <ore:plateSilicon>, <ore:plateSteel>, <ic2:casing:5>]
+recipes.addShaped(<nuclearcraft:part:10> * 2, [
+	[<moreplates:electrical_steel_plate>, <ic2:plate:14>, <moreplates:electrical_steel_plate>],
+	[<galacticraftcore:item_basic_moon:1>, <nuclearcraft:alloy:1>, <galacticraftcore:item_basic_moon:1>],
+	[<moreplates:electrical_steel_plate>, <ic2:plate:14>, <moreplates:electrical_steel_plate>]
 ]);
 
-// Magnesium Diboride Solenoid
+# Magnesium Diboride Solenoid
 recipes.remove(<nuclearcraft:part:5>);
 recipes.addShaped(<nuclearcraft:part:5>, [
 	[<ore:nuggetCarbon>, <nuclearcraft:alloy:3>, <ore:nuggetCarbon>],
@@ -86,7 +82,7 @@ recipes.addShaped(<nuclearcraft:part:5>, [
 	[<ore:nuggetCarbon>, <nuclearcraft:alloy:3>, <ore:nuggetCarbon>]
 ]);
 
-// Manufactory
+# Manufactory
 recipes.remove(<nuclearcraft:manufactory_idle>);
 recipes.addShaped(<nuclearcraft:manufactory_idle>, [
 	[<ore:ingotLead>, <minecraft:piston>, <ore:ingotLead>],
@@ -94,7 +90,7 @@ recipes.addShaped(<nuclearcraft:manufactory_idle>, [
 	[<ore:ingotLead>, <nuclearcraft:part:4>, <ore:ingotLead>]
 ]);
 
-// Servomechanism
+# Servomechanism
 recipes.remove(<nuclearcraft:part:7>);
 recipes.addShaped(<nuclearcraft:part:7>, [
 	[<nuclearcraft:alloy:6>, <galacticraftplanets:item_basic_mars:2>, <nuclearcraft:alloy:6>],
@@ -102,7 +98,7 @@ recipes.addShaped(<nuclearcraft:part:7>, [
 	[<ore:ingotSteel>, <ore:plateCopper>, <ore:ingotSteel>]
 ]);
 
-// Speed Upgrade
+# Speed Upgrade
 recipes.remove(<nuclearcraft:upgrade>);
 recipes.addShaped(<nuclearcraft:upgrade>, [
 	[<minecraft:sugar>, <ic2:heat_storage>, <minecraft:sugar>],
@@ -110,7 +106,7 @@ recipes.addShaped(<nuclearcraft:upgrade>, [
 	[<minecraft:sugar>, <ic2:plate:13>, <minecraft:sugar>]
 ]);
 
-// Linear Actuator
+# Linear Actuator
 recipes.remove(<nuclearcraft:part:9>);
 recipes.addShaped(<nuclearcraft:part:9>, [
 	[null, <ore:ingotSteel>, <ore:plateSteel>],
