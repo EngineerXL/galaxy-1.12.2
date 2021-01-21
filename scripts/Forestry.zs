@@ -27,7 +27,7 @@ recipes.addShaped(<forestry:centrifuge>, [
 ]);
 
 # Flexible Casing
-recipes.remove(<forestry:flexible_casing>);
+mods.forestry.ThermionicFabricator.removeCast(<forestry:flexible_casing>);
 mods.forestry.ThermionicFabricator.addCast(<forestry:flexible_casing>, [
 	[<galacticraftcore:basic_item:10>, <ore:slimecrystal>, <galacticraftcore:basic_item:10>],
 	[<actuallyadditions:item_crystal:4>, null, <actuallyadditions:item_crystal:4>],

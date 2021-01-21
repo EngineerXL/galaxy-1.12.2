@@ -1,0 +1,42 @@
+{
+    "machine": "subspace_void_fluctuation_antimatter_reactor",
+    "registryName": "subspace_void_fluctuation_antimatter_reactor_solar_aethium",
+    "recipeTime": 1600,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:solar_cell_ionite",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:photovoltaic_cell",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:aethium_crystal",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "redstonearsenal:material@32",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:solar_cell_aethium",
+            "amount": 1
+        }
+    ]
+}

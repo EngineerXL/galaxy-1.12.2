@@ -58,6 +58,14 @@ recipes.addShaped(<appliedenergistics2:charger>, [
 	[<appliedenergistics2:smooth_sky_stone_block>, <actuallyadditions:block_display_stand>, <appliedenergistics2:smooth_sky_stone_block>]
 ]);
 
+# Crafting Unit
+recipes.remove(<appliedenergistics2:crafting_unit>);
+recipes.addShaped(<appliedenergistics2:crafting_unit>, [
+	[<ore:ingotTitanium>, <appliedenergistics2:material:23>, <ore:ingotTitanium>],
+	[<appliedenergistics2:part:16>, <appliedenergistics2:material:22>, <appliedenergistics2:part:16>],
+	[<ore:ingotTitanium>, <appliedenergistics2:material:23>, <ore:ingotTitanium>]
+]);
+
 # Crystal Growth Chamber
 recipes.remove(<ae2stuff:grower>);
 recipes.addShaped(<ae2stuff:grower>, [
@@ -113,10 +121,26 @@ recipes.addShaped(<appliedenergistics2:controller>, [
 
 # ME Drive
 recipes.remove(<appliedenergistics2:drive>);
-recipes.addShaped(<appliedenergistics2:controller>, [
-	[<galacticraftplanets:item_basic_asteroids:6>, <ore:chestWood>, <galacticraftplanets:item_basic_asteroids:6>],
+recipes.addShaped(<appliedenergistics2:drive>, [
+	[<galacticraftplanets:item_basic_mars:5>, <ore:chestWood>, <galacticraftplanets:item_basic_mars:5>],
 	[<appliedenergistics2:part:16>, <rftools:modular_storage>, <appliedenergistics2:part:16>],
-	[<galacticraftplanets:item_basic_asteroids:6>, <galacticraftcore:basic_item:14>, <galacticraftplanets:item_basic_asteroids:6>]
+	[<galacticraftplanets:item_basic_mars:5>, <galacticraftcore:basic_item:14>, <galacticraftplanets:item_basic_mars:5>]
+]);
+
+# ME Fluid Interface
+recipes.remove(<appliedenergistics2:fluid_interface>);
+recipes.addShaped(<appliedenergistics2:fluid_interface>, [
+	[<ore:ingotTitanium>, <ore:dyeBlue>, <ore:ingotTitanium>],
+	[<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
+	[<ore:ingotTitanium>, <ore:dyeBlue>, <ore:ingotTitanium>]
+]);
+
+# ME Interface
+recipes.remove(<appliedenergistics2:interface>);
+recipes.addShaped(<appliedenergistics2:interface>, [
+	[<ore:ingotTitanium>, <appliedenergistics2:quartz_glass>, <ore:ingotTitanium>],
+	[<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
+	[<ore:ingotTitanium>, <appliedenergistics2:quartz_glass>, <ore:ingotTitanium>]
 ]);
 
 # Molecular Assembler

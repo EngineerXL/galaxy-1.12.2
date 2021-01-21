@@ -1,0 +1,54 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_null_modifier",
+    "recipeTime": 1000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:interconnect",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:decorativesolidwood@1",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1024",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1025",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1026",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@1027",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:modifier_null",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "machine": "subspace_void_fluctuation_antimatter_reactor",
+    "registryName": "subspace_void_fluctuation_antimatter_reactor_creative_capacitor",
+    "recipeTime": 72000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 200000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:rainbowgenerator",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:item_tier10_electric_rocket@2",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:opinium@8",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:dragon_egg",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "storagedrawers:upgrade_creative",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:solar_cell_aethium",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:solar_cell_aethium",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:solar_cell_aethium",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:solar_cell_aethium",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:structure_frame_6",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:structure_frame_6",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:compressedcobblestone@7",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:compressedcobblestone@7",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@47",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "immersiveengineering:metal_device0@3",
+            "amount": 1
+        }
+    ]
+}

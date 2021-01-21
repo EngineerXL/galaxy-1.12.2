@@ -1,0 +1,54 @@
+{
+    "machine": "subspace_void_fluctuation_antimatter_reactor",
+    "registryName": "subspace_void_fluctuation_antimatter_reactor_tier9_rocket_engine",
+    "recipeTime": 4800,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "galacticraftcore:air_vent",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:opinium@6",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "nuclearcraft:rtg_plutonium",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "galacticraftcore:canister@1",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "simplyjetpacks:metaitemmods@11",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier9_items@3",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:tier9_items",
+            "amount": 1
+        }
+    ]
+}

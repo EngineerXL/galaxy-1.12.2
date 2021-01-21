@@ -1,0 +1,72 @@
+{
+    "machine": "subspace_void_fluctuation_antimatter_reactor",
+    "registryName": "subspace_void_fluctuation_antimatter_reactor_tier4",
+    "recipeTime": 800,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:structure_frame_3",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:pladium_crystal",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:connector",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier6_items@3",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier6_items@3",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting@2",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting@2",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting@2",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting@2",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:structure_frame_4",
+            "amount": 1
+        }
+    ]
+}

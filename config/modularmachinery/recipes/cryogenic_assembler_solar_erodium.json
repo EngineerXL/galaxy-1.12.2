@@ -1,0 +1,42 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_solar_erodium",
+    "recipeTime": 800,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:solar_cell_litherite",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:photovoltaic_cell",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:erodium_crystal",
+            "amount": 3
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "redstonearsenal:material@32",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:solar_cell_erodium",
+            "amount": 1
+        }
+    ]
+}

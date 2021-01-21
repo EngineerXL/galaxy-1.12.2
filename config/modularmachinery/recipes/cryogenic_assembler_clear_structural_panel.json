@@ -1,0 +1,42 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_clear_structural_panel",
+    "recipeTime": 500,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:connector",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_alloy@1",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_alloy_endergy@5",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:blockGlass",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:structure_panel_clear",
+            "amount": 1
+        }
+    ]
+}

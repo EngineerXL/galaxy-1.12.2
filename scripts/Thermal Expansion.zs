@@ -52,7 +52,7 @@ recipes.addShaped(<thermalfoundation:upgrade>, [
 
 # Machine Frame
 recipes.remove(<thermalexpansion:frame>);
-recipes.addShaped(<thermalexpansion:frame:64>, [
+recipes.addShaped(<thermalexpansion:frame>, [
 	[<moreplates:empowered_enori_plate>, <extrautils2:decorativeglass>, <moreplates:empowered_enori_plate>],
 	[<extrautils2:decorativeglass>, <jaopca:item_geardesh>, <extrautils2:decorativeglass>],
 	[<moreplates:empowered_enori_plate>, <extrautils2:decorativeglass>, <moreplates:empowered_enori_plate>]

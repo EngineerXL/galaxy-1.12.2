@@ -26,17 +26,17 @@ recipes.addShaped(<modularmachinery:blockcontroller>, [
 # Machine Circuitry
 recipes.remove(<modularmachinery:blockcasing:5>);
 recipes.addShaped(<modularmachinery:blockcasing:5>, [
-	[<extraplanets:tier6_items:3>, <ic2:crafting:2>, <extraplanets:tier6_items:3>],
-	[<ic2:crafting:2>, <modularmachinery:blockcasing>, <ic2:crafting:2>],
-	[<extraplanets:tier6_items:3>, <ic2:crafting:2>, <extraplanets:tier6_items:3>]
+	[<extraplanets:tier8_items:4>, <genetics:misc:8>, <extraplanets:tier8_items:4>],
+	[<immersiveengineering:material:27>, <modularmachinery:blockcasing>, <ic2:crafting:2>],
+	[<extraplanets:tier8_items:4>, <appliedenergistics2:material:23>, <extraplanets:tier8_items:4>]
 ]);
 
 # Machine Gearbox
 recipes.remove(<modularmachinery:blockcasing:3>);
 recipes.addShaped(<modularmachinery:blockcasing:3>, [
-	[<extraplanets:tier8_items:3>, <moreplates:evil_infused_iron_gear>, <extraplanets:tier8_items:3>],
-	[<moreplates:stellar_alloy_gear>, <modularmachinery:blockcasing>, <moreplates:stellar_alloy_gear>],
-	[<extraplanets:tier8_items:3>, <moreplates:evil_infused_iron_gear>, <extraplanets:tier8_items:3>]
+	[<extraplanets:tier9_items:4>, <moreplates:evil_infused_iron_gear>, <extraplanets:tier9_items:4>],
+	[<enderio:item_capacitor_stellar>, <modularmachinery:blockcasing>, <enderio:item_capacitor_stellar>],
+	[<extraplanets:tier9_items:4>, <moreplates:evil_infused_iron_gear>, <extraplanets:tier9_items:4>]
 ]);
 
 # Machine Vent
@@ -54,9 +54,9 @@ mods.actuallyadditions.Empowerer.addRecipe(<modularmachinery:itemmodularium>, <t
 # Reinforced Machine Casing
 recipes.remove(<modularmachinery:blockcasing:4>);
 recipes.addShaped(<modularmachinery:blockcasing:4>, [
-	[<extraplanets:tier4_items:3>, <moreplates:end_steel_plate>, <extraplanets:tier4_items:3>],
+	[<extraplanets:tier7_items:6>, <moreplates:end_steel_plate>, <extraplanets:tier7_items:6>],
 	[<moreplates:end_steel_plate>, <modularmachinery:blockcasing>, <moreplates:end_steel_plate>],
-	[<extraplanets:tier4_items:3>, <moreplates:end_steel_plate>, <extraplanets:tier4_items:3>]
+	[<extraplanets:tier7_items:6>, <moreplates:end_steel_plate>, <extraplanets:tier7_items:6>]
 ]);
 
 # Input/Output Blocks

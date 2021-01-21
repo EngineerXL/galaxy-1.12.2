@@ -1,8 +1,8 @@
-// Minecraft.zs
+# Minecraft.zs
 
 print("Minecraft.zs starts to load");
 
-// Brewing Stand
+# Brewing Stand
 recipes.remove(<minecraft:brewing_stand>);
 recipes.addShaped(<minecraft:brewing_stand>, [
 	[<minecraft:blaze_rod>, <tconstruct:tough_binding>.withTag({Material: "iron"}), <minecraft:blaze_rod>],
@@ -10,7 +10,7 @@ recipes.addShaped(<minecraft:brewing_stand>, [
 	[<extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>, <extrautils2:compressedcobblestone>]
 ]);
 
-// Cauldron
+# Cauldron
 recipes.remove(<minecraft:cauldron>);
 recipes.addShaped(<minecraft:cauldron>, [
 	[<ore:plateIron>, null, <ore:plateIron>],
@@ -18,7 +18,7 @@ recipes.addShaped(<minecraft:cauldron>, [
 	[<ore:plateIron>, <tconstruct:casting:1>, <ore:plateIron>]
 ]);
 
-// Furnace
+# Furnace
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped(<minecraft:furnace>, [
 	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>],
@@ -26,12 +26,12 @@ recipes.addShaped(<minecraft:furnace>, [
 	[<tconstruct:dried_clay:1>, <tconstruct:dried_clay:1>, <tconstruct:dried_clay:1>]
 ]);
 
-// Piston
+# Piston
 recipes.remove(<minecraft:piston>);
 recipes.addShaped(<minecraft:piston>, [
 	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
 	[<ore:cobblestone>, <ore:plateIron>, <ore:cobblestone>],
-	[<ore:cobblestone>, <actuallyadditions:item_crystal>, <ore:cobblestone>]
+	[<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]
 ]);
 
 print("Minecraft.zs is loaded");

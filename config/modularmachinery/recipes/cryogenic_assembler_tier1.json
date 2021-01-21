@@ -1,0 +1,48 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_tier1",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:interconnect",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:connector",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:litherite_crystal",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "galacticraftplanets:item_basic_mars@3",
+            "amount": 16
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:item_crystal_empowered@3",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:structure_frame_1",
+            "amount": 1
+        }
+    ]
+}

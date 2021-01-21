@@ -1,0 +1,48 @@
+{
+    "machine": "tectonic_compressor",
+    "registryName": "tectonic_compressor_soul_attuned_dye_blend",
+    "recipeTime": 2000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_material@50",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_material@74",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_material@48",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustNetherQuartz",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crop_res@3",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_material@52",
+            "amount": 2
+        }
+    ]
+}

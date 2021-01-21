@@ -1,8 +1,8 @@
-// XNet.zs
+# XNet.zs
 
 print("XNet.zs starts to load");
 
-// Blue Connector
+# Blue Connector
 recipes.remove(<xnet:connector>);
 recipes.addShaped(<xnet:connector>, [
 	[<ore:plateLapis>, <ore:chestWood>, <ore:plateLapis>],
@@ -10,7 +10,7 @@ recipes.addShaped(<xnet:connector>, [
 	[<ore:plateLapis>, <minecraft:redstone>, <ore:plateLapis>]
 ]);
 
-// Network Cable
+# Network Cable
 recipes.remove(<xnet:netcable>);
 recipes.addShaped(<xnet:netcable> * 16, [
 	[<ore:plateDenseLapis>, <minecraft:redstone>, <ore:plateDenseLapis>],
@@ -18,7 +18,7 @@ recipes.addShaped(<xnet:netcable> * 16, [
 	[<ore:plateDenseLapis>, <minecraft:redstone>, <ore:plateDenseLapis>]
 ]);
 
-// Routing Network Cable
+# Routing Network Cable
 recipes.remove(<xnet:netcable:4>);
 recipes.addShaped(<xnet:netcable:4> * 32, [
 	[<ore:plateDenseLapis>, <ore:blockRedstone>, <ore:plateDenseLapis>],

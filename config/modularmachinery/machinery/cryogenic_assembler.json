@@ -455,7 +455,7 @@
             "y": -4,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -471,7 +471,7 @@
             "y": -4,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -487,7 +487,7 @@
             "y": -4,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -503,7 +503,7 @@
             "y": -4,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -607,7 +607,7 @@
             "y": -3,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -631,7 +631,7 @@
             "y": -3,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -655,7 +655,7 @@
             "y": -3,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -679,7 +679,7 @@
             "y": -3,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -751,7 +751,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -767,7 +767,7 @@
             "y": -4,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -775,7 +775,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -799,7 +799,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -823,7 +823,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -839,7 +839,7 @@
             "y": -4,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -879,7 +879,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -895,7 +895,7 @@
             "y": -3,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -903,7 +903,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -927,7 +927,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -951,7 +951,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -967,7 +967,7 @@
             "y": -3,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1039,7 +1039,7 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1055,7 +1055,7 @@
             "y": -4,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1103,7 +1103,7 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1127,7 +1127,7 @@
             "y": -4,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1167,7 +1167,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1183,7 +1183,7 @@
             "y": -3,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1239,7 +1239,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1255,7 +1255,7 @@
             "y": -3,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1327,7 +1327,7 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1343,7 +1343,7 @@
             "y": -4,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1367,7 +1367,7 @@
             "y": -4,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1391,7 +1391,7 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1407,7 +1407,7 @@
             "y": -4,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1415,7 +1415,7 @@
             "y": -4,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1455,7 +1455,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1463,7 +1463,7 @@
             "y": -3,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1479,7 +1479,7 @@
             "y": -3,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1495,7 +1495,7 @@
             "y": -3,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1503,7 +1503,7 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1511,7 +1511,7 @@
             "y": -3,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1559,7 +1559,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1575,7 +1575,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1591,7 +1591,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1615,7 +1615,7 @@
             "y": -2,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1639,7 +1639,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1647,7 +1647,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1655,7 +1655,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {
@@ -1663,7 +1663,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "thermalfoundation:fluid_cryotheum@0"
+                "thermalfoundation:fluid_cryotheum"
             ]
         },
         {

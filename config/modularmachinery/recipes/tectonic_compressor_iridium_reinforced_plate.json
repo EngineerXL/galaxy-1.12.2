@@ -1,0 +1,42 @@
+{
+    "machine": "tectonic_compressor",
+    "registryName": "tectonic_compressor_iridium_reinforced_plate",
+    "recipeTime": 1000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "redstonearsenal:material@160",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting@3",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateIridium",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "galacticraftplanets:item_basic_asteroids@6",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ic2:crafting@4",
+            "amount": 2
+        }
+    ]
+}

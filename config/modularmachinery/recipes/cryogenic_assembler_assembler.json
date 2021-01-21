@@ -1,0 +1,42 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_assembler",
+    "recipeTime": 4000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:litherite_crystal",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:blockPalladium",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:plate@15",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_reinforced_obsidian",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:tool_multiblock_assembler",
+            "amount": 1
+        }
+    ]
+}

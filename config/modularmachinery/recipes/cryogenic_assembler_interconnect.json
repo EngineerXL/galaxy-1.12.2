@@ -1,0 +1,30 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_interconnect",
+    "recipeTime": 1000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:concrete@15",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:connector",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:interconnect",
+            "amount": 1
+        }
+    ]
+}

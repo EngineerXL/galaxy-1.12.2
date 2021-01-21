@@ -1,0 +1,36 @@
+{
+    "machine": "subspace_void_fluctuation_antimatter_reactor",
+    "registryName": "subspace_void_fluctuation_antimatter_reactor_infinity_booster",
+    "recipeTime": 7200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 50000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extrautils2:opinium@7",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "storagedrawers:upgrade_creative",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "appliedenergistics2:material@42",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "ae2wtlib:infinity_booster_card",
+            "amount": 1
+        }
+    ]
+}

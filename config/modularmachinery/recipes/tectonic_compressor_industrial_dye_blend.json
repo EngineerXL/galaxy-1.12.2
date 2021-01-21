@@ -1,0 +1,48 @@
+{
+    "machine": "tectonic_compressor",
+    "registryName": "tectonic_compressor_industrial_dye_blend",
+    "recipeTime": 2000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_material@50",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_material@48",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustLapis",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dustNetherQuartz",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "thermalfoundation:material@101",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "enderio:item_material@51",
+            "amount": 2
+        }
+    ]
+}

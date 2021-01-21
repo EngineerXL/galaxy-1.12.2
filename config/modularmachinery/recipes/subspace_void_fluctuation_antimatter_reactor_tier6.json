@@ -1,0 +1,72 @@
+{
+    "machine": "subspace_void_fluctuation_antimatter_reactor",
+    "registryName": "subspace_void_fluctuation_antimatter_reactor_tier6",
+    "recipeTime": 1600,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:structure_frame_5",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:aethium_crystal",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:connector",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier10_items@3",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:tier10_items@3",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ingot@3",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:item_alloy_endergy_ingot@3",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting@4",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ic2:crafting@4",
+            "amount": 64
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:structure_frame_6",
+            "amount": 1
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_connector",
+    "recipeTime": 400,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_alloy",
+            "amount": 16
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "enderio:block_alloy@3",
+            "amount": 32
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "environmentaltech:connector",
+            "amount": 1
+        }
+    ]
+}

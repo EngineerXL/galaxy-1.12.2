@@ -78,6 +78,9 @@ recipes.addShaped(<ic2:crafting:1>, [
 	[<ore:itemInsulatedCopperCable>, <forestry:thermionic_tubes>, <ore:itemInsulatedCopperCable>]
 ]);
 
+# Iridium Reinforced Plate
+recipes.remove(<ic2:crafting:4>);
+
 # Lapotron Crystal
 recipes.remove(<ore:lapotronCrystal>);
 recipes.addShaped(<ic2:lapotron_crystal>, [
