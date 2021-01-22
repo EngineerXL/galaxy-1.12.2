@@ -6,13 +6,13 @@ print("IC2.zs starts to load");
 recipes.remove(<ic2:crafting:2>);
 recipes.addShaped(<ic2:crafting:2>, [
 	[<moreplates:redstone_alloy_plate>, <forestry:thermionic_tubes:11>, <moreplates:redstone_alloy_plate>],
-	[<genetics:misc:2>, <ic2:crafting:1>, <genetics:misc:2>],
+	[<minecraft:glowstone_dust>, <ic2:crafting:1>, <minecraft:glowstone_dust>],
 	[<moreplates:redstone_alloy_plate>, <forestry:thermionic_tubes:11>, <moreplates:redstone_alloy_plate>]
 ]);
 recipes.addShaped(<ic2:crafting:2>, [
-	[<moreplates:redstone_alloy_plate>, <genetics:misc:2>, <moreplates:redstone_alloy_plate>],
+	[<moreplates:redstone_alloy_plate>, <minecraft:glowstone_dust>, <moreplates:redstone_alloy_plate>],
 	[<forestry:thermionic_tubes:11>, <ic2:crafting:1>, <forestry:thermionic_tubes:11>],
-	[<moreplates:redstone_alloy_plate>, <genetics:misc:2>, <moreplates:redstone_alloy_plate>]
+	[<moreplates:redstone_alloy_plate>, <minecraft:glowstone_dust>, <moreplates:redstone_alloy_plate>]
 ]);
 
 # Advanced Machine Casing

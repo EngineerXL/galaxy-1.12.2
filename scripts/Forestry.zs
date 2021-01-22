@@ -2,6 +2,9 @@
 
 print("Forestry.zs starts to load");
 
+# Alveary Frame Holder
+recipes.remove(<careerbees:alveary_frame>);
+
 # Bio Generator
 recipes.remove(<forestry:engine_generator>);
 recipes.addShaped(<forestry:engine_generator>, [
