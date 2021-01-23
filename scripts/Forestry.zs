@@ -5,6 +5,14 @@ print("Forestry.zs starts to load");
 # Alveary Frame Holder
 recipes.remove(<careerbees:alveary_frame>);
 
+# Bee Smoker
+recipes.remove(<forestry:smoker>);
+recipes.addShaped(<forestry:smoker>, [
+	[<minecraft:leather>, <immersiveengineering:material>, <ore:ingotTin>],
+	[<minecraft:leather>, <minecraft:flint_and_steel>, <ore:ingotTin>],
+	[<ore:ingotTin>, <ore:netherrack>, <ore:ingotTin>]
+]);
+
 # Bio Generator
 recipes.remove(<forestry:engine_generator>);
 recipes.addShaped(<forestry:engine_generator>, [
@@ -43,6 +51,14 @@ recipes.addShaped(<forestry:raintank>, [
 	[<tconstruct:binding>.withTag({Material: "iron"}), <ore:blockGlass>, <tconstruct:binding>.withTag({Material: "iron"})],
 	[<ore:ingotBronze> , <minecraft:bucket>, <ore:ingotBronze>],
 	[<tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:casting:1>, <tconstruct:binding>.withTag({Material: "iron"})]
+]);
+
+# Scoop
+recipes.remove(<forestry:scoop>);
+recipes.addShaped(<forestry:scoop>, [
+	[<immersiveengineering:material>, <ore:blockWool>, <immersiveengineering:material>],
+	[<immersiveengineering:material>, <immersiveengineering:material>, <immersiveengineering:material>],
+	[null, <immersiveengineering:material>, null]
 ]);
 
 # Still

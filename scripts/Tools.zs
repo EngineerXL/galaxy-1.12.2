@@ -244,7 +244,7 @@ var ingredients as IIngredient[] = [
 recipes.remove(<moreplates:hammer>);
 var i as int = 0;
 while (i < plates.length) {
-	recipes.addShapeless(plates[i], [<ic2:forge_hammer>.transformDamage(), ingredients[i]]);
+	recipes.addShapeless(plates[i], [<ic2:forge_hammer>.anyDamage().transformDamage(), ingredients[i]]);
 	i = i + 1;
 }
 

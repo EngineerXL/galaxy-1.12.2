@@ -1,4 +1,4 @@
-// Scannable.zs
+# Scannable.zs
 
 print("Scannable.zs starts to load");
 

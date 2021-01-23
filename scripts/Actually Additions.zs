@@ -75,6 +75,14 @@ recipes.addShaped(<actuallyadditions:item_misc:6>, [
 	[<minecraft:iron_ingot>, <minecraft:gold_ingot>, <minecraft:iron_ingot>]
 ]);
 
+# Small Storage Crate
+recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.addShaped(<actuallyadditions:block_giant_chest>, [
+	[<actuallyadditions:block_misc:4>, <ore:plankWood>, <actuallyadditions:block_misc:4>],
+	[<ore:plankWood>, <ironchest:iron_chest>, <ore:plankWood>],
+	[<actuallyadditions:block_misc:4>, <ore:plankWood>, <actuallyadditions:block_misc:4>]
+]);
+
 # Wood Casing
 recipes.remove(<actuallyadditions:block_misc:4>);
 recipes.addShaped(<actuallyadditions:block_misc:4>, [
