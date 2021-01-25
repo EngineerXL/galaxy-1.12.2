@@ -1,0 +1,36 @@
+item.item_endergy_alloy_crude_steel.name=Сырая сталь
+item.item_endergy_alloy_combustive_metal.name=Горючий металл
+item.item_endergy_alloy_crystalline_alloy.name=Кристаллиновый сплав
+item.item_endergy_alloy_melodic_alloy.name=Мелодичный сплав
+item.item_endergy_alloy_stellar_alloy.name=Звёздный сплав
+
+item.item_capacitor_grainy.name=Зернистый конденсатор
+item.item_capacitor_crystalline.name=Кристаллиновый конденсатор
+item.item_capacitor_melodic.name=Мелодичный конденсатор
+item.item_capacitor_stellar.name=Звёздный конденсатор
+item.item_capacitor_totemic.name=Тотемный конденсатор
+item.item_capacitor_silver.name=Серебяный конденсатор
+item.item_capacitor_energetic_silver.name=Конденсатор из энергетического серебра
+item.item_capacitor_vivid.name=Заряженный конденсатор
+
+enderio.item_endergy_conduit_cobble.name=Сырая энергетическая труба
+enderio.item_endergy_conduit_iron.name=Железная энергетическая труба
+enderio.item_endergy_conduit_gold.name=Золотая энергетическая труба
+enderio.item_endergy_conduit_silver.name=Серебряная энергетическая труба
+enderio.item_endergy_conduit_energetic_silver.name=Энергетическая труба из энергетического серебра
+enderio.item_endergy_conduit_electrum.name=Электрумовая энергетическая труба
+enderio.item_endergy_conduit_alu.name=Алюминиевая энергетическая труба
+enderio.item_endergy_conduit_copper.name=Медная энергетическая труба
+enderio.item_endergy_conduit_crystalline.name=Кристаллиновая энергетическая труба
+enderio.item_endergy_conduit_pink_slime.name=Энергетическая труба из розовой слизи
+enderio.item_endergy_conduit_melodic.name=Мелодичная энергетическая труба
+enderio.item_endergy_conduit_stellar.name=Звёздная энергетическая труба
+
+item.item_stellar_alloy_sword.name=Меч Края Mark IV
+item.item_stellar_alloy_sword.tooltip.detailed.line1=После 47 попыток Рандальф наконец сделал совершенное оружие!
+item.item_stellar_alloy_pickaxe.name=Звёздная кирка
+item.item_stellar_alloy_axe.name=Звёздный топор
+item.item_stellar_alloy_helmet.name=Звёздный шлем
+item.item_stellar_alloy_chestplate.name=Звёздный нагрудник
+item.item_stellar_alloy_leggings.name=Звёздные поножи
+item.item_stellar_alloy_boots.name=Звёздные ботинки

@@ -1,0 +1,239 @@
+itemGroup.moreplates=More Plates
+
+config.moreplates.title=More Plates Config
+
+config.moreplates.category.general=General
+config.moreplates.category.plugins=Plugins
+config.moreplates.category.actuallyadditions=Actually Additions
+config.moreplates.category.botania=Botania
+config.moreplates.category.immersiveengineering=Immersive Engineering
+config.moreplates.category.ic2=Industrial Craft 2
+config.moreplates.category.techreborn=Tech Reborn
+config.moreplates.category.thermalexpansion=Thermal Expansion
+
+config.moreplates.category.items=Предметы
+
+item.hammer.name=Молот
+item.hammer.uses_left=Осталось использований: 
+
+item.moreplates.coal_gear.name=Угольная шестерня
+item.moreplates.coal_plate.name=Угольная пластина
+item.moreplates.diamond_gear.name=Алмазная шестерня
+item.moreplates.diamond_plate.name=Алмазная пластина
+item.moreplates.emerald_gear.name=Изумрудная шестерня
+item.moreplates.emerald_plate.name=Изумрудная пластина
+item.moreplates.glowstone_gear.name=Шестерня из светопыли
+item.moreplates.glowstone_plate.name=Пластина из светопыли
+item.moreplates.gold_gear.name=Золотая шестерня
+item.moreplates.gold_plate.name=Золотая пластина
+item.moreplates.gold_stick.name=Золотой стержень
+item.moreplates.iron_gear.name=Железная шестерня
+item.moreplates.iron_plate.name=Железная пластина
+item.moreplates.iron_stick.name=Железный стержень
+item.moreplates.lapis_lazuli_gear.name=Лазуритовая шестерня
+item.moreplates.lapis_lazuli_plate.name=Лазуритовая пластина
+item.moreplates.nether_quartz_gear.name=Шестерня из незер-кварца
+item.moreplates.nether_quartz_plate.name=Пластина из незер-кварца
+item.moreplates.redstone_gear.name=Шестерня из редстоуна
+item.moreplates.redstone_plate.name=Пластина из редстоуна
+
+item.moreplates.aluminum_stick.name=Алюминиевый стержень
+item.moreplates.bronze_stick.name=Бронзовый стержень
+item.moreplates.constantan_stick.name=Константановый стержень
+item.moreplates.copper_stick.name=Медный стержень
+item.moreplates.electrum_stick.name=Электрумовый стержень
+item.moreplates.enderium_stick.name=Эндериумовый стержень
+item.moreplates.invar_stick.name=Инвароный стержень
+item.moreplates.iridium_stick.name=Иридиевый стержень
+item.moreplates.lead_stick.name=Свинцовый стержень
+item.moreplates.lumium_stick.name=Ламиевый стержень
+item.moreplates.mana_infused_stick.name=Мифриловый стержень
+item.moreplates.nickel_stick.name=Никелевый стержень
+item.moreplates.platinum_stick.name=Платиновый стержень
+item.moreplates.signalum_stick.name=Синаловый стержень
+item.moreplates.silicon_gear.name=Кремиевая шестерня
+item.moreplates.silicon_plate.name=Кремиевая пластина
+item.moreplates.silver_stick.name=Серебряный стержень
+item.moreplates.steel_gear.name=Стальная шестерня
+item.moreplates.steel_plate.name=Стальная пластина
+item.moreplates.steel_stick.name=Стальной стержень
+item.moreplates.tin_stick.name=Оловянный стержень
+
+item.moreplates.black_quartz_gear.name=Шестерня из чёрного кварца
+item.moreplates.black_quartz_plate.name=Пластина из чёрного кварца
+item.moreplates.diamatine_gear.name=Шестерня из кристалла диаматина
+item.moreplates.diamatine_plate.name=Пластина из кристалла диаматина
+item.moreplates.emeradic_gear.name=Шестерня из кристалла эмерадиса
+item.moreplates.emeradic_plate.name=Пластина из кристалла эмерадиса
+item.moreplates.enori_gear.name=Шестерня из кристалла энори
+item.moreplates.enori_plate.name=Пластина из кристалла энори
+item.moreplates.palis_gear.name=Шестерня из кристалла палиса
+item.moreplates.palis_plate.name=Пластина из кристалла палиса
+item.moreplates.restonia_gear.name=Шестерня из кристалла рестонии
+item.moreplates.restonia_plate.name=Пластина из кристалла рестонии
+item.moreplates.void_gear.name=Шестерня из кристалла пустоты
+item.moreplates.void_plate.name=Пластина из кристалла пустоты
+item.moreplates.empowered_diamatine_gear.name=Шестерня из усилиннего кристалла диаматина
+item.moreplates.empowered_diamatine_plate.name=Пластина из усилиннего кристалла диаматина
+item.moreplates.empowered_emeradic_gear.name=Шестерня из усилиннего кристалла эмерадиса
+item.moreplates.empowered_emeradic_plate.name=Пластина из усилиннего кристалла эмерадиса
+item.moreplates.empowered_enori_gear.name=Шестерня из усилиннего кристалла энори
+item.moreplates.empowered_enori_plate.name=Пластина из усилиннего кристалла энори
+item.moreplates.empowered_palis_gear.name=Шестерня из усилиннего кристалла палиса
+item.moreplates.empowered_palis_plate.name=Пластина из усилиннего кристалла палиса
+item.moreplates.empowered_restonia_gear.name=Шестерня из усилиннего кристалла рестонии
+item.moreplates.empowered_restonia_plate.name=Пластина из усилиннего кристалла рестонии
+item.moreplates.empowered_void_gear.name=Шестерня из усилиннего кристалла пустоты
+item.moreplates.empowered_void_plate.name=Пластина из усилиннего кристалла пустоты
+
+item.moreplates.certus_quartz_gear.name=Шестерня из истинного кварца
+item.moreplates.certus_quartz_plate.name=Пластина из истинного кварца
+item.moreplates.fluix_gear.name=Изменчивая шестерня
+item.moreplates.fluix_plate.name=Изменчивая пластина
+
+item.moreplates.crystal_matrix_gear.name=Crystal Matrix шестерня
+item.moreplates.crystal_matrix_plate.name=Crystal Matrix пластина
+item.moreplates.infinity_gear.name=Infinity шестерня
+item.moreplates.infinity_plate.name=Infinity пластина
+item.moreplates.neutronium_gear.name=Neutronium шестерня
+item.moreplates.neutronium_plate.name=Neutronium пластина
+
+item.moreplates.elementium_gear.name=Elementium шестерня
+item.moreplates.elementium_plate.name=Elementium пластина
+item.moreplates.gaia_spirit_gear.name=Gaia Spirit шестерня
+item.moreplates.gaia_spirit_plate.name=Gaia Spirit пластина
+item.moreplates.manasteel_gear.name=Manasteel шестерня
+item.moreplates.manasteel_plate.name=Manasteel пластина
+item.moreplates.terrasteel_gear.name=Terrasteel шестерня
+item.moreplates.terrasteel_plate.name=Terrasteel пластина
+
+item.moreplates.amethyst_gear.name=Amethyst шестерня
+item.moreplates.amethyst_plate.name=Amethyst пластина
+item.moreplates.enriched_gold_gear.name=Enriched Gold шестерня
+item.moreplates.enriched_gold_plate.name=Enriched Gold пластина
+item.moreplates.reinforced_iron_gear.name=Reinforced Iron шестерня
+item.moreplates.reinforced_iron_plate.name=Reinforced Iron пластина
+item.moreplates.tanzanite_gear.name=Tanzanite шестерня
+item.moreplates.tanzanite_plate.name=Tanzanite пластина
+
+item.moreplates.awakened_draconium_gear.name=Пробуждённодракониевая шестерня
+item.moreplates.awakened_draconium_plate.name=Пробуждённодракониевая пластина
+item.moreplates.draconium_gear.name=Дракониевая шестерня
+item.moreplates.draconium_plate.name=Дракониевая пластина
+
+item.moreplates.conductive_iron_gear.name=Шестерня из проводящего железа
+item.moreplates.conductive_iron_plate.name=Пластина из проводящего железа
+item.moreplates.dark_steel_gear.name=Шестерня из тёмной стали
+item.moreplates.dark_steel_plate.name=Пластина из тёмной стали
+item.moreplates.electrical_steel_gear.name=Шестерня из наэлектризованной стали
+item.moreplates.electrical_steel_plate.name=Пластина из наэлектризованной стали
+item.moreplates.end_steel_gear.name=Шестерня из стали Края
+item.moreplates.end_steel_plate.name=Пластина из стали Края
+item.moreplates.energetic_alloy_gear.name=Шестерня из энергетического сплава
+item.moreplates.energetic_alloy_plate.name=Пластина из энергетического сплава
+item.moreplates.energetic_silver_gear.name=Шестерня из энергетического серебра
+item.moreplates.energetic_silver_plate.name=Пластина из энергетического серебра
+item.moreplates.iron_alloy_gear.name=Шестерня из железного сплава
+item.moreplates.iron_alloy_plate.name=Пластина из железного сплава
+item.moreplates.pulsating_iron_gear.name=Шестерня из пульсирующего сплава
+item.moreplates.pulsating_iron_plate.name=Пластина из пульсирующего сплава
+item.moreplates.redstone_alloy_gear.name=Шестерня сплава из красного камня
+item.moreplates.redstone_alloy_plate.name=Пластина сплава из красного камня
+item.moreplates.soularium_gear.name=Соулариевая шестерня
+item.moreplates.soularium_plate.name=Соулариевая пластина
+item.moreplates.vibrant_alloy_gear.name=Шестерня из вибрирующего сплава
+item.moreplates.vibrant_alloy_plate.name=Пластина из вибрирующего сплава
+
+item.moreplates.crude_steel_gear.name=Шестерня из сырой стали
+item.moreplates.crude_steel_plate.name=Пластина из сырой стали
+item.moreplates.crystalline_alloy_gear.name=Шестерня из кристаллинового сплава
+item.moreplates.crystalline_alloy_plate.name=Пластина из кристаллинового сплава
+item.moreplates.crystalline_pink_slime_gear.name=Шестерня сплава из розовой слизи
+item.moreplates.crystalline_pink_slime_plate.name=Пластина сплава из розовой слизи
+item.moreplates.melodic_alloy_gear.name=Шестерня из мелодичного сплава
+item.moreplates.melodic_alloy_plate.name=Пластина из мелодичного сплава
+item.moreplates.stellar_alloy_gear.name=Шестерня из звёздного сплава
+item.moreplates.stellar_alloy_plate.name=Пластина из звёздного сплава
+item.moreplates.vivid_alloy_gear.name=Шестерня из яркого сплава
+item.moreplates.vivid_alloy_plate.name=Пластина из яркого сплава
+
+item.moreplates.demon_gear.name=Демоническая шестерня
+item.moreplates.demon_plate.name=Демоническая пластина
+item.moreplates.enchanted_gear.name=Зачарованная шестерня
+item.moreplates.enchanted_plate.name=Зачарованная пластина
+item.moreplates.evil_infused_iron_gear.name=Наполненная злом шестерня
+item.moreplates.evil_infused_iron_plate.name=Наполненная злом пластина
+
+item.moreplates.osmium_gear.name=Осмиевая шестерня
+item.moreplates.osmium_plate.name=Осмиевая пластина
+item.moreplates.refined_glowstone_gear.name=Шестерня из очищенной светопыли
+item.moreplates.refined_glowstone_plate.name=Пластина из очищенной светопыли
+item.moreplates.refined_obsidian_gear.name=Шестерня из очищенного обсидиана
+item.moreplates.refined_obsidian_plate.name=Пластина из очищенного обсидиана
+
+item.moreplates.insanium_gear.name=Insanium шестерня
+item.moreplates.insanium_plate.name=Insanium пластина
+
+item.moreplates.inferium_gear.name=Inferium шестерня
+item.moreplates.inferium_plate.name=Inferium пластина
+item.moreplates.intermedium_gear.name=Intermedium шестерня
+item.moreplates.intermedium_plate.name=Intermedium пластина
+item.moreplates.prudentium_gear.name=Prudentium шестерня
+item.moreplates.prudentium_plate.name=Prudentium пластина
+item.moreplates.soulium_gear.name=Soulium шестерня
+item.moreplates.soulium_plate.name=Soulium пластина
+item.moreplates.superium_gear.name=Superium шестерня
+item.moreplates.superium_plate.name=Superium пластина
+item.moreplates.supremium_gear.name=Supremium шестерня
+item.moreplates.supremium_plate.name=Supremium пластина
+
+item.moreplates.alumite_gear.name=Алюмитовая шестерня
+item.moreplates.alumite_plate.name=Алюмитовая пластина
+item.moreplates.mirion_gear.name=Мирионовая шестерня
+item.moreplates.mirion_plate.name=Мирионовая пластина
+item.moreplates.osgloglas_gear.name=Осглогласовая шестерня
+item.moreplates.osgloglas_plate.name=Осглогласовая пластина
+item.moreplates.osmiridium_gear.name=Осмиридиевая шестерня
+item.moreplates.osmiridium_plate.name=Осмиридиевая пластина
+
+item.moreplates.compressed_iron_gear.name=Шестерня из сжатого железа
+item.moreplates.compressed_iron_plate.name=Пластина из сжатого железа
+
+item.moreplates.dark_matter_gear.name=Шестерня из тёмной материи
+item.moreplates.dark_matter_plate.name=Пластина из тёмной материи
+item.moreplates.red_matter_gear.name=Шестерня из красной материи
+item.moreplates.red_matter_plate.name=Пластина из красной материи
+
+item.moreplates.electrotine_alloy_gear.name=Electrotine Alloy шестерня
+item.moreplates.electrotine_alloy_plate.name=Electrotine Alloy пластина
+item.moreplates.red_alloy_gear.name=Red Alloy шестерня
+item.moreplates.red_alloy_plate.name=Red Alloy пластина
+
+item.moreplates.quartz_enriched_iron_gear.name=Quartz Enriched Iron шестерня
+item.moreplates.quartz_enriched_iron_plate.name=Quartz Enriched Iron пластина
+
+item.moreplates.corrupted_gear.name=Corrupted шестерня
+item.moreplates.corrupted_plate.name=Corrupted пластина
+
+item.moreplates.amber_gear.name=Amber шестерня
+item.moreplates.amber_plate.name=Amber пластина
+item.moreplates.quicksilver_gear.name=Quicksilver шестерня
+item.moreplates.quicksilver_plate.name=Quicksilver пластина
+
+item.moreplates.ardite_gear.name=Ардитовая шестерня
+item.moreplates.ardite_plate.name=Ардитовая пластина
+item.moreplates.cobalt_gear.name=Кобальтовая шестерня
+item.moreplates.cobalt_plate.name=Кобальтовая пластина
+item.moreplates.knightslime_gear.name=Слизестальная шестерня
+item.moreplates.knightslime_plate.name=Слизестальная пластина
+item.moreplates.manyullyn_gear.name=Маньюлиновая шестерня
+item.moreplates.manyullyn_plate.name=Маньюлиновая пластина
+item.moreplates.pig_iron_gear.name=Свиностальная шестерня
+item.moreplates.pig_iron_plate.name=Свиностальная пластина
+
+item.moreplates.fiery_gear.name=Fiery шестерня
+item.moreplates.fiery_plate.name=Fiery пластина
+item.moreplates.ironwood_gear.name=Ironwood шестерня
+item.moreplates.ironwood_plate.name=Ironwood пластина
+item.moreplates.knightmetal_gear.name=Knightmetal шестерня
+item.moreplates.knightmetal_plate.name=Knightmetal пластина

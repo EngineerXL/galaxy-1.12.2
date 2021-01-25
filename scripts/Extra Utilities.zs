@@ -14,18 +14,12 @@ recipes.addShaped(<extrautils2:angelblock>, [
 mods.extrautils2.Resonator.add(<actuallyadditions:item_misc:5>, <minecraft:quartz>, 200);
 
 # Chicken Ring
-
-# Needs lookup
 recipes.remove(<extrautils2:chickenring>);
-#mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:chickenring>, [
-#	[<ore:plateEnoriEmpowered>, null, <tconstruct:tough_binding>.withTag({Material: "manyullyn"}), <ore:plateVoidEmpowered>, <tconstruct:tough_binding>.withTag({Material: "manyullyn"}), null, <ore:plateEnoriEmpowered>], 
-#	[null, <ore:gearEnoriEmpowered>, <ore:dropHoney>, <minecraft:fish:3>, <ore:dropHoney>, <ore:gearEnoriEmpowered>, null], 
-#	[<ore:plateEnoriEmpowered>, <ore:cropVine>, <minecraft:snowball>, <minecraft:cake>, <minecraft:snowball>, <ore:cropVine>, <ore:plateEnoriEmpowered>], 
-#	[<ore:plateVoidEmpowered>, <natura:overworld_seed_bags>, <ore:feather>, <actuallyadditions:item_misc:15>, <ore:feather>, <natura:seed_bags>, <ore:plateVoidEmpowered>], 
-#	[<ore:plateEnoriEmpowered>, <ore:dropHoney>, <ore:egg>, <minecraft:fermented_spider_eye>, <ore:egg>, <ore:dropHoney>, <ore:plateEnoriEmpowered>], 
-#	[null, <ore:plateEnoriEmpowered>, <natura:nether_glowshroom:2>, <natura:overworld_seed_bags:1>, <natura:nether_glowshroom:2>, <ore:plateEnoriEmpowered>, null], 
-#	[null, null, <ore:plateEnoriEmpowered>, <ore:plateVoidEmpowered>, <ore:plateEnoriEmpowered>, null, null]
-#]);
+recipes.addShaped(<extrautils2:chickenring>, [
+	[<minecraft:feather>, <moreplates:empowered_enori_plate>, <minecraft:feather>],
+	[<moreplates:empowered_enori_plate>, <actuallyadditions:item_misc:19>, <moreplates:empowered_enori_plate>],
+	[<extrautils2:ingredients>, <moreplates:empowered_enori_plate>, <extrautils2:ingredients>]
+]);
 
 # Deep Dark Portal
 recipes.remove(<extrautils2:teleporter:1>);
