@@ -75,11 +75,7 @@ while (i < compressed.length) {
 
 # Copper Canister
 recipes.remove(<galacticraftcore:canister:1>);
-recipes.addShaped(<galacticraftcore:canister:1>, [
-	[<ore:plateCopper>, null, <ore:plateCopper>],
-	[<ore:plateCopper>, null, <ore:plateCopper>],
-	[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]
-]);
+mods.ic2.MetalFormer.addExtrudingRecipe(<galacticraftcore:canister:1>, <ic2:plate:10>);
 
 # Deconstructor
 recipes.remove(<galacticraftcore:machine2:12>);
@@ -339,10 +335,6 @@ recipes.addShaped(<galacticraftplanets:item_basic_asteroids:7>, [
 
 # Tin Canister
 recipes.remove(<galacticraftcore:canister>);
-recipes.addShaped(<galacticraftcore:canister>, [
-	[<ore:plateTin>, null, <ore:plateTin>],
-	[<ore:plateTin>, null, <ore:plateTin>],
-	[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]
-]);
+mods.ic2.MetalFormer.addExtrudingRecipe(<galacticraftcore:canister>, <ic2:plate:17>);
 
 print("GalactiCraft and ExtraPlanets.zs is loaded");

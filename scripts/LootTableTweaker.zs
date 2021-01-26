@@ -1,7 +1,8 @@
-# Loot.zs
+# LootTableTweaker.zs
 
-print("Loot.zs starts to load");
+print("LootTableTweaker.zs starts to load");
 
+# Remove dungeon loot
 var items as string[] = [
 	"actuallyadditions:block_misc:4",
 	"actuallyadditions:item_misc:16",
@@ -28,4 +29,4 @@ for item in items {
 	mods.ltt.LootTable.removeGlobalItem(item);
 }
 
-print("Loot.zs is loaded");
+print("LootTableTweaker.zs is loaded");

@@ -1,9 +1,6 @@
 # ContentTweaker.zs
 
-#priority 100
-
 #loader contenttweaker
-
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.VanillaFactory;

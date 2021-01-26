@@ -78,6 +78,19 @@ recipes.addShaped(<ic2:crafting:1>, [
 	[<ore:itemInsulatedCopperCable>, <forestry:thermionic_tubes>, <ore:itemInsulatedCopperCable>]
 ]);
 
+# Forge Hammer
+recipes.remove(<ic2:forge_hammer>);
+recipes.addShaped(<ic2:forge_hammer>, [
+	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, null],
+	[<tconstruct:tough_binding>.withTag({Material: "iron"}), <immersiveengineering:material>, <immersiveengineering:material>],
+	[<minecraft:iron_ingot>, <minecraft:iron_ingot>, null]
+]);
+recipes.addShaped(<ic2:forge_hammer>, [
+	[null, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+	[<immersiveengineering:material>, <immersiveengineering:material>, <tconstruct:tough_binding>.withTag({Material: "iron"})],
+	[null, <minecraft:iron_ingot>, <minecraft:iron_ingot>]
+]);
+
 # Iridium Reinforced Plate
 recipes.remove(<ic2:crafting:4>);
 

@@ -1,4 +1,5 @@
 {
+	"dependencies": "chisel",
 	"populate": {
 		"cobblestone": {
 			"enabled": true,
@@ -223,6 +224,70 @@
 						"metadata": 5
 					}
 				],
+				"material": "minecraft:stone",
+				"cluster-size": 195,
+				"type": "large-vein",
+				"sparse": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"min-height": 5,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-28,
+					-29,
+					-30,
+					-31,
+					-1,
+					1
+				]
+			}
+		},
+
+		"marble": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:marble2",
+					"metadata": 7
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 195,
+				"type": "large-vein",
+				"sparse": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"min-height": 5,
+			"max-height": 128,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-28,
+					-29,
+					-30,
+					-31,
+					-1,
+					1
+				]
+			}
+		},
+
+		"limestone": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "chisel:limestone2",
+					"metadata": 7
+				},
 				"material": "minecraft:stone",
 				"cluster-size": 195,
 				"type": "large-vein",
