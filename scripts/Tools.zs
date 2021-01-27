@@ -15,9 +15,6 @@ var durabilityTools as IItemStack[] = [
 	<forestry:bronze_shovel>,
 	<immersiveengineering:shovel_steel>,
 	<ic2:bronze_shovel>,
-	<netherex:withered_amedian_shovel>,
-	<netherex:blazed_amedian_shovel>,
-	<netherex:frosted_amedian_shovel>,
 
 	# Pickaxe
 	<minecraft:iron_pickaxe>,
@@ -27,9 +24,6 @@ var durabilityTools as IItemStack[] = [
 	<forestry:bronze_pickaxe>,
 	<immersiveengineering:pickaxe_steel>,
 	<ic2:bronze_pickaxe>,
-	<netherex:withered_amedian_pickaxe>,
-	<netherex:blazed_amedian_pickaxe>,
-	<netherex:frosted_amedian_pickaxe>,
 
 	# Axe
 	<minecraft:iron_axe>,
@@ -38,9 +32,6 @@ var durabilityTools as IItemStack[] = [
 	<minecraft:golden_axe>,
 	<immersiveengineering:axe_steel>,
 	<ic2:bronze_axe>,
-	<netherex:withered_amedian_axe>,
-	<netherex:blazed_amedian_axe>,
-	<netherex:frosted_amedian_axe>,
 
 	# Sword
 	<minecraft:iron_sword>,
@@ -49,9 +40,6 @@ var durabilityTools as IItemStack[] = [
 	<minecraft:golden_sword>,
 	<immersiveengineering:sword_steel>,
 	<ic2:bronze_sword>,
-	<netherex:withered_amedian_sword>,
-	<netherex:blazed_amedian_sword>,
-	<netherex:frosted_amedian_sword>,
 
 	# Hoe
 	<minecraft:iron_hoe>,
@@ -59,10 +47,7 @@ var durabilityTools as IItemStack[] = [
 	<minecraft:diamond_hoe>,
 	<minecraft:golden_hoe>,
 	<immersiveengineering:hoe_steel>,
-	<ic2:bronze_hoe>,
-	<netherex:withered_amedian_hoe>,
-	<netherex:blazed_amedian_hoe>,
-	<netherex:frosted_amedian_hoe>
+	<ic2:bronze_hoe>
 ];
 
 for i in durabilityTools {
