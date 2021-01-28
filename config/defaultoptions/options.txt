@@ -1,7 +1,7 @@
 
 gamma:1.0
 
-renderDistance:8
+renderDistance:16
 guiScale:2
 
 maxFps:120
@@ -14,3 +14,4 @@ tutorialStep:none
 
 soundCategory_master:0.2
 soundCategory_music:0.2
+

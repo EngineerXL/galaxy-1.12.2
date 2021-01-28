@@ -1,0 +1,464 @@
+{
+  "update": [
+    "config",
+    "script",
+    "servers.dat"
+  ],
+  "updateExclusions": [],
+  "updateShared": [],
+  "updateVerify": [
+    "libraries",
+    "natives",
+    "mods",
+    "minecraft.jar",
+    "forge-1.12.2-14.23.5.2854-universal.jar"
+    // "liteloader.jar"
+  ],
+  "updateOptional": [
+    // AmbientSounds 3
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/AmbientSounds_v3.0.18_mc1.12.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет дополнительные звуки в игру",
+      "name": "AmbientSounds 3",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // Better Advancements
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/BetterAdvancements-1.12.2-0.1.0.77.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Улучшает интерфейс достижений",
+      "name": "Better Advancements",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // BetterFoliage
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/BetterFoliage-MC1.12-2.3.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Пышная листва, красивая трава и круглые деревья",
+      "name": "BetterFoliage",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // Blur
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/Blur-1.0.4-14.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет размытие фона в инвентаре",
+      "name": "Blur",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // Controlling
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/Controlling-3.0.10.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Даёт вам больший контроль в настройках управления клавишами",
+      "name": "Controlling",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Custom Backgrounds
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/CustomBackgrounds-MC1.12-1.1.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Позволяет изменить земляной фон в меню настроек",
+      "name": "Custom Backgrounds",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // CustomMainMenu
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/Custom Main Menu-MC1.12.2-2.0.9.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "dependenciesFile": [{"name":"ResourceLoader"}],
+      "info": "Нестандартное главное меню",
+      "name": "CustomMainMenu",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Default Options
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/DefaultOptions_1.12.2-9.2.8.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Загружает настройки по умолчанию: размер интерфейса, язык",
+      "name": "Default Options",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Ding
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/Ding-1.12.2-1.0.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет звук, когда игра загрузилась",
+      "name": "Ding",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // DiscordCraft
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/DiscordCraft-2.0.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Интеграция Minecraft с вашим Discord",
+      "name": "DiscordCraft",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Enchantment Descriptions
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/EnchantmentDescriptions-1.12.2-1.1.20.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровое описание зачарованиям",
+      "name": "Enchantment Descriptions",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Fancy Block Particles
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/FancyBlockParticles-1.12.x-2.4.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет 3D частицы в игру",
+      "name": "Fancy Block Particles",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // FPS Reducer
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/FpsReducer-mc1.12.2-1.18.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Уменьшает частоту кадров, если вы ничего не делаете или игра свёрнута",
+      "name": "FPS Reducer",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // JEI Villagers
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/jeivillagers-1.12-1.0.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровую информацию о торговле с жителями",
+      "name": "JEI Villagers",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Just Enough Throwing In Fluids
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/jetif-1.12.2-1.5.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровую информацию о крафте с помощью бросания предметов в жидкости",
+      "name": "Just Enough Throwing In Fluids",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Just Enough Resources
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/JustEnoughResources-1.12.2-0.9.2.60.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровую информацию о сокровищницах и предметах, выпадающих с мобов",
+      "name": "Just Enough Resources",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Loot Capacitor Tooltips
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/lootcapacitortooltips-1.3.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровую информацию о характеристиках конденсаторов из EnderIO",
+      "name": "Loot Capacitor Tooltips",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // More Overlays
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/moreoverlays-1.15.1-mc1.12.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет информацию об освещении местности",
+      "name": "More Overlays",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Mouse Tweaks
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/MouseTweaks-2.10-mc1.12.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Улучшает управление инвентарём, добавляя дополнительные функции",
+      "name": "Mouse Tweaks",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // No Recipe Book
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/noRecipeBook_v1.2.2formc1.12.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Убирает книгу рецептов из интерфейса игры",
+      "name": "No Recipe Book",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // OptiFine HD
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/OptiFine_1.12.2_HD_U_G5.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Мод для тонкой настройки графики в minecraft.",
+      "name": "OptiFine HD",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Resource Loader
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/ResourceLoader-MC1.12.1-1.5.3.jar": "",
+            "resources": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Позволяет подгружать дополнительные текстуры без ресурс-пака",
+      "name": "Resource Loader",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Smooth Font
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/SmoothFont-mc1.12.2-2.1.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Позволяет Minecraft использовать разные шрифты и отрисовывать его в высоком разрешении",
+      "name": "Smooth Font",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Sound Filters
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/SoundFilters-0.12.1_for_1.12.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет эхо в пещеры, а также приглушенные звуки под водой и за стенами",
+      "name": "Sound Filters",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Toast Control
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/1.12.2/Toast+Control-1.12.2-1.8.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Убирает бесполезные всплывающие окна из игры",
+      "name": "Toast Control",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    }
+  ],
+  "jvmArgs": [
+    "-Dfml.ignorePatchDiscrepancies\u003dtrue",
+    "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+    "-XX:+UseConcMarkSweepGC",
+    "-XX:+CMSIncrementalMode",
+    "-XX:-UseAdaptiveSizePolicy",
+    "-Xmn128M",
+    "-XX:+DisableAttachMechanism"
+  ],
+  "classPath": [
+    "forge-1.12.2-14.23.5.2854-universal.jar",
+    // "liteloader.jar",
+    "minecraft.jar",
+    "libraries"
+  ],
+  "altClassPath": [],
+  "clientArgs": [
+    // "--tweakClass",
+    // "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
+    "--tweakClass",
+    "net.minecraftforge.fml.common.launcher.FMLTweaker"
+  ],
+  "securityManagerConfig": "CLIENT",
+  "classLoaderConfig": "LAUNCHER",
+  "version": "1.12.2",
+  "assetIndex": "1.12.2",
+  "dir": "Astronomy",
+  "assetDir": "asset1.12.2",
+  "sortIndex": 0,
+  "uuid": "be5f60f9-bd6b-4bb0-98df-afdff63f556a",
+  "title": "Astronomy",
+  "info": "Информация о сервере",
+  "serverPort": 0,
+  "updateFastCheck": true,
+  "mainClass": "net.minecraft.launchwrapper.Launch",
+  "servers": [
+    {
+      "name": "Astronomy",
+      "serverAddress": "109.248.37.215",
+      "serverPort": 25565,
+      "isDefault": true
+    }
+  ]
+}
