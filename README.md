@@ -1,2 +1,2 @@
-Light 1.12.2 Sci-Fi modpack
+Light 1.12.2 Sci-Fi Modpack
 

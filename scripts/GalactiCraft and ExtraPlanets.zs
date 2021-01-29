@@ -13,12 +13,28 @@ recipes.addShaped(<galacticraftcore:machine4>, [
 	[<galacticraftcore:item_basic_moon:1>, <galacticraftcore:basic_item:14>, <galacticraftcore:item_basic_moon:1>]
 ]);
 
+# Advanced Fuel Loader
+recipes.remove(<extraplanets:advanced_fuel_loader>);
+recipes.addShaped(<extraplanets:advanced_fuel_loader>, [
+	[<ore:ingotNickel>, <ore:ingotNickel>, <ore:ingotNickel>],
+	[<ore:ingotNickel>, <galacticraftcore:fuel_loader>, <ore:ingotNickel>],
+	[<extraplanets:tier5_items:5>, <extraplanets:tier5_items:8>, <extraplanets:tier5_items:5>]
+]);
+
 # Aluminum Wires
 recipes.remove(<galacticraftcore:aluminum_wire>);
 recipes.addShaped(<galacticraftcore:aluminum_wire> * 3, [
 	[<ic2:crafting>, <ic2:crafting>, <ic2:crafting>],
 	[<immersiveengineering:material:22>, <immersiveengineering:material:22>, <immersiveengineering:material:22>],
 	[<ic2:crafting>, <ic2:crafting>, <ic2:crafting>]
+]);
+
+# Basic Chemical Injector
+recipes.remove(<extraplanets:basic_chemical_injector>);
+recipes.addShaped(<extraplanets:basic_chemical_injector>, [
+	[<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>],
+	[<minecraft:piston>, <thermalexpansion:machine:12>, <minecraft:piston>],
+	[<ore:ingotUranium>, <ore:ingotUranium>, <ore:ingotUranium>]
 ]);
 
 # Beam Core
@@ -93,6 +109,14 @@ recipes.addShaped(<galacticraftcore:machine2>, [
 	[<galacticraftcore:aluminum_wire:1>, <galacticraftcore:basic_item:14>, <galacticraftcore:aluminum_wire:1>]
 ]);
 
+# Fire Bomb
+recipes.remove(<extraplanets:fire_bomb>);
+recipes.addShaped(<extraplanets:fire_bomb>, [
+	[<advanced_solar_panels:crafting:3>, <extraplanets:tier5_items:10>, <advanced_solar_panels:crafting:3>],
+	[<ore:sand>, <extraplanets:tier5_items:11>, <ore:sand>],
+	[<advanced_solar_panels:crafting:3>, <extraplanets:tier5_items:10>, <advanced_solar_panels:crafting:3>]
+]);
+
 # Heavy Aluminum Wires
 recipes.remove(<galacticraftcore:aluminum_wire:1>);
 recipes.addShaped(<galacticraftcore:aluminum_wire:1>, [
@@ -123,6 +147,14 @@ recipes.addShaped(<galacticraftcore:rocket_workbench>, [
 	[<galacticraftcore:heavy_plating>, <galacticraftcore:basic_item:14>, <galacticraftcore:heavy_plating>],
 	[<genetics:misc:8>, <forestry:worktable>, <genetics:misc:8>],
 	[<galacticraftcore:heavy_plating>, <ic2:te:55>, <galacticraftcore:heavy_plating>]
+]);
+
+# Nuclear Bomb
+recipes.remove(<extraplanets:nuclear_bomb>);
+recipes.addShaped(<extraplanets:nuclear_bomb>, [
+	[<minecraft:gunpowder>, <ore:sand>, <minecraft:gunpowder>],
+	[<ore:sand>, <ic2:nuclear:3>, <ore:sand>],
+	[<minecraft:gunpowder>, <ore:sand>, <minecraft:gunpowder>]
 ]);
 
 # Oxygen Vent
