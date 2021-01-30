@@ -338,6 +338,22 @@
       "permissions": 0,
       "visible": true
     },
+    // Overloaded Armor Bar
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/overloadedarmorbar-1.0.4g.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Исправляет отображение очков брони из других модов",
+      "name": "Overloaded Armor Bar",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
     // Resource Loader
     {
       "actions": [
