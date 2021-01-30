@@ -322,22 +322,6 @@
       "permissions": 0,
       "visible": true
     },
-    // No Recipe Book
-    {
-      "actions": [
-        {
-          "files": {
-            "mods/noRecipeBook_v1.2.2formc1.12.2.jar": ""
-          },
-          "type": "file"
-        }
-      ],
-      "info": "Убирает книгу рецептов из интерфейса игры",
-      "name": "No Recipe Book",
-      "mark": true,
-      "permissions": 0,
-      "visible": true
-    },
     // OptiFine HD
     {
       "actions": [
