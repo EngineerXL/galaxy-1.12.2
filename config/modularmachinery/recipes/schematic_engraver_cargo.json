@@ -1,0 +1,42 @@
+{
+    "machine": "schematic_engraver",
+    "registryName": "schematic_engraver_cargo",
+    "recipeTime": 12000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "galacticraftplanets:schematic@1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dyeBlack",
+            "amount": 16
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "galacticraftplanets:schematic@1",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "galacticraftplanets:schematic@1",
+            "amount": 1
+        }
+    ]
+}

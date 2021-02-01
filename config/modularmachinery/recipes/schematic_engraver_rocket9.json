@@ -1,0 +1,43 @@
+{
+    "machine": "schematic_engraver",
+    "registryName": "schematic_engraver_rocket9",
+    "recipeTime": 12000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "extraplanets:schematic_tier9",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:dyeBlack",
+            "amount": 16
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 1000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:schematic_tier9",
+            "amount": 1
+        },
+
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "extraplanets:schematic_tier9",
+            "amount": 1
+        }
+    ]
+}
