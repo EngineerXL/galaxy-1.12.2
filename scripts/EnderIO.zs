@@ -195,12 +195,31 @@ recipes.addShaped(<enderio:item_liquid_conduit> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 
+# Gold Energy Conduit
+recipes.remove(<enderio:item_endergy_conduit:3>);
+recipes.addShaped(<enderio:item_endergy_conduit:3> * 2, [
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<minecraft:gold_ingot>, <enderio:item_material:75>, <minecraft:gold_ingot>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+]);
+
 # Grainy Capacitor
 recipes.remove(<enderio:item_capacitor_grainy>);
 recipes.addShaped(<enderio:item_capacitor_grainy>, [
 	[<enderio:item_material:20>],
 	[<ore:nuggetPalladium>],
 	[<ore:nuggetPalladium>]
+]);
+
+# Industrial Dye Blend
+recipes.remove(<enderio:item_material:51>);
+
+# Iron Energy Conduit
+recipes.remove(<enderio:item_endergy_conduit:1>);
+recipes.addShaped(<enderio:item_endergy_conduit:1> * 2, [
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<minecraft:iron_ingot>, <enderio:item_material:75>, <minecraft:iron_ingot>],
+	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 
 # Item Conduit
@@ -271,28 +290,25 @@ recipes.addShaped(<enderio:item_endergy_conduit:10> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 
-# Gold Energy Conduit
-recipes.remove(<enderio:item_endergy_conduit:3>);
-recipes.addShaped(<enderio:item_endergy_conduit:3> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
-	[<minecraft:gold_ingot>, <enderio:item_material:75>, <minecraft:gold_ingot>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
-]);
-
-# Iron Energy Conduit
-recipes.remove(<enderio:item_endergy_conduit:1>);
-recipes.addShaped(<enderio:item_endergy_conduit:1> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
-	[<minecraft:iron_ingot>, <enderio:item_material:75>, <minecraft:iron_ingot>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
-]);
-
 # Octadic Capacitor
 recipes.remove(<enderio:item_basic_capacitor:2>);
 recipes.addShaped(<enderio:item_basic_capacitor:2>, [
 	[<enderio:item_alloy_ingot:2>, <extraplanets:tier7_items:6>, <enderio:item_alloy_ingot:2>],
 	[<enderio:item_basic_capacitor:1>, <advanced_solar_panels:crafting:1>, <enderio:item_basic_capacitor:1>],
 	[<enderio:item_alloy_ingot:2>, <extraplanets:tier7_items:6>, <enderio:item_alloy_ingot:2>]
+]);
+
+# Powered Spawner
+recipes.remove(<enderio:block_powered_spawner>);
+recipes.addShaped(<enderio:block_powered_spawner>, [
+    [<simplyjetpacks:metaitemmods:12>, <ore:itemSkull>, <simplyjetpacks:metaitemmods:12>],
+    [<simplyjetpacks:metaitemmods:12>, <enderio:item_material:55>, <simplyjetpacks:metaitemmods:12>],
+    [<enderio:item_material:16>, <enderio:item_material:42>, <enderio:item_material:19>]
+]);
+recipes.addShaped(<enderio:block_powered_spawner>, [
+    [<simplyjetpacks:metaitemmods:12>, <ore:itemSkull>, <simplyjetpacks:metaitemmods:12>],
+    [<simplyjetpacks:metaitemmods:12>, <enderio:item_material:55>, <simplyjetpacks:metaitemmods:12>],
+    [<enderio:item_material:19>, <enderio:item_material:42>, <enderio:item_material:16>]
 ]);
 
 # Pulsating Crystal

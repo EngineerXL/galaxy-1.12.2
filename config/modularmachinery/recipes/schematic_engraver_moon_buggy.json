@@ -21,6 +21,12 @@
             "amount": 16
         },
         {
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:paper",
+            "amount": 16
+        },
+        {
             "type": "fluid",
             "io-type": "input",
             "fluid": "water",

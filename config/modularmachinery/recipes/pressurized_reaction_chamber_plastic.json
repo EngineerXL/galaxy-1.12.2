@@ -18,13 +18,13 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "water",
-            "amount": 1000
+            "amount": 400
         },
         {
             "type": "fluid",
             "io-type": "input",
             "fluid": "biomass",
-            "amount": 200
+            "amount": 400
         },
         {
             "type": "item",

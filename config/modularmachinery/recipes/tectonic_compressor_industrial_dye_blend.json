@@ -42,7 +42,7 @@
             "type": "item",
             "io-type": "output",
             "item": "enderio:item_material@51",
-            "amount": 2
+            "amount": 1
         }
     ]
 }
