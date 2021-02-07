@@ -45,6 +45,14 @@ mods.forestry.ThermionicFabricator.addCast(<forestry:flexible_casing>, [
 	[<galacticraftcore:basic_item:10>, <ore:slimecrystal>, <galacticraftcore:basic_item:10>]
 ], <liquid: glass> * 500);
 
+# Grafter
+recipes.remove(<forestry:grafter>);
+recipes.addShaped(<forestry:grafter>, [
+    [null, null, <tconstruct:knife_blade>.withTag({Material: "bronze"})],
+    [null, <immersiveengineering:material>, null],
+    [<immersiveengineering:material>, null, null]
+]);
+
 # Rain Tank
 recipes.remove(<forestry:raintank>);
 recipes.addShaped(<forestry:raintank>, [
