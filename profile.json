@@ -408,8 +408,8 @@
     }
   ],
   "jvmArgs": [
-    "-Dfml.ignorePatchDiscrepancies\u003dtrue",
-    "-Dfml.ignoreInvalidMinecraftCertificates\u003dtrue",
+    "-Dfml.ignorePatchDiscrepancies=true",
+    "-Dfml.ignoreInvalidMinecraftCertificates=true",
     "-XX:+UseConcMarkSweepGC",
     "-XX:+CMSIncrementalMode",
     "-XX:-UseAdaptiveSizePolicy",
@@ -444,8 +444,8 @@
   "servers": [
     {
       "name": "Astronomy",
-      "serverAddress": "109.248.37.215",
-      "serverPort": 25565,
+      "serverAddress": "poly-mine.ru",
+      "serverPort": 25566,
       "isDefault": true
     }
   ]
