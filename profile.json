@@ -4,7 +4,10 @@
     "script",
     "servers.dat"
   ],
-  "updateExclusions": [],
+  "updateExclusions": [
+      "config/jei/worldSettings.cfg",
+      "config/jei/bookmarks.ini"
+  ],
   "updateShared": [],
   "updateVerify": [
     "libraries",
