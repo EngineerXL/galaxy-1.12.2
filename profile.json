@@ -5,8 +5,8 @@
     "servers.dat"
   ],
   "updateExclusions": [
-      "config/jei/worldSettings.cfg",
-      "config/jei/bookmarks.ini"
+    "config/jei/worldSettings.cfg",
+    "config/jei/bookmarks.ini"
   ],
   "updateShared": [],
   "updateVerify": [
@@ -15,12 +15,10 @@
     "mods",
     "minecraft.jar",
     "forge-1.12.2-14.23.5.2854-universal.jar"
-    // "liteloader.jar"
   ],
   "updateOptional": [
-    //
-    // AmbientSounds 3
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -29,14 +27,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет дополнительные звуки в игру",
-      "name": "AmbientSounds 3",
       "mark": false,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "AmbientSounds 3",
+      "info": "Добавляет дополнительные звуки в игру",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // BetterFoliage
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -45,14 +44,15 @@
           "type": "file"
         }
       ],
-      "info": "Пышная листва, красивая трава и круглые деревья",
-      "name": "BetterFoliage",
       "mark": false,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "BetterFoliage",
+      "info": "Пышная листва, красивая трава и круглые деревья",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Blur
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -61,14 +61,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет размытие фона в инвентаре",
-      "name": "Blur",
       "mark": false,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Blur",
+      "info": "Добавляет размытие фона в инвентаре",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Fancy Block Particles
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -77,15 +78,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет 3D частицы в игру",
-      "name": "Fancy Block Particles",
       "mark": false,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Fancy Block Particles",
+      "info": "Добавляет 3D частицы в игру",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    //
-    // Better Advancements
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -94,14 +95,15 @@
           "type": "file"
         }
       ],
-      "info": "Улучшает интерфейс достижений",
-      "name": "Better Advancements",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Better Advancements",
+      "info": "Улучшает интерфейс достижений",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Controlling
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -110,14 +112,15 @@
           "type": "file"
         }
       ],
-      "info": "Даёт вам больший контроль в настройках управления клавишами",
-      "name": "Controlling",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Controlling",
+      "info": "Даёт вам больший контроль в настройках управления клавишами",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Custom Backgrounds
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -126,14 +129,15 @@
           "type": "file"
         }
       ],
-      "info": "Позволяет изменить земляной фон в меню настроек",
-      "name": "Custom Backgrounds",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Custom Backgrounds",
+      "info": "Позволяет изменить земляной фон в меню настроек",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // CustomMainMenu
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -142,15 +146,20 @@
           "type": "file"
         }
       ],
-      "dependenciesFile": [{"name":"Resource Loader"}],
-      "info": "Нестандартное главное меню",
-      "name": "CustomMainMenu",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "CustomMainMenu",
+      "info": "Нестандартное главное меню",
+      "dependenciesFile": [
+        {
+          "name": "Resource Loader"
+        }
+      ],
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Default Options
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -159,14 +168,15 @@
           "type": "file"
         }
       ],
-      "info": "Загружает настройки по умолчанию: размер интерфейса, язык",
-      "name": "Default Options",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Default Options",
+      "info": "Загружает настройки по умолчанию: размер интерфейса, язык",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Ding
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -175,14 +185,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет звук, когда игра загрузилась",
-      "name": "Ding",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Ding",
+      "info": "Добавляет звук, когда игра загрузилась",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // DiscordCraft
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -191,14 +202,15 @@
           "type": "file"
         }
       ],
-      "info": "Интеграция Minecraft с вашим Discord",
-      "name": "DiscordCraft",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "DiscordCraft",
+      "info": "Интеграция Minecraft с вашим Discord",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Enchantment Descriptions
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -207,14 +219,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет внутриигровое описание зачарованиям",
-      "name": "Enchantment Descriptions",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Enchantment Descriptions",
+      "info": "Добавляет внутриигровое описание зачарованиям",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // FPS Reducer
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -223,14 +236,15 @@
           "type": "file"
         }
       ],
-      "info": "Уменьшает частоту кадров, если вы ничего не делаете или игра свёрнута",
-      "name": "FPS Reducer",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "FPS Reducer",
+      "info": "Уменьшает частоту кадров, если вы ничего не делаете или игра свёрнута",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // JEI Villagers
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -239,14 +253,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет внутриигровую информацию о торговле с жителями",
-      "name": "JEI Villagers",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "JEI Villagers",
+      "info": "Добавляет внутриигровую информацию о торговле с жителями",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Just Enough Throwing In Fluids
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -255,14 +270,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет внутриигровую информацию о крафте с помощью бросания предметов в жидкости",
-      "name": "Just Enough Throwing In Fluids",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Just Enough Throwing In Fluids",
+      "info": "Добавляет внутриигровую информацию о крафте с помощью бросания предметов в жидкости",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Just Enough Resources
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -271,14 +287,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет внутриигровую информацию о сокровищницах и предметах, выпадающих с мобов",
-      "name": "Just Enough Resources",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Just Enough Resources",
+      "info": "Добавляет внутриигровую информацию о сокровищницах и предметах, выпадающих с мобов",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Loot Capacitor Tooltips
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -287,14 +304,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет внутриигровую информацию о характеристиках конденсаторов из EnderIO",
-      "name": "Loot Capacitor Tooltips",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Loot Capacitor Tooltips",
+      "info": "Добавляет внутриигровую информацию о характеристиках конденсаторов из EnderIO",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // More Overlays
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -303,14 +321,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет информацию об освещении местности",
-      "name": "More Overlays",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "More Overlays",
+      "info": "Добавляет информацию об освещении местности",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Mouse Tweaks
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -319,14 +338,15 @@
           "type": "file"
         }
       ],
-      "info": "Улучшает управление инвентарём, добавляя дополнительные функции",
-      "name": "Mouse Tweaks",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Mouse Tweaks",
+      "info": "Улучшает управление инвентарём, добавляя дополнительные функции",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // OptiFine HD
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -335,14 +355,15 @@
           "type": "file"
         }
       ],
-      "info": "Мод для тонкой настройки графики в Minecraft",
-      "name": "OptiFine HD",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "OptiFine HD",
+      "info": "Мод для тонкой настройки графики в Minecraft",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Overloaded Armor Bar
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -351,14 +372,15 @@
           "type": "file"
         }
       ],
-      "info": "Исправляет отображение очков брони из других модов",
-      "name": "Overloaded Armor Bar",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Overloaded Armor Bar",
+      "info": "Исправляет отображение очков брони из других модов",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Resource Loader
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -368,14 +390,15 @@
           "type": "file"
         }
       ],
-      "info": "Позволяет подгружать дополнительные текстуры без ресурс-пака",
-      "name": "Resource Loader",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Resource Loader",
+      "info": "Позволяет подгружать дополнительные текстуры без ресурс-пака",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Smooth Font
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -384,14 +407,15 @@
           "type": "file"
         }
       ],
-      "info": "Позволяет Minecraft использовать разные шрифты и отрисовывать его в высоком разрешении",
-      "name": "Smooth Font",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Smooth Font",
+      "info": "Позволяет Minecraft использовать разные шрифты и отрисовывать его в высоком разрешении",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Sound Filters
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -400,14 +424,15 @@
           "type": "file"
         }
       ],
-      "info": "Добавляет эхо в пещеры, а также приглушенные звуки под водой и за стенами",
-      "name": "Sound Filters",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Sound Filters",
+      "info": "Добавляет эхо в пещеры, а также приглушенные звуки под водой и за стенами",
+      "subTreeLevel": 1,
+      "isPreset": false
     },
-    // Toast Control
     {
+      "permissions": 0,
       "actions": [
         {
           "files": {
@@ -416,11 +441,12 @@
           "type": "file"
         }
       ],
-      "info": "Убирает бесполезные всплывающие окна из игры",
-      "name": "Toast Control",
       "mark": true,
-      "permissions": 0,
-      "visible": true
+      "visible": true,
+      "name": "Toast Control",
+      "info": "Убирает бесполезные всплывающие окна из игры",
+      "subTreeLevel": 1,
+      "isPreset": false
     }
   ],
   "jvmArgs": [
@@ -434,14 +460,11 @@
   ],
   "classPath": [
     "forge-1.12.2-14.23.5.2854-universal.jar",
-    // "liteloader.jar",
     "minecraft.jar",
     "libraries"
   ],
   "altClassPath": [],
   "clientArgs": [
-    // "--tweakClass",
-    // "com.mumfrey.liteloader.launch.LiteLoaderTweaker",
     "--tweakClass",
     "net.minecraftforge.fml.common.launcher.FMLTweaker"
   ],
@@ -455,6 +478,7 @@
   "uuid": "be5f60f9-bd6b-4bb0-98df-afdff63f556a",
   "title": "Astronomy",
   "info": "Новый техно-космический сервер",
+  "serverPort": 0,
   "updateFastCheck": true,
   "mainClass": "net.minecraft.launchwrapper.Launch",
   "servers": [
