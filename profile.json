@@ -149,22 +149,6 @@
       "permissions": 0,
       "visible": true
     },
-    // Default Options
-    {
-      "actions": [
-        {
-          "files": {
-            "mods/DefaultOptions_1.12.2-9.2.8.jar": ""
-          },
-          "type": "file"
-        }
-      ],
-      "info": "Загружает настройки по умолчанию: размер интерфейса, язык",
-      "name": "Default Options",
-      "mark": true,
-      "permissions": 0,
-      "visible": true
-    },
     // Ding
     {
       "actions": [
