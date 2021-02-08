@@ -49,7 +49,7 @@ recipes.addShaped(<modularmachinery:blockcasing:1>, [
 
 # Modularium
 recipes.remove(<modularmachinery:itemmodularium>);
-recipes.addShapeless(<modularmachinery:itemmodularium>, [<contenttweaker:modularium_block>]);
+recipes.addShapeless(<modularmachinery:itemmodularium> * 9, [<contenttweaker:modularium_block>]);
 recipes.addShapeless(<contenttweaker:modularium_block>, [<modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>]);
 mods.actuallyadditions.Empowerer.addRecipe(<modularmachinery:itemmodularium>, <tconstruct:ingots:5>, <ore:dyeOrange>, <minecraft:magma_cream>, <ore:dustBronze>, <immersiveengineering:seed>, 100, 50, [1.0, 0.7, 0.0]);
 mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:modularium_block>, <tconstruct:metal:5>, <ore:dyeOrange>, <minecraft:magma_cream>, <ore:dustBronze>, <immersiveengineering:seed>, 100, 500, [1.0, 0.7, 0.0]);

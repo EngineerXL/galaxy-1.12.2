@@ -9,19 +9,19 @@ print("ContentTweaker.zs starts to load");
 
 var customBlocks as string[] = [
     "modularium_block",
-	"certus_quartz_moon",
-	"certus_quartz_mars",
-	"black_quartz_mars",
-	"thorium_venus",
-	"uranium_venus",
-	"thorium_mercury",
-	"uranium_mercury",
-	"boron_ceres",
-	"lithium_ceres",
-	"boron_jupiter",
-	"lithium_jupiter",
-	"iridium_uranus",
-	"mithril_neptune"
+    "certus_quartz_moon",
+    "certus_quartz_mars",
+    "black_quartz_mars",
+    "thorium_venus",
+    "uranium_venus",
+    "thorium_mercury",
+    "uranium_mercury",
+    "boron_ceres",
+    "lithium_ceres",
+    "boron_jupiter",
+    "lithium_jupiter",
+    "iridium_uranus",
+    "mithril_neptune"
 ];
 
 for blockName in customBlocks {

@@ -172,7 +172,7 @@
           "type": "file"
         }
       ],
-      "dependenciesFile": [{"name":"Resource Loader"}],
+      // "dependenciesFile": [{"name":"Resource Loader"}],
       "info": "Нестандартное главное меню",
       "name": "CustomMainMenu",
       "mark": true,
