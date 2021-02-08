@@ -99,6 +99,22 @@
       "permissions": 0,
       "visible": true
     },
+    // Better Mineshafts
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/BetterMineshaftsForge-1.12.2-2.1.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Заменяет стандартные шахты на более красивые (отражается только на одиночной игре!)",
+      "name": "Better Mineshafts",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
     // Better Ping Display
     {
       "actions": [
@@ -127,6 +143,22 @@
       ],
       "info": "Добавляет размытие фона в инвентаре",
       "name": "Blur",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // Chunk-Pregenerator
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/Chunk+Pregenerator+V1.12-2.3.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Позволяет прогрузить карту (отражается только на одиночной игре!)",
+      "name": "Chunk-Pregenerator",
       "mark": false,
       "permissions": 0,
       "visible": true
@@ -388,6 +420,22 @@
       "permissions": 0,
       "visible": true
     },
+    // Login Shield
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/Login_Shield-1.12.2-6-g5654706.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Защищает игрока, пока он загружается (отражается только на одиночной игре!)",
+      "name": "Login Shield",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
     // Loot Capacitor Tooltips
     {
       "actions": [
@@ -420,6 +468,22 @@
       "permissions": 0,
       "visible": true
     },
+    // Morpheus
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/Morpheus-1.12.2-3.5.106.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Позволяет пропустить ночь, если спит какая-то часть игроков (отражается только на одиночной игре!)",
+      "name": "Morpheus",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
     // Mouse Tweaks
     {
       "actions": [
@@ -433,6 +497,22 @@
       "info": "Улучшает управление инвентарём, добавляя дополнительные функции",
       "name": "Mouse Tweaks",
       "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // NetherPortalFix
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/NetherPortalFix_1.12.1-5.3.17.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Исправляет ошибки, связанные с порталом в ад (отражается только на одиночной игре!)",
+      "name": "NetherPortalFix",
+      "mark": false,
       "permissions": 0,
       "visible": true
     },
@@ -481,6 +561,38 @@
       "info": "Изменяет световой движок игры, что улучшает производительность",
       "name": "Phosphor",
       "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Quick Leaf Decay
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/QuickLeafDecay-MC1.12.1-1.2.4.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Ускоряет опадение листвы (отражается только на одиночной игре!)",
+      "name": "Quick Leaf Decay",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // Save My Stronghold!
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/savemystronghold-1.12.2-1.0.0.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Защишает крепость от пещер, каньонов и других структур (отражается только на одиночной игре!)",
+      "name": "Save My Stronghold!",
+      "mark": false,
       "permissions": 0,
       "visible": true
     },
@@ -537,7 +649,9 @@
       "actions": [
         {
           "files": {
-            "mods/Toast+Control-1.12.2-1.8.1.jar": ""
+            "mods/Toast+Control-1.12.2-1.8.1.jar": "",
+            // And library
+            "mods/Placebo-1.12.2-1.6.0.jar": ""
           },
           "type": "file"
         }
