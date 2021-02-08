@@ -1,6 +1,7 @@
 {
   "update": [
     "config",
+    "resources",
     "script",
     "servers.dat"
   ],
@@ -50,6 +51,22 @@
       "permissions": 0,
       "visible": true
     },
+    // Better Advancements
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/BetterAdvancements-1.12.2-0.1.0.77.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Улучшает интерфейс достижений",
+      "name": "Better Advancements",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
     // Better Foliage
     {
       "actions": [
@@ -78,22 +95,6 @@
       ],
       "info": "Изменяет алгоритмы, улучшая производительность игры",
       "name": "BetterFps",
-      "mark": true,
-      "permissions": 0,
-      "visible": true
-    },
-    // Better Advancements
-    {
-      "actions": [
-        {
-          "files": {
-            "mods/BetterAdvancements-1.12.2-0.1.0.77.jar": ""
-          },
-          "type": "file"
-        }
-      ],
-      "info": "Улучшает интерфейс достижений",
-      "name": "Better Advancements",
       "mark": true,
       "permissions": 0,
       "visible": true
@@ -162,19 +163,19 @@
       "permissions": 0,
       "visible": true
     },
-    // CustomMainMenu
+    // Custom Main Menu
     {
       "actions": [
         {
           "files": {
-            "mods/Custom Main Menu-MC1.12.2-2.0.9.1.jar": ""
+            "mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar": ""
           },
           "type": "file"
         }
       ],
       // "dependenciesFile": [{"name":"Resource Loader"}],
       "info": "Нестандартное главное меню",
-      "name": "CustomMainMenu",
+      "name": "Custom Main Menu",
       "mark": true,
       "permissions": 0,
       "visible": true
@@ -355,22 +356,6 @@
       "permissions": 0,
       "visible": true
     },
-    // Just Enough Throwing In Fluids
-    {
-      "actions": [
-        {
-          "files": {
-            "mods/jetif-1.12.2-1.5.2.jar": ""
-          },
-          "type": "file"
-        }
-      ],
-      "info": "Добавляет внутриигровую информацию о крафте с помощью бросания предметов в жидкости",
-      "name": "Just Enough Throwing In Fluids",
-      "mark": true,
-      "permissions": 0,
-      "visible": true
-    },
     // Just Enough Resources
     {
       "actions": [
@@ -383,6 +368,22 @@
       ],
       "info": "Добавляет внутриигровую информацию о сокровищницах и предметах, выпадающих с мобов",
       "name": "Just Enough Resources",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Just Enough Throwing In Fluids
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/jetif-1.12.2-1.5.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровую информацию о крафте с помощью бросания предметов в жидкости",
+      "name": "Just Enough Throwing In Fluids",
       "mark": true,
       "permissions": 0,
       "visible": true
