@@ -18,7 +18,6 @@
     // "liteloader.jar"
   ],
   "updateOptional": [
-    //
     // AmbientSounds 3
     {
       "actions": [
@@ -35,7 +34,23 @@
       "permissions": 0,
       "visible": true
     },
-    // BetterFoliage
+    // AppleSkin
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/AppleSkin-mc1.12-1.0.14.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровую информацию, сколько единиц голода восполняет еда",
+      "name": "AppleSkin",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Better Foliage
     {
       "actions": [
         {
@@ -46,8 +61,56 @@
         }
       ],
       "info": "Пышная листва, красивая трава и круглые деревья",
-      "name": "BetterFoliage",
+      "name": "Better Foliage",
       "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // BetterFps
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/BetterFps-1.4.8.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Изменяет алгоритмы, улучшая производительность игры",
+      "name": "BetterFps",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Better Advancements
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/BetterAdvancements-1.12.2-0.1.0.77.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Улучшает интерфейс достижений",
+      "name": "Better Advancements",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Better Ping Display
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/BetterPingDisplay-1.12.2-1.0.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Отображает текущий пинг игроков на сервере",
+      "name": "Better Ping Display",
+      "mark": true,
       "permissions": 0,
       "visible": true
     },
@@ -64,39 +127,6 @@
       "info": "Добавляет размытие фона в инвентаре",
       "name": "Blur",
       "mark": false,
-      "permissions": 0,
-      "visible": true
-    },
-    // Fancy Block Particles
-    {
-      "actions": [
-        {
-          "files": {
-            "mods/FancyBlockParticles-1.12.x-2.4.1.jar": ""
-          },
-          "type": "file"
-        }
-      ],
-      "info": "Добавляет 3D частицы в игру",
-      "name": "Fancy Block Particles",
-      "mark": false,
-      "permissions": 0,
-      "visible": true
-    },
-    //
-    // Better Advancements
-    {
-      "actions": [
-        {
-          "files": {
-            "mods/BetterAdvancements-1.12.2-0.1.0.77.jar": ""
-          },
-          "type": "file"
-        }
-      ],
-      "info": "Улучшает интерфейс достижений",
-      "name": "Better Advancements",
-      "mark": true,
       "permissions": 0,
       "visible": true
     },
@@ -197,6 +227,38 @@
       "permissions": 0,
       "visible": true
     },
+    // Fancy Block Particles
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/FancyBlockParticles-1.12.x-2.4.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет 3D частицы в игру",
+      "name": "Fancy Block Particles",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
+    // FoamFix
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/foamfix-0.10.11-1.12.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Уменьшает потребление памяти",
+      "name": "FoamFix",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
     // FPS Reducer
     {
       "actions": [
@@ -213,6 +275,38 @@
       "permissions": 0,
       "visible": true
     },
+    // Inventory Tweaks
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/InventoryTweaks-1.64+dev.151.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет макросы для быстрого перемещения вещей, в том числе сортировку инветаря",
+      "name": "Inventory Tweaks",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // ItemPhysics Lite
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/ItemPhysic+Lite+1.3.7+mc1.12.2.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Визуально изменяет физику выброшенных предметов: теперь они будут лежать на земле",
+      "name": "ItemPhysics Lite",
+      "mark": false,
+      "permissions": 0,
+      "visible": true
+    },
     // JEI Villagers
     {
       "actions": [
@@ -225,6 +319,38 @@
       ],
       "info": "Добавляет внутриигровую информацию о торговле с жителями",
       "name": "JEI Villagers",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // JourneyMap
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/journeymap-1.12.2-5.7.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет мини-карту в игру",
+      "name": "JourneyMap",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Just Enough Petroleum
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/JustEnoughPetroleum-0.1.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Добавляет внутриигровую информацию о машинах мода Immersive Petroleum",
+      "name": "Just Enough Petroleum",
       "mark": true,
       "permissions": 0,
       "visible": true
@@ -341,19 +467,18 @@
       "permissions": 0,
       "visible": true
     },
-    // Resource Loader
+    // Phosphor
     {
       "actions": [
         {
           "files": {
-            "mods/ResourceLoader-MC1.12.1-1.5.3.jar": "",
-            "resources": ""
+            "mods/phosphor-forge-mc1.12.2-0.2.7-universal.jar": ""
           },
           "type": "file"
         }
       ],
-      "info": "Позволяет подгружать дополнительные текстуры без ресурс-пака",
-      "name": "Resource Loader",
+      "info": "Изменяет световой движок игры, что улучшает производительность",
+      "name": "Phosphor",
       "mark": true,
       "permissions": 0,
       "visible": true
@@ -390,6 +515,22 @@
       "permissions": 0,
       "visible": true
     },
+    // Surge
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/Surge-1.12.2-2.0.79.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Улучшает производительность и стабильность игры",
+      "name": "Surge",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
     // Toast Control
     {
       "actions": [
@@ -402,6 +543,22 @@
       ],
       "info": "Убирает бесполезные всплывающие окна из игры",
       "name": "Toast Control",
+      "mark": true,
+      "permissions": 0,
+      "visible": true
+    },
+    // Unlodaer
+    {
+      "actions": [
+        {
+          "files": {
+            "mods/unloader-1.2.0.jar": ""
+          },
+          "type": "file"
+        }
+      ],
+      "info": "Уменьшает использование оперативной памяти, выгружая неиспользуемые измерения",
+      "name": "Unlodaer",
       "mark": true,
       "permissions": 0,
       "visible": true

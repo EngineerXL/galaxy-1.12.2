@@ -8,6 +8,7 @@ import mods.contenttweaker.VanillaFactory;
 print("ContentTweaker.zs starts to load");
 
 var customBlocks as string[] = [
+    "modularium_block",
 	"certus_quartz_moon",
 	"certus_quartz_mars",
 	"black_quartz_mars",

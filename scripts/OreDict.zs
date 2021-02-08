@@ -24,4 +24,8 @@ print("OreDict.zs starts to load");
 
 <ore:oreMithril>.add(<contenttweaker:mithril_neptune>);
 
+# Modularium
+<ore:blockModulatrium>.add(<contenttweaker:modularium_block>);
+<ore:ingotModulatrium>.add(<modularmachinery:itemmodularium>);
+
 print("OreDict.zs is loaded");
