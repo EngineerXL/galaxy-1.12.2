@@ -41,6 +41,14 @@ recipes.addShaped(<rftools:modular_storage>, [
 	[<minecraft:redstone_block>, <ore:blockQuartz>, <minecraft:redstone_block>]
 ]);
 
+# Remote Storage Module
+recipes.remove(<rftools:storage_module:6>);
+recipes.addShaped(<rftools:storage_module:6>, [
+    [<minecraft:ender_pearl>, <ore:chestWood>, <minecraft:ender_pearl>],
+    [<minecraft:gold_nugget>, <ore:blockIron>, <minecraft:gold_nugget>],
+    [<actuallyadditions:item_misc:5>, <extrautils2:opinium:3>, <actuallyadditions:item_misc:5>]
+]);
+
 # Shape Card
 recipes.remove(<rftools:shape_card>);
 recipes.addShaped(<rftools:shape_card>, [
@@ -60,6 +68,22 @@ recipes.addShaped(<rftools:shape_card:2>, [
 	[<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_pickaxe_crystal_light_blue>, <actuallyadditions:item_crystal_empowered>],
 	[<ore:plateMeteoricIron>, <rftools:shape_card>, <ore:plateMeteoricIron>],
 	[<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_shovel_crystal_light_blue>, <actuallyadditions:item_crystal_empowered>]
+]);
+
+# Remote Control Screen Module
+recipes.remove(<rftools:storage_control_module>);
+recipes.addShaped(<rftools:storage_control_module>, [
+    [<minecraft:ender_pearl>, <minecraft:crafting_table>, <minecraft:ender_pearl>],
+    [<minecraft:redstone>, <ore:blockIron>, <minecraft:redstone>],
+    [<ore:dyeBlack>, <extrautils2:opinium:3>, <ore:dyeBlack>]
+]);
+
+# Storage Scanner
+recipes.remove(<rftools:storage_scanner>);
+recipes.addShaped(<rftools:storage_scanner>, [
+    [<minecraft:redstone_torch>, <actuallyadditions:block_misc:8>, <minecraft:redstone_torch>],
+    [<minecraft:gold_ingot>, <rftools:machine_frame>, <minecraft:gold_ingot>],
+    [<minecraft:redstone_torch>, <actuallyadditions:block_misc:8>, <minecraft:redstone_torch>]
 ]);
 
 # Tier 1 Storage Upgrade

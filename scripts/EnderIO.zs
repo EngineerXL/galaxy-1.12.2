@@ -30,7 +30,7 @@ recipes.addShaped(<enderio:item_material:22> * 2, [
 recipes.remove(<enderio:item_endergy_conduit:4>);
 recipes.addShaped(<enderio:item_endergy_conduit:4> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
-	[<ore:ingotCopper>, <enderio:item_endergy_conduit:4>, <ore:ingotCopper>],
+	[<ore:ingotCopper>, <enderio:item_material:75>, <ore:ingotCopper>],
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 

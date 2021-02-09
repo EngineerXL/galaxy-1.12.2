@@ -88,11 +88,14 @@ recipes.addShaped(<appliedenergistics2:material:43>, [
 	[<appliedenergistics2:material:10>, <appliedenergistics2:material:8>, <appliedenergistics2:material:22>]
 ]);
 
+# Infinity Booster Card
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+
 # Inscriber
 recipes.remove(<appliedenergistics2:inscriber>);
 recipes.addShaped(<appliedenergistics2:inscriber>, [
-	[<galacticraftcore:heavy_plating>, <minecraft:sticky_piston>, <galacticraftcore:heavy_plating>], 
-	[<ore:crystalFluix>, null, <galacticraftcore:heavy_plating>], 
+	[<galacticraftcore:heavy_plating>, <minecraft:sticky_piston>, <galacticraftcore:heavy_plating>],
+	[<ore:crystalFluix>, null, <galacticraftcore:heavy_plating>],
 	[<galacticraftcore:heavy_plating>, <minecraft:sticky_piston>, <galacticraftcore:heavy_plating>]
 ]);
 
