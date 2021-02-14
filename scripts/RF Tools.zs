@@ -41,6 +41,14 @@ recipes.addShaped(<rftools:modular_storage>, [
 	[<minecraft:redstone_block>, <ore:blockQuartz>, <minecraft:redstone_block>]
 ]);
 
+# Powercell Card
+recipes.remove(<rftools:powercell_card>);
+recipes.addShaped(<rftools:powercell_card>, [
+    [<minecraft:redstone>, <moreplates:manyullyn_plate>, <minecraft:redstone>],
+    [<moreplates:manyullyn_plate>, <actuallyadditions:block_laser_relay_extreme>, <moreplates:manyullyn_plate>],
+    [<minecraft:redstone>, <moreplates:manyullyn_plate>, <minecraft:redstone>]
+]);
+
 # Remote Storage Module
 recipes.remove(<rftools:storage_module:6>);
 recipes.addShaped(<rftools:storage_module:6>, [
