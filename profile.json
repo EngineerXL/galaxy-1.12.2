@@ -16,7 +16,7 @@
     "natives",
     "mods",
     "minecraft.jar",
-    "forge-1.12.2-14.23.5.2854-universal.jar"
+    "forge-1.12.2-14.23.5.2859-universal.jar"
     // "liteloader.jar"
   ],
   "updateOptional": [
@@ -690,7 +690,7 @@
     "-XX:+DisableAttachMechanism"
   ],
   "classPath": [
-    "forge-1.12.2-14.23.5.2854-universal.jar",
+    "forge-1.12.2-14.23.5.2859-universal.jar",
     // "liteloader.jar",
     "minecraft.jar",
     "libraries"
