@@ -7,6 +7,7 @@ import mods.contenttweaker.VanillaFactory;
 
 print("ContentTweaker.zs starts to load");
 
+# Blocks
 var customBlocks as string[] = [
     "modularium_block",
     "certus_quartz_moon",
@@ -26,12 +27,23 @@ var customBlocks as string[] = [
 
 for blockName in customBlocks {
 	print("Creating custom block: " + blockName);
-	var blockFactory = VanillaFactory.createBlock(blockName, <blockmaterial:iron>);
-	blockFactory.setBlockHardness(4.0);
-	blockFactory.setToolClass("pickaxe");
-	blockFactory.setToolLevel(2);
-	blockFactory.setBlockSoundType(<soundtype:stone>);
-	blockFactory.register();
+	var zsBlock = VanillaFactory.createBlock(blockName, <blockmaterial:iron>);
+	zsBlock.setBlockHardness(4.0);
+	zsBlock.setToolClass("pickaxe");
+	zsBlock.setToolLevel(2);
+	zsBlock.setBlockSoundType(<soundtype:stone>);
+	zsBlock.register();
+}
+
+# Items
+var customItems as string[] = [
+    "titanium_plate"
+];
+
+for itemName in customItems {
+	print("Creating custom item: " + itemName);
+    var zsItem = VanillaFactory.createItem(itemName);
+    zsItem.register();
 }
 
 print("ContentTweaker.zs is loaded");

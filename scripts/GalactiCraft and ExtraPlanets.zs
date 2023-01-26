@@ -67,7 +67,16 @@ var compressed as IItemStack[] = [
 	<galacticraftcore:basic_item:11>,
 	<galacticraftcore:item_basic_moon:1>,
 	<galacticraftplanets:item_basic_mars:5>,
-	<galacticraftplanets:item_basic_asteroids:6>
+	<galacticraftplanets:item_basic_asteroids:6>,
+	<extraplanets:compressed_mercury>,
+	<extraplanets:tier4_items:4>,
+	<extraplanets:tier5_items:4>,
+	<extraplanets:tier5_items:6>,
+	<extraplanets:tier6_items:4>,
+	<extraplanets:tier7_items:4>,
+	<extraplanets:tier8_items:4>,
+	<extraplanets:tier9_items:4>,
+	<extraplanets:tier10_items:4>	
 ];
 
 var plates as IItemStack[] = [
@@ -79,7 +88,16 @@ var plates as IItemStack[] = [
 	<thermalfoundation:material:32>,
 	<jaopca:item_platemeteoriciron>,
 	<jaopca:item_platedesh>,
-	<galacticraftplanets:item_basic_asteroids>
+	<contenttweaker:titanium_plate>,
+	<jaopca:item_platemercury>,
+	<ic2:crafting:15>,
+	<jaopca:item_platepalladium>,
+	<thermalfoundation:material:325>,
+	<jaopca:item_platemagnesium>,
+	<jaopca:item_platecrystal>,
+	<jaopca:item_platezinc>,
+	<jaopca:item_platetungsten>,
+	<jaopca:item_platedarkiron>
 ];
 
 var i as int = 0;
@@ -88,6 +106,10 @@ while (i < compressed.length) {
 	GalacticraftTweaker.addCompressorShapelessRecipe(compressed[i], plates[i], plates[i]);
 	i = i + 1;
 }
+
+# Compressed Platinum
+GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier11_items:6>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier11_items:6>, <thermalfoundation:material:326>, <thermalfoundation:material:326>, <thermalfoundation:material:326>, <thermalfoundation:material:326>, <thermalfoundation:material:326>, <thermalfoundation:material:326>);
 
 # Copper Canister
 recipes.remove(<galacticraftcore:canister:1>);
@@ -272,7 +294,7 @@ recipes.addShaped(<extraplanets:tier5_items>, [
 recipes.remove(<extraplanets:thermal_cloth:2>);
 recipes.addShaped(<extraplanets:thermal_cloth:2>, [
 	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>],
-	[<forestry:crafting_material:1>, <jaopca:item_dustredgem>, <forestry:crafting_material:1>],
+	[<careerbees:ingredients:12>, <jaopca:item_dustredgem>, <careerbees:ingredients:11>],
 	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>]
 ]);
 
@@ -355,7 +377,6 @@ GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier10_items:3>, 
 
 # Tier 10 Rocket Engine
 recipes.remove(<extraplanets:tier10_items>);
-
 
 # Thermal Cloth
 recipes.remove(<galacticraftplanets:item_basic_asteroids:7>);

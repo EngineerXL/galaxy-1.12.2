@@ -28,4 +28,11 @@ print("OreDict.zs starts to load");
 <ore:blockModularium>.add(<contenttweaker:modularium_block>);
 <ore:ingotModularium>.add(<modularmachinery:itemmodularium>);
 
+# Titanium Plate
+<ore:plateTitanium>.add(<contenttweaker:titanium_plate>);
+mods.ic2.BlockCutter.addRecipe(<contenttweaker:titanium_plate> * 9, <ore:blockTitanium>, 6);
+mods.ic2.Macerator.addRecipe(<galacticraftcore:ic2compat:7> * 8, <ore:plateTitanium>);
+mods.ic2.MetalFormer.addRollingRecipe(<contenttweaker:titanium_plate>, <ore:ingotTitanium>);
+mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:titanium_plate>,<ore:ingotTitanium>, <immersiveengineering:mold>, 2400);
+
 print("OreDict.zs is loaded");
