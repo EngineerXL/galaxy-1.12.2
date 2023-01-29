@@ -84,6 +84,11 @@ recipes.addShaped(<forestry:sturdy_machine>, [
 	[<tconstruct:binding>.withTag({Material: "bronze"}), <tconstruct:large_plate>.withTag({Material: "bronze"}), <tconstruct:binding>.withTag({Material: "bronze"})],
 	[<ore:ingotBronze>, <tconstruct:binding>.withTag({Material: "bronze"}), <ore:ingotBronze>]
 ]);
+recipes.addShaped(<forestry:sturdy_machine>, [
+	[<ore:ingotBronze>, <ic2:casing>, <ore:ingotBronze>],
+	[<ic2:casing>, <ore:plateDenseBronze>, <ic2:casing>],
+	[<ore:ingotBronze>, <ic2:casing>, <ore:ingotBronze>]
+]);
 
 # Squeezer
 recipes.remove(<forestry:squeezer>);

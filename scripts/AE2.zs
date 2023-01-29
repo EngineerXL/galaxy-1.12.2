@@ -133,17 +133,17 @@ recipes.addShaped(<appliedenergistics2:drive>, [
 # ME Fluid Interface
 recipes.remove(<appliedenergistics2:fluid_interface>);
 recipes.addShaped(<appliedenergistics2:fluid_interface>, [
-	[<ore:ingotTitanium>, <ore:dyeBlue>, <ore:ingotTitanium>],
-	[<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-	[<ore:ingotTitanium>, <ore:dyeBlue>, <ore:ingotTitanium>]
+	[<ore:ingotDesh>, <ore:dyeBlue>, <ore:ingotDesh>],
+	[<appliedenergistics2:material:44>, <openblocks:tank>, <appliedenergistics2:material:43>],
+	[<ore:ingotDesh>, <ore:dyeBlue>, <ore:ingotDesh>]
 ]);
 
 # ME Interface
 recipes.remove(<appliedenergistics2:interface>);
 recipes.addShaped(<appliedenergistics2:interface>, [
-	[<ore:ingotTitanium>, <appliedenergistics2:quartz_glass>, <ore:ingotTitanium>],
-	[<appliedenergistics2:material:44>, null, <appliedenergistics2:material:43>],
-	[<ore:ingotTitanium>, <appliedenergistics2:quartz_glass>, <ore:ingotTitanium>]
+	[<ore:ingotDesh>, <appliedenergistics2:quartz_glass>, <ore:ingotDesh>],
+	[<appliedenergistics2:material:44>, <ore:chestWood>, <appliedenergistics2:material:43>],
+	[<ore:ingotDesh>, <appliedenergistics2:quartz_glass>, <ore:ingotDesh>]
 ]);
 
 # Molecular Assembler
@@ -152,6 +152,23 @@ recipes.addShaped(<appliedenergistics2:molecular_assembler>, [
 	[<ore:ingotTitanium>, <appliedenergistics2:quartz_glass>, <ore:ingotTitanium>],
 	[<appliedenergistics2:material:44>, <forestry:worktable>, <appliedenergistics2:material:43>],
 	[<ore:ingotTitanium>, <appliedenergistics2:quartz_glass>, <ore:ingotTitanium>]
+]);
+
+# Network Tool
+recipes.remove(<appliedenergistics2:network_tool>);
+recipes.addShapeless(<appliedenergistics2:network_tool>, [<integrateddynamics:wrench>, <ore:itemIlluminatedPanel>, <appliedenergistics2:material:23>, <ore:chestWood>]);
+
+# P2P Tunnel
+recipes.remove(<appliedenergistics2:part:460>);
+recipes.addShaped(<appliedenergistics2:part:460>, [
+	[null, <ore:ingotTitanium>, null],
+	[<ore:ingotTitanium>, <appliedenergistics2:material:24>, <ore:ingotTitanium>],
+	[<appliedenergistics2:material:12>, <appliedenergistics2:material:12>, <appliedenergistics2:material:12>]
+]);
+recipes.addShaped(<appliedenergistics2:part:460>, [
+	[null, <ore:ingotTitanium>, null],
+	[<ore:ingotTitanium>, <appliedenergistics2:material:24>, <ore:ingotTitanium>],
+	[<appliedenergistics2:material:7>, <appliedenergistics2:material:7>, <appliedenergistics2:material:7>]
 ]);
 
 # Quartz Fiber

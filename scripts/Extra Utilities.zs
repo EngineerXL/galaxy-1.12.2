@@ -36,6 +36,11 @@ recipes.addShaped(<extrautils2:machine>, [
 	[<tconstruct:binding>.withTag({Material: "iron"}), <tconstruct:large_plate>.withTag({Material: "iron"}), <tconstruct:binding>.withTag({Material: "iron"})],
 	[<minecraft:iron_ingot>, <tconstruct:binding>.withTag({Material: "iron"}), <minecraft:iron_ingot>]
 ]);
+recipes.addShaped(<extrautils2:machine>, [
+	[<minecraft:iron_ingot>, <ic2:casing:3>, <minecraft:iron_ingot>],
+	[<ic2:casing:3>, <ore:plateDenseIron>, <ic2:casing:3>],
+	[<minecraft:iron_ingot>, <ic2:casing:3>, <minecraft:iron_ingot>]
+]);
 
 # Manual Mill
 recipes.remove(<extrautils2:passivegenerator:7>);
@@ -49,7 +54,7 @@ recipes.addShaped(<extrautils2:passivegenerator:7>, [
 recipes.remove(<extrautils2:ingredients:5>);
 recipes.addShaped(<extrautils2:ingredients:5>, [
 	[<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>],
-	[<extrautils2:ingredients:3>, <ore:ingotUnstable>, <extrautils2:ingredients:3>], 
+	[<extrautils2:ingredients:3>, <ore:ingotUnstable>, <extrautils2:ingredients:3>],
 	[<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>]
 ]);
 
