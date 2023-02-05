@@ -78,8 +78,12 @@ recipes.addShaped(<rftools:shape_card:2>, [
 	[<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_shovel_crystal_light_blue>, <actuallyadditions:item_crystal_empowered>]
 ]);
 
-# Remote Control Screen Module
-recipes.remove(<rftools:storage_control_module>);
+# Storage Control Screen Module
+recipes.removeShaped(<rftools:storage_control_module>, [
+    [null, <minecraft:crafting_table>, null],
+    [<minecraft:redstone>, <ore:ingotIron>, <minecraft:redstone>],
+    [null, <ore:dyeBlack>, null]
+]);
 recipes.addShaped(<rftools:storage_control_module>, [
     [<minecraft:ender_pearl>, <minecraft:crafting_table>, <minecraft:ender_pearl>],
     [<minecraft:redstone>, <ore:blockIron>, <minecraft:redstone>],
