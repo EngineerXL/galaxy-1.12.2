@@ -76,7 +76,7 @@ var compressed as IItemStack[] = [
 	<extraplanets:tier7_items:4>,
 	<extraplanets:tier8_items:4>,
 	<extraplanets:tier9_items:4>,
-	<extraplanets:tier10_items:4>	
+	<extraplanets:tier10_items:4>
 ];
 
 var plates as IItemStack[] = [
@@ -265,9 +265,9 @@ recipes.addShaped(<extraplanets:tier4_items>, [
 # Tier 4 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth:1>);
 recipes.addShaped(<extraplanets:thermal_cloth:1>, [
-	[<thermalfoundation:rockwool:5>, <extrabees:honey_drop:1>, <thermalfoundation:rockwool:5>],
-	[<extrabees:honey_drop:1>, <ore:dustMercury>, <extrabees:honey_drop:1>],
-	[<thermalfoundation:rockwool:5>, <extrabees:honey_drop:1>, <thermalfoundation:rockwool:5>]
+	[<thermalfoundation:rockwool:5>, <contenttweaker:alien_honey_drop>, <thermalfoundation:rockwool:5>],
+	[<contenttweaker:alien_honey_drop>, <ore:dustMercury>, <contenttweaker:alien_honey_drop>],
+	[<thermalfoundation:rockwool:5>, <contenttweaker:alien_honey_drop>, <thermalfoundation:rockwool:5>]
 ]);
 
 # Tier 5 Booster
@@ -293,9 +293,9 @@ recipes.addShaped(<extraplanets:tier5_items>, [
 # Tier 5 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth:2>);
 recipes.addShaped(<extraplanets:thermal_cloth:2>, [
-	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>],
-	[<careerbees:ingredients:12>, <jaopca:item_dustredgem>, <careerbees:ingredients:11>],
-	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>]
+	[<thermalfoundation:rockwool:12>, <contenttweaker:star_dust>, <thermalfoundation:rockwool:12>],
+	[<contenttweaker:star_dust>, <jaopca:item_dustredgem>, <contenttweaker:star_dust>],
+	[<thermalfoundation:rockwool:12>, <contenttweaker:star_dust>, <thermalfoundation:rockwool:12>]
 ]);
 
 # Tier 6 Booster

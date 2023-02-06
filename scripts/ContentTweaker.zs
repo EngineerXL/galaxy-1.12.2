@@ -37,6 +37,8 @@ for blockName in customBlocks {
 
 # Items
 var customItems as string[] = [
+    "alien_honey_drop",
+    "star_dust",
     "titanium_plate"
 ];
 

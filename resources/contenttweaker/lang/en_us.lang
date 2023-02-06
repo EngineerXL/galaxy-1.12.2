@@ -12,4 +12,6 @@ tile.contenttweaker.boron_jupiter.name=Jupiter Boron Ore
 tile.contenttweaker.lithium_jupiter.name=Jupiter Lithium Ore
 tile.contenttweaker.iridium_uranus.name=Uranus Iridium Ore
 tile.contenttweaker.mithril_neptune.name=Neptune Mithril Ore
+item.contenttweaker.alien_honey_drop.name=Alien Honey Drop
+item.contenttweaker.star_dust.name=Star Dust
 item.contenttweaker.titanium_plate.name=Titanium Plate

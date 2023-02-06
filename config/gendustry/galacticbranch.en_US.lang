@@ -1,0 +1,17 @@
+gendustry.honeycomb.alien.name=Alien Comb
+gendustry.honeydrop.alien.name=Alien Honey Drop
+
+gendustry.bees.species.Alien=Alien
+gendustry.bees.species.Alien.description=Silicon life
+gendustry.allele.flowers.cavernousVines=Cavernous Vines
+
+gendustry.bees.species.Cosmic=Cosmic
+gendustry.bees.species.Cosmic.description=Asteroids dweller
+gendustry.allele.flowers.ilmeniteOre=Ilmenite Ore
+
+gendustry.bees.species.Stellar=Stellar
+gendustry.bees.species.Stellar.description=Collects gamma radiation
+gendustry.allele.flowers.solarOre=Solar Ore
+
+gendustry.bees.species.Galactic=Galactic???
+gendustry.bees.species.Galactic.description=WIP

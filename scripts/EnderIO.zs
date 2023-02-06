@@ -203,6 +203,9 @@ recipes.addShaped(<enderio:item_endergy_conduit:3> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 
+# Grains of Infinity
+mods.ic2.Compressor.addRecipe(<enderio:item_material:20>, <contenttweaker:star_dust>);
+
 # Grainy Capacitor
 recipes.remove(<enderio:item_capacitor_grainy>);
 recipes.addShaped(<enderio:item_capacitor_grainy>, [
