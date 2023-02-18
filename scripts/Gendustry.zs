@@ -2,6 +2,9 @@
 
 print("Gendustry.zs starts to load");
 
+# Alien Comb
+mods.thermalexpansion.Centrifuge.addRecipe([<contenttweaker:alien_honey_drop> % 70, <thermalfoundation:material:893> % 10, <thermalfoundation:material:894> % 10, <thermalfoundation:material:895> % 10], <gendustry:honey_comb:13337>, null, 2000);
+
 # Bee Receptacle
 recipes.addShaped(<gendustry:bee_receptacle>, [
 	[<ore:ingotLumium>, <ore:ingotLumium>, <ore:ingotLumium>],
