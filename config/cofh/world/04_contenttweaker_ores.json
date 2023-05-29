@@ -315,7 +315,7 @@
 				"block": "contenttweaker:mithril_neptune",
 				"material":
 				{
-					"name": "extraplanets:neptune:2",
+					"name": "extraplanets:neptune",
 					"metadata": 2
 				},
 				"cluster-size": 3
