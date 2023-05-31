@@ -24,13 +24,13 @@
             "type": "fluid",
             "io-type": "input",
             "fluid": "crystal",
-            "amount": 16000
+            "amount": 15984
         },
         {
             "type": "fluid",
             "io-type": "input",
             "fluid": "ic2uu_matter",
-            "amount": 5
+            "amount": 120
         },
         {
             "type": "item",
