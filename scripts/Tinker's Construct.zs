@@ -4,6 +4,13 @@ import mods.tconstruct.Melting;
 
 print("Tinker's Construct.zs starts to load");
 
+# Alumite
+mods.enderio.AlloySmelter.addRecipe(<plustic:alumiteingot> * 3, [<ore:obsidian>, <ore:ingotIron> * 2, <ore:ingotAluminum> * 5], 20000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:alumiteingot> * 3, <ore:obsidian>, null, 400, 512, [<ore:ingotIron> * 2, <ore:ingotAluminum> * 5], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:alumiteingot> * 3, <ore:obsidian>, null, 400, 512, [<ore:dustIron> * 2, <ore:ingotAluminum> * 5], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:alumiteingot> * 3, <ore:obsidian>, null, 400, 512, [<ore:ingotIron> * 2, <ore:dustAluminum> * 5], "Alloying");
+mods.immersiveengineering.ArcFurnace.addRecipe(<plustic:alumiteingot> * 3, <ore:obsidian>, null, 400, 512, [<ore:dustIron> * 2, <ore:dustAluminum> * 5], "Alloying");
+
 # Casting Basin
 recipes.remove(<tconstruct:casting:1>);
 recipes.addShaped(<tconstruct:casting:1>, [

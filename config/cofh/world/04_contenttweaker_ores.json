@@ -312,7 +312,7 @@
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
-				"block": "contenttweaker:mithril_neptune",
+                "block": "contenttweaker:mithril_neptune",
 				"material":
 				{
 					"name": "extraplanets:neptune",

@@ -1,0 +1,33 @@
+# Folders to ignore
+/.mixin.out/
+/assets/
+/crash-reports/
+/dumps/
+/journeymap/
+/logs/
+/local/
+/resourcepacks/
+/saves/
+/screenshots/
+/server-resource-packs/
+/shaderpacks/
+
+# Client settings
+options.txt
+optionsof.txt
+/config/InvTweaks/InvTweaks.cfg
+/config/jei/bookmarks.ini
+/config/jei/worldSettings.cfg
+/config/jei/lookupHistory.zip
+
+# Generated files
+/config/AppliedEnergistics2/items.csv
+config/AppliedEnergistics2/CustomRecipes.cfg
+
+# Logs
+crafttweaker.log
+
+# MultiMC files
+icon.png
+usercache.json
+usernamecache.json
