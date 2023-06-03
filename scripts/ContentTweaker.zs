@@ -39,7 +39,8 @@ for blockName in customBlocks {
 var customItems as string[] = [
     "alien_honey_drop",
     "star_dust",
-    "titanium_plate"
+    "titanium_plate",
+    "ultimate_servo"
 ];
 
 for itemName in customItems {

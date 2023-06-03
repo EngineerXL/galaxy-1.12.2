@@ -5,9 +5,9 @@ print("EnderIO.zs starts to load");
 # Aluminum Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:2>);
 recipes.addShaped(<enderio:item_endergy_conduit:2> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<ore:ingotAluminum>, <enderio:item_material:75>, <ore:ingotAluminum>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Basic Capacitor
@@ -29,17 +29,17 @@ recipes.addShaped(<enderio:item_material:22> * 2, [
 # Copeer Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:4>);
 recipes.addShaped(<enderio:item_endergy_conduit:4> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<ore:ingotCopper>, <enderio:item_material:75>, <ore:ingotCopper>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Crude Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit>);
 recipes.addShaped(<enderio:item_endergy_conduit> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_endergy_ingot>, <enderio:item_alloy_endergy_ingot>, <enderio:item_alloy_endergy_ingot>	],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Crystalline Capacitor
@@ -68,17 +68,17 @@ recipes.addShaped(<enderio:item_capacitor_crystalline>, [
 # Crystalline Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:8>);
 recipes.addShaped(<enderio:item_endergy_conduit:8> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_endergy_ingot:1>, <enderio:item_alloy_endergy_ingot:1>, <enderio:item_alloy_endergy_ingot:1>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Crystalline Pink Slime Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:9>);
 recipes.addShaped(<enderio:item_endergy_conduit:9> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>, <enderio:item_alloy_endergy_ingot:4>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Double-Layer Capacitor
@@ -92,9 +92,9 @@ recipes.addShaped(<enderio:item_basic_capacitor:1>, [
 # Electrum Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:6>);
 recipes.addShaped(<enderio:item_endergy_conduit:6> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<ore:ingotElectrum>, <enderio:item_material:75>, <ore:ingotElectrum>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Enchanter
@@ -121,9 +121,9 @@ recipes.addShaped(<enderio:item_power_conduit:2> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 recipes.addShaped(<enderio:item_power_conduit:2> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>, <enderio:item_alloy_ingot:2>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Ender Fluid Conduit
@@ -134,9 +134,9 @@ recipes.addShaped(<enderio:item_liquid_conduit:2> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 recipes.addShaped(<enderio:item_liquid_conduit:2> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:2>, <ore:fusedQuartz>, <enderio:item_alloy_ingot:2>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Endergetic Silver Capacitor
@@ -158,17 +158,17 @@ recipes.addShaped(<enderio:item_capacitor_vivid>, [
 # Energy Conduit
 recipes.remove(<enderio:item_power_conduit>);
 recipes.addShaped(<enderio:item_power_conduit> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:4>, <enderio:item_alloy_ingot:4>, <enderio:item_alloy_ingot:4>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Energetic Silver Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:7>);
 recipes.addShaped(<enderio:item_endergy_conduit:7> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_endergy_ingot:5>, <enderio:item_alloy_endergy_ingot:5>, <enderio:item_alloy_endergy_ingot:5>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Enhanced Dye Blend
@@ -182,25 +182,25 @@ recipes.addShaped(<enderio:item_power_conduit:1> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 recipes.addShaped(<enderio:item_power_conduit:1> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:1>, <enderio:item_alloy_ingot:1>, <enderio:item_alloy_ingot:1>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Fluid Conduit
 recipes.remove(<enderio:item_liquid_conduit>);
 recipes.addShaped(<enderio:item_liquid_conduit> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<ore:fusedGlass>, <ore:fusedGlass>, <ore:fusedGlass>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Gold Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:3>);
 recipes.addShaped(<enderio:item_endergy_conduit:3> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<minecraft:gold_ingot>, <enderio:item_material:75>, <minecraft:gold_ingot>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Grains of Infinity
@@ -220,17 +220,17 @@ recipes.remove(<enderio:item_material:51>);
 # Iron Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:1>);
 recipes.addShaped(<enderio:item_endergy_conduit:1> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<minecraft:iron_ingot>, <enderio:item_material:75>, <minecraft:iron_ingot>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Item Conduit
 recipes.remove(<enderio:item_item_conduit>);
 recipes.addShaped(<enderio:item_item_conduit> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_nugget:5>, <enderio:item_alloy_nugget:5>, <enderio:item_alloy_nugget:5>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # ME Conduit
@@ -264,17 +264,17 @@ recipes.addShaped(<enderio:item_liquid_conduit:1> * 2, [
 	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
 ]);
 recipes.addShaped(<enderio:item_liquid_conduit:1> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<ore:fusedQuartz>, <ore:fusedQuartz>, <ore:fusedQuartz>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Redstone Conduit
 recipes.remove(<enderio:item_redstone_conduit>);
 recipes.addShaped(<enderio:item_redstone_conduit> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:3>, <enderio:item_alloy_ingot:3>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Melodic Capacitor
@@ -288,9 +288,9 @@ recipes.addShaped(<enderio:item_capacitor_melodic>, [
 # Melodic Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:10>);
 recipes.addShaped(<enderio:item_endergy_conduit:10> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_alloy_endergy_ingot:2>, <enderio:item_alloy_endergy_ingot:2>, <enderio:item_alloy_endergy_ingot:2>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Octadic Capacitor
@@ -362,17 +362,23 @@ recipes.addShaped(<enderio:item_capacitor_stellar>, [
 # Stellar Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:11>);
 recipes.addShaped(<enderio:item_endergy_conduit:11> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<enderio:item_material:75>, <enderio:item_alloy_endergy_ingot:3>, <enderio:item_material:75>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
 ]);
 
 # Silver Energy Conduit
 recipes.remove(<enderio:item_endergy_conduit:5>);
 recipes.addShaped(<enderio:item_endergy_conduit:5> * 2, [
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>],
 	[<ore:ingotSilver>, <enderio:item_material:75>, <ore:ingotSilver>],
-	[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]
+	[<enderio:item_material:4>, <contenttweaker:ultimate_servo>, <enderio:item_material:4>]
+]);
+
+# Ultimate Servo
+recipes.addShaped(<contenttweaker:ultimate_servo> * 2, [
+	[<ore:nuggetCrystal>, <ore:blockGlass>, <ore:nuggetCrystal>],
+	[<ore:ingotElectrumFlux>, <ore:dustRedstone>, <ore:ingotElectrumFlux>]
 ]);
 
 # Vibrant Crystal
