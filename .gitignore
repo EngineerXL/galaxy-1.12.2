@@ -6,11 +6,27 @@
 /journeymap/
 /logs/
 /local/
+/libraries/
 /resourcepacks/
 /saves/
 /screenshots/
 /server-resource-packs/
 /shaderpacks/
+/world/
+
+# Server files
+1.12.2.json
+autostart.stamp
+forge-1.12.2-14.23.5.2859.jar
+minecraft_server.1.12.2.jar
+eula.txt
+banned-ips.json
+banned-players.json
+server.properties
+usercache.json
+usernamecache.json
+ops.json
+whitelist.json
 
 # Client settings
 options.txt
@@ -29,5 +45,3 @@ crafttweaker.log
 
 # MultiMC files
 icon.png
-usercache.json
-usernamecache.json

@@ -91,15 +91,11 @@ key_Boost Key:29
 key_Mode Switch Key:50
 key_Side Inventory Key:0
 key_Hub Expand Key:45
+key_Galaxy Map:50
+key_Open Spaceship Inventory:33
+key_Toggle Sensor Goggles Mode:37
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -118,8 +114,15 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:0
 key_key.toggle_shaders:0
 key_key.betterfoliage.gui:66
 key_key.exchangers.open_gui:51
@@ -129,9 +132,6 @@ key_key.exchangers.force_drop_items_mode_toggle:0
 key_key.exchangers.directional_placement_mode_toggle:0
 key_key.exchangers.fuzzy_placement_mode_toggle:0
 key_key.exchangers.void_items_mode_toggle:0
-key_Galaxy Map:50
-key_Open Spaceship Inventory:33
-key_Toggle Sensor Goggles Mode:37
 key_Open MPS Keybind GUI:0
 key_Go Down (MPS Flight Control):44
 key_Cycle Tool Backward (MPS):0
@@ -220,6 +220,9 @@ key_key.porterNextDestination:27
 key_key.porterPrevDestination:26
 key_key.debugDumpNBTItem:0
 key_key.debugDumpNBTBlock:0
+key_Open Matter Scanner GUI:0
+key_Android Ability key:45
+key_Android Switch Ability key:19
 key_invtweaks.key.sort:19
 key_keybind.simplyjetpacks.gui:44
 key_keybind.simplyjetpacks.engine:34
@@ -272,7 +275,7 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.2
+soundCategory_master:0.20198676
 soundCategory_music:0.2
 soundCategory_record:1.0
 soundCategory_weather:1.0
@@ -282,6 +285,8 @@ soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
+soundCategory_ds_footsteps:1.0
+soundCategory_ds_biome:1.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true
