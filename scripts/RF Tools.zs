@@ -18,6 +18,14 @@ recipes.addShaped(<rftools:coalgenerator>, [
 	[<extrautils2:ingredients:4>, <minecraft:redstone_torch>, <extrautils2:ingredients:4>]
 ]);
 
+# Charged Porter
+recipes.remove(<rftools:charged_porter>);
+recipes.addShaped(<rftools:charged_porter>, [
+	[null, <ore:blockRedstone>, null],
+	[<ore:blockRedstone>, <actuallyadditions:block_misc:8>, <ore:blockRedstone>],
+	[<galacticraftplanets:item_basic_mars:5>, <ore:blockRedstone>, <galacticraftplanets:item_basic_mars:5>]
+]);
+
 # Machine Base
 recipes.remove(<rftools:machine_base>);
 recipes.addShaped(<rftools:machine_base>, [

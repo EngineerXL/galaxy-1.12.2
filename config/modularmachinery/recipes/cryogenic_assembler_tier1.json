@@ -36,7 +36,7 @@
             "type": "item",
             "io-type": "input",
             "item": "actuallyadditions:item_crystal_empowered@3",
-            "amount": 32
+            "amount": 64
         },
         {
             "type": "item",

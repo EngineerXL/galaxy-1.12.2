@@ -35,12 +35,6 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "extraplanets:tier8_items@3",
-            "amount": 64
-        },
-        {
-            "type": "item",
-            "io-type": "input",
             "item": "ore:blockInvar",
             "amount": 64
         },

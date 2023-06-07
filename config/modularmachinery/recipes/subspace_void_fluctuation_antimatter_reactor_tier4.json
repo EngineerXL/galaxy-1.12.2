@@ -30,30 +30,12 @@
             "type": "item",
             "io-type": "input",
             "item": "extraplanets:tier6_items@3",
-            "amount": 64
+            "amount": 32
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "extraplanets:tier6_items@3",
-            "amount": 64
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "ic2:crafting@2",
-            "amount": 64
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "ic2:crafting@2",
-            "amount": 64
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "ic2:crafting@2",
+            "item": "genetics:misc@8",
             "amount": 64
         },
         {

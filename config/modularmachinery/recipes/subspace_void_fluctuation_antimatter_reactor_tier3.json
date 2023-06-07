@@ -30,7 +30,7 @@
             "type": "item",
             "io-type": "input",
             "item": "extraplanets:tier4_items@3",
-            "amount": 64
+            "amount": 32
         },
         {
             "type": "item",

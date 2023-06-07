@@ -30,7 +30,7 @@
             "type": "item",
             "io-type": "input",
             "item": "galacticraftplanets:item_basic_asteroids@5",
-            "amount": 32
+            "amount": 16
         },
         {
             "type": "item",

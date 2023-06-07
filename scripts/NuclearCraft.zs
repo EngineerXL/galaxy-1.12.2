@@ -45,9 +45,9 @@ recipes.addShaped(<nuclearcraft:part:8>, [
 # Energy Upgrade
 recipes.remove(<nuclearcraft:upgrade:1>);
 recipes.addShaped(<nuclearcraft:upgrade:1>, [
-	[<nuclearcraft:compound:2>, <ic2:re_battery:*>, <nuclearcraft:compound:2>],
+	[<nuclearcraft:compound:2>, <ore:blockQuartz>, <nuclearcraft:compound:2>],
 	[<ore:obsidian>, <extrautils2:ingredients:9>, <ore:obsidian>],
-	[<nuclearcraft:compound:2>, <actuallyadditions:block_misc:2>, <nuclearcraft:compound:2>]
+	[<nuclearcraft:compound:2>, <ore:blockQuartz>, <nuclearcraft:compound:2>]
 ]);
 
 # Fusion Connector
@@ -101,7 +101,7 @@ recipes.addShaped(<nuclearcraft:part:7>, [
 # Speed Upgrade
 recipes.remove(<nuclearcraft:upgrade>);
 recipes.addShaped(<nuclearcraft:upgrade>, [
-	[<minecraft:sugar>, <ic2:heat_storage>, <minecraft:sugar>],
+	[<minecraft:sugar>, <ic2:plate:13>, <minecraft:sugar>],
 	[<ore:blockRedstone>, <extrautils2:ingredients:9>, <ore:blockRedstone>],
 	[<minecraft:sugar>, <ic2:plate:13>, <minecraft:sugar>]
 ]);

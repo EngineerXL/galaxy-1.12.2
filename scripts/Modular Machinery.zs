@@ -19,7 +19,7 @@ recipes.addShaped(<modularmachinery:blockcasing> * 2, [
 recipes.remove(<modularmachinery:blockcontroller>);
 recipes.addShaped(<modularmachinery:blockcontroller>, [
 	[<modularmachinery:itemmodularium>, <moreplates:empowered_diamatine_plate>, <modularmachinery:itemmodularium>],
-	[<extrautils2:unstableingots>, <rftools:screen_controller>, <extrautils2:unstableingots>],
+	[<ore:ingotUnstable>, <rftools:screen_controller>, <ore:ingotUnstable>],
 	[<modularmachinery:itemmodularium>, <moreplates:empowered_diamatine_plate>, <modularmachinery:itemmodularium>]
 ]);
 
