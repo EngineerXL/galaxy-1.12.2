@@ -35,14 +35,8 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "forestry:crafting_material@6",
-            "amount": 64
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "forestry:crafting_material@6",
-            "amount": 64
+            "item": "forestry:alveary.plain",
+            "amount": 16
         },
         {
             "type": "item",

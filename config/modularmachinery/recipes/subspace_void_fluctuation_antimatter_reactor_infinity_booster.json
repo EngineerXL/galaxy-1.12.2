@@ -17,7 +17,7 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "storagedrawers:upgrade_creative",
+            "item": "draconicevolution:energy_crystal@8",
             "amount": 4
         },
         {

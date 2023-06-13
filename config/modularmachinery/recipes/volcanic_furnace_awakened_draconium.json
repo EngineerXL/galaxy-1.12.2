@@ -1,0 +1,42 @@
+{
+    "machine": "volcanic_furnace",
+    "registryName": "volcanic_furnace_awakened_draconium",
+    "recipeTime": 1000,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 700000
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "ic2uu_matter",
+            "amount": 500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:blockDraconium",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:dragon_heart",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:draconic_core",
+            "amount": 16
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "draconicevolution:draconic_block",
+            "amount": 4
+        }
+    ]
+}
