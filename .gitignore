@@ -38,7 +38,7 @@ optionsof.txt
 
 # Generated files
 /config/AppliedEnergistics2/items.csv
-config/AppliedEnergistics2/CustomRecipes.cfg
+/config/AppliedEnergistics2/CustomRecipes.cfg
 
 # Logs
 crafttweaker.log

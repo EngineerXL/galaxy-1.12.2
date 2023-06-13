@@ -236,6 +236,11 @@
       "id": "OD:oreTungsten"
     },
     {
+      "target": "purple",
+      "weight": 142,
+      "id": "draconicevolution:draconium_ore"
+    },
+    {
       "target": "black",
       "weight": 190,
       "id": "OD:oreDarkIron"

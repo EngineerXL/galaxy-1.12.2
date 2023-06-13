@@ -5,8 +5,7 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:certus_quartz_moon",
-				"material":
-				{
+				"material": {
 					"name": "galacticraftcore:basic_block_moon",
 					"metadata": 4
 				},
@@ -24,14 +23,12 @@
 				]
 			}
 		},
-
 		"certus_quartz_mars": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:certus_quartz_mars",
-				"material":
-				{
+				"material": {
 					"name": "galacticraftplanets:mars",
 					"metadata": 9
 				},
@@ -49,14 +46,12 @@
 				]
 			}
 		},
-
 		"black_quartz_mars": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:black_quartz_mars",
-				"material":
-				{
+				"material": {
 					"name": "galacticraftplanets:mars",
 					"metadata": 9
 				},
@@ -74,18 +69,15 @@
 				]
 			}
 		},
-
 		"thorium_venus": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
-				"block":
-				{
+				"block": {
 					"name": "contenttweaker:thorium_venus",
 					"metadata": 3
 				},
-				"material":
-				{
+				"material": {
 					"name": "galacticraftplanets:venus",
 					"metadata": 1
 				},
@@ -103,14 +95,12 @@
 				]
 			}
 		},
-
 		"uranium_venus": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:uranium_venus",
-				"material":
-				{
+				"material": {
 					"name": "galacticraftplanets:venus",
 					"metadata": 1
 				},
@@ -128,18 +118,15 @@
 				]
 			}
 		},
-
 		"thorium_mercury": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
-				"block":
-				{
+				"block": {
 					"name": "contenttweaker:thorium_mercury",
 					"metadata": 3
 				},
-				"material":
-				{
+				"material": {
 					"name": "extraplanets:mercury",
 					"metadata": 2
 				},
@@ -157,14 +144,12 @@
 				]
 			}
 		},
-
 		"uranium_mercury": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:uranium_mercury",
-				"material":
-				{
+				"material": {
 					"name": "extraplanets:mercury",
 					"metadata": 2
 				},
@@ -182,14 +167,12 @@
 				]
 			}
 		},
-
 		"boron_ceres": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:boron_ceres",
-				"material":
-				{
+				"material": {
 					"name": "extraplanets:ceres",
 					"metadata": 2
 				},
@@ -207,14 +190,12 @@
 				]
 			}
 		},
-
 		"lithium_ceres": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:lithium_ceres",
-				"material":
-				{
+				"material": {
 					"name": "extraplanets:ceres",
 					"metadata": 2
 				},
@@ -232,14 +213,12 @@
 				]
 			}
 		},
-
 		"boron_jupiter": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:boron_jupiter",
-				"material":
-				{
+				"material": {
 					"name": "extraplanets:jupiter",
 					"metadata": 2
 				},
@@ -257,14 +236,12 @@
 				]
 			}
 		},
-
 		"lithium_jupiter": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:lithium_jupiter",
-				"material":
-				{
+				"material": {
 					"name": "extraplanets:jupiter",
 					"metadata": 2
 				},
@@ -282,14 +259,12 @@
 				]
 			}
 		},
-
 		"iridium_uranus": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
 				"block": "contenttweaker:iridium_uranus",
-				"material":
-				{
+				"material": {
 					"name": "extraplanets:uranus",
 					"metadata": 2
 				},
@@ -307,14 +282,12 @@
 				]
 			}
 		},
-
 		"mithril_neptune": {
 			"enabled": true,
 			"distribution": "uniform",
 			"generator": {
-                "block": "contenttweaker:mithril_neptune",
-				"material":
-				{
+				"block": "contenttweaker:mithril_neptune",
+				"material": {
 					"name": "extraplanets:neptune",
 					"metadata": 2
 				},
@@ -329,6 +302,29 @@
 				"restriction": "whitelist",
 				"value": [
 					-18
+				]
+			}
+		},
+		"draconium_pluto": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:draconium_pluto",
+				"material": {
+					"name": "extraplanets:pluto",
+					"metadata": 2
+				},
+				"cluster-size": 2
+			},
+			"cluster-count": 8,
+			"min-height": 5,
+			"max-height": 40,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-19
 				]
 			}
 		}

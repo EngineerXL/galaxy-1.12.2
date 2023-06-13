@@ -162,7 +162,12 @@ var removePlates as IIngredient[] = [
 	<ore:plateRedDiamond>,
 	<ore:plateRedGem>,
 	<ore:plateWhiteGem>,
-	<ore:plateYellowDiamond>
+	<ore:plateYellowDiamond>,
+	<ore:plateKnightmetal>,
+	<ore:plateIronwood>,
+	<ore:plateFiery>,
+	<ore:plateDraconium>,
+	<ore:plateDraconiumAwakened>
 ];
 
 for plate in removePlates {
@@ -195,7 +200,10 @@ var plates as IItemStack[] = [
 	<moreplates:knightslime_plate>,
 	<moreplates:manyullyn_plate>,
 	<moreplates:pig_iron_plate>,
-	<immersiveengineering:metal:35>
+	<immersiveengineering:metal:35>,
+	<moreplates:knightmetal_plate>,
+	<moreplates:ironwood_plate>,
+	<moreplates:fiery_plate>
 ];
 
 var ingredients as IIngredient[] = [
@@ -223,7 +231,10 @@ var ingredients as IIngredient[] = [
 	<ore:ingotKnightslime>,
 	<ore:ingotManyullyn>,
 	<ore:ingotPigiron>,
-	<ore:ingotUranium>
+	<ore:ingotUranium>,
+	<ore:ingotKnightmetal>,
+	<ore:ingotIronwood>,
+	<ore:ingotFiery>
 ];
 
 recipes.remove(<moreplates:hammer>);

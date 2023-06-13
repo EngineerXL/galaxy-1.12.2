@@ -1,0 +1,48 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_wyvern_energy_core",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:wyvern_core",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "actuallyadditions:item_battery_quintuple",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:connector",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:compressed_draconium",
+            "amount": 4
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "redstone",
+            "amount": 32000
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "draconicevolution:wyvern_energy_core",
+            "amount": 1
+        }
+    ]
+}

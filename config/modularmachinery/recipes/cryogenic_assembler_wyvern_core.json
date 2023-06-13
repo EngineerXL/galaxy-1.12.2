@@ -1,0 +1,48 @@
+{
+    "machine": "cryogenic_assembler",
+    "registryName": "cryogenic_assembler_wyvern_core",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 2500
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:draconic_core",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:kyronite_crystal",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:plateStellarAlloy",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:compressed_draconium",
+            "amount": 8
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "neutron",
+            "amount": 40
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "draconicevolution:wyvern_core",
+            "amount": 1
+        }
+    ]
+}

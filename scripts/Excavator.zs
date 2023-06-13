@@ -140,6 +140,9 @@ Excavator.addMineral("Mithril", 40, 0.005, ["oreMithril"], [0.1], [-18]);
 # Tungsten
 Excavator.addMineral("Tungsten", 60, 0.005, ["oreTungsten"], [0.1], [-19]);
 
+# Draconium
+Excavator.addMineral("Draconium", 80, 0.005, ["oreDraconium"], [0.1], [-19]);
+
 ## Eris
 # Dark Iron
 Excavator.addMineral("Dark Iron", 60, 0.005, ["oreDarkIron"], [0.1], [-21]);

@@ -76,7 +76,9 @@ var compressed as IItemStack[] = [
 	<extraplanets:tier7_items:4>,
 	<extraplanets:tier8_items:4>,
 	<extraplanets:tier9_items:4>,
-	<extraplanets:tier10_items:4>
+	<extraplanets:tier10_items:4>,
+	<contenttweaker:compressed_draconium>,
+	<contenttweaker:compressed_awakened>
 ];
 
 var plates as IItemStack[] = [
@@ -97,7 +99,9 @@ var plates as IItemStack[] = [
 	<jaopca:item_platecrystal>,
 	<jaopca:item_platezinc>,
 	<jaopca:item_platetungsten>,
-	<jaopca:item_platedarkiron>
+	<jaopca:item_platedarkiron>,
+	<moreplates:draconium_plate>,
+	<moreplates:awakened_draconium_plate>
 ];
 
 var i as int = 0;
@@ -185,6 +189,13 @@ recipes.addShaped(<galacticraftcore:air_vent>, [
 	[<galacticraftcore:basic_item:7>, <ic2:casing:5>, <galacticraftcore:basic_item:7>],
 	[<ic2:casing:5>, <galacticraftcore:basic_item:9>, <ic2:casing:5>],
 	[<galacticraftcore:basic_item:7>, <ic2:casing:5>, <galacticraftcore:basic_item:7>]
+]);
+
+# Powered Launch Pad
+recipes.remove(<extraplanets:advanced_launch_pad:3>);
+recipes.addShaped(<extraplanets:advanced_launch_pad:3> * 5, [
+	[<extraplanets:tier11_items:6>, <extraplanets:tier11_items:6>, <extraplanets:tier11_items:6>],
+	[<ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]
 ]);
 
 # Refinery

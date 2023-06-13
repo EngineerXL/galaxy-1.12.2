@@ -1,0 +1,42 @@
+{
+    "machine": "subspace_void_fluctuation_antimatter_reactor",
+    "registryName": "subspace_void_fluctuation_antimatter_reactor_draconic_energy_core",
+    "recipeTime": 600,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 100000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "draconicevolution:wyvern_energy_core",
+            "amount": 1
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:ionite_crystal",
+            "amount": 2
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:compressed_awakened",
+            "amount": 4
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "environmentaltech:connector",
+            "amount": 8
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "draconicevolution:draconic_energy_core",
+            "amount": 1
+        }
+    ]
+}

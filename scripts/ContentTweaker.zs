@@ -22,7 +22,8 @@ var customBlocks as string[] = [
     "boron_jupiter",
     "lithium_jupiter",
     "iridium_uranus",
-    "mithril_neptune"
+    "mithril_neptune",
+    "draconium_pluto"
 ];
 
 for blockName in customBlocks {
@@ -40,7 +41,9 @@ var customItems as string[] = [
     "alien_honey_drop",
     "star_dust",
     "titanium_plate",
-    "ultimate_servo"
+    "ultimate_servo",
+    "compressed_draconium",
+    "compressed_awakened"
 ];
 
 for itemName in customItems {
