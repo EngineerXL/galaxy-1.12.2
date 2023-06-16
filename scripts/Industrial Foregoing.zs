@@ -2,6 +2,14 @@
 
 print("Industrial Foregoing.zs starts to load");
 
+# Laser Base
+recipes.remove(<industrialforegoing:laser_base>);
+recipes.addShaped(<industrialforegoing:laser_base>, [
+	[<minecraft:grass>, <minecraft:ghast_tear>, <minecraft:purpur_block>],
+	[<ore:gearMeteoricIron>, <ore:glowstone>, <ore:gearMeteoricIron>],
+	[<ore:gearDiamatineEmpowered>, <teslacorelib:machine_case>, <ore:gearDiamatineEmpowered>]
+]);
+
 # Latex Processing Unit
 recipes.remove(<industrialforegoing:latex_processing_unit>);
 recipes.addShaped(<industrialforegoing:latex_processing_unit>, [

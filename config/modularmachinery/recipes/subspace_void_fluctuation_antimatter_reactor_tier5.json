@@ -36,25 +36,25 @@
             "type": "item",
             "io-type": "input",
             "item": "ore:blockInvar",
-            "amount": 64
+            "amount": 32
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "ore:blockSignalum",
-            "amount": 64
+            "amount": 32
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "ore:blockLumium",
-            "amount": 64
+            "amount": 32
         },
         {
             "type": "item",
             "io-type": "input",
             "item": "ore:blockEnderium",
-            "amount": 64
+            "amount": 32
         },
         {
             "type": "item",

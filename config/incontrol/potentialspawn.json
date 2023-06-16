@@ -1,0 +1,32 @@
+[
+    {
+        "dimension": [
+            -15,
+            -16,
+            -17,
+            -18,
+            -19,
+            -20,
+            -21
+        ],
+        "maxcount": {
+            "amount": 8,
+            "mod": "matteroverdrive",
+            "perchunk": true
+        },
+        "mobs": [
+            {
+                "mob": "matteroverdrive:rogue_android",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "matteroverdrive:ranged_rogue_android",
+                "weight": 10,
+                "groupcountmin": 1,
+                "groupcountmax": 4
+            }
+        ]
+    }
+]

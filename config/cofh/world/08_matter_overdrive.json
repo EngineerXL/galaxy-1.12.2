@@ -1,0 +1,32 @@
+{
+	"dependencies": "matteroverdrive",
+	"populate": {
+		"gravitational_anomaly": {
+			"enabled": true,
+			"distribution": "uniform",
+			"generator": {
+				"block": "matteroverdrive:gravitational_anomaly",
+				"material": "minecraft:air",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"chunk-chance": 200,
+			"min-height": 64,
+			"max-height": 128,
+			"retrogen": "false",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-15,
+					-16,
+					-17,
+					-18,
+					-19,
+					-20,
+					-21
+				]
+			}
+		}
+	}
+}

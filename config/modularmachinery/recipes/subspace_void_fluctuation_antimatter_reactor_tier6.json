@@ -41,18 +41,6 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "enderio:item_alloy_endergy_ingot@3",
-            "amount": 64
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "ic2:crafting@4",
-            "amount": 64
-        },
-        {
-            "type": "item",
-            "io-type": "input",
             "item": "ic2:crafting@4",
             "amount": 64
         },

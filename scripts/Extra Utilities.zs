@@ -58,6 +58,22 @@ recipes.addShaped(<extrautils2:ingredients:5>, [
 	[<extrautils2:ingredients:3>, <extrautils2:ingredients:3>, <extrautils2:ingredients:3>]
 ]);
 
+# Quantum Quarry
+recipes.remove(<extrautils2:quarry>);
+recipes.addShaped(<extrautils2:quarry>, [
+	[<minecraft:mycelium>, <extrautils2:decorativesolid:3>, <minecraft:magma>],
+	[<extrautils2:decorativesolid:3>, <extrautils2:snowglobe:1>, <extrautils2:decorativesolid:3>],
+	[<minecraft:purpur_block>, <extrautils2:decorativesolid:3>, <twilightforest:fluffy_cloud>]
+]);
+
+# Quantum Quarry Actuator
+recipes.remove(<extrautils2:quarryproxy>);
+recipes.addShaped(<extrautils2:quarryproxy>, [
+	[<ore:blockQuartzBlack>, <minecraft:end_rod>, <ore:stoneBasalt>],
+	[<appliedenergistics2:quartz_block>, <actuallyadditions:item_pickaxe_crystal_light_blue>, <ore:stoneMarble>],
+	[<ore:blockDesh>, <ore:blockDesh>, <ore:blockDesh>]
+]);
+
 # Resonator
 recipes.remove(<extrautils2:resonator>);
 recipes.addShaped(<extrautils2:resonator>, [

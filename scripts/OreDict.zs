@@ -25,6 +25,10 @@ print("OreDict.zs starts to load");
 <ore:oreMithril>.add(<contenttweaker:mithril_neptune>);
 
 <ore:oreDraconium>.add(<contenttweaker:draconium_pluto>);
+mods.enderio.SagMill.removeRecipe(<draconicevolution:draconium_ore>);
+mods.enderio.SagMill.removeRecipe(<draconicevolution:draconium_ore:1>);
+mods.enderio.SagMill.removeRecipe(<draconicevolution:draconium_ore:2>);
+mods.enderio.SagMill.addRecipe([<draconicevolution:draconium_dust> * 3, <draconicevolution:draconium_dust> * 2, <draconicevolution:draconium_dust> * 2, <minecraft:cobblestone>], [1.0, 0.4, 0.15, 0.15], <ore:oreDraconium>, "MULTIPLY_OUTPUT", 3600);
 
 # Modularium
 <ore:blockModularium>.add(<contenttweaker:modularium_block>);
@@ -36,5 +40,11 @@ mods.ic2.BlockCutter.addRecipe(<contenttweaker:titanium_plate> * 9, <ore:blockTi
 mods.ic2.Macerator.addRecipe(<galacticraftcore:ic2compat:7> * 8, <ore:plateTitanium>);
 mods.ic2.MetalFormer.addRollingRecipe(<contenttweaker:titanium_plate>, <ore:ingotTitanium>);
 mods.immersiveengineering.MetalPress.addRecipe(<contenttweaker:titanium_plate>,<ore:ingotTitanium>, <immersiveengineering:mold>, 2400);
+
+# Tritanium Plate
+<ore:plateTritanium>.add(<matteroverdrive:tritanium_plate>);
+mods.ic2.BlockCutter.addRecipe(<matteroverdrive:tritanium_plate> * 9, <ore:blockTritanium>, 6);
+mods.ic2.MetalFormer.addRollingRecipe(<matteroverdrive:tritanium_plate>, <ore:ingotTritanium>);
+mods.immersiveengineering.MetalPress.addRecipe(<matteroverdrive:tritanium_plate>,<ore:ingotTritanium>, <immersiveengineering:mold>, 2400);
 
 print("OreDict.zs is loaded");

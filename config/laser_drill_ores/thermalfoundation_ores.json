@@ -1,8 +1,8 @@
 [
   {
-    "item" : "oreClathrateOilSand",
-    "color" : 15,
-    "rarity" : [
+    "item": "oreClathrateOilSand",
+    "color": 15,
+    "rarity": [
       {
         "whitelist": "minecraft:desert, minecraft:desert_hills, minecraft:mutated_desert, minecraft:mesa, minecraft:mesa_rock, minecraft:mesa_clear_rock, minecraft:mutated_mesa, minecraft:mutated_mesa_rock",
         "blacklist": "",
@@ -20,9 +20,9 @@
     ]
   },
   {
-    "item" : "oreClathrateOilShale",
-    "color" : 15,
-    "rarity" : [
+    "item": "oreClathrateOilShale",
+    "color": 15,
+    "rarity": [
       {
         "whitelist": "",
         "blacklist": "minecraft:hell, minecraft:sky",
@@ -40,9 +40,9 @@
     ]
   },
   {
-    "item" : "oreClathrateRedstone",
-    "color" : 14,
-    "rarity" : [
+    "item": "oreClathrateRedstone",
+    "color": 14,
+    "rarity": [
       {
         "whitelist": "",
         "blacklist": "minecraft:hell, minecraft:sky",
@@ -60,9 +60,9 @@
     ]
   },
   {
-    "item" : "oreClathrateGlowstone",
-    "color" : 4,
-    "rarity" : [
+    "item": "oreClathrateGlowstone",
+    "color": 4,
+    "rarity": [
       {
         "whitelist": "minecraft:hell",
         "blacklist": "",
@@ -73,9 +73,9 @@
     ]
   },
   {
-    "item" : "oreClathrateEnder",
-    "color" : 13,
-    "rarity" : [
+    "item": "oreClathrateEnder",
+    "color": 13,
+    "rarity": [
       {
         "whitelist": "minecraft:sky",
         "blacklist": "",

@@ -1,0 +1,22 @@
+<recipes>
+    <!-- Isolinear Circuit Mark 1 + Gold Block = Isolinear Circuit Mark 2 -->
+    <recipe energy="250000" time="300">
+        <primary modid="matteroverdrive" name="isolinear_circuit" meta="0" count="1"/>
+        <secondary modid="minecraft" name="gold_block" meta="0" count="1"/>
+        <output modid="matteroverdrive" name="isolinear_circuit" meta="1" count="1"/>
+    </recipe>
+
+    <!-- Isolinear Circuit Mark 2 + Diamatine Crystal Block = Isolinear Circuit Mark 3 -->
+    <recipe energy="500000" time="600">
+        <primary modid="matteroverdrive" name="isolinear_circuit" meta="1" count="1"/>
+        <secondary modid="actuallyadditions" name="block_crystal" meta="2" count="1"/>
+        <output modid="matteroverdrive" name="isolinear_circuit" meta="2" count="1"/>
+    </recipe>
+
+    <!-- Isolinear Circuit Mark 3 + Empowered Emeradic Crystal Block = Isolinear Circuit Mark 4 -->
+    <recipe energy="1000000" time="1200">
+        <primary modid="matteroverdrive" name="isolinear_circuit" meta="2" count="1"/>
+        <secondary modid="actuallyadditions" name="block_crystal_empowered" meta="4" count="1"/>
+        <output modid="matteroverdrive" name="isolinear_circuit" meta="3" count="1"/>
+    </recipe>
+</recipes>
