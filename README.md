@@ -1,8 +1,8 @@
 # Light 1.12.2 Sci-Fi Modpack
 
-### TODO:
+## TODO
 
-Пчёлки
+Bees
 
 GraphViz
 

@@ -3,5 +3,64 @@
         "mode": "REMOVE",
         "result": "draconicevolution:draconic_block,4",
         "catalyst": "draconicevolution:draconium_block,4"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_block,4",
+        "catalyst": "draconicevolution:draconium_block,4",
+        "energy": 100000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:dragon_heart",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "advanced_solar_panels:crafting"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "actuallyadditions:item_misc,1,19",
+        "energy": 1000000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:wyvern_core",
+            "contenttweaker:compressed_awakened",
+            "contenttweaker:compressed_awakened",
+            "environmentaltech:pladium_crystal",
+            "environmentaltech:pladium_crystal"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard",
+        "energy": 100000000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "contenttweaker:compressed_awakened",
+            "contenttweaker:compressed_awakened",
+            "environmentaltech:aethium_crystal",
+            "environmentaltech:aethium_crystal"
+        ]
     }
 ]

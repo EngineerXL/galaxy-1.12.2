@@ -43,7 +43,8 @@ var customItems as string[] = [
     "titanium_plate",
     "ultimate_servo",
     "compressed_draconium",
-    "compressed_awakened"
+    "compressed_awakened",
+    "dilithium_seed"
 ];
 
 for itemName in customItems {

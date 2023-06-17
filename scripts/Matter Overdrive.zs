@@ -4,7 +4,7 @@
 print("Matter Overdrive.zs starts to load");
 
 # Dilithium Crystal
-mods.thermalexpansion.Insolator.addRecipe(<matteroverdrive:dilithium_crystal>, <appliedenergistics2:material:12>, <galacticraftplanets:basic_item_venus:4>, 128000, <matteroverdrive:dilithium_crystal>, 50, 4000);
+mods.thermalexpansion.Insolator.addRecipe(<matteroverdrive:dilithium_crystal>, <contenttweaker:dilithium_seed>, <galacticraftplanets:basic_item_venus:4>, 90000, null, 0, 3000);
 
 # Isolinear Circuit Mk1
 recipes.remove(<matteroverdrive:isolinear_circuit>);
