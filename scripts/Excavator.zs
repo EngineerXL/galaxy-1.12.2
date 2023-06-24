@@ -88,6 +88,10 @@ Excavator.addMineral("Desh", 40, 0.005, ["oreDesh"], [0.1], [-29]);
 # Black Quartz
 Excavator.addMineral("Blakc Quartz", 20, 0.005, ["oreQuartzBlack"], [0.1], [-29]);
 
+## Venus
+# Solar
+Excavator.addMineral("Solar", 80, 0.005, ["oreSolar"], [1.0], [-31]);
+
 ## Venus and Mercury
 # Uranium
 Excavator.addMineral("Uranium", 60, 0.005, ["oreUranium", "oreThorium"], [0.65, 0.35], [-31, -13]);

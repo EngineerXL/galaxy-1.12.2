@@ -14,8 +14,8 @@ recipes.addShaped(<draconicevolution:energy_crystal> * 4, [
 recipes.remove(<draconicevolution:crafting_injector>);
 recipes.addShaped(<draconicevolution:crafting_injector>, [
 	[<extraplanets:tier8_items:6>, <draconicevolution:draconic_core>, <extraplanets:tier8_items:6>],
-	[<extraplanets:saturn:11>, <jaopca:item_platedensedarkiron>, <extraplanets:saturn:11>],
-	[<extraplanets:saturn:11>, <extraplanets:saturn:11>, <extraplanets:saturn:11>]
+	[<extraplanets:fossil>, <ore:blockDarkIron>, <extraplanets:fossil>],
+	[<extraplanets:fossil>, <extraplanets:fossil>, <extraplanets:fossil>]
 ]);
 
 # Draconic Core

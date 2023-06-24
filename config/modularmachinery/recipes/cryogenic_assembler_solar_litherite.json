@@ -1,6 +1,6 @@
 {
     "machine": "cryogenic_assembler",
-    "registryName": "cryogenic_assembler_solar_litherite_nuclearcraft",
+    "registryName": "cryogenic_assembler_solar_litherite",
     "recipeTime": 400,
     "requirements": [
         {
@@ -11,8 +11,8 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "nuclearcraft:solar_panel_basic",
-            "amount": 1
+            "item": "galacticraftplanets:solar_array_module",
+            "amount": 8
         },
         {
             "type": "item",

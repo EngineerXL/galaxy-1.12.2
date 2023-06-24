@@ -31,6 +31,11 @@
       "id": "environmentaltech:aethium_crystal"
     },
     {
+      "target": "crystal",
+      "weight": 20,
+      "id": "contenttweaker:tiberium_crystal"
+    },
+    {
       "target": "black",
       "weight": 24,
       "id": "environmentaltech:lonsdaleite_crystal"
@@ -161,9 +166,9 @@
       "id": "OD:oreMeteoricIron"
     },
     {
-      "target": "purple",
-      "weight": 333,
-      "id": "OD:oreSilicon"
+      "target": "orange",
+      "weight": 192,
+      "id": "OD:oreSolar"
     },
     {
       "target": "green",

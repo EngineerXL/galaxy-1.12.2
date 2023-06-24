@@ -162,9 +162,9 @@ recipes.addShaped(<galacticraftplanets:item_basic_asteroids:1>, [
 # Isothermal Cloth
 recipes.remove(<galacticraftplanets:basic_item_venus:3>);
 recipes.addShaped(<galacticraftplanets:basic_item_venus:3>, [
-	[<quark:quilted_wool:7>, <forestry:crafting_material:2>, <quark:quilted_wool:7>],
-	[<forestry:crafting_material:2>, <appliedenergistics2:material:2>, <forestry:crafting_material:2>],
-	[<quark:quilted_wool:7>, <forestry:crafting_material:2>, <quark:quilted_wool:7>]
+	[<quark:quilted_wool:7>, <forestry:beeswax>, <quark:quilted_wool:7>],
+	[<ore:dustCertusQuartz>, <forestry:beeswax>, <ore:dustCertusQuartz>],
+	[<quark:quilted_wool:7>, <forestry:beeswax>, <quark:quilted_wool:7>]
 ]);
 
 # NASA Workbench
@@ -200,6 +200,14 @@ recipes.addShaped(<extraplanets:advanced_launch_pad:3> * 5, [
 
 # Refinery
 recipes.remove(<galacticraftcore:refinery>);
+
+# Silicon Ore Processing
+mods.actuallyadditions.Crusher.removeRecipe(<appliedenergistics2:material:5>);
+
+# Solar Ore Processing
+mods.enderio.SagMill.addRecipe([<galacticraftplanets:basic_item_venus:4> * 2, <galacticraftplanets:basic_item_venus:4>, <minecraft:cobblestone>], [1.0, 0.25, 0.15], <ore:oreSolar>, "MULTIPLY_OUTPUT", 3600);
+mods.ic2.Macerator.addRecipe(<galacticraftplanets:basic_item_venus:4> * 2, <ore:oreSolar>);
+mods.thermalexpansion.Pulverizer.addRecipe(<galacticraftplanets:basic_item_venus:4>, <galacticraftplanets:venus:13>, 4000);
 
 # Tier 1 Battery
 recipes.remove(<extraplanets:electric_parts>);
@@ -248,9 +256,9 @@ GalacticraftTweaker.addCompressorShapelessRecipe(<galacticraftplanets:item_basic
 # Tier 3 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth>);
 recipes.addShaped(<extraplanets:thermal_cloth>, [
-	[<quark:quilted_wool:11>, <forestry:royal_jelly>, <quark:quilted_wool:11>],
-	[<forestry:royal_jelly>, <jaopca:item_dustdesh>, <forestry:royal_jelly>],
-	[<quark:quilted_wool:11>, <forestry:royal_jelly>, <quark:quilted_wool:11>]
+	[<quark:quilted_wool:11>, <forestry:pollen:1>, <quark:quilted_wool:11>],
+	[<ore:dustDesh>, <forestry:pollen:1>, <ore:dustDesh>],
+	[<quark:quilted_wool:11>, <forestry:pollen:1>, <quark:quilted_wool:11>]
 ]);
 
 # Tier 4 Booster
@@ -276,9 +284,9 @@ recipes.addShaped(<extraplanets:tier4_items>, [
 # Tier 4 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth:1>);
 recipes.addShaped(<extraplanets:thermal_cloth:1>, [
-	[<thermalfoundation:rockwool:5>, <contenttweaker:alien_honey_drop>, <thermalfoundation:rockwool:5>],
-	[<contenttweaker:alien_honey_drop>, <ore:dustMercury>, <contenttweaker:alien_honey_drop>],
-	[<thermalfoundation:rockwool:5>, <contenttweaker:alien_honey_drop>, <thermalfoundation:rockwool:5>]
+	[<thermalfoundation:rockwool:5>, <forestry:crafting_material:2>, <thermalfoundation:rockwool:5>],
+	[<ore:dustMercury>, <forestry:crafting_material:2>, <ore:dustMercury>],
+	[<thermalfoundation:rockwool:5>, <forestry:crafting_material:2>, <thermalfoundation:rockwool:5>]
 ]);
 
 # Tier 5 Booster
@@ -304,9 +312,9 @@ recipes.addShaped(<extraplanets:tier5_items>, [
 # Tier 5 Thermal Cloth
 recipes.remove(<extraplanets:thermal_cloth:2>);
 recipes.addShaped(<extraplanets:thermal_cloth:2>, [
-	[<thermalfoundation:rockwool:12>, <contenttweaker:star_dust>, <thermalfoundation:rockwool:12>],
-	[<contenttweaker:star_dust>, <jaopca:item_dustredgem>, <contenttweaker:star_dust>],
-	[<thermalfoundation:rockwool:12>, <contenttweaker:star_dust>, <thermalfoundation:rockwool:12>]
+	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>],
+	[<nuclearcraft:compound:1>, <forestry:crafting_material:1>, <nuclearcraft:compound:1>],
+	[<thermalfoundation:rockwool:12>, <forestry:crafting_material:1>, <thermalfoundation:rockwool:12>]
 ]);
 
 # Tier 6 Booster
@@ -392,9 +400,9 @@ recipes.remove(<extraplanets:tier10_items>);
 # Thermal Cloth
 recipes.remove(<galacticraftplanets:item_basic_asteroids:7>);
 recipes.addShaped(<galacticraftplanets:item_basic_asteroids:7>, [
-	[<minecraft:wool:14>, <forestry:pollen:1>, <minecraft:wool:14>],
-	[<forestry:pollen:1>, <minecraft:redstone>, <forestry:pollen:1>],
-	[<minecraft:wool:14>, <forestry:pollen:1>, <minecraft:wool:14>]
+	[<minecraft:wool:14>, <forestry:beeswax>, <minecraft:wool:14>],
+	[<minecraft:redstone>, <forestry:beeswax>, <minecraft:redstone>],
+	[<minecraft:wool:14>, <forestry:beeswax>, <minecraft:wool:14>]
 ]);
 
 # Tin Canister

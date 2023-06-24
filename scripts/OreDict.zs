@@ -4,8 +4,10 @@ print("OreDict.zs starts to load");
 
 # Planet Ores
 <ore:oreCertusQuartz>.add(<contenttweaker:certus_quartz_moon>);
-
 <ore:oreCertusQuartz>.add(<contenttweaker:certus_quartz_mars>);
+mods.enderio.SagMill.removeRecipe(<appliedenergistics2:quartz_ore>);
+mods.enderio.SagMill.addRecipe([<appliedenergistics2:material> * 2, <appliedenergistics2:material:2>, <minecraft:cobblestone>], [1.0, 0.1, 0.15], <ore:oreCertusQuartz>, "MULTIPLY_OUTPUT", 3600);
+
 <ore:oreQuartzBlack>.add(<contenttweaker:black_quartz_mars>);
 
 <ore:oreThorium>.add(<contenttweaker:thorium_venus>);

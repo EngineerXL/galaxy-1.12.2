@@ -156,9 +156,9 @@
       "id": "OD:oreMeteoricIron"
     },
     {
-      "target": "purple",
-      "weight": 333,
-      "id": "OD:oreSilicon"
+      "target": "orange",
+      "weight": 192,
+      "id": "OD:oreSolar"
     },
     {
       "target": "green",
