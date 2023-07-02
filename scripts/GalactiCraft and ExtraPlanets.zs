@@ -382,7 +382,7 @@ recipes.remove(<extraplanets:tier9_items:1>);
 
 # Tier 9 Heavy-Duty Plate
 GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier9_items:3>);
-GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier9_items:3>, <extraplanets:tier8_items:3>, <extraplanets:tier9_items:4>, <extraplanets:tier9_items:4>, <environmentaltech:kyronite_crystal>, <environmentaltech:mica>, <contenttweaker:compressed_draconium>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier9_items:3>, <extraplanets:tier8_items:3>, <extraplanets:tier9_items:4>, <extraplanets:tier9_items:4>, <contenttweaker:compressed_draconium>, <environmentaltech:kyronite_crystal>, <environmentaltech:mica>);
 
 # Tier 9 Rocket Engine
 recipes.remove(<extraplanets:tier9_items>);
@@ -392,7 +392,7 @@ recipes.remove(<extraplanets:tier10_items:1>);
 
 # Tier 10 Heavy-Duty Plate
 GalacticraftTweaker.removeCompressorRecipe(<extraplanets:tier10_items:3>);
-GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier10_items:3>, <extraplanets:tier9_items:3>, <extraplanets:tier10_items:4>, <extraplanets:tier10_items:4>, <environmentaltech:pladium_crystal>, <environmentaltech:lonsdaleite_crystal>);
+GalacticraftTweaker.addCompressorShapelessRecipe(<extraplanets:tier10_items:3>, <extraplanets:tier9_items:3>, <extraplanets:tier10_items:4>, <extraplanets:tier10_items:4>, <contenttweaker:compressed_awakened>, <environmentaltech:pladium_crystal>, <environmentaltech:lonsdaleite_crystal>);
 
 # Tier 10 Rocket Engine
 recipes.remove(<extraplanets:tier10_items>);
